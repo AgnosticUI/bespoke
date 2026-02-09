@@ -1,0 +1,69 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="50" fill="#DDDDDD"/>
+  <rect x="20" y="14" width="140" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="1060" y="12" width="120" height="26" rx="0" fill="#9CA3AF"/>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="50" width="180" height="750" fill="#EEEEEE"/>
+  <rect x="12" y="66" width="156" height="30" rx="0" fill="white"/>
+  <rect x="12" y="106" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="140" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="174" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="208" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="242" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="276" width="156" height="26" rx="0" fill="#9CA3AF"/>
+
+  <!-- Header -->
+  <rect x="200" y="62" width="240" height="24" rx="0" fill="#9CA3AF"/>
+  <rect x="940" y="60" width="120" height="28" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="1074" y="60" width="106" height="28" rx="0" fill="#9CA3AF"/>
+
+  <!-- Filter Row -->
+  <rect x="200" y="100" width="180" height="32" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="396" y="100" width="180" height="32" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="592" y="100" width="180" height="32" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="788" y="100" width="140" height="32" rx="0" fill="#9CA3AF"/>
+
+  <!-- Summary Cards -->
+  <rect x="200" y="150" width="310" height="100" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="220" y="166" width="140" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="220" y="192" width="100" height="28" rx="0" fill="#9CA3AF"/>
+  <rect x="220" y="228" width="200" height="8" rx="0" fill="#EEEEEE"/>
+  <rect x="220" y="228" width="160" height="8" rx="0" fill="#9CA3AF"/>
+
+  <rect x="526" y="150" width="310" height="100" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="546" y="166" width="120" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="546" y="192" width="80" height="28" rx="0" fill="#9CA3AF"/>
+  <rect x="546" y="228" width="200" height="8" rx="0" fill="#EEEEEE"/>
+  <rect x="546" y="228" width="140" height="8" rx="0" fill="#9CA3AF"/>
+
+  <rect x="852" y="150" width="328" height="100" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="872" y="166" width="160" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="872" y="192" width="120" height="28" rx="0" fill="#9CA3AF"/>
+  <rect x="872" y="228" width="200" height="8" rx="0" fill="#EEEEEE"/>
+  <rect x="872" y="228" width="180" height="8" rx="0" fill="#9CA3AF"/>
+
+  <!-- Chart -->
+  <rect x="200" y="270" width="560" height="260" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="220" y="286" width="200" height="18" rx="0" fill="#9CA3AF"/>
+  <rect x="220" y="318" width="520" height="196" rx="0" fill="#EEEEEE"/>
+
+  <!-- Pie/Donut Chart -->
+  <rect x="776" y="270" width="404" height="260" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="796" y="286" width="180" height="18" rx="0" fill="#9CA3AF"/>
+  <rect x="826" y="320" width="160" height="160" rx="0" fill="#EEEEEE"/>
+  <rect x="1020" y="340" width="120" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1020" y="366" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1020" y="392" width="140" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1020" y="418" width="80" height="14" rx="0" fill="#CCCCCC"/>
+
+  <!-- Data Table -->
+  <rect x="200" y="546" width="980" height="234" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="220" y="562" width="160" height="18" rx="0" fill="#9CA3AF"/>
+  <rect x="220" y="594" width="940" height="28" rx="0" fill="#EEEEEE"/>
+  <rect x="220" y="630" width="940" height="28" rx="0" fill="white"/>
+  <rect x="220" y="666" width="940" height="28" rx="0" fill="#EEEEEE"/>
+  <rect x="220" y="702" width="940" height="28" rx="0" fill="white"/>
+  <rect x="220" y="738" width="940" height="28" rx="0" fill="#EEEEEE"/>
+</svg>

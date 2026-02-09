@@ -1,0 +1,19 @@
+generic_token,framework_token,category,transform,notes
+colors.primary.hex,--primary,color,hsl,Primary brand color
+colors.secondary.hex,--secondary,color,hsl,Secondary brand color
+colors.background.hex,--background,color,hsl,Page background
+colors.foreground.hex,--foreground,color,hsl,Default text color
+colors.muted.hex,--muted,color,hsl,Muted background
+colors.mutedForeground.hex,--muted-foreground,color,hsl,Muted text
+colors.accent.hex,--accent,color,hsl,Accent/CTA color
+colors.card.hex,--card,color,hsl,Card background
+colors.cardForeground.hex,--card-foreground,color,hsl,Card text
+colors.border.hex,--border,color,hsl,Default borders
+colors.input.hex,--input,color,hsl,Input borders
+colors.ring.hex,--ring,color,hsl,Focus rings
+colors.destructive.hex,--destructive,color,hsl,Error/danger
+colors.destructiveForeground.hex,--destructive-foreground,color,hsl,Error text
+fonts.heading,--font-heading,typography,quote,Heading font family
+fonts.body,--font-sans,typography,quote,Body font family
+fonts.mono,--font-mono,typography,quote,Monospace font
+radius.md,--radius,spacing,rem,Default border radius

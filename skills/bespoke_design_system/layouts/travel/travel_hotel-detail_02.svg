@@ -1,0 +1,75 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="24" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+  <rect x="1060" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+
+  <!-- Photo Gallery - Main Image -->
+  <rect x="24" y="72" width="580" height="320" rx="8" fill="#EEEEEE"/>
+  <!-- Photo Gallery - Thumbnails -->
+  <rect x="616" y="72" width="280" height="155" rx="8" fill="#EEEEEE"/>
+  <rect x="908" y="72" width="268" height="155" rx="8" fill="#EEEEEE"/>
+  <rect x="616" y="237" width="280" height="155" rx="8" fill="#EEEEEE"/>
+  <rect x="908" y="237" width="268" height="155" rx="8" fill="#EEEEEE"/>
+
+  <!-- Main Content Area -->
+  <!-- Property Title & Rating -->
+  <rect x="24" y="412" width="340" height="24" rx="4" fill="#9CA3AF"/>
+  <rect x="24" y="446" width="180" height="14" rx="4" fill="#CCCCCC"/>
+  <!-- Star Rating -->
+  <rect x="24" y="472" width="100" height="16" rx="4" fill="#9CA3AF"/>
+  <rect x="136" y="472" width="80" height="16" rx="4" fill="#CCCCCC"/>
+
+  <!-- Amenities Row -->
+  <rect x="24" y="508" width="760" height="60" rx="8" fill="#EEEEEE"/>
+  <!-- Amenity Icons -->
+  <circle cx="64" cy="538" r="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="88" y="532" width="50" height="10" rx="4" fill="#CCCCCC"/>
+  <circle cx="184" cy="538" r="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="208" y="532" width="50" height="10" rx="4" fill="#CCCCCC"/>
+  <circle cx="304" cy="538" r="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="328" y="532" width="50" height="10" rx="4" fill="#CCCCCC"/>
+  <circle cx="424" cy="538" r="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="448" y="532" width="50" height="10" rx="4" fill="#CCCCCC"/>
+  <circle cx="544" cy="538" r="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="568" y="532" width="50" height="10" rx="4" fill="#CCCCCC"/>
+  <circle cx="664" cy="538" r="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="688" y="532" width="50" height="10" rx="4" fill="#CCCCCC"/>
+
+  <!-- Description -->
+  <rect x="24" y="588" width="120" height="18" rx="4" fill="#9CA3AF"/>
+  <rect x="24" y="618" width="740" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="24" y="638" width="720" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="24" y="658" width="680" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="24" y="678" width="700" height="12" rx="4" fill="#CCCCCC"/>
+
+  <!-- Map Placeholder -->
+  <rect x="24" y="710" width="760" height="70" rx="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <circle cx="404" cy="745" r="10" fill="#9CA3AF"/>
+
+  <!-- Booking Sidebar Card -->
+  <rect x="820" y="412" width="356" height="368" rx="12" fill="white" stroke="#CCCCCC"/>
+  <!-- Price -->
+  <rect x="852" y="436" width="140" height="28" rx="4" fill="#9CA3AF"/>
+  <rect x="852" y="472" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <!-- Check-in -->
+  <rect x="852" y="504" width="60" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="852" y="520" width="148" height="40" rx="6" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <!-- Check-out -->
+  <rect x="1012" y="504" width="60" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="1012" y="520" width="148" height="40" rx="6" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <!-- Guests -->
+  <rect x="852" y="576" width="50" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="852" y="592" width="308" height="40" rx="6" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <!-- Price Breakdown -->
+  <rect x="852" y="650" width="200" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1100" y="650" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="852" y="672" width="180" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1100" y="672" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <!-- Divider -->
+  <rect x="852" y="696" width="308" height="1" fill="#CCCCCC"/>
+  <rect x="852" y="708" width="100" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="1080" y="708" width="80" height="14" rx="4" fill="#9CA3AF"/>
+  <!-- Book CTA -->
+  <rect x="852" y="736" width="308" height="28" rx="6" fill="#9CA3AF"/>
+</svg>

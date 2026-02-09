@@ -1,0 +1,197 @@
+[
+  {
+    "id": "palette-preview-01",
+    "paletteId": "palette-002",
+    "svgFile": "palette-preview-01.svg",
+    "palette": {
+      "id": "palette-002",
+      "product_type": "Personal Trainer App",
+      "primary": "#DC2626",
+      "secondary": "#F87171",
+      "cta": "#06B6D4",
+      "background": "#FFF1F2",
+      "text": "#450A0A",
+      "border": "#FECACA",
+      "notes": "80s Sport Aesthetic: Vibrant red and electric blue."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "14.7:1",
+        "rawRatio": 14.69532141279678,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "4.8:1",
+        "rawRatio": 4.829404522659002,
+        "aa": true,
+        "aaa": false,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "8.6:1",
+        "rawRatio": 8.649616236144142,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AA"
+  },
+  {
+    "id": "palette-preview-02",
+    "paletteId": "palette-004",
+    "svgFile": "palette-preview-02.svg",
+    "palette": {
+      "id": "palette-004",
+      "product_type": "Coworking Space",
+      "primary": "#F59E0B",
+      "secondary": "#FBBF24",
+      "cta": "#2563EB",
+      "background": "#FFFBEB",
+      "text": "#78350F",
+      "border": "#FDE68A",
+      "notes": "Creative amber with professional blue."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "8.7:1",
+        "rawRatio": 8.74845105788553,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "9.8:1",
+        "rawRatio": 9.778071798962173,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      },
+      "autoOnCta": {
+        "ratio": "5.2:1",
+        "rawRatio": 5.168555560022562,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-03",
+    "paletteId": "palette-007",
+    "svgFile": "palette-preview-03.svg",
+    "palette": {
+      "id": "palette-007",
+      "product_type": "Meditation / Mindfulness",
+      "primary": "#5B6156",
+      "secondary": "#83897C",
+      "cta": "#D97706",
+      "background": "#F7F7F5",
+      "text": "#2D312C",
+      "border": "#E2E2DE",
+      "notes": "Organic Sage + Muted Amber for Zen UX."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "12.3:1",
+        "rawRatio": 12.334145717473026,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "6.4:1",
+        "rawRatio": 6.384756156746843,
+        "aa": true,
+        "aaa": false,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "6.6:1",
+        "rawRatio": 6.5917028081333155,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AA"
+  },
+  {
+    "id": "palette-preview-04",
+    "paletteId": "palette-003",
+    "svgFile": "palette-preview-04.svg",
+    "palette": {
+      "id": "palette-003",
+      "product_type": "BioTech Research",
+      "primary": "#0D9488",
+      "secondary": "#5EEAD4",
+      "cta": "#F43F5E",
+      "background": "#F0FDFA",
+      "text": "#134E4A",
+      "border": "#CCFBF1",
+      "notes": "DNA teal + active research rose"
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "9.1:1",
+        "rawRatio": 9.085114732192265,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "5.6:1",
+        "rawRatio": 5.608589638027945,
+        "aa": true,
+        "aaa": false,
+        "autoColor": "#000000"
+      },
+      "autoOnCta": {
+        "ratio": "5.7:1",
+        "rawRatio": 5.719252459144616,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AA"
+  },
+  {
+    "id": "palette-preview-05",
+    "paletteId": "palette-001",
+    "svgFile": "palette-preview-05.svg",
+    "palette": {
+      "id": "palette-001",
+      "product_type": "Space Exploration News",
+      "primary": "#0C4A6E",
+      "secondary": "#075985",
+      "cta": "#FACC15",
+      "background": "#0F172A",
+      "text": "#E0F2FE",
+      "border": "#0C4A6E",
+      "notes": "Glassmorphism (Space): Dark deep-blue frosted panels."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "15.6:1",
+        "rawRatio": 15.558452260287066,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "9.5:1",
+        "rawRatio": 9.458172533681237,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "13.7:1",
+        "rawRatio": 13.712773555273134,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  }
+]

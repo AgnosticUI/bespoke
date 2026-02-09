@@ -1,0 +1,81 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation with Search -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="300" y="14" width="500" height="32" rx="16" fill="#EEEEEE"/>
+  <circle cx="1100" cy="30" r="18" fill="#9CA3AF"/>
+  <circle cx="1150" cy="30" r="18" fill="#9CA3AF"/>
+
+  <!-- Filter Sidebar -->
+  <rect x="0" y="60" width="240" height="740" fill="#EEEEEE"/>
+  <rect x="20" y="84" width="140" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="20" y="118" width="16" height="16" rx="2" fill="#9CA3AF"/>
+  <rect x="46" y="120" width="140" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="20" y="146" width="16" height="16" rx="2" fill="white" stroke="#CCCCCC"/>
+  <rect x="46" y="148" width="120" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="20" y="174" width="16" height="16" rx="2" fill="white" stroke="#CCCCCC"/>
+  <rect x="46" y="176" width="160" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="20" y="202" width="16" height="16" rx="2" fill="white" stroke="#CCCCCC"/>
+  <rect x="46" y="204" width="130" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="20" y="244" width="200" height="1" fill="#CCCCCC"/>
+  <rect x="20" y="264" width="120" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="20" y="296" width="200" height="8" rx="4" fill="#CCCCCC"/>
+  <circle cx="80" cy="300" r="8" fill="#9CA3AF"/>
+  <circle cx="160" cy="300" r="8" fill="#9CA3AF"/>
+
+  <!-- Product Grid Row 1 -->
+  <rect x="270" y="76" width="280" height="320" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="270" y="76" width="280" height="180" rx="12" fill="#EEEEEE"/>
+  <rect x="294" y="274" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="294" y="300" width="100" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="294" y="336" width="232" height="1" fill="#EEEEEE"/>
+  <circle cx="312" cy="366" r="12" fill="#CCCCCC"/>
+  <rect x="334" y="360" width="120" height="12" rx="8" fill="#CCCCCC"/>
+
+  <rect x="570" y="76" width="280" height="320" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="570" y="76" width="280" height="180" rx="12" fill="#EEEEEE"/>
+  <rect x="594" y="274" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="594" y="300" width="100" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="594" y="336" width="232" height="1" fill="#EEEEEE"/>
+  <circle cx="612" cy="366" r="12" fill="#CCCCCC"/>
+  <rect x="634" y="360" width="120" height="12" rx="8" fill="#CCCCCC"/>
+
+  <rect x="870" y="76" width="280" height="320" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="870" y="76" width="280" height="180" rx="12" fill="#EEEEEE"/>
+  <rect x="894" y="274" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="894" y="300" width="100" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="894" y="336" width="232" height="1" fill="#EEEEEE"/>
+  <circle cx="912" cy="366" r="12" fill="#CCCCCC"/>
+  <rect x="934" y="360" width="120" height="12" rx="8" fill="#CCCCCC"/>
+
+  <!-- Product Grid Row 2 -->
+  <rect x="270" y="416" width="280" height="320" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="270" y="416" width="280" height="180" rx="12" fill="#EEEEEE"/>
+  <rect x="294" y="614" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="294" y="640" width="100" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="294" y="676" width="232" height="1" fill="#EEEEEE"/>
+  <circle cx="312" cy="706" r="12" fill="#CCCCCC"/>
+  <rect x="334" y="700" width="120" height="12" rx="8" fill="#CCCCCC"/>
+
+  <rect x="570" y="416" width="280" height="320" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="570" y="416" width="280" height="180" rx="12" fill="#EEEEEE"/>
+  <rect x="594" y="614" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="594" y="640" width="100" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="594" y="676" width="232" height="1" fill="#EEEEEE"/>
+  <circle cx="612" cy="706" r="12" fill="#CCCCCC"/>
+  <rect x="634" y="700" width="120" height="12" rx="8" fill="#CCCCCC"/>
+
+  <rect x="870" y="416" width="280" height="320" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="870" y="416" width="280" height="180" rx="12" fill="#EEEEEE"/>
+  <rect x="894" y="614" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="894" y="640" width="100" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="894" y="676" width="232" height="1" fill="#EEEEEE"/>
+  <circle cx="912" cy="706" r="12" fill="#CCCCCC"/>
+  <rect x="934" y="700" width="120" height="12" rx="8" fill="#CCCCCC"/>
+
+  <!-- Pagination -->
+  <rect x="530" y="760" width="40" height="28" rx="8" fill="#9CA3AF"/>
+  <rect x="582" y="760" width="40" height="28" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="634" y="760" width="40" height="28" rx="8" fill="white" stroke="#CCCCCC"/>
+</svg>

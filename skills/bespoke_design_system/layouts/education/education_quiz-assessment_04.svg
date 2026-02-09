@@ -1,0 +1,60 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="40" y="16" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="1020" y="14" width="140" height="28" rx="10" fill="#9CA3AF"/>
+
+  <!-- Progress Header -->
+  <rect x="0" y="56" width="1200" height="50" fill="#EEEEEE"/>
+  <rect x="200" y="72" width="800" height="10" rx="5" fill="#CCCCCC"/>
+  <rect x="200" y="72" width="320" height="10" rx="5" fill="#9CA3AF"/>
+  <rect x="1040" y="68" width="100" height="20" rx="8" fill="#CCCCCC"/>
+
+  <!-- Question Card - Centered -->
+  <rect x="200" y="130" width="800" height="500" rx="16" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Question Number & Text -->
+  <rect x="240" y="160" width="120" height="24" rx="8" fill="#DDDDDD"/>
+  <rect x="240" y="200" width="700" height="22" rx="8" fill="#9CA3AF"/>
+  <rect x="240" y="232" width="600" height="16" rx="8" fill="#CCCCCC"/>
+
+  <!-- Answer Options -->
+  <rect x="240" y="280" width="720" height="56" rx="12" fill="#EEEEEE"/>
+  <rect x="268" y="300" width="20" height="20" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="304" y="302" width="400" height="16" rx="8" fill="#CCCCCC"/>
+
+  <rect x="240" y="350" width="720" height="56" rx="12" fill="#DDDDDD"/>
+  <rect x="268" y="370" width="20" height="20" rx="10" fill="#9CA3AF"/>
+  <rect x="304" y="372" width="350" height="16" rx="8" fill="#CCCCCC"/>
+
+  <rect x="240" y="420" width="720" height="56" rx="12" fill="#EEEEEE"/>
+  <rect x="268" y="440" width="20" height="20" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="304" y="442" width="420" height="16" rx="8" fill="#CCCCCC"/>
+
+  <rect x="240" y="490" width="720" height="56" rx="12" fill="#EEEEEE"/>
+  <rect x="268" y="510" width="20" height="20" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="304" y="512" width="380" height="16" rx="8" fill="#CCCCCC"/>
+
+  <!-- Navigation Buttons -->
+  <rect x="240" y="574" width="120" height="40" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="840" y="574" width="120" height="40" rx="10" fill="#9CA3AF"/>
+
+  <!-- Side Panel - Question Navigator -->
+  <rect x="40" y="130" width="140" height="320" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="56" y="148" width="108" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="56" y="180" width="30" height="30" rx="6" fill="#9CA3AF"/>
+  <rect x="96" y="180" width="30" height="30" rx="6" fill="#9CA3AF"/>
+  <rect x="56" y="220" width="30" height="30" rx="6" fill="#9CA3AF"/>
+  <rect x="96" y="220" width="30" height="30" rx="6" fill="#DDDDDD"/>
+  <rect x="56" y="260" width="30" height="30" rx="6" fill="#EEEEEE"/>
+  <rect x="96" y="260" width="30" height="30" rx="6" fill="#EEEEEE"/>
+  <rect x="56" y="300" width="30" height="30" rx="6" fill="#EEEEEE"/>
+  <rect x="96" y="300" width="30" height="30" rx="6" fill="#EEEEEE"/>
+  <rect x="56" y="340" width="30" height="30" rx="6" fill="#EEEEEE"/>
+  <rect x="96" y="340" width="30" height="30" rx="6" fill="#EEEEEE"/>
+  <rect x="56" y="390" width="100" height="14" rx="6" fill="#CCCCCC"/>
+
+  <!-- Timer -->
+  <rect x="1020" y="130" width="140" height="60" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="1044" y="144" width="92" height="30" rx="8" fill="#9CA3AF"/>
+</svg>

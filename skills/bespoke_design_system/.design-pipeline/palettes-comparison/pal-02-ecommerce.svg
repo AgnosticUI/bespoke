@@ -1,0 +1,40 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0F172A" rx="12"/>
+
+  <!-- Top nav -->
+  <rect x="0" y="0" width="800" height="48" fill="#363E49" rx="12"/>
+  <rect x="0" y="12" width="800" height="36" fill="#363E49"/>
+  <circle cx="34" cy="24" r="10" fill="#1E293B" opacity="0.9"/>
+  <rect x="56" y="18" width="40" height="12" rx="3" fill="#FFFFFF" opacity="0.15"/>
+  <rect x="106" y="18" width="32" height="12" rx="3" fill="#FFFFFF" opacity="0.1"/>
+  <rect x="148" y="18" width="36" height="12" rx="3" fill="#FFFFFF" opacity="0.1"/>
+  <circle cx="766" cy="24" r="12" fill="#FFFFFF"/>
+
+  <!-- Hero banner -->
+  <rect x="20" y="68" width="760" height="140" rx="8" fill="#272D35" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="52" y="96" width="200" height="16" rx="4" fill="#F1F5F9" opacity="0.2"/>
+  <rect x="52" y="124" width="300" height="10" rx="3" fill="#F1F5F9" opacity="0.1"/>
+  <rect x="52" y="144" width="260" height="10" rx="3" fill="#F1F5F9" opacity="0.08"/>
+  <!-- CTA button in hero -->
+  <rect x="52" y="168" width="110" height="28" rx="6" fill="#818CF8"/>
+  <rect x="72" y="178" width="70" height="8" rx="2" fill="#000000" opacity="0.9"/>
+
+  <!-- Product card 1 -->
+  <rect x="20" y="228" width="240" height="200" rx="8" fill="#0F172A" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="32" y="240" width="216" height="100" rx="4" fill="#334155" opacity="0.12"/>
+  <rect x="32" y="352" width="180" height="10" rx="3" fill="#F1F5F9" opacity="0.2"/>
+  <rect x="32" y="372" width="50" height="12" rx="3" fill="#1E293B" opacity="0.8"/>
+
+  <!-- Product card 2 -->
+  <rect x="280" y="228" width="240" height="200" rx="8" fill="#0F172A" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="292" y="240" width="216" height="100" rx="4" fill="#334155" opacity="0.12"/>
+  <rect x="292" y="352" width="180" height="10" rx="3" fill="#F1F5F9" opacity="0.2"/>
+  <rect x="292" y="372" width="50" height="12" rx="3" fill="#1E293B" opacity="0.8"/>
+
+  <!-- Product card 3 -->
+  <rect x="540" y="228" width="240" height="200" rx="8" fill="#0F172A" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="552" y="240" width="216" height="100" rx="4" fill="#334155" opacity="0.12"/>
+  <rect x="552" y="352" width="180" height="10" rx="3" fill="#F1F5F9" opacity="0.2"/>
+  <rect x="552" y="372" width="50" height="12" rx="3" fill="#1E293B" opacity="0.8"/>
+</svg>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combination Preview — 3×3 Matrix</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Lexend:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Figtree:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@300;400;500;600;700&display=swap">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
+    h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+    .subtitle { color: #64748b; margin-bottom: 1.5rem; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 2rem; }
+    .col-label { padding: 10px 8px; font-size: 0.8rem; text-align: center; background: #f1f5f9; border: 1px solid #e2e8f0; }
+    .col-label small { color: #94a3b8; font-weight: 400; }
+    .row-label {
+      padding: 10px 12px; font-size: 0.8rem; text-align: right; text-transform: capitalize;
+      background: #f1f5f9; border: 1px solid #e2e8f0; white-space: nowrap; font-weight: 600;
+    }
+    .cell {
+      border: 2px solid #e2e8f0; padding: 8px; cursor: pointer; position: relative;
+      transition: border-color 0.15s, box-shadow 0.15s; vertical-align: top;
+    }
+    .cell:hover { border-color: #94a3b8; }
+    .cell.selected { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
+    .cell-inner { display: flex; flex-direction: column; gap: 6px; }
+    .combo-svg { width: 100%; height: auto; border-radius: 4px; border: 1px solid #f1f5f9; }
+    .specimen { font-size: 0.75rem; padding: 4px 0; }
+    .spec-heading { display: block; font-weight: 700; font-size: 0.85rem; }
+    .spec-body { display: block; color: #64748b; font-size: 0.75rem; }
+    .check-mark {
+      display: none; position: absolute; top: 6px; right: 6px; background: #2563eb;
+      color: white; width: 22px; height: 22px; border-radius: 50%; font-size: 12px;
+      line-height: 22px; text-align: center;
+    }
+    .cell.selected .check-mark { display: block; }
+    .corner { background: #f1f5f9; border: 1px solid #e2e8f0; }
+    .toolbar {
+      position: sticky; bottom: 0; background: white; border-top: 1px solid #e2e8f0;
+      padding: 1rem 0; display: flex; align-items: center; gap: 1rem;
+    }
+    .toolbar button {
+      background: #2563eb; color: white; border: none; padding: 0.6rem 1.5rem;
+      border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer;
+    }
+    .toolbar button:disabled { background: #94a3b8; cursor: not-allowed; }
+    .toolbar button:not(:disabled):hover { background: #1d4ed8; }
+    .selection-info { color: #64748b; font-size: 0.875rem; }
+    .copied { color: #16a34a; font-weight: 600; display: none; }
+  </style>
+</head>
+<body>
+  <h1>Combination Preview</h1>
+  <p class="subtitle">Rows = layouts, Columns = typography pairings. Select exactly <strong>1</strong> combination.</p>
+  <table>
+    <thead>
+      <tr>
+        <th class="corner"></th>
+        <th class="col-label">Corporate Trust<br><small>Lexend + Source Sans 3</small></th><th class="col-label">Medical Clean<br><small>Figtree + Noto Sans</small></th><th class="col-label">Accessibility First<br><small>Atkinson Hyperlegible + Atkinson Hyperlegible</small></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+          <tr>
+            <th class="row-label">doctor profiles</th>
+            
+            <td class="cell" data-id="combo-01" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-01.svg" alt="combo-01" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Lexend', sans-serif;">
+                  <span class="spec-heading">Lexend</span>
+                  <span class="spec-body" style="font-family: 'Source Sans 3', sans-serif;">Source Sans 3</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+            <td class="cell" data-id="combo-02" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-02.svg" alt="combo-02" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Figtree', sans-serif;">
+                  <span class="spec-heading">Figtree</span>
+                  <span class="spec-body" style="font-family: 'Noto Sans', sans-serif;">Noto Sans</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+            <td class="cell" data-id="combo-03" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-03.svg" alt="combo-03" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Atkinson Hyperlegible', sans-serif;">
+                  <span class="spec-heading">Atkinson Hyperlegible</span>
+                  <span class="spec-body" style="font-family: 'Atkinson Hyperlegible', sans-serif;">Atkinson Hyperlegible</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-label">hero services cta</th>
+            
+            <td class="cell" data-id="combo-04" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-04.svg" alt="combo-04" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Lexend', sans-serif;">
+                  <span class="spec-heading">Lexend</span>
+                  <span class="spec-body" style="font-family: 'Source Sans 3', sans-serif;">Source Sans 3</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+            <td class="cell" data-id="combo-05" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-05.svg" alt="combo-05" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Figtree', sans-serif;">
+                  <span class="spec-heading">Figtree</span>
+                  <span class="spec-body" style="font-family: 'Noto Sans', sans-serif;">Noto Sans</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+            <td class="cell" data-id="combo-06" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-06.svg" alt="combo-06" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Atkinson Hyperlegible', sans-serif;">
+                  <span class="spec-heading">Atkinson Hyperlegible</span>
+                  <span class="spec-body" style="font-family: 'Atkinson Hyperlegible', sans-serif;">Atkinson Hyperlegible</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-label">telehealth video</th>
+            
+            <td class="cell" data-id="combo-07" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-07.svg" alt="combo-07" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Lexend', sans-serif;">
+                  <span class="spec-heading">Lexend</span>
+                  <span class="spec-body" style="font-family: 'Source Sans 3', sans-serif;">Source Sans 3</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+            <td class="cell" data-id="combo-08" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-08.svg" alt="combo-08" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Figtree', sans-serif;">
+                  <span class="spec-heading">Figtree</span>
+                  <span class="spec-body" style="font-family: 'Noto Sans', sans-serif;">Noto Sans</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+            <td class="cell" data-id="combo-09" onclick="selectCombo(this)">
+              <div class="cell-inner">
+                <img src="combo-09.svg" alt="combo-09" class="combo-svg" />
+                <div class="specimen" style="font-family: 'Atkinson Hyperlegible', sans-serif;">
+                  <span class="spec-heading">Atkinson Hyperlegible</span>
+                  <span class="spec-body" style="font-family: 'Atkinson Hyperlegible', sans-serif;">Atkinson Hyperlegible</span>
+                </div>
+              </div>
+              <div class="check-mark">&#10003;</div>
+            </td>
+          </tr>
+    </tbody>
+  </table>
+  <div class="toolbar">
+    <button id="copyBtn" disabled onclick="copySelection()">Copy --combination argument</button>
+    <span class="selection-info" id="selInfo">No selection</span>
+    <span class="copied" id="copiedMsg">Copied!</span>
+  </div>
+  <script>
+    let selectedCell = null;
+    let selectedId = null;
+    function selectCombo(cell) {
+      if (selectedCell) selectedCell.classList.remove('selected');
+      if (selectedCell === cell) { selectedCell = null; selectedId = null; update(); return; }
+      cell.classList.add('selected');
+      selectedCell = cell;
+      selectedId = cell.dataset.id;
+      update();
+    }
+    function update() {
+      document.getElementById('copyBtn').disabled = !selectedId;
+      document.getElementById('selInfo').textContent = selectedId ? 'Selected: ' + selectedId : 'No selection';
+    }
+    function copySelection() {
+      const text = '--combination ' + selectedId;
+      navigator.clipboard.writeText(text).then(() => {
+        const msg = document.getElementById('copiedMsg');
+        msg.style.display = 'inline';
+        setTimeout(() => msg.style.display = 'none', 2000);
+      });
+    }
+  </script>
+</body>
+</html>

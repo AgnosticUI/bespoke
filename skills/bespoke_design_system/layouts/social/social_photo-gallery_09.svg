@@ -1,0 +1,35 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="400" y="14" width="400" height="32" rx="16" fill="#EEEEEE"/>
+  <circle cx="1150" cy="30" r="18" fill="#9CA3AF"/>
+
+  <!-- Heading -->
+  <rect x="60" y="84" width="260" height="28" rx="8" fill="#9CA3AF"/>
+  <rect x="60" y="122" width="400" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Masonry Photo Grid -->
+  <!-- Col 1 -->
+  <rect x="60" y="160" width="260" height="200" rx="10" fill="#EEEEEE"/>
+  <rect x="60" y="380" width="260" height="280" rx="10" fill="#EEEEEE"/>
+  <rect x="60" y="680" width="260" height="100" rx="10" fill="#EEEEEE"/>
+
+  <!-- Col 2 -->
+  <rect x="340" y="160" width="260" height="300" rx="10" fill="#EEEEEE"/>
+  <rect x="340" y="480" width="260" height="180" rx="10" fill="#EEEEEE"/>
+  <rect x="340" y="680" width="260" height="100" rx="10" fill="#EEEEEE"/>
+
+  <!-- Col 3 -->
+  <rect x="620" y="160" width="260" height="180" rx="10" fill="#EEEEEE"/>
+  <rect x="620" y="360" width="260" height="260" rx="10" fill="#EEEEEE"/>
+  <rect x="620" y="640" width="260" height="140" rx="10" fill="#EEEEEE"/>
+
+  <!-- Col 4 -->
+  <rect x="900" y="160" width="260" height="260" rx="10" fill="#EEEEEE"/>
+  <rect x="900" y="440" width="260" height="200" rx="10" fill="#EEEEEE"/>
+  <rect x="900" y="660" width="260" height="120" rx="10" fill="#EEEEEE"/>
+
+  <!-- Floating Action Button -->
+  <circle cx="1120" cy="740" r="28" fill="#9CA3AF"/>
+</svg>

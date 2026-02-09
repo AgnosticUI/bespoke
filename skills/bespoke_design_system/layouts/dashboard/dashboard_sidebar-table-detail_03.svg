@@ -1,0 +1,94 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Sidebar Navigation -->
+  <rect x="0" y="0" width="240" height="800" fill="#DDDDDD"/>
+  
+  <!-- Logo area -->
+  <circle cx="120" cy="50" r="30" fill="#9CA3AF"/>
+  
+  <!-- Nav items -->
+  <rect x="40" y="120" width="160" height="40" rx="4" fill="#CCCCCC"/>
+  <rect x="40" y="180" width="160" height="40" rx="4" fill="#EEEEEE"/>
+  <rect x="40" y="240" width="160" height="40" rx="4" fill="#EEEEEE"/>
+  <rect x="40" y="300" width="160" height="40" rx="4" fill="#EEEEEE"/>
+  <rect x="40" y="360" width="160" height="40" rx="4" fill="#EEEEEE"/>
+  
+  <!-- Top Header -->
+  <rect x="240" y="0" width="960" height="80" fill="#EEEEEE"/>
+  <rect x="280" y="30" width="200" height="20" rx="4" fill="#9CA3AF"/>
+  <circle cx="1140" cy="40" r="25" fill="#9CA3AF"/>
+  
+  <!-- Main Content Area -->
+  <rect x="280" y="120" width="620" height="640" fill="white" stroke="#CCCCCC"/>
+  
+  <!-- Content header -->
+  <rect x="320" y="160" width="240" height="28" rx="4" fill="#9CA3AF"/>
+  <rect x="320" y="210" width="520" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="320" y="230" width="480" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="320" y="250" width="500" height="12" rx="4" fill="#CCCCCC"/>
+  
+  <!-- Data table placeholder -->
+  <rect x="320" y="300" width="540" height="40" fill="#EEEEEE"/>
+  <line x1="320" y1="340" x2="860" y2="340" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <rect x="320" y="340" width="540" height="40" fill="white"/>
+  <line x1="320" y1="380" x2="860" y2="380" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <rect x="320" y="380" width="540" height="40" fill="#EEEEEE"/>
+  <line x1="320" y1="420" x2="860" y2="420" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <rect x="320" y="420" width="540" height="40" fill="white"/>
+  <line x1="320" y1="460" x2="860" y2="460" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <rect x="320" y="460" width="540" height="40" fill="#EEEEEE"/>
+  <line x1="320" y1="500" x2="860" y2="500" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <rect x="320" y="500" width="540" height="40" fill="white"/>
+  <line x1="320" y1="540" x2="860" y2="540" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <rect x="320" y="540" width="540" height="40" fill="#EEEEEE"/>
+  <line x1="320" y1="580" x2="860" y2="580" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <rect x="320" y="580" width="540" height="40" fill="white"/>
+  <line x1="320" y1="620" x2="860" y2="620" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <rect x="320" y="620" width="540" height="40" fill="#EEEEEE"/>
+  
+  <!-- Vertical separators in table -->
+  <line x1="460" y1="300" x2="460" y2="660" stroke="#CCCCCC" stroke-width="1"/>
+  <line x1="600" y1="300" x2="600" y2="660" stroke="#CCCCCC" stroke-width="1"/>
+  <line x1="740" y1="300" x2="740" y2="660" stroke="#CCCCCC" stroke-width="1"/>
+  
+  <!-- Action buttons -->
+  <rect x="320" y="690" width="100" height="36" rx="4" fill="#9CA3AF"/>
+  <rect x="440" y="690" width="100" height="36" rx="4" fill="white" stroke="#CCCCCC" stroke-width="2"/>
+  
+  <!-- Right Detail Panel -->
+  <rect x="940" y="120" width="220" height="640" fill="white" stroke="#CCCCCC"/>
+  
+  <!-- Detail panel header -->
+  <rect x="960" y="140" width="140" height="24" rx="4" fill="#9CA3AF"/>
+  
+  <!-- Detail items -->
+  <rect x="960" y="190" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="210" width="160" height="10" rx="4" fill="#EEEEEE"/>
+  
+  <rect x="960" y="250" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="270" width="160" height="10" rx="4" fill="#EEEEEE"/>
+  
+  <rect x="960" y="310" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="330" width="160" height="10" rx="4" fill="#EEEEEE"/>
+  
+  <rect x="960" y="370" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="390" width="160" height="10" rx="4" fill="#EEEEEE"/>
+  
+  <!-- Chart in detail panel -->
+  <rect x="960" y="450" width="180" height="120" fill="#EEEEEE"/>
+  <circle cx="1050" cy="510" r="40" stroke="#9CA3AF" stroke-width="12" fill="none"/>
+  
+  <!-- More detail items -->
+  <rect x="960" y="600" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="620" width="160" height="10" rx="4" fill="#EEEEEE"/>
+  
+  <rect x="960" y="650" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="670" width="160" height="10" rx="4" fill="#EEEEEE"/>
+</svg>

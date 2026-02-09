@@ -1,0 +1,71 @@
+{
+  "pipeline_version": "1.0",
+  "timestamp": "2026-02-07T12:45:00.455Z",
+  "current_stage": "complete",
+  "completed_stages": [
+    "understand_problem",
+    "wireframe_selection",
+    "typography_selection",
+    "combination_preview",
+    "palette_application",
+    "token_generation"
+  ],
+  "inferred_niche": "medical",
+  "application_type": "telemedicine",
+  "niche_confidence": 0.67,
+  "available_layouts": [
+    "option-01",
+    "option-02",
+    "option-03",
+    "option-04",
+    "option-05",
+    "option-06",
+    "option-07",
+    "option-08"
+  ],
+  "selected_layouts": [
+    "option-02",
+    "option-04",
+    "option-08"
+  ],
+  "available_typography": null,
+  "selected_typography": [
+    "typo-003",
+    "typo-006",
+    "typo-007"
+  ],
+  "combinations": [
+    "combo-01",
+    "combo-02",
+    "combo-03",
+    "combo-04",
+    "combo-05",
+    "combo-06",
+    "combo-07",
+    "combo-08",
+    "combo-09"
+  ],
+  "selected_combination": "combo-05",
+  "available_palettes": [
+    "palette-preview-01",
+    "palette-preview-02",
+    "palette-preview-03",
+    "palette-preview-04",
+    "palette-preview-05"
+  ],
+  "selected_palette": "palette-preview-02",
+  "final_combination": {
+    "layout": "option-04",
+    "typography": "typo-006",
+    "palette": "palette-preview-02"
+  },
+  "generated_tokens": {
+    "shadcn": ".design-pipeline/tokens/shadcn-globals.css",
+    "generic": ".design-pipeline/tokens/design-tokens.css",
+    "daisyui": ".design-pipeline/tokens/daisyui-theme.css",
+    "agnosticui": ".design-pipeline/tokens/agnosticui-tokens.css",
+    "manifest": ".design-pipeline/tokens/design_manifest.json",
+    "guide": ".design-pipeline/tokens/IMPLEMENTATION.md"
+  },
+  "pipeline_complete": true
+}

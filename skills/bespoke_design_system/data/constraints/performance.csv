@@ -1,0 +1,20 @@
+constraint,metric,threshold,applies_to,violation,impact_level,platform,remediation,rationale
+Largest Contentful Paint (LCP),LCP,<=2.5s,Page load,LCP exceeds threshold,High,Web,Optimize hero assets and critical path,Slow initial load harms perceived performance
+First Contentful Paint (FCP),FCP,<=1.8s,Page load,FCP exceeds threshold,High,Web,Optimize rendering path and reduce critical JS,Users perceive performance as slow if first content is delayed
+Cumulative Layout Shift (CLS),CLS,<=0.1,Layout,CLS exceeds threshold,High,Web,Reserve space for dynamic content,Unexpected layout shifts cause poor user experience during interaction
+Time to Interactive (TTI),TTI,<=5s,Page load,TTI exceeds threshold,High,Web,Reduce JavaScript execution time and optimize load,Delays in interactivity can frustrate users
+Total Blocking Time (TBT),TBT,<=200ms,Page load,TBT exceeds threshold,High,Web,Defer non-essential JavaScript and reduce long tasks,Blocking JavaScript delays user interaction
+First Input Delay (FID),FID,<=100ms,Interaction,FID exceeds threshold,High,Web,Minimize JavaScript and prioritize interactivity,High FID causes delays between user input and response
+Interactive to Next Paint (INP),INP,<=200ms,Interaction,INP exceeds threshold,High,Web,Reduce main-thread work and improve response times,Long delays in input response can lead to frustration
+JavaScript Execution,JavaScript execution,<=200ms main thread,Page load,Heavy JS execution,Medium,Web,Split code, defer unused JS,Heavy JS execution blocks thread, reducing responsiveness
+Image Efficiency,Lighthouse,Pass,Images,Uncompressed images or large images,Medium,Web,Optimize images with responsive and compressed formats,Unoptimized images slow down loading times
+Lazy Loading Images,Lighthouse,Pass,Images,Images loaded eagerly,Medium,Web,Use loading='lazy' on below-the-fold images,Lazy loading improves perceived performance for users
+Preconnect to Critical Domains,Preconnect,Pass,Network,No preconnect to critical domains,Medium,Web,"Add <link rel=""preconnect"" href=""...""> for critical resources",Preconnecting reduces DNS lookup latency for faster load
+Font Display Strategy,Font-display,Swap,Fonts,Fonts block text until loaded,Medium,Web,Use font-display: swap for better text rendering,Font blocking causes text to appear after a delay
+Avoid Large Layout Shifts,Cumulative Layout Shift (CLS),<=0.1,Layout,Large layout shifts during interaction,High,Web,Reserve space for images, ads, or dynamically injected content,Unexpected shifts during page load disrupt reading flow
+Avoid Main Thread Work,Batch DOM Operations,<=150ms main thread,Page load,Main thread blocking tasks,Medium,Web,Minimize heavy JavaScript tasks and prioritize async loading,Main thread work delays responsiveness, leading to poor experience
+Reduce Unused JavaScript,Lighthouse,<=10%,Page load,Unused JS increases bundle size,Medium,Web,Implement tree-shaking and defer unused JS,Unused JS increases initial page load and blocking time
+Avoid Inline CSS,Inline CSS,<=10KB,Styles,Excessive inline CSS,Low,Web,Move CSS to external stylesheets for better performance,Inline CSS can slow rendering and increase document size
+Efficient CSS Selectors,Selector efficiency,Pass,Styles,Inefficient CSS selectors,Low,Web,Optimize CSS selectors for better performance,Improper CSS selectors slow down render time by increasing computation overhead
+Keep Requests Low,HTTP Requests,<=50 requests,Page load,Excessive HTTP requests,High,Web,Combine and minify assets to reduce requests,Reducing HTTP requests decreases latency and improves load time
+Reduce Server Response Time,Server Response Time,<=200ms,Page load,Server response time too high,High,Web,Optimize backend and reduce response time,Long server response times increase perceived load time and frustrate users

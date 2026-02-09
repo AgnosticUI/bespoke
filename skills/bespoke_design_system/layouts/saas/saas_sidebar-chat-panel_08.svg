@@ -1,0 +1,70 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Sidebar -->
+  <rect x="0" y="0" width="80" height="800" fill="#DDDDDD"/>
+  <circle cx="40" cy="40" r="20" fill="#9CA3AF"/>
+  <rect x="16" y="80" width="48" height="48" rx="6" fill="#9CA3AF"/>
+  <rect x="16" y="140" width="48" height="48" rx="6" fill="#EEEEEE"/>
+  <rect x="16" y="200" width="48" height="48" rx="6" fill="#EEEEEE"/>
+  <rect x="16" y="260" width="48" height="48" rx="6" fill="#EEEEEE"/>
+
+  <!-- Chat List Panel -->
+  <rect x="80" y="0" width="320" height="800" fill="white"/>
+  <rect x="80" y="0" width="320" height="56" fill="#EEEEEE"/>
+  <rect x="96" y="14" width="160" height="28" rx="4" fill="#9CA3AF"/>
+  <rect x="352" y="18" width="32" height="20" rx="4" fill="#9CA3AF"/>
+
+  <!-- Search -->
+  <rect x="96" y="68" width="288" height="32" rx="6" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Chat items -->
+  <rect x="80" y="112" width="320" height="64" fill="#EEEEEE"/>
+  <circle cx="116" cy="144" r="20" fill="#9CA3AF"/>
+  <rect x="146" y="128" width="140" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="146" y="150" width="200" height="10" rx="4" fill="#CCCCCC"/>
+
+  <rect x="80" y="176" width="320" height="64" fill="white" stroke="#CCCCCC"/>
+  <circle cx="116" cy="208" r="20" fill="#EEEEEE"/>
+  <rect x="146" y="192" width="120" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="146" y="214" width="180" height="10" rx="4" fill="#CCCCCC"/>
+
+  <rect x="80" y="240" width="320" height="64" fill="white" stroke="#CCCCCC"/>
+  <circle cx="116" cy="272" r="20" fill="#EEEEEE"/>
+  <rect x="146" y="256" width="160" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="146" y="278" width="200" height="10" rx="4" fill="#CCCCCC"/>
+
+  <rect x="80" y="304" width="320" height="64" fill="white" stroke="#CCCCCC"/>
+  <circle cx="116" cy="336" r="20" fill="#EEEEEE"/>
+  <rect x="146" y="320" width="140" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="146" y="342" width="190" height="10" rx="4" fill="#CCCCCC"/>
+
+  <!-- Conversation Panel -->
+  <rect x="400" y="0" width="800" height="56" fill="#EEEEEE"/>
+  <circle cx="430" cy="28" r="18" fill="#9CA3AF"/>
+  <rect x="460" y="16" width="160" height="24" rx="4" fill="#9CA3AF"/>
+
+  <!-- Messages -->
+  <rect x="420" y="80" width="320" height="60" rx="8" fill="#EEEEEE"/>
+  <rect x="436" y="94" width="260" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="436" y="114" width="200" height="10" rx="4" fill="#CCCCCC"/>
+
+  <rect x="780" y="170" width="380" height="60" rx="8" fill="#9CA3AF"/>
+  <rect x="796" y="184" width="320" height="10" rx="4" fill="#EEEEEE"/>
+  <rect x="796" y="204" width="260" height="10" rx="4" fill="#EEEEEE"/>
+
+  <rect x="420" y="260" width="280" height="80" rx="8" fill="#EEEEEE"/>
+  <rect x="436" y="274" width="240" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="436" y="294" width="200" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="436" y="314" width="220" height="10" rx="4" fill="#CCCCCC"/>
+
+  <rect x="820" y="370" width="340" height="60" rx="8" fill="#9CA3AF"/>
+  <rect x="836" y="384" width="280" height="10" rx="4" fill="#EEEEEE"/>
+  <rect x="836" y="404" width="240" height="10" rx="4" fill="#EEEEEE"/>
+
+  <rect x="420" y="460" width="300" height="60" rx="8" fill="#EEEEEE"/>
+  <rect x="436" y="474" width="260" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="436" y="494" width="220" height="10" rx="4" fill="#CCCCCC"/>
+
+  <!-- Message Input -->
+  <rect x="420" y="740" width="700" height="44" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="1140" y="744" width="40" height="36" rx="6" fill="#9CA3AF"/>
+</svg>

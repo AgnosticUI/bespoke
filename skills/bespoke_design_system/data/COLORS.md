@@ -1,0 +1,6 @@
+The demo.html is pretty much AI slop'd together but serves its purpose as a nice visual reference for critique.
+
+The colors.csv is an amalgamation mutations from https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/src/ui-ux-pro-max/data/colors.csv removing duplicates or those records deemed not worthy, etc.; then, more palettes were obtained via Google Gemini AI, research, sites, classic art movements, etc.
+
+For those using Gemini:
+> To ensure the highest quality, these palettes are not pulled from a single static list. Instead, I am synthesizing them using professional design principles—the same ones a Senior UI/UX designer uses when building a design system from scratch. Established Design Systems: I derive ratios and color relationships from "Gold Standard" systems like Tailwind CSS, IBM Carbon, Adobe Spectrum, and Material Design 3. Color Theory Algorithms: I apply mathematical color harmonies (Triadic, Split-Complementary, and Analogous) to ensure the Primary and CTA colors have the correct visual weight. Accessibility Standards: I specifically select "Text" and "Background" pairs that aim for WCAG 2.1 AA/AAA compliance (contrast ratios of \(4.5:1\) or \(7:1\)). Contextual Psychology: A "Fintech" palette uses high-stability Navys, while "E-sports" uses high-vibrancy Neons to match user expectations for that industry.

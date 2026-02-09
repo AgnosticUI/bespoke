@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typography Selection</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Lora:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Lexend:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&family=Varela+Round:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Figtree:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Share+Tech+Mono:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700&family=Varela+Round:wght@300;400;500;600;700&display=swap">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
+    h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+    .subtitle { color: #64748b; margin-bottom: 1.5rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
+    .card {
+      background: white; border: 2px solid #e2e8f0; border-radius: 12px; overflow: hidden;
+      cursor: pointer; position: relative; transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { border-color: #94a3b8; }
+    .card.selected { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
+    .badge {
+      position: absolute; top: 8px; left: 8px; background: #0369a1; color: white;
+      font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; z-index: 1;
+    }
+    .specimens { padding: 20px 16px; background: #f1f5f9; }
+    .specimen-heading { font-size: 1.75rem; font-weight: 700; margin-bottom: 8px; line-height: 1.2; }
+    .specimen-body { font-size: 0.95rem; line-height: 1.6; color: #475569; }
+    .card-info { padding: 12px 16px; border-bottom: 1px solid #f1f5f9; }
+    .card-title { font-weight: 600; margin-bottom: 2px; }
+    .card-meta { font-size: 0.75rem; color: #94a3b8; }
+    .thumbs { display: flex; gap: 6px; padding: 10px 16px; overflow-x: auto; }
+    .thumb { height: 60px; width: auto; border-radius: 4px; border: 1px solid #e2e8f0; }
+    .check-mark {
+      display: none; position: absolute; top: 8px; right: 8px; background: #2563eb;
+      color: white; width: 24px; height: 24px; border-radius: 50%; font-size: 14px;
+      line-height: 24px; text-align: center;
+    }
+    .card.selected .check-mark { display: block; }
+    .toolbar {
+      position: sticky; bottom: 0; background: white; border-top: 1px solid #e2e8f0;
+      padding: 1rem 0; display: flex; align-items: center; gap: 1rem; margin-top: 1rem;
+    }
+    .toolbar button {
+      background: #2563eb; color: white; border: none; padding: 0.6rem 1.5rem;
+      border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer;
+    }
+    .toolbar button:disabled { background: #94a3b8; cursor: not-allowed; }
+    .toolbar button:not(:disabled):hover { background: #1d4ed8; }
+    .selection-info { color: #64748b; font-size: 0.875rem; }
+    .copied { color: #16a34a; font-weight: 600; display: none; }
+  </style>
+</head>
+<body>
+  <h1>Typography Selection</h1>
+  <p class="subtitle">Select exactly <strong>3</strong> typography pairings. Each card shows heading + body font specimens and layout thumbnails.</p>
+  <div class="grid">
+
+        <div class="card" data-id="typo-001" onclick="toggleSelect(this)">
+          <div class="badge">1</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Playfair Display', sans-serif;">Playfair Display</h3>
+            <p class="specimen-body" style="font-family: 'Inter', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Classic Elegant</div>
+            <div class="card-meta">Serif + Sans · Playfair Display + Inter</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-001.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-001.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-001.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-002" onclick="toggleSelect(this)">
+          <div class="badge">2</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Lora', sans-serif;">Lora</h3>
+            <p class="specimen-body" style="font-family: 'Raleway', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Wellness Calm</div>
+            <div class="card-meta">Serif + Sans · Lora + Raleway</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-002.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-002.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-002.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-003" onclick="toggleSelect(this)">
+          <div class="badge">3</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Lexend', sans-serif;">Lexend</h3>
+            <p class="specimen-body" style="font-family: 'Source Sans 3', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Corporate Trust</div>
+            <div class="card-meta">Sans + Sans · Lexend + Source Sans 3</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-003.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-003.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-003.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-004" onclick="toggleSelect(this)">
+          <div class="badge">4</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Space Mono', sans-serif;">Space Mono</h3>
+            <p class="specimen-body" style="font-family: 'Space Mono', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Brutalist Raw</div>
+            <div class="card-meta">Mono + Mono · Space Mono + Space Mono</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-004.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-004.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-004.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-005" onclick="toggleSelect(this)">
+          <div class="badge">5</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Varela Round', sans-serif;">Varela Round</h3>
+            <p class="specimen-body" style="font-family: 'Nunito Sans', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Soft Rounded</div>
+            <div class="card-meta">Sans + Sans · Varela Round + Nunito Sans</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-005.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-005.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-005.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-006" onclick="toggleSelect(this)">
+          <div class="badge">6</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Figtree', sans-serif;">Figtree</h3>
+            <p class="specimen-body" style="font-family: 'Noto Sans', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Medical Clean</div>
+            <div class="card-meta">Sans + Sans · Figtree + Noto Sans</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-006.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-006.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-006.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-007" onclick="toggleSelect(this)">
+          <div class="badge">7</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Atkinson Hyperlegible', sans-serif;">Atkinson Hyperlegible</h3>
+            <p class="specimen-body" style="font-family: 'Atkinson Hyperlegible', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Accessibility First</div>
+            <div class="card-meta">Sans + Sans · Atkinson Hyperlegible + Atkinson Hyperlegible</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-007.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-007.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-007.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-008" onclick="toggleSelect(this)">
+          <div class="badge">8</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Barlow Condensed', sans-serif;">Barlow Condensed</h3>
+            <p class="specimen-body" style="font-family: 'Barlow', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Sports/Fitness</div>
+            <div class="card-meta">Sans + Sans · Barlow Condensed + Barlow</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-008.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-008.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-008.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-009" onclick="toggleSelect(this)">
+          <div class="badge">9</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Share Tech Mono', sans-serif;">Share Tech Mono</h3>
+            <p class="specimen-body" style="font-family: 'Fira Code', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Tech/HUD Mono</div>
+            <div class="card-meta">Mono + Mono · Share Tech Mono + Fira Code</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-009.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-009.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-009.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-010" onclick="toggleSelect(this)">
+          <div class="badge">10</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Inter', sans-serif;">Inter</h3>
+            <p class="specimen-body" style="font-family: 'Inter', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Spatial Clear</div>
+            <div class="card-meta">Sans + Sans · Inter + Inter</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-010.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-010.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-010.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-011" onclick="toggleSelect(this)">
+          <div class="badge">11</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Roboto Condensed', sans-serif;">Roboto Condensed</h3>
+            <p class="specimen-body" style="font-family: 'Cabin', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Bold Condensed</div>
+            <div class="card-meta">Sans + Sans · Roboto Condensed + Cabin</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-011.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-011.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-011.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-012" onclick="toggleSelect(this)">
+          <div class="badge">12</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Raleway', sans-serif;">Raleway</h3>
+            <p class="specimen-body" style="font-family: 'Open Sans', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Light Wellness</div>
+            <div class="card-meta">Sans + Sans · Raleway + Open Sans</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-012.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-012.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-012.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-013" onclick="toggleSelect(this)">
+          <div class="badge">13</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Nunito', sans-serif;">Nunito</h3>
+            <p class="specimen-body" style="font-family: 'PT Sans', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Rounded Friendly</div>
+            <div class="card-meta">Sans + Sans · Nunito + PT Sans</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-013.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-013.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-013.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-014" onclick="toggleSelect(this)">
+          <div class="badge">14</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Barlow Condensed', sans-serif;">Barlow Condensed</h3>
+            <p class="specimen-body" style="font-family: 'Work Sans', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Efficient Modern</div>
+            <div class="card-meta">Sans + Sans · Barlow Condensed + Work Sans</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-014.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-014.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-014.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+
+        <div class="card" data-id="typo-015" onclick="toggleSelect(this)">
+          <div class="badge">15</div>
+          <div class="specimens">
+            <h3 class="specimen-heading" style="font-family: 'Varela Round', sans-serif;">Varela Round</h3>
+            <p class="specimen-body" style="font-family: 'Lora', sans-serif;">
+              The quick brown fox jumps over the lazy dog. 0123456789
+            </p>
+          </div>
+          <div class="card-info">
+            <div class="card-title">Rounded Serif Invert</div>
+            <div class="card-meta">Sans + Serif · Varela Round + Lora</div>
+          </div>
+          <div class="thumbs"><img src="option-02_typo-015.svg" alt="doctor-profiles" class="thumb" /><img src="option-04_typo-015.svg" alt="hero-services-cta" class="thumb" /><img src="option-08_typo-015.svg" alt="telehealth-video" class="thumb" /></div>
+          <div class="check-mark">&#10003;</div>
+        </div>
+  </div>
+  <div class="toolbar">
+    <button id="copyBtn" disabled onclick="copySelection()">Copy --typography argument</button>
+    <span class="selection-info"><span id="count">0</span>/3 selected</span>
+    <span class="copied" id="copiedMsg">Copied!</span>
+  </div>
+  <script>
+    const selected = new Set();
+    function toggleSelect(card) {
+      const id = card.dataset.id;
+      const idx = parseInt(id.replace('typo-', ''));
+      if (selected.has(idx)) {
+        selected.delete(idx);
+        card.classList.remove('selected');
+      } else {
+        if (selected.size >= 3) return;
+        selected.add(idx);
+        card.classList.add('selected');
+      }
+      document.getElementById('count').textContent = selected.size;
+      document.getElementById('copyBtn').disabled = selected.size !== 3;
+    }
+    function copySelection() {
+      const sorted = [...selected].sort((a, b) => a - b);
+      const text = '--typography ' + sorted.join(',');
+      navigator.clipboard.writeText(text).then(() => {
+        const msg = document.getElementById('copiedMsg');
+        msg.style.display = 'inline';
+        setTimeout(() => msg.style.display = 'none', 2000);
+      });
+    }
+  </script>
+</body>
+</html>

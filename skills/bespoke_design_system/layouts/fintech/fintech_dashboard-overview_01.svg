@@ -1,0 +1,98 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="50" fill="#DDDDDD"/>
+  <rect x="20" y="14" width="120" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="600" y="14" width="200" height="22" rx="0" fill="#EEEEEE"/>
+  <rect x="1060" y="12" width="120" height="26" rx="0" fill="#9CA3AF"/>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="50" width="200" height="750" fill="#EEEEEE"/>
+  <rect x="16" y="70" width="168" height="32" rx="0" fill="#9CA3AF"/>
+  <rect x="16" y="114" width="168" height="28" rx="0" fill="white"/>
+  <rect x="16" y="150" width="168" height="28" rx="0" fill="white"/>
+  <rect x="16" y="186" width="168" height="28" rx="0" fill="white"/>
+  <rect x="16" y="222" width="168" height="28" rx="0" fill="white"/>
+  <rect x="16" y="258" width="168" height="28" rx="0" fill="white"/>
+  <rect x="16" y="294" width="168" height="28" rx="0" fill="white"/>
+
+  <!-- KPI Cards Row -->
+  <rect x="216" y="66" width="230" height="90" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="232" y="82" width="120" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="232" y="106" width="160" height="24" rx="0" fill="#9CA3AF"/>
+  <rect x="232" y="138" width="80" height="12" rx="0" fill="#CCCCCC"/>
+
+  <rect x="458" y="66" width="230" height="90" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="474" y="82" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="474" y="106" width="140" height="24" rx="0" fill="#9CA3AF"/>
+  <rect x="474" y="138" width="80" height="12" rx="0" fill="#CCCCCC"/>
+
+  <rect x="700" y="66" width="230" height="90" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="716" y="82" width="140" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="716" y="106" width="120" height="24" rx="0" fill="#9CA3AF"/>
+  <rect x="716" y="138" width="80" height="12" rx="0" fill="#CCCCCC"/>
+
+  <rect x="942" y="66" width="230" height="90" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="958" y="82" width="110" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="958" y="106" width="150" height="24" rx="0" fill="#9CA3AF"/>
+  <rect x="958" y="138" width="80" height="12" rx="0" fill="#CCCCCC"/>
+
+  <!-- Main Chart -->
+  <rect x="216" y="172" width="716" height="300" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="236" y="192" width="200" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="236" y="230" width="676" height="220" rx="0" fill="#EEEEEE"/>
+
+  <!-- Side Panel -->
+  <rect x="944" y="172" width="228" height="300" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="960" y="192" width="160" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="960" y="228" width="196" height="36" rx="0" fill="#EEEEEE"/>
+  <rect x="960" y="276" width="196" height="36" rx="0" fill="#EEEEEE"/>
+  <rect x="960" y="324" width="196" height="36" rx="0" fill="#EEEEEE"/>
+  <rect x="960" y="372" width="196" height="36" rx="0" fill="#EEEEEE"/>
+  <rect x="960" y="420" width="196" height="36" rx="0" fill="#EEEEEE"/>
+
+  <!-- Transaction Table -->
+  <rect x="216" y="488" width="956" height="290" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="236" y="508" width="200" height="20" rx="0" fill="#9CA3AF"/>
+  <!-- Table header -->
+  <rect x="236" y="540" width="916" height="30" rx="0" fill="#EEEEEE"/>
+  <rect x="246" y="548" width="80" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="400" y="548" width="120" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="548" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="780" y="548" width="80" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="960" y="548" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <!-- Table rows -->
+  <rect x="236" y="578" width="916" height="30" rx="0" fill="white"/>
+  <rect x="246" y="586" width="60" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="400" y="586" width="140" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="586" width="80" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="780" y="586" width="60" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="960" y="586" width="80" height="14" rx="0" fill="#CCCCCC"/>
+
+  <rect x="236" y="616" width="916" height="30" rx="0" fill="#EEEEEE"/>
+  <rect x="246" y="624" width="60" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="400" y="624" width="160" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="624" width="80" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="780" y="624" width="60" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="960" y="624" width="80" height="14" rx="0" fill="#CCCCCC"/>
+
+  <rect x="236" y="654" width="916" height="30" rx="0" fill="white"/>
+  <rect x="246" y="662" width="60" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="400" y="662" width="120" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="662" width="80" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="780" y="662" width="60" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="960" y="662" width="80" height="14" rx="0" fill="#CCCCCC"/>
+
+  <rect x="236" y="692" width="916" height="30" rx="0" fill="#EEEEEE"/>
+  <rect x="246" y="700" width="60" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="400" y="700" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="700" width="80" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="780" y="700" width="60" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="960" y="700" width="80" height="14" rx="0" fill="#CCCCCC"/>
+
+  <rect x="236" y="730" width="916" height="30" rx="0" fill="white"/>
+  <rect x="246" y="738" width="60" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="400" y="738" width="140" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="738" width="80" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="780" y="738" width="60" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="960" y="738" width="80" height="14" rx="0" fill="#CCCCCC"/>
+</svg>

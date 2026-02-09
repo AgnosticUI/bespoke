@@ -1,0 +1,52 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0F172A" rx="12"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="56" height="500" fill="#363E49" rx="12"/>
+  <rect x="12" y="0" width="44" height="500" fill="#363E49"/>
+  <circle cx="28" cy="28" r="8" fill="#1E293B" opacity="0.9"/>
+  <circle cx="28" cy="68" r="5" fill="#FFFFFF" opacity="0.18"/>
+  <circle cx="28" cy="96" r="5" fill="#FFFFFF" opacity="0.18"/>
+
+  <!-- Header -->
+  <rect x="56" y="0" width="744" height="44" fill="#272D35"/>
+  <rect x="76" y="12" width="48" height="20" rx="4" fill="#1E293B" opacity="0.85"/>
+  <rect x="144" y="16" width="36" height="12" rx="3" fill="#F1F5F9" opacity="0.12"/>
+  <circle cx="766" cy="22" r="12" fill="#FFFFFF"/>
+
+  <!-- Stat card 1 -->
+  <rect x="76" y="64" width="342" height="100" rx="8" fill="#0F172A" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="92" y="80" width="60" height="10" rx="3" fill="#F1F5F9" opacity="0.2"/>
+  <rect x="92" y="102" width="100" height="18" rx="4" fill="#1E293B"/>
+  <rect x="92" y="134" width="310" height="14" rx="3" fill="#334155" opacity="0.18"/>
+
+  <!-- Stat card 2 -->
+  <rect x="438" y="64" width="342" height="100" rx="8" fill="#0F172A" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="454" y="80" width="50" height="10" rx="3" fill="#F1F5F9" opacity="0.2"/>
+  <rect x="454" y="102" width="80" height="18" rx="4" fill="#1E293B"/>
+  <rect x="454" y="134" width="310" height="14" rx="3" fill="#334155" opacity="0.18"/>
+
+  <!-- Main content card -->
+  <rect x="76" y="184" width="704" height="180" rx="8" fill="#0F172A" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="96" y="204" width="120" height="12" rx="3" fill="#F1F5F9" opacity="0.25"/>
+  <!-- Chart: grid lines match bar area width -->
+  <line x1="96" y1="244" x2="376" y2="244" stroke="#FFFFFF" stroke-width="0.5" opacity="0.4"/>
+  <line x1="96" y1="279" x2="376" y2="279" stroke="#FFFFFF" stroke-width="0.5" opacity="0.4"/>
+  <line x1="96" y1="314" x2="376" y2="314" stroke="#FFFFFF" stroke-width="0.5" opacity="0.4"/>
+  <!-- Chart bars -->
+  <rect x="106" y="264" width="28" height="75" rx="3" fill="#1E293B" opacity="0.15"/>
+  <rect x="146" y="247" width="28" height="92" rx="3" fill="#1E293B" opacity="0.25"/>
+  <rect x="186" y="274" width="28" height="65" rx="3" fill="#1E293B" opacity="0.2"/>
+  <rect x="226" y="239" width="28" height="100" rx="3" fill="#1E293B" opacity="0.35"/>
+  <rect x="266" y="259" width="28" height="80" rx="3" fill="#1E293B" opacity="0.2"/>
+
+  <!-- CTA button -->
+  <rect x="660" y="200" width="100" height="32" rx="6" fill="#818CF8"/>
+  <rect x="680" y="212" width="60" height="8" rx="2" fill="#000000" opacity="0.9"/>
+
+  <!-- Bottom card -->
+  <rect x="76" y="382" width="704" height="76" rx="8" fill="#0F172A" stroke="#FFFFFF" stroke-width="1"/>
+  <rect x="92" y="398" width="80" height="10" rx="3" fill="#F1F5F9" opacity="0.2"/>
+  <rect x="92" y="420" width="672" height="8" rx="2" fill="#F1F5F9" opacity="0.08"/>
+</svg>

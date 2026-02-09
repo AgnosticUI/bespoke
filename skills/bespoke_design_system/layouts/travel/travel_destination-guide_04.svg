@@ -1,0 +1,117 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="24" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+  <rect x="440" y="16" width="60" height="24" rx="4" fill="#CCCCCC"/>
+  <rect x="520" y="16" width="80" height="24" rx="4" fill="#CCCCCC"/>
+  <rect x="620" y="16" width="60" height="24" rx="4" fill="#CCCCCC"/>
+  <rect x="1060" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+
+  <!-- Hero Section -->
+  <rect x="0" y="56" width="1200" height="220" fill="#EEEEEE"/>
+  <rect x="80" y="110" width="400" height="36" rx="4" fill="#9CA3AF"/>
+  <rect x="80" y="160" width="600" height="16" rx="4" fill="#CCCCCC"/>
+  <rect x="80" y="186" width="500" height="14" rx="4" fill="#CCCCCC"/>
+  <!-- Breadcrumb -->
+  <rect x="80" y="228" width="200" height="12" rx="4" fill="#CCCCCC"/>
+
+  <!-- Key Stats Row -->
+  <rect x="40" y="296" width="1120" height="80" rx="8" fill="white" stroke="#CCCCCC"/>
+  <!-- Weather -->
+  <circle cx="120" cy="336" r="20" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="152" y="324" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="152" y="342" width="80" height="14" rx="4" fill="#9CA3AF"/>
+  <!-- Currency -->
+  <circle cx="340" cy="336" r="20" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="372" y="324" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="372" y="342" width="70" height="14" rx="4" fill="#9CA3AF"/>
+  <!-- Language -->
+  <circle cx="550" cy="336" r="20" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="582" y="324" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="582" y="342" width="80" height="14" rx="4" fill="#9CA3AF"/>
+  <!-- Best Time -->
+  <circle cx="770" cy="336" r="20" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="802" y="324" width="70" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="802" y="342" width="90" height="14" rx="4" fill="#9CA3AF"/>
+  <!-- Timezone -->
+  <circle cx="990" cy="336" r="20" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="1022" y="324" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1022" y="342" width="80" height="14" rx="4" fill="#9CA3AF"/>
+
+  <!-- Things to Do Section -->
+  <rect x="40" y="400" width="160" height="20" rx="4" fill="#9CA3AF"/>
+  <!-- Cards Grid - 3 columns -->
+  <rect x="40" y="432" width="260" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="48" y="440" width="244" height="110" rx="6" fill="#EEEEEE"/>
+  <rect x="56" y="560" width="160" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="56" y="582" width="220" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="56" y="600" width="180" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="56" y="618" width="60" height="10" rx="4" fill="#9CA3AF"/>
+
+  <rect x="316" y="432" width="260" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="324" y="440" width="244" height="110" rx="6" fill="#EEEEEE"/>
+  <rect x="332" y="560" width="180" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="332" y="582" width="200" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="332" y="600" width="160" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="332" y="618" width="60" height="10" rx="4" fill="#9CA3AF"/>
+
+  <rect x="592" y="432" width="260" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="600" y="440" width="244" height="110" rx="6" fill="#EEEEEE"/>
+  <rect x="608" y="560" width="140" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="608" y="582" width="220" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="608" y="600" width="190" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="608" y="618" width="60" height="10" rx="4" fill="#9CA3AF"/>
+
+  <!-- Travel Tips Sidebar -->
+  <rect x="880" y="400" width="280" height="380" rx="8" fill="#EEEEEE"/>
+  <rect x="900" y="420" width="120" height="18" rx="4" fill="#9CA3AF"/>
+  <!-- Tip 1 -->
+  <rect x="900" y="454" width="240" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="900" y="474" width="220" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="900" y="492" width="200" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Divider -->
+  <rect x="900" y="516" width="240" height="1" fill="#CCCCCC"/>
+  <!-- Tip 2 -->
+  <rect x="900" y="530" width="240" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="900" y="550" width="200" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="900" y="568" width="220" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Divider -->
+  <rect x="900" y="592" width="240" height="1" fill="#CCCCCC"/>
+  <!-- Tip 3 -->
+  <rect x="900" y="606" width="240" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="900" y="626" width="220" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="900" y="644" width="180" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Divider -->
+  <rect x="900" y="668" width="240" height="1" fill="#CCCCCC"/>
+  <!-- Tip 4 -->
+  <rect x="900" y="682" width="240" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="900" y="702" width="200" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="900" y="720" width="230" height="10" rx="4" fill="#CCCCCC"/>
+
+  <!-- Where to Stay Section -->
+  <rect x="40" y="652" width="160" height="20" rx="4" fill="#9CA3AF"/>
+  <!-- Horizontal scroll cards -->
+  <rect x="40" y="684" width="200" height="96" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="48" y="692" width="80" height="60" rx="4" fill="#EEEEEE"/>
+  <rect x="136" y="696" width="92" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="136" y="718" width="80" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="136" y="736" width="60" height="10" rx="4" fill="#9CA3AF"/>
+
+  <rect x="252" y="684" width="200" height="96" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="260" y="692" width="80" height="60" rx="4" fill="#EEEEEE"/>
+  <rect x="348" y="696" width="92" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="348" y="718" width="80" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="348" y="736" width="60" height="10" rx="4" fill="#9CA3AF"/>
+
+  <rect x="464" y="684" width="200" height="96" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="472" y="692" width="80" height="60" rx="4" fill="#EEEEEE"/>
+  <rect x="560" y="696" width="92" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="560" y="718" width="80" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="560" y="736" width="60" height="10" rx="4" fill="#9CA3AF"/>
+
+  <rect x="676" y="684" width="200" height="96" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="684" y="692" width="80" height="60" rx="4" fill="#EEEEEE"/>
+  <rect x="772" y="696" width="92" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="772" y="718" width="80" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="772" y="736" width="60" height="10" rx="4" fill="#9CA3AF"/>
+</svg>

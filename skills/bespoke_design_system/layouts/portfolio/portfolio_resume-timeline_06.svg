@@ -1,0 +1,49 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="700" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="800" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="900" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+
+  <!-- Header -->
+  <rect x="400" y="80" width="400" height="36" rx="10" fill="#9CA3AF"/>
+
+  <!-- Timeline Line -->
+  <rect x="598" y="140" width="4" height="600" fill="#CCCCCC"/>
+
+  <!-- Timeline Entry 1 - Left -->
+  <rect x="120" y="150" width="440" height="120" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="150" y="170" width="100" height="14" rx="8" fill="#9CA3AF"/>
+  <rect x="150" y="196" width="240" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="150" y="226" width="380" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="150" y="248" width="360" height="14" rx="8" fill="#CCCCCC"/>
+  <circle cx="600" cy="210" r="10" fill="#9CA3AF"/>
+
+  <!-- Timeline Entry 2 - Right -->
+  <rect x="640" y="300" width="440" height="120" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="670" y="320" width="100" height="14" rx="8" fill="#9CA3AF"/>
+  <rect x="670" y="346" width="260" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="670" y="376" width="380" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="670" y="398" width="340" height="14" rx="8" fill="#CCCCCC"/>
+  <circle cx="600" cy="360" r="10" fill="#9CA3AF"/>
+
+  <!-- Timeline Entry 3 - Left -->
+  <rect x="120" y="450" width="440" height="120" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="150" y="470" width="100" height="14" rx="8" fill="#9CA3AF"/>
+  <rect x="150" y="496" width="220" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="150" y="526" width="380" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="150" y="548" width="350" height="14" rx="8" fill="#CCCCCC"/>
+  <circle cx="600" cy="510" r="10" fill="#9CA3AF"/>
+
+  <!-- Timeline Entry 4 - Right -->
+  <rect x="640" y="600" width="440" height="120" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="670" y="620" width="100" height="14" rx="8" fill="#9CA3AF"/>
+  <rect x="670" y="646" width="200" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="670" y="676" width="380" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="670" y="698" width="360" height="14" rx="8" fill="#CCCCCC"/>
+  <circle cx="600" cy="660" r="10" fill="#9CA3AF"/>
+
+  <!-- Footer -->
+  <rect x="0" y="760" width="1200" height="40" fill="#DDDDDD"/>
+</svg>

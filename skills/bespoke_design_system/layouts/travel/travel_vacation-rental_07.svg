@@ -1,0 +1,98 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="24" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+  <rect x="400" y="12" width="400" height="32" rx="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="420" y="22" width="200" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1060" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+
+  <!-- Hero Image Area -->
+  <rect x="0" y="56" width="740" height="300" rx="0" fill="#EEEEEE"/>
+  <!-- Smaller images grid -->
+  <rect x="744" y="56" width="228" height="148" fill="#EEEEEE"/>
+  <rect x="976" y="56" width="224" height="148" fill="#EEEEEE"/>
+  <rect x="744" y="208" width="228" height="148" fill="#EEEEEE"/>
+  <rect x="976" y="208" width="224" height="148" fill="#EEEEEE"/>
+
+  <!-- Main Content Left -->
+  <!-- Title and Location -->
+  <rect x="40" y="376" width="380" height="28" rx="4" fill="#9CA3AF"/>
+  <rect x="40" y="414" width="200" height="14" rx="4" fill="#CCCCCC"/>
+
+  <!-- Host Info -->
+  <rect x="40" y="448" width="700" height="64" rx="8" fill="white" stroke="#CCCCCC"/>
+  <circle cx="76" cy="480" r="22" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="110" y="466" width="140" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="110" y="488" width="100" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Superhost Badge -->
+  <rect x="640" y="470" width="80" height="22" rx="11" fill="#9CA3AF"/>
+
+  <!-- Quick Stats -->
+  <rect x="40" y="528" width="700" height="48" rx="8" fill="#EEEEEE"/>
+  <rect x="68" y="544" width="60" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="148" y="548" width="2" height="8" fill="#CCCCCC"/>
+  <rect x="170" y="544" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="270" y="548" width="2" height="8" fill="#CCCCCC"/>
+  <rect x="292" y="544" width="70" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="382" y="548" width="2" height="8" fill="#CCCCCC"/>
+  <rect x="404" y="544" width="80" height="14" rx="4" fill="#CCCCCC"/>
+
+  <!-- Description -->
+  <rect x="40" y="596" width="700" height="1" fill="#CCCCCC"/>
+  <rect x="40" y="614" width="140" height="18" rx="4" fill="#9CA3AF"/>
+  <rect x="40" y="644" width="680" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="40" y="664" width="660" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="40" y="684" width="620" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="40" y="704" width="640" height="12" rx="4" fill="#CCCCCC"/>
+
+  <!-- Amenities Grid -->
+  <rect x="40" y="732" width="700" height="1" fill="#CCCCCC"/>
+  <rect x="40" y="748" width="100" height="16" rx="4" fill="#9CA3AF"/>
+  <!-- Amenity items - 2 columns -->
+  <circle cx="56" cy="782" r="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="72" y="776" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <circle cx="236" cy="782" r="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="252" y="776" width="90" height="12" rx="4" fill="#CCCCCC"/>
+  <circle cx="416" cy="782" r="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="432" y="776" width="70" height="12" rx="4" fill="#CCCCCC"/>
+  <circle cx="576" cy="782" r="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="592" y="776" width="100" height="12" rx="4" fill="#CCCCCC"/>
+
+  <!-- Pricing Sidebar Card -->
+  <rect x="790" y="376" width="370" height="404" rx="12" fill="white" stroke="#CCCCCC"/>
+  <!-- Price per night -->
+  <rect x="822" y="400" width="160" height="28" rx="4" fill="#9CA3AF"/>
+  <rect x="822" y="436" width="100" height="12" rx="4" fill="#CCCCCC"/>
+  <!-- Rating -->
+  <rect x="1060" y="404" width="80" height="16" rx="4" fill="#9CA3AF"/>
+  <rect x="1060" y="424" width="60" height="12" rx="4" fill="#CCCCCC"/>
+
+  <!-- Date Inputs -->
+  <rect x="822" y="468" width="163" height="52" rx="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="838" y="476" width="60" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="838" y="494" width="100" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="997" y="468" width="163" height="52" rx="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="1013" y="476" width="60" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="1013" y="494" width="100" height="14" rx="4" fill="#CCCCCC"/>
+  <!-- Guests -->
+  <rect x="822" y="528" width="338" height="44" rx="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="838" y="536" width="50" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="838" y="552" width="80" height="12" rx="4" fill="#CCCCCC"/>
+
+  <!-- Reserve CTA -->
+  <rect x="822" y="588" width="338" height="44" rx="8" fill="#9CA3AF"/>
+
+  <!-- Price Breakdown -->
+  <rect x="822" y="648" width="200" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1120" y="648" width="40" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="822" y="670" width="180" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1120" y="670" width="40" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="822" y="692" width="160" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1120" y="692" width="40" height="12" rx="4" fill="#CCCCCC"/>
+  <!-- Total -->
+  <rect x="822" y="720" width="338" height="1" fill="#CCCCCC"/>
+  <rect x="822" y="734" width="60" height="16" rx="4" fill="#9CA3AF"/>
+  <rect x="1100" y="734" width="60" height="16" rx="4" fill="#9CA3AF"/>
+  <!-- Report link -->
+  <rect x="920" y="762" width="120" height="10" rx="4" fill="#CCCCCC"/>
+</svg>

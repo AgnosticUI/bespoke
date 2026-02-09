@@ -1,0 +1,60 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="1020" y="15" width="140" height="30" rx="10" fill="#9CA3AF"/>
+
+  <!-- Account Sidebar -->
+  <rect x="40" y="80" width="240" height="680" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="110" width="60" height="60" rx="30" fill="#EEEEEE"/>
+  <rect x="80" y="186" width="160" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="60" y="230" width="200" height="36" rx="10" fill="#EEEEEE"/>
+  <rect x="60" y="278" width="200" height="36" rx="10" fill="#EEEEEE"/>
+  <rect x="60" y="326" width="200" height="36" rx="10" fill="#9CA3AF"/>
+  <rect x="60" y="374" width="200" height="36" rx="10" fill="#EEEEEE"/>
+  <rect x="60" y="422" width="200" height="36" rx="10" fill="#EEEEEE"/>
+
+  <!-- Wishlist Header -->
+  <rect x="320" y="80" width="200" height="30" rx="8" fill="#9CA3AF"/>
+  <rect x="320" y="120" width="300" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Wishlist Grid -->
+  <rect x="320" y="160" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="320" y="160" width="260" height="160" rx="12" fill="#EEEEEE"/>
+  <rect x="336" y="332" width="180" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="336" y="358" width="80" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="336" y="386" width="228" height="20" rx="10" fill="#9CA3AF"/>
+
+  <rect x="600" y="160" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="600" y="160" width="260" height="160" rx="12" fill="#EEEEEE"/>
+  <rect x="616" y="332" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="616" y="358" width="80" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="616" y="386" width="228" height="20" rx="10" fill="#9CA3AF"/>
+
+  <rect x="880" y="160" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="880" y="160" width="260" height="160" rx="12" fill="#EEEEEE"/>
+  <rect x="896" y="332" width="160" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="896" y="358" width="80" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="896" y="386" width="228" height="20" rx="10" fill="#9CA3AF"/>
+
+  <rect x="320" y="440" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="320" y="440" width="260" height="160" rx="12" fill="#EEEEEE"/>
+  <rect x="336" y="612" width="190" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="336" y="638" width="80" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="336" y="666" width="228" height="20" rx="10" fill="#9CA3AF"/>
+
+  <rect x="600" y="440" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="600" y="440" width="260" height="160" rx="12" fill="#EEEEEE"/>
+  <rect x="616" y="612" width="210" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="616" y="638" width="80" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="616" y="666" width="228" height="20" rx="10" fill="#9CA3AF"/>
+
+  <rect x="880" y="440" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="880" y="440" width="260" height="160" rx="12" fill="#EEEEEE"/>
+  <rect x="896" y="612" width="170" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="896" y="638" width="80" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="896" y="666" width="228" height="20" rx="10" fill="#9CA3AF"/>
+
+  <!-- Footer -->
+  <rect x="0" y="740" width="1200" height="60" fill="#DDDDDD"/>
+</svg>

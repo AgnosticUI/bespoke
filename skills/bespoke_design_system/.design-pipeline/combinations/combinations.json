@@ -1,0 +1,86 @@
+{
+  "combos": [
+    {
+      "id": "combo-01",
+      "layoutId": "option-02",
+      "typoId": "typo-003",
+      "layoutVariant": "doctor-profiles",
+      "typoPairing": "Corporate Trust",
+      "svgFile": "combo-01.svg"
+    },
+    {
+      "id": "combo-02",
+      "layoutId": "option-02",
+      "typoId": "typo-006",
+      "layoutVariant": "doctor-profiles",
+      "typoPairing": "Medical Clean",
+      "svgFile": "combo-02.svg"
+    },
+    {
+      "id": "combo-03",
+      "layoutId": "option-02",
+      "typoId": "typo-007",
+      "layoutVariant": "doctor-profiles",
+      "typoPairing": "Accessibility First",
+      "svgFile": "combo-03.svg"
+    },
+    {
+      "id": "combo-04",
+      "layoutId": "option-04",
+      "typoId": "typo-003",
+      "layoutVariant": "hero-services-cta",
+      "typoPairing": "Corporate Trust",
+      "svgFile": "combo-04.svg"
+    },
+    {
+      "id": "combo-05",
+      "layoutId": "option-04",
+      "typoId": "typo-006",
+      "layoutVariant": "hero-services-cta",
+      "typoPairing": "Medical Clean",
+      "svgFile": "combo-05.svg"
+    },
+    {
+      "id": "combo-06",
+      "layoutId": "option-04",
+      "typoId": "typo-007",
+      "layoutVariant": "hero-services-cta",
+      "typoPairing": "Accessibility First",
+      "svgFile": "combo-06.svg"
+    },
+    {
+      "id": "combo-07",
+      "layoutId": "option-08",
+      "typoId": "typo-003",
+      "layoutVariant": "telehealth-video",
+      "typoPairing": "Corporate Trust",
+      "svgFile": "combo-07.svg"
+    },
+    {
+      "id": "combo-08",
+      "layoutId": "option-08",
+      "typoId": "typo-006",
+      "layoutVariant": "telehealth-video",
+      "typoPairing": "Medical Clean",
+      "svgFile": "combo-08.svg"
+    },
+    {
+      "id": "combo-09",
+      "layoutId": "option-08",
+      "typoId": "typo-007",
+      "layoutVariant": "telehealth-video",
+      "typoPairing": "Accessibility First",
+      "svgFile": "combo-09.svg"
+    }
+  ],
+  "row_labels": [
+    "doctor profiles",
+    "hero services cta",
+    "telehealth video"
+  ],
+  "col_labels": [
+    "Corporate Trust (Lexend + Source Sans 3)",
+    "Medical Clean (Figtree + Noto Sans)",
+    "Accessibility First (Atkinson Hyperlegible + Atkinson Hyperlegible)"
+  ]
+}

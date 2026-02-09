@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palette Selection — combo-05</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
+    .page-header { margin-bottom: 1.5rem; }
+    .page-header h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+    .niche-context {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px;
+      padding: 0.35rem 0.75rem; font-size: 0.8rem; color: #1e40af; margin-bottom: 0.5rem;
+    }
+    .niche-context strong { font-weight: 700; }
+    .subtitle { color: #64748b; font-size: 0.875rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
+    .card {
+      background: white; border: 2px solid #e2e8f0; border-radius: 12px; overflow: hidden;
+      cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .card:hover { border-color: #94a3b8; }
+    .card.selected { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
+    .card-header {
+      display: flex; align-items: center; gap: 8px; padding: 10px 12px;
+      border-bottom: 1px solid #f1f5f9; background: white;
+    }
+    .badge {
+      background: #0369a1; color: white; font-size: 0.7rem; font-weight: 700;
+      padding: 2px 8px; border-radius: 4px; flex-shrink: 0;
+    }
+    .card-header-title { font-weight: 600; font-size: 0.85rem; flex: 1; }
+    .check-mark {
+      display: none; background: #2563eb; color: white; width: 22px; height: 22px;
+      border-radius: 50%; font-size: 12px; line-height: 22px; text-align: center; flex-shrink: 0;
+    }
+    .card.selected .check-mark { display: block; }
+    .svg-container { padding: 12px; background: #f1f5f9; }
+    .svg-container img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .swatches { display: flex; gap: 8px; padding: 12px 16px; flex-wrap: wrap; justify-content: center; }
+    .swatch { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+    .swatch-circle {
+      width: 36px; height: 36px; border-radius: 50%; border: 1px solid #e2e8f0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.65rem; font-weight: 700;
+    }
+    .swatch-hex { font-size: 0.6rem; color: #94a3b8; font-family: monospace; }
+    .contrast-info { padding: 10px 16px; border-top: 1px solid #f1f5f9; }
+    .wcag-badge {
+      display: inline-block; font-size: 0.7rem; font-weight: 700; padding: 2px 8px;
+      border-radius: 4px; margin-bottom: 8px;
+    }
+    .badge-aaa { background: #dcfce7; color: #166534; }
+    .badge-aa { background: #fef9c3; color: #854d0e; }
+    .badge-a { background: #fed7aa; color: #9a3412; }
+    .badge-fail { background: #fecaca; color: #991b1b; }
+    .contrast-row { display: flex; align-items: center; gap: 6px; font-size: 0.75rem; margin-bottom: 4px; }
+    .contrast-label { flex: 1; color: #64748b; }
+    .contrast-specimen {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 32px; height: 20px; border-radius: 3px; border: 1px solid #d1d5db;
+      font-size: 0.7rem; font-weight: 700; line-height: 1; flex-shrink: 0;
+    }
+    .contrast-ratio { font-family: monospace; font-weight: 600; min-width: 3.5em; text-align: right; }
+    .contrast-badge { font-size: 0.65rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; min-width: 2.5em; text-align: center; }
+    .contrast-badge.pass { background: #dcfce7; color: #166534; }
+    .contrast-badge.fail { background: #fecaca; color: #991b1b; }
+    .card-footer { padding: 8px 16px; border-top: 1px solid #f1f5f9; }
+    .palette-notes { font-size: 0.75rem; color: #64748b; }
+    .toolbar {
+      position: sticky; bottom: 0; background: white; border-top: 1px solid #e2e8f0;
+      padding: 1rem 0; display: flex; align-items: center; gap: 1rem;
+    }
+    .toolbar button {
+      background: #2563eb; color: white; border: none; padding: 0.6rem 1.5rem;
+      border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer;
+    }
+    .toolbar button:disabled { background: #94a3b8; cursor: not-allowed; }
+    .toolbar button:not(:disabled):hover { background: #1d4ed8; }
+    .selection-info { color: #64748b; font-size: 0.875rem; }
+    .copied { color: #16a34a; font-weight: 600; display: none; }
+  </style>
+</head>
+<body>
+  <div class="page-header">
+    <h1>Palette Selection</h1>
+    <div class="niche-context">Niche identified: <strong>Dashboard / Patient portal (95% confidence)</strong></div>
+    <p class="subtitle">Combination: <strong>combo-05</strong> — Select exactly <strong>1</strong> palette. Colored SVGs show real palette application.</p>
+  </div>
+  <div class="grid">
+
+        <div class="card" data-id="palette-preview-01" onclick="selectPalette(this)">
+          <div class="card-header">
+            <span class="badge">1</span>
+            <span class="card-header-title">Infrastructure Monitoring</span>
+            <span class="check-mark">&#10003;</span>
+          </div>
+          <div class="svg-container">
+            <img src="palette-preview-01.svg" alt="Infrastructure Monitoring color preview" />
+          </div>
+          <div class="swatches">
+            <div class="swatch" title="Primary: #F97316">
+              <div class="swatch-circle" style="background: #F97316; color: #000000;">P</div>
+              <span class="swatch-hex">#F97316</span>
+            </div>
+            <div class="swatch" title="Secondary: #FB923C">
+              <div class="swatch-circle" style="background: #FB923C; color: #000000;">S</div>
+              <span class="swatch-hex">#FB923C</span>
+            </div>
+            <div class="swatch" title="CTA: #DC2626">
+              <div class="swatch-circle" style="background: #DC2626; color: #FFFFFF;">C</div>
+              <span class="swatch-hex">#DC2626</span>
+            </div>
+            <div class="swatch" title="Background: #0F172A">
+              <div class="swatch-circle" style="background: #0F172A; color: #FFFFFF;">B</div>
+              <span class="swatch-hex">#0F172A</span>
+            </div>
+            <div class="swatch" title="Text: #F9FAFB">
+              <div class="swatch-circle" style="background: #F9FAFB; color: #000000;">T</div>
+              <span class="swatch-hex">#F9FAFB</span>
+            </div>
+            <div class="swatch" title="Border: #374151">
+              <div class="swatch-circle" style="background: #374151; color: #FFFFFF;">B</div>
+              <span class="swatch-hex">#374151</span>
+            </div></div>
+          <div class="contrast-info">
+            <div class="wcag-badge badge-aaa">WCAG AAA</div>
+            
+              <div class="contrast-row">
+                <span class="contrast-label">Body text on background</span>
+                <span class="contrast-specimen" style="background:#0F172A; color:#F9FAFB;" title="Foreground #F9FAFB on #0F172A">Aa</span>
+                <span class="contrast-ratio">17.1:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on primary</span>
+                <span class="contrast-specimen" style="background:#F97316; color:#000000;" title="Foreground #000000 on #F97316">Aa</span>
+                <span class="contrast-ratio">7.5:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on CTA</span>
+                <span class="contrast-specimen" style="background:#DC2626; color:#FFFFFF;" title="Foreground #FFFFFF on #DC2626">Aa</span>
+                <span class="contrast-ratio">4.8:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+          </div>
+          <div class="card-footer"><span class="palette-notes">High-Vis Dark Mode: Orange caution and red alerts.</span></div>
+        </div>
+
+        <div class="card" data-id="palette-preview-02" onclick="selectPalette(this)">
+          <div class="card-header">
+            <span class="badge">2</span>
+            <span class="card-header-title">SaaS Security Dashboard</span>
+            <span class="check-mark">&#10003;</span>
+          </div>
+          <div class="svg-container">
+            <img src="palette-preview-02.svg" alt="SaaS Security Dashboard color preview" />
+          </div>
+          <div class="swatches">
+            <div class="swatch" title="Primary: #1E293B">
+              <div class="swatch-circle" style="background: #1E293B; color: #FFFFFF;">P</div>
+              <span class="swatch-hex">#1E293B</span>
+            </div>
+            <div class="swatch" title="Secondary: #334155">
+              <div class="swatch-circle" style="background: #334155; color: #FFFFFF;">S</div>
+              <span class="swatch-hex">#334155</span>
+            </div>
+            <div class="swatch" title="CTA: #818CF8">
+              <div class="swatch-circle" style="background: #818CF8; color: #000000;">C</div>
+              <span class="swatch-hex">#818CF8</span>
+            </div>
+            <div class="swatch" title="Background: #0F172A">
+              <div class="swatch-circle" style="background: #0F172A; color: #FFFFFF;">B</div>
+              <span class="swatch-hex">#0F172A</span>
+            </div>
+            <div class="swatch" title="Text: #F1F5F9">
+              <div class="swatch-circle" style="background: #F1F5F9; color: #000000;">T</div>
+              <span class="swatch-hex">#F1F5F9</span>
+            </div>
+            <div class="swatch" title="Border: #FFFFFF">
+              <div class="swatch-circle" style="background: #FFFFFF; color: #000000;">B</div>
+              <span class="swatch-hex">#FFFFFF</span>
+            </div></div>
+          <div class="contrast-info">
+            <div class="wcag-badge badge-aaa">WCAG AAA</div>
+            
+              <div class="contrast-row">
+                <span class="contrast-label">Body text on background</span>
+                <span class="contrast-specimen" style="background:#0F172A; color:#F1F5F9;" title="Foreground #F1F5F9 on #0F172A">Aa</span>
+                <span class="contrast-ratio">16.3:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on primary</span>
+                <span class="contrast-specimen" style="background:#1E293B; color:#FFFFFF;" title="Foreground #FFFFFF on #1E293B">Aa</span>
+                <span class="contrast-ratio">14.6:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on CTA</span>
+                <span class="contrast-specimen" style="background:#818CF8; color:#000000;" title="Foreground #000000 on #818CF8">Aa</span>
+                <span class="contrast-ratio">7.0:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+          </div>
+          <div class="card-footer"><span class="palette-notes">Glassmorphism (Dark): Translucent security panels.</span></div>
+        </div>
+
+        <div class="card" data-id="palette-preview-03" onclick="selectPalette(this)">
+          <div class="card-header">
+            <span class="badge">3</span>
+            <span class="card-header-title">Fintech Dashboard</span>
+            <span class="check-mark">&#10003;</span>
+          </div>
+          <div class="svg-container">
+            <img src="palette-preview-03.svg" alt="Fintech Dashboard color preview" />
+          </div>
+          <div class="swatches">
+            <div class="swatch" title="Primary: #0F172A">
+              <div class="swatch-circle" style="background: #0F172A; color: #FFFFFF;">P</div>
+              <span class="swatch-hex">#0F172A</span>
+            </div>
+            <div class="swatch" title="Secondary: #1E293B">
+              <div class="swatch-circle" style="background: #1E293B; color: #FFFFFF;">S</div>
+              <span class="swatch-hex">#1E293B</span>
+            </div>
+            <div class="swatch" title="CTA: #22C55E">
+              <div class="swatch-circle" style="background: #22C55E; color: #000000;">C</div>
+              <span class="swatch-hex">#22C55E</span>
+            </div>
+            <div class="swatch" title="Background: #020617">
+              <div class="swatch-circle" style="background: #020617; color: #FFFFFF;">B</div>
+              <span class="swatch-hex">#020617</span>
+            </div>
+            <div class="swatch" title="Text: #F8FAFC">
+              <div class="swatch-circle" style="background: #F8FAFC; color: #000000;">T</div>
+              <span class="swatch-hex">#F8FAFC</span>
+            </div>
+            <div class="swatch" title="Border: #334155">
+              <div class="swatch-circle" style="background: #334155; color: #FFFFFF;">B</div>
+              <span class="swatch-hex">#334155</span>
+            </div></div>
+          <div class="contrast-info">
+            <div class="wcag-badge badge-aaa">WCAG AAA</div>
+            
+              <div class="contrast-row">
+                <span class="contrast-label">Body text on background</span>
+                <span class="contrast-specimen" style="background:#020617; color:#F8FAFC;" title="Foreground #F8FAFC on #020617">Aa</span>
+                <span class="contrast-ratio">19.3:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on primary</span>
+                <span class="contrast-specimen" style="background:#0F172A; color:#FFFFFF;" title="Foreground #FFFFFF on #0F172A">Aa</span>
+                <span class="contrast-ratio">17.9:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on CTA</span>
+                <span class="contrast-specimen" style="background:#22C55E; color:#000000;" title="Foreground #000000 on #22C55E">Aa</span>
+                <span class="contrast-ratio">9.2:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+          </div>
+          <div class="card-footer"><span class="palette-notes">High-end dark mode with liquidity-green indicators.</span></div>
+        </div>
+
+        <div class="card" data-id="palette-preview-04" onclick="selectPalette(this)">
+          <div class="card-header">
+            <span class="badge">4</span>
+            <span class="card-header-title">Data Analytics Dashboard</span>
+            <span class="check-mark">&#10003;</span>
+          </div>
+          <div class="svg-container">
+            <img src="palette-preview-04.svg" alt="Data Analytics Dashboard color preview" />
+          </div>
+          <div class="swatches">
+            <div class="swatch" title="Primary: #312E81">
+              <div class="swatch-circle" style="background: #312E81; color: #FFFFFF;">P</div>
+              <span class="swatch-hex">#312E81</span>
+            </div>
+            <div class="swatch" title="Secondary: #4338CA">
+              <div class="swatch-circle" style="background: #4338CA; color: #FFFFFF;">S</div>
+              <span class="swatch-hex">#4338CA</span>
+            </div>
+            <div class="swatch" title="CTA: #14B8A6">
+              <div class="swatch-circle" style="background: #14B8A6; color: #000000;">C</div>
+              <span class="swatch-hex">#14B8A6</span>
+            </div>
+            <div class="swatch" title="Background: #0F172A">
+              <div class="swatch-circle" style="background: #0F172A; color: #FFFFFF;">B</div>
+              <span class="swatch-hex">#0F172A</span>
+            </div>
+            <div class="swatch" title="Text: #94A3B8">
+              <div class="swatch-circle" style="background: #94A3B8; color: #000000;">T</div>
+              <span class="swatch-hex">#94A3B8</span>
+            </div>
+            <div class="swatch" title="Border: #1E293B">
+              <div class="swatch-circle" style="background: #1E293B; color: #FFFFFF;">B</div>
+              <span class="swatch-hex">#1E293B</span>
+            </div></div>
+          <div class="contrast-info">
+            <div class="wcag-badge badge-aa">WCAG AA</div>
+            
+              <div class="contrast-row">
+                <span class="contrast-label">Body text on background</span>
+                <span class="contrast-specimen" style="background:#0F172A; color:#94A3B8;" title="Foreground #94A3B8 on #0F172A">Aa</span>
+                <span class="contrast-ratio">7.0:1</span>
+                <span class="contrast-badge pass">AA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on primary</span>
+                <span class="contrast-specimen" style="background:#312E81; color:#FFFFFF;" title="Foreground #FFFFFF on #312E81">Aa</span>
+                <span class="contrast-ratio">11.4:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on CTA</span>
+                <span class="contrast-specimen" style="background:#14B8A6; color:#000000;" title="Foreground #000000 on #14B8A6">Aa</span>
+                <span class="contrast-ratio">8.4:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+          </div>
+          <div class="card-footer"><span class="palette-notes">Professional Dark Mode: Tech indigo with data-teal.</span></div>
+        </div>
+
+        <div class="card" data-id="palette-preview-05" onclick="selectPalette(this)">
+          <div class="card-header">
+            <span class="badge">5</span>
+            <span class="card-header-title">Analytics Platform</span>
+            <span class="check-mark">&#10003;</span>
+          </div>
+          <div class="svg-container">
+            <img src="palette-preview-05.svg" alt="Analytics Platform color preview" />
+          </div>
+          <div class="swatches">
+            <div class="swatch" title="Primary: #1E40AF">
+              <div class="swatch-circle" style="background: #1E40AF; color: #FFFFFF;">P</div>
+              <span class="swatch-hex">#1E40AF</span>
+            </div>
+            <div class="swatch" title="Secondary: #3B82F6">
+              <div class="swatch-circle" style="background: #3B82F6; color: #000000;">S</div>
+              <span class="swatch-hex">#3B82F6</span>
+            </div>
+            <div class="swatch" title="CTA: #F59E0B">
+              <div class="swatch-circle" style="background: #F59E0B; color: #000000;">C</div>
+              <span class="swatch-hex">#F59E0B</span>
+            </div>
+            <div class="swatch" title="Background: #F8FAFC">
+              <div class="swatch-circle" style="background: #F8FAFC; color: #000000;">B</div>
+              <span class="swatch-hex">#F8FAFC</span>
+            </div>
+            <div class="swatch" title="Text: #1E3A8A">
+              <div class="swatch-circle" style="background: #1E3A8A; color: #FFFFFF;">T</div>
+              <span class="swatch-hex">#1E3A8A</span>
+            </div>
+            <div class="swatch" title="Border: #DBEAFE">
+              <div class="swatch-circle" style="background: #DBEAFE; color: #000000;">B</div>
+              <span class="swatch-hex">#DBEAFE</span>
+            </div></div>
+          <div class="contrast-info">
+            <div class="wcag-badge badge-aaa">WCAG AAA</div>
+            
+              <div class="contrast-row">
+                <span class="contrast-label">Body text on background</span>
+                <span class="contrast-specimen" style="background:#F8FAFC; color:#1E3A8A;" title="Foreground #1E3A8A on #F8FAFC">Aa</span>
+                <span class="contrast-ratio">9.9:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on primary</span>
+                <span class="contrast-specimen" style="background:#1E40AF; color:#FFFFFF;" title="Foreground #FFFFFF on #1E40AF">Aa</span>
+                <span class="contrast-ratio">8.7:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+              <div class="contrast-row">
+                <span class="contrast-label">Label on CTA</span>
+                <span class="contrast-specimen" style="background:#F59E0B; color:#000000;" title="Foreground #000000 on #F59E0B">Aa</span>
+                <span class="contrast-ratio">9.8:1</span>
+                <span class="contrast-badge pass">AAA</span>
+              </div>
+          </div>
+          <div class="card-footer"><span class="palette-notes">Data-centric blue with amber focus points.</span></div>
+        </div>
+  </div>
+  <div class="toolbar">
+    <button id="copyBtn" disabled onclick="copySelection()">Copy selected palette ID</button>
+    <span class="selection-info" id="selInfo">No selection</span>
+    <span class="copied" id="copiedMsg">Copied!</span>
+  </div>
+  <script>
+    let selectedCard = null;
+    let selectedId = null;
+    function selectPalette(card) {
+      if (selectedCard) selectedCard.classList.remove('selected');
+      if (selectedCard === card) { selectedCard = null; selectedId = null; update(); return; }
+      card.classList.add('selected');
+      selectedCard = card;
+      selectedId = card.dataset.id;
+      update();
+    }
+    function update() {
+      document.getElementById('copyBtn').disabled = !selectedId;
+      document.getElementById('selInfo').textContent = selectedId ? 'Selected: ' + selectedId : 'No selection';
+    }
+    function copySelection() {
+      navigator.clipboard.writeText(selectedId).then(() => {
+        const msg = document.getElementById('copiedMsg');
+        msg.style.display = 'inline';
+        setTimeout(() => msg.style.display = 'none', 2000);
+      });
+    }
+  </script>
+</body>
+</html>

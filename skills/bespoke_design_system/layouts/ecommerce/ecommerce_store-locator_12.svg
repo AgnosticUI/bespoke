@@ -1,0 +1,65 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="1020" y="15" width="140" height="30" rx="10" fill="#9CA3AF"/>
+
+  <!-- Search Bar -->
+  <rect x="40" y="76" width="1120" height="48" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="60" y="90" width="300" height="20" rx="4" fill="#EEEEEE"/>
+  <rect x="380" y="86" width="100" height="28" rx="6" fill="#9CA3AF"/>
+
+  <!-- Left Store List -->
+  <rect x="40" y="144" width="360" height="616" rx="8" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Store Card 1 -->
+  <rect x="56" y="160" width="328" height="100" rx="6" fill="#EEEEEE"/>
+  <rect x="72" y="172" width="140" height="16" rx="3" fill="#9CA3AF"/>
+  <rect x="72" y="196" width="280" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="214" width="200" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="234" width="80" height="12" rx="3" fill="#9CA3AF"/>
+
+  <!-- Store Card 2 -->
+  <rect x="56" y="276" width="328" height="100" rx="6" fill="white" stroke="#CCCCCC"/>
+  <rect x="72" y="288" width="160" height="16" rx="3" fill="#9CA3AF"/>
+  <rect x="72" y="312" width="260" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="330" width="220" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="350" width="80" height="12" rx="3" fill="#9CA3AF"/>
+
+  <!-- Store Card 3 -->
+  <rect x="56" y="392" width="328" height="100" rx="6" fill="white" stroke="#CCCCCC"/>
+  <rect x="72" y="404" width="120" height="16" rx="3" fill="#9CA3AF"/>
+  <rect x="72" y="428" width="290" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="446" width="240" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="466" width="80" height="12" rx="3" fill="#9CA3AF"/>
+
+  <!-- Store Card 4 -->
+  <rect x="56" y="508" width="328" height="100" rx="6" fill="white" stroke="#CCCCCC"/>
+  <rect x="72" y="520" width="180" height="16" rx="3" fill="#9CA3AF"/>
+  <rect x="72" y="544" width="240" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="562" width="200" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="582" width="80" height="12" rx="3" fill="#9CA3AF"/>
+
+  <!-- Store Card 5 -->
+  <rect x="56" y="624" width="328" height="100" rx="6" fill="white" stroke="#CCCCCC"/>
+  <rect x="72" y="636" width="150" height="16" rx="3" fill="#9CA3AF"/>
+  <rect x="72" y="660" width="270" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="678" width="230" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="72" y="698" width="80" height="12" rx="3" fill="#9CA3AF"/>
+
+  <!-- Map Area -->
+  <rect x="420" y="144" width="740" height="480" rx="8" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <circle cx="600" cy="300" r="8" fill="#9CA3AF"/>
+  <circle cx="750" cy="380" r="8" fill="#9CA3AF"/>
+  <circle cx="900" cy="260" r="8" fill="#9CA3AF"/>
+  <circle cx="1000" cy="450" r="8" fill="#9CA3AF"/>
+
+  <!-- Store Detail Bottom -->
+  <rect x="420" y="640" width="740" height="120" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="440" y="656" width="180" height="18" rx="4" fill="#9CA3AF"/>
+  <rect x="440" y="684" width="300" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="440" y="704" width="200" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="440" y="724" width="260" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="980" y="670" width="160" height="36" rx="6" fill="#9CA3AF"/>
+  <rect x="980" y="716" width="160" height="36" rx="6" fill="white" stroke="#CCCCCC"/>
+</svg>

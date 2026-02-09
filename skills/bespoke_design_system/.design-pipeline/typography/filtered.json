@@ -1,0 +1,227 @@
+[
+  {
+    "id": "typo-001",
+    "pairing_name": "Classic Elegant",
+    "heading_font": "Playfair Display",
+    "body_font": "Inter",
+    "category": "Serif + Sans",
+    "mood": [
+      "elegant"
+    ],
+    "best_for": "luxury",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-002",
+    "pairing_name": "Wellness Calm",
+    "heading_font": "Lora",
+    "body_font": "Raleway",
+    "category": "Serif + Sans",
+    "mood": [
+      "calm"
+    ],
+    "best_for": "wellness",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Lora:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-003",
+    "pairing_name": "Corporate Trust",
+    "heading_font": "Lexend",
+    "body_font": "Source Sans 3",
+    "category": "Sans + Sans",
+    "mood": [
+      "corporate"
+    ],
+    "best_for": "trustworthy",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Lexend:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-004",
+    "pairing_name": "Brutalist Raw",
+    "heading_font": "Space Mono",
+    "body_font": "Space Mono",
+    "category": "Mono + Mono",
+    "mood": [
+      "brutalist"
+    ],
+    "best_for": "raw",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-005",
+    "pairing_name": "Soft Rounded",
+    "heading_font": "Varela Round",
+    "body_font": "Nunito Sans",
+    "category": "Sans + Sans",
+    "mood": [
+      "soft"
+    ],
+    "best_for": "rounded",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&family=Varela+Round:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-006",
+    "pairing_name": "Medical Clean",
+    "heading_font": "Figtree",
+    "body_font": "Noto Sans",
+    "category": "Sans + Sans",
+    "mood": [
+      "medical"
+    ],
+    "best_for": "clean",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Figtree:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-007",
+    "pairing_name": "Accessibility First",
+    "heading_font": "Atkinson Hyperlegible",
+    "body_font": "Atkinson Hyperlegible",
+    "category": "Sans + Sans",
+    "mood": [
+      "accessible"
+    ],
+    "best_for": "readable",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-008",
+    "pairing_name": "Sports/Fitness",
+    "heading_font": "Barlow Condensed",
+    "body_font": "Barlow",
+    "category": "Sans + Sans",
+    "mood": [
+      "sports"
+    ],
+    "best_for": "fitness",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-009",
+    "pairing_name": "Tech/HUD Mono",
+    "heading_font": "Share Tech Mono",
+    "body_font": "Fira Code",
+    "category": "Mono + Mono",
+    "mood": [
+      "tech"
+    ],
+    "best_for": "futuristic",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Share+Tech+Mono:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-010",
+    "pairing_name": "Spatial Clear",
+    "heading_font": "Inter",
+    "body_font": "Inter",
+    "category": "Sans + Sans",
+    "mood": [
+      "spatial"
+    ],
+    "best_for": "legible",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-011",
+    "pairing_name": "Bold Condensed",
+    "heading_font": "Roboto Condensed",
+    "body_font": "Cabin",
+    "category": "Sans + Sans",
+    "mood": [
+      "bold"
+    ],
+    "best_for": "compact",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cabin:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-012",
+    "pairing_name": "Light Wellness",
+    "heading_font": "Raleway",
+    "body_font": "Open Sans",
+    "category": "Sans + Sans",
+    "mood": [
+      "light"
+    ],
+    "best_for": "airy",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-013",
+    "pairing_name": "Rounded Friendly",
+    "heading_font": "Nunito",
+    "body_font": "PT Sans",
+    "category": "Sans + Sans",
+    "mood": [
+      "rounded"
+    ],
+    "best_for": "friendly",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=PT+Sans:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-014",
+    "pairing_name": "Efficient Modern",
+    "heading_font": "Barlow Condensed",
+    "body_font": "Work Sans",
+    "category": "Sans + Sans",
+    "mood": [
+      "efficient"
+    ],
+    "best_for": "space-saving",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Barlow+Condensed:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-015",
+    "pairing_name": "Rounded Serif Invert",
+    "heading_font": "Varela Round",
+    "body_font": "Lora",
+    "category": "Sans + Serif",
+    "mood": [
+      "friendly"
+    ],
+    "best_for": "elegant",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700&family=Varela+Round:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  }
+]

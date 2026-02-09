@@ -1,0 +1,29 @@
+{
+  "name": "bespoke-design-system",
+  "version": "1.0.0",
+  "description": "Bespoke Design Pipeline - Transform curated CSV databases into comprehensive design token systems",
+  "type": "module",
+  "scripts": {
+    "match-niche": "tsx scripts/match-niche.ts",
+    "filter-typography": "tsx scripts/filter-typography.ts",
+    "generate-layouts": "tsx scripts/generate-layouts.ts",
+    "generate-tokens": "tsx scripts/generate-tokens.ts",
+    "test:csv": "tsx scripts/utils/csv-loader.ts",
+    "test:colors": "tsx scripts/utils/color-conversions.ts"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

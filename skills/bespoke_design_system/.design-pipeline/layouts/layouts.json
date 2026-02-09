@@ -1,0 +1,66 @@
+[
+  {
+    "id": "option-01",
+    "filename": "medical_appointment-booking_02.svg",
+    "niche": "medical",
+    "variant": "appointment-booking",
+    "number": "02",
+    "svgFile": "option-01.svg"
+  },
+  {
+    "id": "option-02",
+    "filename": "medical_doctor-profiles_03.svg",
+    "niche": "medical",
+    "variant": "doctor-profiles",
+    "number": "03",
+    "svgFile": "option-02.svg"
+  },
+  {
+    "id": "option-03",
+    "filename": "medical_health-blog_05.svg",
+    "niche": "medical",
+    "variant": "health-blog",
+    "number": "05",
+    "svgFile": "option-03.svg"
+  },
+  {
+    "id": "option-04",
+    "filename": "medical_hero-services-cta_01.svg",
+    "niche": "medical",
+    "variant": "hero-services-cta",
+    "number": "01",
+    "svgFile": "option-04.svg"
+  },
+  {
+    "id": "option-05",
+    "filename": "medical_insurance-faq_07.svg",
+    "niche": "medical",
+    "variant": "insurance-faq",
+    "number": "07",
+    "svgFile": "option-05.svg"
+  },
+  {
+    "id": "option-06",
+    "filename": "medical_location-map_06.svg",
+    "niche": "medical",
+    "variant": "location-map",
+    "number": "06",
+    "svgFile": "option-06.svg"
+  },
+  {
+    "id": "option-07",
+    "filename": "medical_patient-portal_04.svg",
+    "niche": "medical",
+    "variant": "patient-portal",
+    "number": "04",
+    "svgFile": "option-07.svg"
+  },
+  {
+    "id": "option-08",
+    "filename": "medical_telehealth-video_08.svg",
+    "niche": "medical",
+    "variant": "telehealth-video",
+    "number": "08",
+    "svgFile": "option-08.svg"
+  }
+]

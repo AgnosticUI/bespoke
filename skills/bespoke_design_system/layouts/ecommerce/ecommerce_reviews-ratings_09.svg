@@ -1,0 +1,69 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="400" y="18" width="300" height="24" rx="12" fill="#EEEEEE"/>
+  <rect x="1020" y="15" width="140" height="30" rx="10" fill="#9CA3AF"/>
+
+  <!-- Product Summary Bar -->
+  <rect x="40" y="80" width="1120" height="80" rx="8" fill="#EEEEEE"/>
+  <rect x="60" y="90" width="60" height="60" rx="6" fill="white" stroke="#CCCCCC"/>
+  <rect x="140" y="96" width="200" height="18" rx="4" fill="#9CA3AF"/>
+  <rect x="140" y="122" width="140" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="140" y="140" width="100" height="14" rx="3" fill="#9CA3AF"/>
+
+  <!-- Rating Overview -->
+  <rect x="40" y="184" width="340" height="280" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="70" y="204" width="120" height="24" rx="4" fill="#9CA3AF"/>
+  <rect x="70" y="248" width="60" height="16" rx="3" fill="#9CA3AF"/>
+  <!-- Star rating bars -->
+  <rect x="70" y="280" width="40" height="14" rx="3" fill="#CCCCCC"/>
+  <rect x="120" y="280" width="200" height="14" rx="7" fill="#EEEEEE"/>
+  <rect x="120" y="280" width="160" height="14" rx="7" fill="#9CA3AF"/>
+  <rect x="70" y="304" width="40" height="14" rx="3" fill="#CCCCCC"/>
+  <rect x="120" y="304" width="200" height="14" rx="7" fill="#EEEEEE"/>
+  <rect x="120" y="304" width="120" height="14" rx="7" fill="#9CA3AF"/>
+  <rect x="70" y="328" width="40" height="14" rx="3" fill="#CCCCCC"/>
+  <rect x="120" y="328" width="200" height="14" rx="7" fill="#EEEEEE"/>
+  <rect x="120" y="328" width="60" height="14" rx="7" fill="#9CA3AF"/>
+  <rect x="70" y="352" width="40" height="14" rx="3" fill="#CCCCCC"/>
+  <rect x="120" y="352" width="200" height="14" rx="7" fill="#EEEEEE"/>
+  <rect x="120" y="352" width="30" height="14" rx="7" fill="#9CA3AF"/>
+  <rect x="70" y="376" width="40" height="14" rx="3" fill="#CCCCCC"/>
+  <rect x="120" y="376" width="200" height="14" rx="7" fill="#EEEEEE"/>
+  <rect x="120" y="376" width="10" height="14" rx="7" fill="#9CA3AF"/>
+  <rect x="70" y="416" width="260" height="36" rx="6" fill="#9CA3AF"/>
+
+  <!-- Review Cards -->
+  <rect x="400" y="184" width="760" height="140" rx="8" fill="white" stroke="#CCCCCC"/>
+  <circle cx="436" cy="220" r="24" fill="#EEEEEE"/>
+  <rect x="472" y="204" width="120" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="472" y="224" width="80" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="248" width="640" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="268" width="600" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="288" width="500" height="12" rx="3" fill="#CCCCCC"/>
+
+  <rect x="400" y="340" width="760" height="140" rx="8" fill="white" stroke="#CCCCCC"/>
+  <circle cx="436" cy="376" r="24" fill="#EEEEEE"/>
+  <rect x="472" y="360" width="100" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="472" y="380" width="70" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="404" width="620" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="424" width="580" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="444" width="480" height="12" rx="3" fill="#CCCCCC"/>
+
+  <rect x="400" y="496" width="760" height="140" rx="8" fill="white" stroke="#CCCCCC"/>
+  <circle cx="436" cy="532" r="24" fill="#EEEEEE"/>
+  <rect x="472" y="516" width="140" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="472" y="536" width="90" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="560" width="660" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="580" width="540" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="472" y="600" width="440" height="12" rx="3" fill="#CCCCCC"/>
+
+  <!-- Pagination -->
+  <rect x="540" y="660" width="30" height="30" rx="4" fill="#9CA3AF"/>
+  <rect x="580" y="660" width="30" height="30" rx="4" fill="white" stroke="#CCCCCC"/>
+  <rect x="620" y="660" width="30" height="30" rx="4" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Footer -->
+  <rect x="0" y="740" width="1200" height="60" fill="#DDDDDD"/>
+</svg>

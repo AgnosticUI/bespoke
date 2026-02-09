@@ -1,0 +1,62 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="1020" y="15" width="140" height="30" rx="8" fill="#9CA3AF"/>
+
+  <!-- Page Heading -->
+  <rect x="200" y="90" width="300" height="28" rx="8" fill="#9CA3AF"/>
+
+  <!-- Tag Pills Row -->
+  <rect x="200" y="140" width="80" height="32" rx="16" fill="#9CA3AF"/>
+  <rect x="296" y="140" width="100" height="32" rx="16" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="412" y="140" width="70" height="32" rx="16" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="498" y="140" width="120" height="32" rx="16" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="634" y="140" width="90" height="32" rx="16" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="740" y="140" width="110" height="32" rx="16" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="866" y="140" width="80" height="32" rx="16" fill="#EEEEEE" stroke="#CCCCCC"/>
+
+  <!-- Article Grid Row 1 -->
+  <rect x="200" y="200" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="200" y="200" width="260" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="220" y="356" width="200" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="220" y="386" width="220" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="220" y="408" width="180" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="220" y="436" width="80" height="10" rx="8" fill="#CCCCCC"/>
+
+  <rect x="480" y="200" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="480" y="200" width="260" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="500" y="356" width="200" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="500" y="386" width="220" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="500" y="408" width="180" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="500" y="436" width="80" height="10" rx="8" fill="#CCCCCC"/>
+
+  <rect x="760" y="200" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="760" y="200" width="260" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="780" y="356" width="200" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="780" y="386" width="220" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="780" y="408" width="180" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="780" y="436" width="80" height="10" rx="8" fill="#CCCCCC"/>
+
+  <!-- Article Grid Row 2 -->
+  <rect x="200" y="490" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="200" y="490" width="260" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="220" y="646" width="200" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="220" y="676" width="220" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="220" y="698" width="180" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="220" y="726" width="80" height="10" rx="8" fill="#CCCCCC"/>
+
+  <rect x="480" y="490" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="480" y="490" width="260" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="500" y="646" width="200" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="500" y="676" width="220" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="500" y="698" width="180" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="500" y="726" width="80" height="10" rx="8" fill="#CCCCCC"/>
+
+  <rect x="760" y="490" width="260" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="760" y="490" width="260" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="780" y="646" width="200" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="780" y="676" width="220" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="780" y="698" width="180" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="780" y="726" width="80" height="10" rx="8" fill="#CCCCCC"/>
+</svg>

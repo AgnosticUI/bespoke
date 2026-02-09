@@ -1,0 +1,74 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="50" fill="#DDDDDD"/>
+  <rect x="20" y="14" width="140" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="1060" y="12" width="120" height="26" rx="0" fill="#9CA3AF"/>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="50" width="180" height="750" fill="#EEEEEE"/>
+  <rect x="12" y="66" width="156" height="30" rx="0" fill="white"/>
+  <rect x="12" y="106" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="140" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="174" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="208" width="156" height="26" rx="0" fill="white"/>
+  <rect x="12" y="242" width="156" height="26" rx="0" fill="#9CA3AF"/>
+
+  <!-- Header -->
+  <rect x="200" y="62" width="260" height="24" rx="0" fill="#9CA3AF"/>
+  <rect x="900" y="60" width="140" height="28" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="1060" y="60" width="120" height="28" rx="0" fill="#9CA3AF"/>
+
+  <!-- Task List (left pane) -->
+  <rect x="200" y="100" width="280" height="680" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="200" y="100" width="280" height="30" rx="0" fill="#EEEEEE"/>
+  <rect x="212" y="108" width="100" height="14" rx="0" fill="#CCCCCC"/>
+
+  <rect x="212" y="142" width="200" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="212" y="178" width="180" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="214" width="220" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="250" width="160" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="286" width="200" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="212" y="322" width="180" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="358" width="240" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="394" width="160" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="430" width="200" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="212" y="466" width="220" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="502" width="180" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="538" width="200" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="212" y="574" width="160" height="14" rx="0" fill="#CCCCCC"/>
+
+  <!-- Gantt Chart (right pane) -->
+  <rect x="480" y="100" width="700" height="680" rx="0" fill="white" stroke="#CCCCCC"/>
+  <!-- Time headers -->
+  <rect x="480" y="100" width="700" height="30" rx="0" fill="#EEEEEE"/>
+  <rect x="500" y="108" width="40" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="108" width="40" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="700" y="108" width="40" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="800" y="108" width="40" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="900" y="108" width="40" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1000" y="108" width="40" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1100" y="108" width="40" height="14" rx="0" fill="#CCCCCC"/>
+
+  <!-- Gantt Bars -->
+  <rect x="500" y="138" width="300" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="520" y="174" width="200" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="600" y="210" width="250" height="22" rx="0" fill="#CCCCCC"/>
+  <rect x="700" y="246" width="160" height="22" rx="0" fill="#CCCCCC"/>
+  <rect x="750" y="282" width="300" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="800" y="318" width="200" height="22" rx="0" fill="#CCCCCC"/>
+  <rect x="850" y="354" width="180" height="22" rx="0" fill="#CCCCCC"/>
+  <rect x="500" y="390" width="400" height="22" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="426" width="350" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="700" y="462" width="200" height="22" rx="0" fill="#CCCCCC"/>
+  <rect x="750" y="498" width="280" height="22" rx="0" fill="#CCCCCC"/>
+  <rect x="800" y="534" width="200" height="22" rx="0" fill="#CCCCCC"/>
+  <rect x="900" y="570" width="180" height="22" rx="0" fill="#CCCCCC"/>
+
+  <!-- Grid lines (vertical) -->
+  <rect x="580" y="130" width="1" height="640" fill="#EEEEEE"/>
+  <rect x="680" y="130" width="1" height="640" fill="#EEEEEE"/>
+  <rect x="780" y="130" width="1" height="640" fill="#EEEEEE"/>
+  <rect x="880" y="130" width="1" height="640" fill="#EEEEEE"/>
+  <rect x="980" y="130" width="1" height="640" fill="#EEEEEE"/>
+  <rect x="1080" y="130" width="1" height="640" fill="#EEEEEE"/>
+</svg>

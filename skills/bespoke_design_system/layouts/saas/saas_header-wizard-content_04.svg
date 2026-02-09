@@ -1,0 +1,39 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Header -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="20" y="14" width="120" height="28" rx="4" fill="#9CA3AF"/>
+  <circle cx="1160" cy="28" r="18" fill="#9CA3AF"/>
+
+  <!-- Step Wizard Bar -->
+  <rect x="0" y="56" width="1200" height="60" fill="#EEEEEE"/>
+  <circle cx="200" cy="86" r="16" fill="#9CA3AF"/>
+  <rect x="216" y="82" width="160" height="8" rx="4" fill="#CCCCCC"/>
+  <circle cx="420" cy="86" r="16" fill="#9CA3AF"/>
+  <rect x="436" y="82" width="160" height="8" rx="4" fill="#CCCCCC"/>
+  <circle cx="640" cy="86" r="16" fill="#9CA3AF"/>
+  <rect x="656" y="82" width="160" height="8" rx="4" fill="#CCCCCC"/>
+  <circle cx="860" cy="86" r="16" fill="#EEEEEE" stroke="#CCCCCC" stroke-width="2"/>
+  <rect x="876" y="82" width="160" height="8" rx="4" fill="#CCCCCC"/>
+  <circle cx="1060" cy="86" r="16" fill="#EEEEEE" stroke="#CCCCCC" stroke-width="2"/>
+
+  <!-- Content Area -->
+  <rect x="200" y="156" width="800" height="36" rx="4" fill="#9CA3AF"/>
+  <rect x="200" y="210" width="600" height="14" rx="4" fill="#CCCCCC"/>
+
+  <!-- Form Content -->
+  <rect x="200" y="260" width="800" height="420" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="240" y="290" width="160" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="240" y="314" width="340" height="40" rx="6" fill="white" stroke="#CCCCCC"/>
+  <rect x="600" y="290" width="160" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="600" y="314" width="360" height="40" rx="6" fill="white" stroke="#CCCCCC"/>
+
+  <rect x="240" y="384" width="120" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="240" y="408" width="720" height="40" rx="6" fill="white" stroke="#CCCCCC"/>
+
+  <rect x="240" y="478" width="160" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="240" y="502" width="720" height="100" rx="6" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Action Buttons -->
+  <rect x="200" y="710" width="120" height="40" rx="6" fill="white" stroke="#CCCCCC"/>
+  <rect x="880" y="710" width="120" height="40" rx="6" fill="#9CA3AF"/>
+</svg>

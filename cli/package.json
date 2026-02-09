@@ -1,0 +1,36 @@
+{
+  "name": "bespokeui-cli",
+  "version": "1.0.0",
+  "description": "Install the Bespoke Design System skill into AI coding assistants",
+  "type": "module",
+  "bin": {
+    "bespokeui": "./dist/index.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx build.ts",
+    "start": "node dist/index.cjs",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "csv-parse": "^6.1.0",
+    "handlebars": "^4.7.8",
+    "ora": "^8.0.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/prompts": "^2.4.9",
+    "esbuild": "^0.21.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

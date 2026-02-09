@@ -1,0 +1,31 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="800" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="900" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+
+  <!-- Hero Image -->
+  <rect x="0" y="60" width="1200" height="240" fill="#EEEEEE"/>
+
+  <!-- Article Title -->
+  <rect x="200" y="340" width="800" height="40" rx="8" fill="#9CA3AF"/>
+  <rect x="400" y="396" width="120" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="540" y="396" width="100" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="660" y="396" width="140" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Article Body -->
+  <rect x="200" y="440" width="800" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="200" y="468" width="780" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="200" y="496" width="800" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="200" y="524" width="760" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="200" y="552" width="800" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Subheading -->
+  <rect x="200" y="596" width="400" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="200" y="636" width="800" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="200" y="664" width="780" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="200" y="692" width="800" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="200" y="720" width="740" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="200" y="748" width="780" height="14" rx="8" fill="#CCCCCC"/>
+</svg>

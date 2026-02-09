@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template Comparison — All 3 Variants</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: #f0f2f5; color: #1e293b; padding: 1.5rem; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+  .subtitle { color: #64748b; font-size: 0.85rem; margin-bottom: 1.25rem; }
+  table { border-collapse: collapse; width: 100%; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  thead th { background: #f8fafc; padding: 10px 14px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #475569; border-bottom: 2px solid #e2e8f0; text-align: center; }
+  thead th:first-child { text-align: left; }
+  td { padding: 12px; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+  .palette-info { width: 160px; min-width: 140px; }
+  .pal-name { font-weight: 600; font-size: 0.82rem; margin-bottom: 6px; }
+  .swatches { display: flex; gap: 3px; flex-wrap: wrap; }
+  .sw { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50%; font-size: 0.55rem; font-weight: 700; border: 1px solid #d1d5db; }
+  .svg-cell { text-align: center; }
+  .svg-cell img { width: 100%; max-width: 320px; height: auto; border-radius: 6px; border: 1px solid #e2e8f0; }
+  tr:last-child td { border-bottom: none; }
+</style>
+</head>
+<body>
+  <h1>Template Comparison</h1>
+  <p class="subtitle">Each palette rendered in all 3 template variants: Dashboard, Storefront, Content</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Palette</th>
+        <th>Dashboard</th>
+        <th>Storefront</th>
+        <th>Content</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    <tr>
+      <td class="palette-info">
+        <div class="pal-name">Infrastructure Monitoring</div>
+        <div class="swatches"><span class="sw" style="background:#F97316;color:#000000" title="P: #F97316">P</span><span class="sw" style="background:#FB923C;color:#000000" title="S: #FB923C">S</span><span class="sw" style="background:#DC2626;color:#FFFFFF" title="C: #DC2626">C</span><span class="sw" style="background:#0F172A;color:#FFFFFF" title="Bg: #0F172A">Bg</span><span class="sw" style="background:#F9FAFB;color:#000000" title="T: #F9FAFB">T</span><span class="sw" style="background:#374151;color:#FFFFFF" title="Br: #374151">Br</span></div>
+      </td>
+      <td class="svg-cell"><img src="pal-01-dashboard.svg" alt="dashboard" /></td>
+<td class="svg-cell"><img src="pal-01-ecommerce.svg" alt="ecommerce" /></td>
+<td class="svg-cell"><img src="pal-01-medical.svg" alt="medical" /></td>
+    </tr>
+
+    <tr>
+      <td class="palette-info">
+        <div class="pal-name">SaaS Security Dashboard</div>
+        <div class="swatches"><span class="sw" style="background:#1E293B;color:#FFFFFF" title="P: #1E293B">P</span><span class="sw" style="background:#334155;color:#FFFFFF" title="S: #334155">S</span><span class="sw" style="background:#818CF8;color:#000000" title="C: #818CF8">C</span><span class="sw" style="background:#0F172A;color:#FFFFFF" title="Bg: #0F172A">Bg</span><span class="sw" style="background:#F1F5F9;color:#000000" title="T: #F1F5F9">T</span><span class="sw" style="background:#FFFFFF;color:#000000" title="Br: #FFFFFF">Br</span></div>
+      </td>
+      <td class="svg-cell"><img src="pal-02-dashboard.svg" alt="dashboard" /></td>
+<td class="svg-cell"><img src="pal-02-ecommerce.svg" alt="ecommerce" /></td>
+<td class="svg-cell"><img src="pal-02-medical.svg" alt="medical" /></td>
+    </tr>
+
+    <tr>
+      <td class="palette-info">
+        <div class="pal-name">Fintech Dashboard</div>
+        <div class="swatches"><span class="sw" style="background:#0F172A;color:#FFFFFF" title="P: #0F172A">P</span><span class="sw" style="background:#1E293B;color:#FFFFFF" title="S: #1E293B">S</span><span class="sw" style="background:#22C55E;color:#000000" title="C: #22C55E">C</span><span class="sw" style="background:#020617;color:#FFFFFF" title="Bg: #020617">Bg</span><span class="sw" style="background:#F8FAFC;color:#000000" title="T: #F8FAFC">T</span><span class="sw" style="background:#334155;color:#FFFFFF" title="Br: #334155">Br</span></div>
+      </td>
+      <td class="svg-cell"><img src="pal-03-dashboard.svg" alt="dashboard" /></td>
+<td class="svg-cell"><img src="pal-03-ecommerce.svg" alt="ecommerce" /></td>
+<td class="svg-cell"><img src="pal-03-medical.svg" alt="medical" /></td>
+    </tr>
+
+    <tr>
+      <td class="palette-info">
+        <div class="pal-name">Data Analytics Dashboard</div>
+        <div class="swatches"><span class="sw" style="background:#312E81;color:#FFFFFF" title="P: #312E81">P</span><span class="sw" style="background:#4338CA;color:#FFFFFF" title="S: #4338CA">S</span><span class="sw" style="background:#14B8A6;color:#000000" title="C: #14B8A6">C</span><span class="sw" style="background:#0F172A;color:#FFFFFF" title="Bg: #0F172A">Bg</span><span class="sw" style="background:#94A3B8;color:#000000" title="T: #94A3B8">T</span><span class="sw" style="background:#1E293B;color:#FFFFFF" title="Br: #1E293B">Br</span></div>
+      </td>
+      <td class="svg-cell"><img src="pal-04-dashboard.svg" alt="dashboard" /></td>
+<td class="svg-cell"><img src="pal-04-ecommerce.svg" alt="ecommerce" /></td>
+<td class="svg-cell"><img src="pal-04-medical.svg" alt="medical" /></td>
+    </tr>
+
+    <tr>
+      <td class="palette-info">
+        <div class="pal-name">Analytics Platform</div>
+        <div class="swatches"><span class="sw" style="background:#1E40AF;color:#FFFFFF" title="P: #1E40AF">P</span><span class="sw" style="background:#3B82F6;color:#000000" title="S: #3B82F6">S</span><span class="sw" style="background:#F59E0B;color:#000000" title="C: #F59E0B">C</span><span class="sw" style="background:#F8FAFC;color:#000000" title="Bg: #F8FAFC">Bg</span><span class="sw" style="background:#1E3A8A;color:#FFFFFF" title="T: #1E3A8A">T</span><span class="sw" style="background:#DBEAFE;color:#000000" title="Br: #DBEAFE">Br</span></div>
+      </td>
+      <td class="svg-cell"><img src="pal-05-dashboard.svg" alt="dashboard" /></td>
+<td class="svg-cell"><img src="pal-05-ecommerce.svg" alt="ecommerce" /></td>
+<td class="svg-cell"><img src="pal-05-medical.svg" alt="medical" /></td>
+    </tr>
+    </tbody>
+  </table>
+</body>
+</html>

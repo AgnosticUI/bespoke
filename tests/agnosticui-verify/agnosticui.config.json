@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agnosticui.com/schema.json",
+  "version": "2.0.0-alpha",
+  "framework": "vue",
+  "paths": {
+    "reference": "./agnosticui",
+    "components": "./src/components/ag"
+  },
+  "components": {
+    "Button": {
+      "added": "2026-02-07T00:14:21.297Z",
+      "version": "2.0.0-alpha",
+      "framework": "vue",
+      "files": [
+        "/Users/roblevin/Desktop/bespoke/tests/agnosticui-verify/src/components/ag/Button/core",
+        "/Users/roblevin/Desktop/bespoke/tests/agnosticui-verify/src/components/ag/Button/vue"
+      ]
+    }
+  },
+  "ai": {
+    "includeReference": true,
+    "includeContext": true,
+    "contextPath": "./agnosticui/docs"
+  },
+  "git": {
+    "commitReference": true
+  },
+  "tarball": {
+    "source": "/Users/roblevin/Desktop/bespoke/tests/agnosticui-verify/.tmp-ag-download/agnosticui-core-2.0.0-alpha.12.tgz",
+    "version": "2.0.0-alpha",
+    "installed": "2026-02-07T00:01:20.016Z"
+  }
+}

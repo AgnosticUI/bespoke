@@ -1,0 +1,51 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="50" fill="#DDDDDD"/>
+  <rect x="20" y="14" width="120" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="1060" y="12" width="120" height="26" rx="0" fill="#9CA3AF"/>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="50" width="200" height="750" fill="#EEEEEE"/>
+  <rect x="16" y="70" width="168" height="32" rx="0" fill="white"/>
+  <rect x="16" y="114" width="168" height="28" rx="0" fill="white"/>
+  <rect x="16" y="150" width="168" height="28" rx="0" fill="white"/>
+  <rect x="16" y="186" width="168" height="28" rx="0" fill="white"/>
+  <rect x="16" y="222" width="168" height="28" rx="0" fill="#9CA3AF"/>
+
+  <!-- Settings Tabs -->
+  <rect x="220" y="66" width="120" height="30" rx="0" fill="#9CA3AF"/>
+  <rect x="350" y="66" width="120" height="30" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="480" y="66" width="120" height="30" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="610" y="66" width="120" height="30" rx="0" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Profile Section -->
+  <rect x="220" y="116" width="952" height="240" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="250" y="136" width="180" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="250" y="176" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="250" y="198" width="300" height="36" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="600" y="176" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="600" y="198" width="300" height="36" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="250" y="254" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="250" y="276" width="650" height="36" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="250" y="328" width="120" height="14" rx="0" fill="#CCCCCC"/>
+
+  <!-- Security Section -->
+  <rect x="220" y="376" width="952" height="180" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="250" y="396" width="140" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="250" y="436" width="300" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="250" y="460" width="200" height="36" rx="0" fill="#9CA3AF"/>
+  <rect x="250" y="512" width="280" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1060" y="508" width="80" height="24" rx="0" fill="#EEEEEE"/>
+
+  <!-- Notification Preferences -->
+  <rect x="220" y="576" width="952" height="200" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="250" y="596" width="200" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="250" y="636" width="300" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1100" y="632" width="40" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="250" y="668" width="280" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1100" y="664" width="40" height="22" rx="0" fill="#EEEEEE"/>
+  <rect x="250" y="700" width="320" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1100" y="696" width="40" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="250" y="732" width="260" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="1100" y="728" width="40" height="22" rx="0" fill="#EEEEEE"/>
+</svg>

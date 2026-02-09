@@ -1,0 +1,2024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Color Palette Collection - 158 Palettes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #FAFAFA;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #1F2937;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: #6B7280;
+            font-size: 1.1rem;
+        }
+        
+        .filters {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 300px;
+            padding: 0.75rem 1rem;
+            border: 2px solid #E5E7EB;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        
+        .search-box:focus {
+            outline: none;
+            border-color: #6366F1;
+        }
+        
+        .palette-grid {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+        }
+        
+        .palette-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .palette-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        
+        .palette-header {
+            padding: 1.875rem;
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            transition: all 0.2s;
+        }
+        
+        .palette-number {
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+        
+        .palette-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0.375rem 0 0.75rem;
+        }
+        
+        .palette-notes {
+            font-size: 1.05rem;
+            font-style: italic;
+        }
+        
+        .color-swatches {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0;
+        }
+        
+        .swatch {
+            aspect-ratio: 2/1;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .swatch:hover {
+            transform: scale(1.05);
+            z-index: 10;
+        }
+        
+        .swatch-label {
+            position: absolute;
+            bottom: 0.5rem;
+            left: 0.5rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            background: rgba(255,255,255,0.9);
+            color: #1F2937;
+        }
+        
+        .swatch-hex {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            font-size: 0.75rem;
+            font-family: 'Courier New', monospace;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+        }
+        
+        .color-row {
+            display: flex;
+            gap: 0;
+        }
+        
+        .swatch-full {
+            flex: 1;
+            height: 90px;
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .swatch-label {
+            position: absolute;
+            bottom: 0.75rem;
+            left: 0.75rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            background: rgba(255,255,255,0.9);
+            color: #1F2937;
+        }
+        
+        .swatch-hex {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            font-size: 0.95rem;
+            font-family: 'Courier New', monospace;
+            padding: 0.375rem 0.75rem;
+            border-radius: 4px;
+            background: rgba(0,0,0,0.7);
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .palette-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            body {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 2026 Color Palette Collection</h1>
+            <p class="subtitle">158 curated, AA-compliant color palettes for modern design</p>
+        </header>
+        
+        <div class="filters">
+            <input 
+                type="text" 
+                id="searchBox" 
+                class="search-box" 
+                placeholder="Search palettes by name, color, or notes..."
+            >
+        </div>
+        
+        <div class="palette-grid" id="paletteGrid"></div>
+    </div>
+    
+    <script>
+        const palettes = [
+  {
+    "No": 1,
+    "Product Type": "Photography Portfolio",
+    "Primary (Hex)": "#FFFFFF",
+    "Secondary (Hex)": "#FAFAFA",
+    "CTA (Hex)": "#000000",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#000000",
+    "Notes": "Extreme Minimalism: High-contrast white and black."
+  },
+  {
+    "No": 2,
+    "Product Type": "Minimalist Portfolio",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#262626",
+    "CTA (Hex)": "#2563EB",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#F5F5F5",
+    "Notes": "Swiss Style: Heavy black type + Blue link."
+  },
+  {
+    "No": 3,
+    "Product Type": "Architectural Firm",
+    "Primary (Hex)": "#64748B",
+    "Secondary (Hex)": "#94A3B8",
+    "CTA (Hex)": "#EA580C",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#334155",
+    "Border (Hex)": "#E2E8E0",
+    "Notes": "Industrial Minimalism: Slate grays with safety orange."
+  },
+  {
+    "No": 4,
+    "Product Type": "Digital Book Reader",
+    "Primary (Hex)": "#18181B",
+    "Secondary (Hex)": "#52525B",
+    "CTA (Hex)": "#9D174D",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#0A0A0A",
+    "Border (Hex)": "#E4E4E7",
+    "Notes": "Minimalism: E-reader focus with subtle burgundy link."
+  },
+  {
+    "No": 5,
+    "Product Type": "Financial Services App",
+    "Primary (Hex)": "#BFDBFE",
+    "Secondary (Hex)": "#93C5FD",
+    "CTA (Hex)": "#1D4ED8",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#0F172A",
+    "Border (Hex)": "#FFFFFF",
+    "Notes": "Glassmorphism (Frosted): Translucent blue layers."
+  },
+  {
+    "No": 6,
+    "Product Type": "Hardware Interface (IoT)",
+    "Primary (Hex)": "#1F2937",
+    "Secondary (Hex)": "#374151",
+    "CTA (Hex)": "#3B82F6",
+    "Background (Hex)": "#1F2937",
+    "Text (Hex)": "#F3F4F6",
+    "Border (Hex)": "#1F2937",
+    "Notes": "Neumorphism (Dark): Embossed UI for industrial control."
+  },
+  {
+    "No": 7,
+    "Product Type": "High-Performance Sportswear",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#171717",
+    "CTA (Hex)": "#BE123C",
+    "Background (Hex)": "#F5F5F5",
+    "Text (Hex)": "#0A0A0A",
+    "Border (Hex)": "#D4D4D8",
+    "Notes": "Modern Brutalism: Piano black and high-speed red."
+  },
+  {
+    "No": 8,
+    "Product Type": "Personal Productivity Tool",
+    "Primary (Hex)": "#E0E5EC",
+    "Secondary (Hex)": "#CBD0D6",
+    "CTA (Hex)": "#007AFF",
+    "Background (Hex)": "#E0E5EC",
+    "Text (Hex)": "#333333",
+    "Border (Hex)": "#FFFFFF",
+    "Notes": "Neumorphism (Soft UI): Monochrome with soft depth."
+  },
+  {
+    "No": 9,
+    "Product Type": "Retro Gaming Marketplace",
+    "Primary (Hex)": "#06B6D4",
+    "Secondary (Hex)": "#F43F5E",
+    "CTA (Hex)": "#FACC15",
+    "Background (Hex)": "#1F2937",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#475569",
+    "Notes": "80s Neon Aesthetic: Vibrant cyan and magenta on slate."
+  },
+  {
+    "No": 10,
+    "Product Type": "SaaS Security Dashboard",
+    "Primary (Hex)": "#1E293B",
+    "Secondary (Hex)": "#334155",
+    "CTA (Hex)": "#818CF8",
+    "Background (Hex)": "#0F172A",
+    "Text (Hex)": "#F1F5F9",
+    "Border (Hex)": "#FFFFFF",
+    "Notes": "Glassmorphism (Dark): Translucent security panels."
+  },
+  {
+    "No": 11,
+    "Product Type": "Space Exploration News",
+    "Primary (Hex)": "#0C4A6E",
+    "Secondary (Hex)": "#075985",
+    "CTA (Hex)": "#FACC15",
+    "Background (Hex)": "#0F172A",
+    "Text (Hex)": "#E0F2FE",
+    "Border (Hex)": "#0C4A6E",
+    "Notes": "Glassmorphism (Space): Dark deep-blue frosted panels."
+  },
+  {
+    "No": 12,
+    "Product Type": "Streetwear Boutique",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#FACC15",
+    "CTA (Hex)": "#FF0000",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#000000",
+    "Notes": "Hard Brutalism: Yellow highlights and red warnings."
+  },
+  {
+    "No": 13,
+    "Product Type": "Web3 / Crypto Exchange",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#FFFFFF",
+    "CTA (Hex)": "#FF0000",
+    "Background (Hex)": "#FFFF00",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#000000",
+    "Notes": "Brutalist UI: Stark contrast with heavy black outlines."
+  },
+  {
+    "No": 14,
+    "Product Type": "Coding / IDE Extension",
+    "Primary (Hex)": "#4F46E5",
+    "Secondary (Hex)": "#6366F1",
+    "CTA (Hex)": "#14B8A6",
+    "Background (Hex)": "#0F172A",
+    "Text (Hex)": "#E0E7FF",
+    "Border (Hex)": "#1E1B4B",
+    "Notes": "Developer Dark Mode: Indigo with code-friendly teal."
+  },
+  {
+    "No": 15,
+    "Product Type": "Crypto Portfolio (Pro)",
+    "Primary (Hex)": "#F59E0B",
+    "Secondary (Hex)": "#D97706",
+    "CTA (Hex)": "#10B981",
+    "Background (Hex)": "#020617",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#1E293B",
+    "Notes": "Amber \"Value\" + Trading \"Success\" Green."
+  },
+  {
+    "No": 16,
+    "Product Type": "Cryptographic Hardware",
+    "Primary (Hex)": "#0F172A",
+    "Secondary (Hex)": "#1E293B",
+    "CTA (Hex)": "#818CF8",
+    "Background (Hex)": "#020617",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#334155",
+    "Notes": "Silicon dark + ledger indigo"
+  },
+  {
+    "No": 17,
+    "Product Type": "Cyber-Physical Security",
+    "Primary (Hex)": "#022C22",
+    "Secondary (Hex)": "#065F46",
+    "CTA (Hex)": "#10B981",
+    "Background (Hex)": "#020617",
+    "Text (Hex)": "#ECFDF5",
+    "Border (Hex)": "#064E3B",
+    "Notes": "Emerald secure-tech dark mode"
+  },
+  {
+    "No": 18,
+    "Product Type": "Cybersecurity Platform",
+    "Primary (Hex)": "#0F172A",
+    "Secondary (Hex)": "#334155",
+    "CTA (Hex)": "#22D3EE",
+    "Background (Hex)": "#020617",
+    "Text (Hex)": "#F1F5F9",
+    "Border (Hex)": "#1E293B",
+    "Notes": "Tech-dark mode with scanning cyan."
+  },
+  {
+    "No": 19,
+    "Product Type": "Data Analytics Dashboard",
+    "Primary (Hex)": "#312E81",
+    "Secondary (Hex)": "#4338CA",
+    "CTA (Hex)": "#14B8A6",
+    "Background (Hex)": "#0F172A",
+    "Text (Hex)": "#94A3B8",
+    "Border (Hex)": "#1E293B",
+    "Notes": "Professional Dark Mode: Tech indigo with data-teal."
+  },
+  {
+    "No": 20,
+    "Product Type": "Fintech Asset Manager",
+    "Primary (Hex)": "#2563EB",
+    "Secondary (Hex)": "#3B82F6",
+    "CTA (Hex)": "#FACC15",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#1E293B",
+    "Border (Hex)": "#DBEAFE",
+    "Notes": "Bento Grid Styling: Clean trust-blue with gold alerts."
+  },
+  {
+    "No": 21,
+    "Product Type": "Fintech Dashboard",
+    "Primary (Hex)": "#0F172A",
+    "Secondary (Hex)": "#1E293B",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#020617",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#334155",
+    "Notes": "High-end dark mode with liquidity-green indicators."
+  },
+  {
+    "No": 22,
+    "Product Type": "Indie Game Studio",
+    "Primary (Hex)": "#4338CA",
+    "Secondary (Hex)": "#5850EC",
+    "CTA (Hex)": "#FACC15",
+    "Background (Hex)": "#EEF2FF",
+    "Text (Hex)": "#312E81",
+    "Border (Hex)": "#C7D2FE",
+    "Notes": "Retro 16-bit indigo + coin yellow"
+  },
+  {
+    "No": 23,
+    "Product Type": "Infrastructure Monitoring",
+    "Primary (Hex)": "#F97316",
+    "Secondary (Hex)": "#FB923C",
+    "CTA (Hex)": "#DC2626",
+    "Background (Hex)": "#0F172A",
+    "Text (Hex)": "#F9FAFB",
+    "Border (Hex)": "#374151",
+    "Notes": "High-Vis Dark Mode: Orange caution and red alerts."
+  },
+  {
+    "No": 24,
+    "Product Type": "Personal Trainer App",
+    "Primary (Hex)": "#DC2626",
+    "Secondary (Hex)": "#F87171",
+    "CTA (Hex)": "#06B6D4",
+    "Background (Hex)": "#FFF1F2",
+    "Text (Hex)": "#450A0A",
+    "Border (Hex)": "#FECACA",
+    "Notes": "80s Sport Aesthetic: Vibrant red and electric blue."
+  },
+  {
+    "No": 25,
+    "Product Type": "Podcast Platform",
+    "Primary (Hex)": "#1E1B4B",
+    "Secondary (Hex)": "#312E81",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#0F0F23",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#4338CA",
+    "Notes": "Studio dark mode with warm vocal-orange."
+  },
+  {
+    "No": 26,
+    "Product Type": "Project Management SaaS",
+    "Primary (Hex)": "#F97316",
+    "Secondary (Hex)": "#FB923C",
+    "CTA (Hex)": "#10B981",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#1E293B",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Bento Grid: Clean modular grid with high-contrast accents."
+  },
+  {
+    "No": 27,
+    "Product Type": "Sustainable Fashion Brand",
+    "Primary (Hex)": "#D97706",
+    "Secondary (Hex)": "#FDBA74",
+    "CTA (Hex)": "#065F46",
+    "Background (Hex)": "#FFFBEB",
+    "Text (Hex)": "#78350F",
+    "Border (Hex)": "#FDE68A",
+    "Notes": "70s Retro: Earthy avocado green and harvest gold."
+  },
+  {
+    "No": 28,
+    "Product Type": "Sustainable Tech",
+    "Primary (Hex)": "#064E3B",
+    "Secondary (Hex)": "#065F46",
+    "CTA (Hex)": "#34D399",
+    "Background (Hex)": "#F0FDF4",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#DCFCE7",
+    "Notes": "British Racing Green + Mint \"Eco\" CTA."
+  },
+  {
+    "No": 29,
+    "Product Type": "Talent Acquisition SaaS",
+    "Primary (Hex)": "#4F46E5",
+    "Secondary (Hex)": "#6366F1",
+    "CTA (Hex)": "#10B981",
+    "Background (Hex)": "#EEF2FF",
+    "Text (Hex)": "#312E81",
+    "Border (Hex)": "#C7D2FE",
+    "Notes": "AI-Native UI: Soft indigo with success-green highlights."
+  },
+  {
+    "No": 30,
+    "Product Type": "Vintage/Retro E-shop",
+    "Primary (Hex)": "#92400E",
+    "Secondary (Hex)": "#B45309",
+    "CTA (Hex)": "#065F46",
+    "Background (Hex)": "#FFFBEB",
+    "Text (Hex)": "#451A03",
+    "Border (Hex)": "#FEF3C7",
+    "Notes": "Heritage brown + forest accent"
+  },
+  {
+    "No": 31,
+    "Product Type": "AI Productivity Tool",
+    "Primary (Hex)": "#0F172A",
+    "Secondary (Hex)": "#334155",
+    "CTA (Hex)": "#818CF8",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#0F172A",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Clean \"OpenAI Style\" Slate + Periwinkle."
+  },
+  {
+    "No": 32,
+    "Product Type": "AgriTech / Farm",
+    "Primary (Hex)": "#15803D",
+    "Secondary (Hex)": "#22C55E",
+    "CTA (Hex)": "#CA8A04",
+    "Background (Hex)": "#F0FDF4",
+    "Text (Hex)": "#14532D",
+    "Border (Hex)": "#BBF7D0",
+    "Notes": "Earth-tone green with harvest gold CTA."
+  },
+  {
+    "No": 33,
+    "Product Type": "Alternative Energy (Wind)",
+    "Primary (Hex)": "#0369A1",
+    "Secondary (Hex)": "#0EA5E9",
+    "CTA (Hex)": "#34D399",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#082F49",
+    "Border (Hex)": "#BAE6FD",
+    "Notes": "Breeze blue + turbine green"
+  },
+  {
+    "No": 34,
+    "Product Type": "Analytics Platform",
+    "Primary (Hex)": "#1E40AF",
+    "Secondary (Hex)": "#3B82F6",
+    "CTA (Hex)": "#F59E0B",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#1E3A8A",
+    "Border (Hex)": "#DBEAFE",
+    "Notes": "Data-centric blue with amber focus points."
+  },
+  {
+    "No": 35,
+    "Product Type": "Apparel / Streetwear",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#404040",
+    "CTA (Hex)": "#EF4444",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#171717",
+    "Border (Hex)": "#E5E5E5",
+    "Notes": "Hype-beast Black/White + \"Drop\" Red."
+  },
+  {
+    "No": 36,
+    "Product Type": "Architecture / Design",
+    "Primary (Hex)": "#27272A",
+    "Secondary (Hex)": "#52525B",
+    "CTA (Hex)": "#059669",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#09090B",
+    "Border (Hex)": "#D4D4D8",
+    "Notes": "Drafting pencil grey + \"Blueprint Green.\""
+  },
+  {
+    "No": 37,
+    "Product Type": "Art Gallery/Museum",
+    "Primary (Hex)": "#171717",
+    "Secondary (Hex)": "#404040",
+    "CTA (Hex)": "#D4D4D8",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#171717",
+    "Border (Hex)": "#E5E5E5",
+    "Notes": "Minimalist canvas + shadow grey"
+  },
+  {
+    "No": 38,
+    "Product Type": "Arthouse Cinema",
+    "Primary (Hex)": "#450A0A",
+    "Secondary (Hex)": "#7F1D1D",
+    "CTA (Hex)": "#FDE047",
+    "Background (Hex)": "#FFF7ED",
+    "Text (Hex)": "#450A0A",
+    "Border (Hex)": "#F97316",
+    "Notes": "Velvet red + projector yellow"
+  },
+  {
+    "No": 39,
+    "Product Type": "Artisan Pottery",
+    "Primary (Hex)": "#78350F",
+    "Secondary (Hex)": "#92400E",
+    "CTA (Hex)": "#0D9488",
+    "Background (Hex)": "#FFFBEB",
+    "Text (Hex)": "#451A03",
+    "Border (Hex)": "#FDE68A",
+    "Notes": "Terracotta earth tones + glazed teal"
+  },
+  {
+    "No": 40,
+    "Product Type": "Automotive Dealer",
+    "Primary (Hex)": "#1E293B",
+    "Secondary (Hex)": "#334155",
+    "CTA (Hex)": "#DC2626",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#0F172A",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Sophisticated slate with \"Brake Light\" red."
+  },
+  {
+    "No": 41,
+    "Product Type": "Aviation / Airline",
+    "Primary (Hex)": "#1E3A8A",
+    "Secondary (Hex)": "#3B82F6",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#EFF6FF",
+    "Text (Hex)": "#1E40AF",
+    "Border (Hex)": "#BFDBFE",
+    "Notes": "Skyline blue with high-visibility boarding orange."
+  },
+  {
+    "No": 42,
+    "Product Type": "Aviation/Private Jet",
+    "Primary (Hex)": "#1E1B4B",
+    "Secondary (Hex)": "#312E81",
+    "CTA (Hex)": "#D4AF37",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#1E1B4B",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Midnight blue + champagne gold"
+  },
+  {
+    "No": 43,
+    "Product Type": "Bakery / Cafe",
+    "Primary (Hex)": "#92400E",
+    "Secondary (Hex)": "#B45309",
+    "CTA (Hex)": "#F8FAFC",
+    "Background (Hex)": "#FEF3C7",
+    "Text (Hex)": "#78350F",
+    "Border (Hex)": "#FDE68A",
+    "Notes": "Warm crust brown with a clean cream base."
+  },
+  {
+    "No": 44,
+    "Product Type": "BioTech Research",
+    "Primary (Hex)": "#0D9488",
+    "Secondary (Hex)": "#5EEAD4",
+    "CTA (Hex)": "#F43F5E",
+    "Background (Hex)": "#F0FDFA",
+    "Text (Hex)": "#134E4A",
+    "Border (Hex)": "#CCFBF1",
+    "Notes": "DNA teal + active research rose"
+  },
+  {
+    "No": 45,
+    "Product Type": "Brewery / Winery",
+    "Primary (Hex)": "#7C2D12",
+    "Secondary (Hex)": "#B91C1C",
+    "CTA (Hex)": "#CA8A04",
+    "Background (Hex)": "#FEF2F2",
+    "Text (Hex)": "#450A0A",
+    "Border (Hex)": "#FECACA",
+    "Notes": "Bordeaux red with craft-gold CTA."
+  },
+  {
+    "No": 46,
+    "Product Type": "Coffee Roaster",
+    "Primary (Hex)": "#78350F",
+    "Secondary (Hex)": "#92400E",
+    "CTA (Hex)": "#FBBF24",
+    "Background (Hex)": "#FEF3C7",
+    "Text (Hex)": "#451A03",
+    "Border (Hex)": "#FDE68A",
+    "Notes": "Rich espresso brown with golden-roast accents."
+  },
+  {
+    "No": 47,
+    "Product Type": "Comic Book Reader",
+    "Primary (Hex)": "#E11D48",
+    "Secondary (Hex)": "#BE123C",
+    "CTA (Hex)": "#FACC15",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#000000",
+    "Notes": "Pop-art red + yellow + heavy black ink"
+  },
+  {
+    "No": 48,
+    "Product Type": "Construction Tech",
+    "Primary (Hex)": "#64748B",
+    "Secondary (Hex)": "#94A3B8",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#334155",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Steel grey with \"Safety Vest\" orange."
+  },
+  {
+    "No": 49,
+    "Product Type": "Coworking Space",
+    "Primary (Hex)": "#F59E0B",
+    "Secondary (Hex)": "#FBBF24",
+    "CTA (Hex)": "#2563EB",
+    "Background (Hex)": "#FFFBEB",
+    "Text (Hex)": "#78350F",
+    "Border (Hex)": "#FDE68A",
+    "Notes": "Creative amber with professional blue."
+  },
+  {
+    "No": 50,
+    "Product Type": "Deep Sea Exploration",
+    "Primary (Hex)": "#0C4A6E",
+    "Secondary (Hex)": "#075985",
+    "CTA (Hex)": "#38BDF8",
+    "Background (Hex)": "#082F49",
+    "Text (Hex)": "#E0F2FE",
+    "Border (Hex)": "#0C4A6E",
+    "Notes": "Monochromatic oceanic blues + bioluminescent cyan"
+  },
+  {
+    "No": 51,
+    "Product Type": "Dental Practice",
+    "Primary (Hex)": "#0EA5E9",
+    "Secondary (Hex)": "#38BDF8",
+    "CTA (Hex)": "#FBBF24",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#0C4A6E",
+    "Border (Hex)": "#BAE6FD",
+    "Notes": "Bright sterile blue with high-trust yellow."
+  },
+  {
+    "No": 52,
+    "Product Type": "E-Sports Coaching",
+    "Primary (Hex)": "#6366F1",
+    "Secondary (Hex)": "#4F46E5",
+    "CTA (Hex)": "#F87171",
+    "Background (Hex)": "#0F172A",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#312E81",
+    "Notes": "Indigo base with aggressive coral CTA"
+  },
+  {
+    "No": 53,
+    "Product Type": "E-commerce Luxury",
+    "Primary (Hex)": "#1C1917",
+    "Secondary (Hex)": "#44403C",
+    "CTA (Hex)": "#CA8A04",
+    "Background (Hex)": "#FAFAF9",
+    "Text (Hex)": "#0C0A09",
+    "Border (Hex)": "#D6D3D1",
+    "Notes": "Deep onyx with refined metallic gold accents."
+  },
+  {
+    "No": 54,
+    "Product Type": "EV / Clean Energy",
+    "Primary (Hex)": "#0891B2",
+    "Secondary (Hex)": "#22D3EE",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#ECFEFF",
+    "Text (Hex)": "#164E63",
+    "Border (Hex)": "#A5F3FC",
+    "Notes": "Electric cyan with \"Go\" green."
+  },
+  {
+    "No": 55,
+    "Product Type": "Educational App",
+    "Primary (Hex)": "#4F46E5",
+    "Secondary (Hex)": "#818CF8",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#EEF2FF",
+    "Text (Hex)": "#1E1B4B",
+    "Border (Hex)": "#C7D2FE",
+    "Notes": "Playful but structured indigo/orange pairing."
+  },
+  {
+    "No": 56,
+    "Product Type": "Fine Jewelry Store",
+    "Primary (Hex)": "#171717",
+    "Secondary (Hex)": "#262626",
+    "CTA (Hex)": "#BE123C",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#171717",
+    "Border (Hex)": "#E5E5E5",
+    "Notes": "Obsidian black + ruby CTA"
+  },
+  {
+    "No": 57,
+    "Product Type": "Fitness / Gym App",
+    "Primary (Hex)": "#F97316",
+    "Secondary (Hex)": "#FB923C",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#1F2937",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#374151",
+    "Notes": "High-energy orange on charcoal dark-mode."
+  },
+  {
+    "No": 58,
+    "Product Type": "Freelancer Hub",
+    "Primary (Hex)": "#6366F1",
+    "Secondary (Hex)": "#818CF8",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#EEF2FF",
+    "Text (Hex)": "#312E81",
+    "Border (Hex)": "#C7D2FE",
+    "Notes": "Creative indigo with a \"Hire\" green."
+  },
+  {
+    "No": 59,
+    "Product Type": "Geothermal Energy",
+    "Primary (Hex)": "#991B1B",
+    "Secondary (Hex)": "#B91C1C",
+    "CTA (Hex)": "#F59E0B",
+    "Background (Hex)": "#FEF2F2",
+    "Text (Hex)": "#450A0A",
+    "Border (Hex)": "#FEE2E2",
+    "Notes": "Magma red + heat amber"
+  },
+  {
+    "No": 60,
+    "Product Type": "Gourmet Meal Kit",
+    "Primary (Hex)": "#431407",
+    "Secondary (Hex)": "#78350F",
+    "CTA (Hex)": "#EA580C",
+    "Background (Hex)": "#FFF7ED",
+    "Text (Hex)": "#431407",
+    "Border (Hex)": "#FFEDD5",
+    "Notes": "Umami brown + zest orange"
+  },
+  {
+    "No": 61,
+    "Product Type": "Healthcare App",
+    "Primary (Hex)": "#0891B2",
+    "Secondary (Hex)": "#22D3EE",
+    "CTA (Hex)": "#059669",
+    "Background (Hex)": "#ECFEFF",
+    "Text (Hex)": "#164E63",
+    "Border (Hex)": "#A5F3FC",
+    "Notes": "Sanitary cyan with a calming health-green CTA."
+  },
+  {
+    "No": 62,
+    "Product Type": "High-End Law / Legal",
+    "Primary (Hex)": "#171717",
+    "Secondary (Hex)": "#262626",
+    "CTA (Hex)": "#CA8A04",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#171717",
+    "Border (Hex)": "#E5E5E5",
+    "Notes": "Classic Marble + Gilded Gold Authority."
+  },
+  {
+    "No": 63,
+    "Product Type": "High-Frequency Trading",
+    "Primary (Hex)": "#1F2937",
+    "Secondary (Hex)": "#374151",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#030712",
+    "Text (Hex)": "#F9FAFB",
+    "Border (Hex)": "#1F2937",
+    "Notes": "Terminal black + rapid-action green"
+  },
+  {
+    "No": 64,
+    "Product Type": "Hotel / Hospitality",
+    "Primary (Hex)": "#1E3A8A",
+    "Secondary (Hex)": "#3B82F6",
+    "CTA (Hex)": "#CA8A04",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#1E40AF",
+    "Border (Hex)": "#BFDBFE",
+    "Notes": "Royal blue with a \"Concierge Gold\" accent."
+  },
+  {
+    "No": 65,
+    "Product Type": "Indie Coffee Roaster",
+    "Primary (Hex)": "#451A03",
+    "Secondary (Hex)": "#78350F",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#FCF9F7",
+    "Text (Hex)": "#271308",
+    "Border (Hex)": "#E6E0D9",
+    "Notes": "Deep Espresso + Steam Orange accent."
+  },
+  {
+    "No": 66,
+    "Product Type": "Industrial IoT",
+    "Primary (Hex)": "#334155",
+    "Secondary (Hex)": "#475569",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#0F172A",
+    "Text (Hex)": "#F1F5F9",
+    "Border (Hex)": "#1E293B",
+    "Notes": "Steel Slate + Safety Vest Orange."
+  },
+  {
+    "No": 67,
+    "Product Type": "Industrial Robotics",
+    "Primary (Hex)": "#374151",
+    "Secondary (Hex)": "#4B5563",
+    "CTA (Hex)": "#EF4444",
+    "Background (Hex)": "#F3F4F6",
+    "Text (Hex)": "#111827",
+    "Border (Hex)": "#D1D5DB",
+    "Notes": "Iron grey + emergency alert red"
+  },
+  {
+    "No": 68,
+    "Product Type": "IoT / Smart Home",
+    "Primary (Hex)": "#1E293B",
+    "Secondary (Hex)": "#334155",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#0F172A",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#475569",
+    "Notes": "Technical slate with status-aware green."
+  },
+  {
+    "No": 69,
+    "Product Type": "Job Recruitment",
+    "Primary (Hex)": "#0369A1",
+    "Secondary (Hex)": "#0EA5E9",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#0C4A6E",
+    "Border (Hex)": "#BAE6FD",
+    "Notes": "Professional trust blue with \"Hired\" green."
+  },
+  {
+    "No": 70,
+    "Product Type": "Language Learning",
+    "Primary (Hex)": "#2563EB",
+    "Secondary (Hex)": "#60A5FA",
+    "CTA (Hex)": "#FACC15",
+    "Background (Hex)": "#EFF6FF",
+    "Text (Hex)": "#1E3A8A",
+    "Border (Hex)": "#DBEAFE",
+    "Notes": "Bright academic blue + star yellow"
+  },
+  {
+    "No": 71,
+    "Product Type": "Legal Services",
+    "Primary (Hex)": "#1E3A8A",
+    "Secondary (Hex)": "#1E40AF",
+    "CTA (Hex)": "#B45309",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#0F172A",
+    "Border (Hex)": "#CBD5E1",
+    "Notes": "Authority-based navy with conservative tan/gold."
+  },
+  {
+    "No": 72,
+    "Product Type": "Legal Tech / AI",
+    "Primary (Hex)": "#312E81",
+    "Secondary (Hex)": "#4338CA",
+    "CTA (Hex)": "#6366F1",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#1E1B4B",
+    "Border (Hex)": "#E0E7FF",
+    "Notes": "Modern indigo logic-based palette."
+  },
+  {
+    "No": 73,
+    "Product Type": "Logistics / Tracking",
+    "Primary (Hex)": "#2563EB",
+    "Secondary (Hex)": "#3B82F6",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#EFF6FF",
+    "Text (Hex)": "#1E40AF",
+    "Border (Hex)": "#BFDBFE",
+    "Notes": "Fleet blue with shipment-alert orange."
+  },
+  {
+    "No": 74,
+    "Product Type": "Luxury Bedding Store",
+    "Primary (Hex)": "#FECACA",
+    "Secondary (Hex)": "#FCA5A5",
+    "CTA (Hex)": "#7C2D12",
+    "Background (Hex)": "#FFF7F7",
+    "Text (Hex)": "#450A0A",
+    "Border (Hex)": "#FBCFE8",
+    "Notes": "Minimalist Warmth: Blush tones with deep earth accents."
+  },
+  {
+    "No": 75,
+    "Product Type": "Luxury Hotel / Resort",
+    "Primary (Hex)": "#3F3F46",
+    "Secondary (Hex)": "#52525B",
+    "CTA (Hex)": "#B45309",
+    "Background (Hex)": "#FDFCFB",
+    "Text (Hex)": "#18181B",
+    "Border (Hex)": "#E7E5E4",
+    "Notes": "Champagne Background + Bronze/Gold CTA."
+  },
+  {
+    "No": 76,
+    "Product Type": "Luxury Real Estate",
+    "Primary (Hex)": "#0C0A09",
+    "Secondary (Hex)": "#292524",
+    "CTA (Hex)": "#A8A29E",
+    "Background (Hex)": "#FAFAF9",
+    "Text (Hex)": "#1C1917",
+    "Border (Hex)": "#E7E5E4",
+    "Notes": "Stone monochrome + taupe accent"
+  },
+  {
+    "No": 77,
+    "Product Type": "Luxury Watchmaker",
+    "Primary (Hex)": "#1C1917",
+    "Secondary (Hex)": "#292524",
+    "CTA (Hex)": "#94A3B8",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#1C1917",
+    "Border (Hex)": "#E7E5E4",
+    "Notes": "Brushed steel + obsidian contrast"
+  },
+  {
+    "No": 78,
+    "Product Type": "Luxury Yachting",
+    "Primary (Hex)": "#0F172A",
+    "Secondary (Hex)": "#1E293B",
+    "CTA (Hex)": "#94A3B8",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#0F172A",
+    "Border (Hex)": "#CBD5E1",
+    "Notes": "Deep navy + polished silver"
+  },
+  {
+    "No": 79,
+    "Product Type": "Maritime/Shipping",
+    "Primary (Hex)": "#1E3A8A",
+    "Secondary (Hex)": "#1D4ED8",
+    "CTA (Hex)": "#F87171",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#1E3A8A",
+    "Border (Hex)": "#B9E6FE",
+    "Notes": "Oceanic blue + beacon red"
+  },
+  {
+    "No": 80,
+    "Product Type": "Meditation / Mindfulness",
+    "Primary (Hex)": "#5B6156",
+    "Secondary (Hex)": "#83897C",
+    "CTA (Hex)": "#D97706",
+    "Background (Hex)": "#F7F7F5",
+    "Text (Hex)": "#2D312C",
+    "Border (Hex)": "#E2E2DE",
+    "Notes": "Organic Sage + Muted Amber for \"Zen\" UX."
+  },
+  {
+    "No": 81,
+    "Product Type": "Micro-Credentials",
+    "Primary (Hex)": "#0369A1",
+    "Secondary (Hex)": "#0EA5E9",
+    "CTA (Hex)": "#CA8A04",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#0C4A6E",
+    "Border (Hex)": "#BAE6FD",
+    "Notes": "Professional blue with \"Achievement Gold.\""
+  },
+  {
+    "No": 82,
+    "Product Type": "Music Production/DAW",
+    "Primary (Hex)": "#18181B",
+    "Secondary (Hex)": "#27272A",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#09090B",
+    "Text (Hex)": "#FAFAFA",
+    "Border (Hex)": "#3F3F46",
+    "Notes": "Studio dark + signal orange"
+  },
+  {
+    "No": 83,
+    "Product Type": "Music Streaming",
+    "Primary (Hex)": "#1E1B4B",
+    "Secondary (Hex)": "#4338CA",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#0F0F23",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#312E81",
+    "Notes": "Modern audio dark-mode with \"Play\" green."
+  },
+  {
+    "No": 84,
+    "Product Type": "Neobank / Gen-Z Finance",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#171717",
+    "CTA (Hex)": "#CCFF00",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#E5E5E5",
+    "Notes": "High-fashion \"Chartreuse\" on stark mono."
+  },
+  {
+    "No": 85,
+    "Product Type": "Newsletter Tool",
+    "Primary (Hex)": "#0369A1",
+    "Secondary (Hex)": "#0EA5E9",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#0C4A6E",
+    "Border (Hex)": "#BAE6FD",
+    "Notes": "Trust blue with subscription-focused orange."
+  },
+  {
+    "No": 86,
+    "Product Type": "Non-profit / Charity",
+    "Primary (Hex)": "#0891B2",
+    "Secondary (Hex)": "#22D3EE",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#ECFEFF",
+    "Text (Hex)": "#164E63",
+    "Border (Hex)": "#A5F3FC",
+    "Notes": "Compassionate cyan with urgent action orange."
+  },
+  {
+    "No": 87,
+    "Product Type": "Nutrition & Wellness App",
+    "Primary (Hex)": "#34D399",
+    "Secondary (Hex)": "#6EE7B7",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#ECFDF5",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#A7F3D0",
+    "Notes": "High-Contrast Health: Vibrant green and urgency orange."
+  },
+  {
+    "No": 88,
+    "Product Type": "Online E-learning",
+    "Primary (Hex)": "#0D9488",
+    "Secondary (Hex)": "#2DD4BF",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#F0FDFA",
+    "Text (Hex)": "#134E4A",
+    "Border (Hex)": "#5EEAD4",
+    "Notes": "Progress-based teal with achievement orange."
+  },
+  {
+    "No": 89,
+    "Product Type": "Organic Cosmetic Line",
+    "Primary (Hex)": "#A7F3D0",
+    "Secondary (Hex)": "#ECFDF5",
+    "CTA (Hex)": "#D97706",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#D1FAE5",
+    "Notes": "Soft Pastel: Mint and sage palette with bronze action."
+  },
+  {
+    "No": 90,
+    "Product Type": "Organic Grocery",
+    "Primary (Hex)": "#166534",
+    "Secondary (Hex)": "#15803D",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#F7FEE7",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#D9F99D",
+    "Notes": "Kale green + fresh carrot orange"
+  },
+  {
+    "No": 91,
+    "Product Type": "Organic Tea House",
+    "Primary (Hex)": "#166534",
+    "Secondary (Hex)": "#3F6212",
+    "CTA (Hex)": "#A3E635",
+    "Background (Hex)": "#F7FEE7",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#D9F99D",
+    "Notes": "Matcha green + sprout lime"
+  },
+  {
+    "No": 92,
+    "Product Type": "Organic Wine / Vineyard",
+    "Primary (Hex)": "#4C0519",
+    "Secondary (Hex)": "#701A75",
+    "CTA (Hex)": "#84CC16",
+    "Background (Hex)": "#FDF2F8",
+    "Text (Hex)": "#450A0A",
+    "Border (Hex)": "#FBCFE8",
+    "Notes": "Bordeaux Red + Vineyard Green sprout."
+  },
+  {
+    "No": 93,
+    "Product Type": "Outdoor Adventure Gear",
+    "Primary (Hex)": "#9A3412",
+    "Secondary (Hex)": "#C2410C",
+    "CTA (Hex)": "#0891B2",
+    "Background (Hex)": "#FFF7ED",
+    "Text (Hex)": "#431407",
+    "Border (Hex)": "#FFEDD5",
+    "Notes": "Canyon rust + river blue"
+  },
+  {
+    "No": 94,
+    "Product Type": "Pediatric Care Portal",
+    "Primary (Hex)": "#FBCFE8",
+    "Secondary (Hex)": "#FCE7F3",
+    "CTA (Hex)": "#0EA5E9",
+    "Background (Hex)": "#FFF7F7",
+    "Text (Hex)": "#9D174D",
+    "Border (Hex)": "#FFE4E6",
+    "Notes": "Soft Pastel: Gentle pinks with high-trust sky blue."
+  },
+  {
+    "No": 95,
+    "Product Type": "Pet Rehabilitation",
+    "Primary (Hex)": "#0891B2",
+    "Secondary (Hex)": "#06B6D4",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#ECFEFF",
+    "Text (Hex)": "#164E63",
+    "Border (Hex)": "#CFFAFE",
+    "Notes": "Clinical cyan + energetic orange"
+  },
+  {
+    "No": 96,
+    "Product Type": "Pet Tech App",
+    "Primary (Hex)": "#F97316",
+    "Secondary (Hex)": "#FB923C",
+    "CTA (Hex)": "#2563EB",
+    "Background (Hex)": "#FFF7ED",
+    "Text (Hex)": "#9A3412",
+    "Border (Hex)": "#FED7AA",
+    "Notes": "Playful friendly orange with reliable blue."
+  },
+  {
+    "No": 97,
+    "Product Type": "Pharmacy / Meds",
+    "Primary (Hex)": "#15803D",
+    "Secondary (Hex)": "#22C55E",
+    "CTA (Hex)": "#0369A1",
+    "Background (Hex)": "#F0FDF4",
+    "Text (Hex)": "#14532D",
+    "Border (Hex)": "#BBF7D0",
+    "Notes": "Traditional apothecary green with trust blue."
+  },
+  {
+    "No": 98,
+    "Product Type": "Premium Candle Brand",
+    "Primary (Hex)": "#44403C",
+    "Secondary (Hex)": "#57534E",
+    "CTA (Hex)": "#D4AF37",
+    "Background (Hex)": "#FAFAF9",
+    "Text (Hex)": "#1C1917",
+    "Border (Hex)": "#E7E5E4",
+    "Notes": "Waxy taupe + flame gold"
+  },
+  {
+    "No": 99,
+    "Product Type": "Premium Travel Agency",
+    "Primary (Hex)": "#1E3A8A",
+    "Secondary (Hex)": "#1E40AF",
+    "CTA (Hex)": "#F43F5E",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#0F172A",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Royal Navy + \"Passport Rose\" urgency."
+  },
+  {
+    "No": 100,
+    "Product Type": "Private Investigator",
+    "Primary (Hex)": "#27272A",
+    "Secondary (Hex)": "#3F3F46",
+    "CTA (Hex)": "#DC2626",
+    "Background (Hex)": "#18181B",
+    "Text (Hex)": "#F4F4F5",
+    "Border (Hex)": "#27272A",
+    "Notes": "Noir charcoal + \"Red Herring\" accent"
+  },
+  {
+    "No": 101,
+    "Product Type": "Productivity Tool",
+    "Primary (Hex)": "#0D9488",
+    "Secondary (Hex)": "#14B8A6",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#F0FDFA",
+    "Text (Hex)": "#134E4A",
+    "Border (Hex)": "#99F6E4",
+    "Notes": "Focus-oriented teal with high-visibility action."
+  },
+  {
+    "No": 102,
+    "Product Type": "Public Service / Gov",
+    "Primary (Hex)": "#0F172A",
+    "Secondary (Hex)": "#334155",
+    "CTA (Hex)": "#0369A1",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#020617",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "High-contrast authoritative navy."
+  },
+  {
+    "No": 103,
+    "Product Type": "Quantum Computing",
+    "Primary (Hex)": "#1E1B4B",
+    "Secondary (Hex)": "#3730A3",
+    "CTA (Hex)": "#A5B4FC",
+    "Background (Hex)": "#020617",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#312E81",
+    "Notes": "Subatomic indigo + electron blue"
+  },
+  {
+    "No": 104,
+    "Product Type": "Real Estate Portal",
+    "Primary (Hex)": "#0F766E",
+    "Secondary (Hex)": "#14B8A6",
+    "CTA (Hex)": "#0369A1",
+    "Background (Hex)": "#F0FDFA",
+    "Text (Hex)": "#134E4A",
+    "Border (Hex)": "#99F6E4",
+    "Notes": "Stability-focused teal and professional blue."
+  },
+  {
+    "No": 105,
+    "Product Type": "Restaurant / Food",
+    "Primary (Hex)": "#DC2626",
+    "Secondary (Hex)": "#F87171",
+    "CTA (Hex)": "#CA8A04",
+    "Background (Hex)": "#FEF2F2",
+    "Text (Hex)": "#450A0A",
+    "Border (Hex)": "#FECACA",
+    "Notes": "Appetizing red with a warm \"Service Gold\" CTA."
+  },
+  {
+    "No": 106,
+    "Product Type": "Social Impact / NGO",
+    "Primary (Hex)": "#0369A1",
+    "Secondary (Hex)": "#0284C7",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#0C4A6E",
+    "Border (Hex)": "#BAE6FD",
+    "Notes": "Compassion Blue + Humanist Orange."
+  },
+  {
+    "No": 107,
+    "Product Type": "Solar Energy",
+    "Primary (Hex)": "#15803D",
+    "Secondary (Hex)": "#22C55E",
+    "CTA (Hex)": "#EAB308",
+    "Background (Hex)": "#F0FDF4",
+    "Text (Hex)": "#14532D",
+    "Border (Hex)": "#DCFCE7",
+    "Notes": "Growth green with solar yellow energy."
+  },
+  {
+    "No": 108,
+    "Product Type": "Space Logistics",
+    "Primary (Hex)": "#312E81",
+    "Secondary (Hex)": "#3730A3",
+    "CTA (Hex)": "#F43F5E",
+    "Background (Hex)": "#020617",
+    "Text (Hex)": "#F1F5F9",
+    "Border (Hex)": "#1E1B4B",
+    "Notes": "Star-chart navy + thruster rose"
+  },
+  {
+    "No": 109,
+    "Product Type": "Space Tech / Aerospace",
+    "Primary (Hex)": "#1E1B4B",
+    "Secondary (Hex)": "#312E81",
+    "CTA (Hex)": "#06B6D4",
+    "Background (Hex)": "#020617",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#1E293B",
+    "Notes": "Cosmic Dark + \"Ion Engine\" Cyan."
+  },
+  {
+    "No": 110,
+    "Product Type": "Sustainability / ESG",
+    "Primary (Hex)": "#059669",
+    "Secondary (Hex)": "#10B981",
+    "CTA (Hex)": "#0891B2",
+    "Background (Hex)": "#ECFDF5",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#A7F3D0",
+    "Notes": "Ecological green with aquatic blue contrast."
+  },
+  {
+    "No": 111,
+    "Product Type": "Sustainable Fashion",
+    "Primary (Hex)": "#065F46",
+    "Secondary (Hex)": "#059669",
+    "CTA (Hex)": "#FBCFE8",
+    "Background (Hex)": "#F0FDFA",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#CCFBF1",
+    "Notes": "Deep forest green with soft petal-pink accents."
+  },
+  {
+    "No": 112,
+    "Product Type": "Travel / Tourism",
+    "Primary (Hex)": "#0EA5E9",
+    "Secondary (Hex)": "#38BDF8",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#0C4A6E",
+    "Border (Hex)": "#BAE6FD",
+    "Notes": "Clear sky blue with adventurous orange."
+  },
+  {
+    "No": 113,
+    "Product Type": "Urban Mobility / Scooters",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#262626",
+    "CTA (Hex)": "#ADFF2F",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#E5E5E5",
+    "Notes": "High-vis electric lime on stark black."
+  },
+  {
+    "No": 114,
+    "Product Type": "Urban Rooftop Farming",
+    "Primary (Hex)": "#15803D",
+    "Secondary (Hex)": "#16A34A",
+    "CTA (Hex)": "#FB923C",
+    "Background (Hex)": "#F0FDF4",
+    "Text (Hex)": "#14532D",
+    "Border (Hex)": "#BBF7D0",
+    "Notes": "Concrete city green + sunset orange"
+  },
+  {
+    "No": 115,
+    "Product Type": "Venture Capital",
+    "Primary (Hex)": "#1E293B",
+    "Secondary (Hex)": "#475569",
+    "CTA (Hex)": "#F59E0B",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#0F172A",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Stately slate with \"Opportunity\" amber."
+  },
+  {
+    "No": 116,
+    "Product Type": "Vertical Farming",
+    "Primary (Hex)": "#065F46",
+    "Secondary (Hex)": "#059669",
+    "CTA (Hex)": "#84CC16",
+    "Background (Hex)": "#F7FEE7",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#BEF264",
+    "Notes": "Hydroponic green + lime growth"
+  },
+  {
+    "No": 117,
+    "Product Type": "Video / OTT Service",
+    "Primary (Hex)": "#0F0F23",
+    "Secondary (Hex)": "#1E1B4B",
+    "CTA (Hex)": "#E11D48",
+    "Background (Hex)": "#000000",
+    "Text (Hex)": "#F8FAFC",
+    "Border (Hex)": "#312E81",
+    "Notes": "Cinematic pure black background with vibrant red."
+  },
+  {
+    "No": 118,
+    "Product Type": "Vintage Vinyl Shop",
+    "Primary (Hex)": "#171717",
+    "Secondary (Hex)": "#262626",
+    "CTA (Hex)": "#EA580C",
+    "Background (Hex)": "#F5F5F4",
+    "Text (Hex)": "#171717",
+    "Border (Hex)": "#D4D4D8",
+    "Notes": "Sleeve black + record-label orange"
+  },
+  {
+    "No": 119,
+    "Product Type": "Webinar Platform",
+    "Primary (Hex)": "#1E40AF",
+    "Secondary (Hex)": "#3B82F6",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#EFF6FF",
+    "Text (Hex)": "#1E3A8A",
+    "Border (Hex)": "#BFDBFE",
+    "Notes": "Professional blue with \"Join\" green button."
+  },
+  {
+    "No": 120,
+    "Product Type": "Wellness / Yoga App",
+    "Primary (Hex)": "#134E4A",
+    "Secondary (Hex)": "#115E59",
+    "CTA (Hex)": "#FDE047",
+    "Background (Hex)": "#F0FDFA",
+    "Text (Hex)": "#134E4A",
+    "Border (Hex)": "#CCFBF1",
+    "Notes": "Teal \"Forest\" + Sunlight Yellow CTA."
+  },
+  {
+    "No": 121,
+    "Product Type": "AI Agent Orchestration",
+    "Primary (Hex)": "#0F172A",
+    "Secondary (Hex)": "#1E293B",
+    "CTA (Hex)": "#06B6D4",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#0F172A",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Modern AI: Deep slate with agent-cyan for autonomous systems."
+  },
+  {
+    "No": 122,
+    "Product Type": "Apple Vision Pro App",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#1C1C1E",
+    "CTA (Hex)": "#0A84FF",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#F2F2F7",
+    "Notes": "Spatial Computing: Pure black depth with Apple system blue."
+  },
+  {
+    "No": 123,
+    "Product Type": "Carbon Credit Marketplace",
+    "Primary (Hex)": "#065F46",
+    "Secondary (Hex)": "#047857",
+    "CTA (Hex)": "#059669",
+    "Background (Hex)": "#F0FDF4",
+    "Text (Hex)": "#064E3B",
+    "Border (Hex)": "#D1FAE5",
+    "Notes": "Climate Tech 2026: Forest green ecosystem with verified credits."
+  },
+  {
+    "No": 124,
+    "Product Type": "Decentralized Social (Farcaster/Lens)",
+    "Primary (Hex)": "#7C3AED",
+    "Secondary (Hex)": "#5B21B6",
+    "CTA (Hex)": "#10B981",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#1F2937",
+    "Border (Hex)": "#E5E7EB",
+    "Notes": "Web3 Social: Protocol purple with on-chain green verification."
+  },
+  {
+    "No": 125,
+    "Product Type": "Longevity / Biohacking App",
+    "Primary (Hex)": "#0EA5E9",
+    "Secondary (Hex)": "#06B6D4",
+    "CTA (Hex)": "#14B8A6",
+    "Background (Hex)": "#F0FDFA",
+    "Text (Hex)": "#134E4A",
+    "Border (Hex)": "#CCFBF1",
+    "Notes": "Quantified Health: Clinical cyan with cellular teal metrics."
+  },
+  {
+    "No": 126,
+    "Product Type": "Local-First Software",
+    "Primary (Hex)": "#18181B",
+    "Secondary (Hex)": "#3F3F46",
+    "CTA (Hex)": "#F59E0B",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#09090B",
+    "Border (Hex)": "#E4E4E7",
+    "Notes": "Offline-First: Zinc monochrome with sync-amber for peer collaboration."
+  },
+  {
+    "No": 127,
+    "Product Type": "Open Source AI Model Hub",
+    "Primary (Hex)": "#1E3A8A",
+    "Secondary (Hex)": "#1E40AF",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#1E3A8A",
+    "Border (Hex)": "#DBEAFE",
+    "Notes": "Community ML: Academic blue with open-access green."
+  },
+  {
+    "No": 128,
+    "Product Type": "Personalized Medicine Portal",
+    "Primary (Hex)": "#BE123C",
+    "Secondary (Hex)": "#E11D48",
+    "CTA (Hex)": "#0891B2",
+    "Background (Hex)": "#FFF1F2",
+    "Text (Hex)": "#4C0519",
+    "Border (Hex)": "#FECDD3",
+    "Notes": "Genomic Health: DNA rose with precision-cyan diagnostics."
+  },
+  {
+    "No": 129,
+    "Product Type": "Agentic RAG Platform",
+    "Primary (Hex)": "#4338CA",
+    "Secondary (Hex)": "#4F46E5",
+    "CTA (Hex)": "#14B8A6",
+    "Background (Hex)": "#EEF2FF",
+    "Text (Hex)": "#312E81",
+    "Border (Hex)": "#C7D2FE",
+    "Notes": "Retrieval AI: Deep indigo reasoning with teal retrieval actions."
+  },
+  {
+    "No": 130,
+    "Product Type": "Climate Adaptation SaaS",
+    "Primary (Hex)": "#B45309",
+    "Secondary (Hex)": "#D97706",
+    "CTA (Hex)": "#0891B2",
+    "Background (Hex)": "#FFFBEB",
+    "Text (Hex)": "#78350F",
+    "Border (Hex)": "#FDE68A",
+    "Notes": "Resilience Tech: Earth amber with water-cyan adaptation signals."
+  },
+  {
+    "No": 131,
+    "Product Type": "Neurotech / BCI Interface",
+    "Primary (Hex)": "#DB2777",
+    "Secondary (Hex)": "#EC4899",
+    "CTA (Hex)": "#8B5CF6",
+    "Background (Hex)": "#FDF2F8",
+    "Text (Hex)": "#831843",
+    "Border (Hex)": "#FBCFE8",
+    "Notes": "Brain-Computer: Neural pink with cognitive violet signals."
+  },
+  {
+    "No": 132,
+    "Product Type": "Edge AI / On-Device ML",
+    "Primary (Hex)": "#374151",
+    "Secondary (Hex)": "#4B5563",
+    "CTA (Hex)": "#F59E0B",
+    "Background (Hex)": "#F9FAFB",
+    "Text (Hex)": "#1F2937",
+    "Border (Hex)": "#E5E7EB",
+    "Notes": "Device Intelligence: Hardware gray with local-compute amber."
+  },
+  {
+    "No": 133,
+    "Product Type": "Regenerative Agriculture Tech",
+    "Primary (Hex)": "#365314",
+    "Secondary (Hex)": "#4D7C0F",
+    "CTA (Hex)": "#CA8A04",
+    "Background (Hex)": "#F7FEE7",
+    "Text (Hex)": "#1A2E05",
+    "Border (Hex)": "#D9F99D",
+    "Notes": "Soil Carbon: Deep earth-green with harvest-gold incentives."
+  },
+  {
+    "No": 134,
+    "Product Type": "Small Language Model (SLM) IDE",
+    "Primary (Hex)": "#0F766E",
+    "Secondary (Hex)": "#14B8A6",
+    "CTA (Hex)": "#FB923C",
+    "Background (Hex)": "#F0FDFA",
+    "Text (Hex)": "#134E4A",
+    "Border (Hex)": "#99F6E4",
+    "Notes": "Efficient AI: Teal for small models with optimize-orange."
+  },
+  {
+    "No": 135,
+    "Product Type": "Zero-Knowledge Proof App",
+    "Primary (Hex)": "#4C1D95",
+    "Secondary (Hex)": "#5B21B6",
+    "CTA (Hex)": "#22C55E",
+    "Background (Hex)": "#FAF5FF",
+    "Text (Hex)": "#2E1065",
+    "Border (Hex)": "#E9D5FF",
+    "Notes": "Privacy Tech: ZK-purple with verified-green proofs."
+  },
+  {
+    "No": 136,
+    "Product Type": "Multimodal AI Studio",
+    "Primary (Hex)": "#BE185D",
+    "Secondary (Hex)": "#DB2777",
+    "CTA (Hex)": "#06B6D4",
+    "Background (Hex)": "#FFF1F2",
+    "Text (Hex)": "#500724",
+    "Border (Hex)": "#FECDD3",
+    "Notes": "Vision+Audio+Text: Fuchsia fusion with cyan cross-modal."
+  },
+  {
+    "No": 137,
+    "Product Type": "Rust/Systems Programming Platform",
+    "Primary (Hex)": "#B91C1C",
+    "Secondary (Hex)": "#DC2626",
+    "CTA (Hex)": "#171717",
+    "Background (Hex)": "#FEF2F2",
+    "Text (Hex)": "#450A0A",
+    "Border (Hex)": "#FECACA",
+    "Notes": "Memory-Safe: Rust oxide-red with zero-cost black abstractions."
+  },
+  {
+    "No": 138,
+    "Product Type": "Autonomous Vehicle Interface",
+    "Primary (Hex)": "#1E40AF",
+    "Secondary (Hex)": "#2563EB",
+    "CTA (Hex)": "#EF4444",
+    "Background (Hex)": "#EFF6FF",
+    "Text (Hex)": "#1E3A8A",
+    "Border (Hex)": "#BFDBFE",
+    "Notes": "Self-Driving: Navigation blue with emergency-red override."
+  },
+  {
+    "No": 139,
+    "Product Type": "Digital Twin Platform",
+    "Primary (Hex)": "#0C4A6E",
+    "Secondary (Hex)": "#0369A1",
+    "CTA (Hex)": "#F97316",
+    "Background (Hex)": "#F0F9FF",
+    "Text (Hex)": "#082F49",
+    "Border (Hex)": "#BAE6FD",
+    "Notes": "Industrial Metaverse: Sky blue twins with sync-orange updates."
+  },
+  {
+    "No": 140,
+    "Product Type": "Ambient Computing Dashboard",
+    "Primary (Hex)": "#64748B",
+    "Secondary (Hex)": "#94A3B8",
+    "CTA (Hex)": "#10B981",
+    "Background (Hex)": "#F8FAFC",
+    "Text (Hex)": "#334155",
+    "Border (Hex)": "#E2E8F0",
+    "Notes": "Invisible UX: Calm slate receding with context-green triggers."
+  },
+  {
+    "No": 141,
+    "Product Type": "Modern Life Insurance (PolicyMe-style)",
+    "Primary (Hex)": "#1E3A5F",
+    "Secondary (Hex)": "#2C5282",
+    "CTA (Hex)": "#F59E0B",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#1F2937",
+    "Border (Hex)": "#E5E7EB",
+    "Notes": "Trust-Driven Insurance: Deep navy for stability with warm amber CTAs for accessibility."
+  },
+  {
+    "No": 142,
+    "Product Type": "Estate Planning Platform (Trust & Will-style)",
+    "Primary (Hex)": "#4C1D95",
+    "Secondary (Hex)": "#5B21B6",
+    "CTA (Hex)": "#0EA5E9",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#1F2937",
+    "Border (Hex)": "#E5E7EB",
+    "Notes": "Legacy & Trust: Royal purple for wisdom and legacy with sky-blue for clarity and hope."
+  },
+  {
+    "No": 143,
+    "Product Type": "SEO Content Platform (Frase-style)",
+    "Primary (Hex)": "#5B21B6",
+    "Secondary (Hex)": "#7C3AED",
+    "CTA (Hex)": "#10B981",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#1F2937",
+    "Border (Hex)": "#E5E7EB",
+    "Notes": "SEO Intelligence: Deep purple for strategic depth with success-green for ranking wins."
+  },
+  {
+    "No": 144,
+    "Product Type": "AI Marketing Workspace (Jasper-style)",
+    "Primary (Hex)": "#7C3AED",
+    "Secondary (Hex)": "#A78BFA",
+    "CTA (Hex)": "#F59E0B",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#111827",
+    "Border (Hex)": "#E5E7EB",
+    "Notes": "Creative AI: Vibrant purple for innovation with warm amber for creative activation."
+  },
+  {
+    "No": 145,
+    "Product Type": "Bauhaus Design System",
+    "Primary (Hex)": "#E31E24",
+    "Secondary (Hex)": "#FDD000",
+    "CTA (Hex)": "#005EB8",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#000000",
+    "Notes": "Bauhaus (1919-1933): Primary colors (red, yellow, blue) with black/white for form follows function."
+  },
+  {
+    "No": 146,
+    "Product Type": "Fauvism Color Palette",
+    "Primary (Hex)": "#D32F2F",
+    "Secondary (Hex)": "#7B1FA2",
+    "CTA (Hex)": "#FF6F00",
+    "Background (Hex)": "#FFFDE7",
+    "Text (Hex)": "#1B5E20",
+    "Border (Hex)": "#FBC02D",
+    "Notes": "Fauvism (1905-1910): Wild beasts with intense, non-naturalistic saturated colors for pure emotion."
+  },
+  {
+    "No": 147,
+    "Product Type": "Impressionist Palette",
+    "Primary (Hex)": "#9FA8DA",
+    "Secondary (Hex)": "#B39DDB",
+    "CTA (Hex)": "#FFE082",
+    "Background (Hex)": "#FFFEF7",
+    "Text (Hex)": "#4A5568",
+    "Border (Hex)": "#E8EAF6",
+    "Notes": "Impressionism (1860s-1880s): Soft pastels, pale blues, lavenders, light yellows capturing changing light."
+  },
+  {
+    "No": 148,
+    "Product Type": "Art Deco Luxury",
+    "Primary (Hex)": "#000000",
+    "Secondary (Hex)": "#1B5E20",
+    "CTA (Hex)": "#D4AF37",
+    "Background (Hex)": "#FAFAFA",
+    "Text (Hex)": "#000000",
+    "Border (Hex)": "#424242",
+    "Notes": "Art Deco (1920s-1930s): Black and gold, deep greens, rich jewel tones for glamour and luxury."
+  },
+  {
+    "No": 149,
+    "Product Type": "Neo-Grotesque Typography",
+    "Primary (Hex)": "#18181B",
+    "Secondary (Hex)": "#27272A",
+    "CTA (Hex)": "#DC2626",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#09090B",
+    "Border (Hex)": "#E4E4E7",
+    "Notes": "Neo-Grotesque (Helvetica era): Neutral grays, high contrast black/white, minimal accent colors."
+  },
+  {
+    "No": 150,
+    "Product Type": "British Racing Green Heritage",
+    "Primary (Hex)": "#004225",
+    "Secondary (Hex)": "#1A472A",
+    "CTA (Hex)": "#D4AF37",
+    "Background (Hex)": "#FFFFFF",
+    "Text (Hex)": "#0F1419",
+    "Border (Hex)": "#E5E7EB",
+    "Notes": "British Racing Green: Deep forest green with gold accents, heritage automotive palette."
+  },
+  {
+    "No": 151,
+    "Product Type": "Children's Learning App",
+    "Primary (Hex)": "#FF6B6B",
+    "Secondary (Hex)": "#4ECDC4",
+    "CTA (Hex)": "#FFE66D",
+    "Background (Hex)": "#FFF9F0",
+    "Text (Hex)": "#2C3E50",
+    "Border (Hex)": "#FFE0B2",
+    "Notes": "Playful Kids: Friendly coral, turquoise, and sunshine yellow for joyful learning."
+  },
+  {
+    "No": 152,
+    "Product Type": "Kids Toy Store / Educational",
+    "Primary (Hex)": "#9B59B6",
+    "Secondary (Hex)": "#3498DB",
+    "CTA (Hex)": "#F39C12",
+    "Background (Hex)": "#FFFEF7",
+    "Text (Hex)": "#2C3E50",
+    "Border (Hex)": "#E8DAEF",
+    "Notes": "Primary Playground: Purple creativity, sky blue wonder, orange excitement for ages 3-10."
+  },
+  {
+    "No": 153,
+    "Product Type": "Party Supply & Balloon Shop",
+    "Primary (Hex)": "#FF1493",
+    "Secondary (Hex)": "#00CED1",
+    "CTA (Hex)": "#FFD700",
+    "Background (Hex)": "#FFFAFF",
+    "Text (Hex)": "#2C2C54",
+    "Border (Hex)": "#FFB6C1",
+    "Notes": "Celebration Central: Hot pink, turquoise, and gold for festive party excitement."
+  },
+  {
+    "No": 154,
+    "Product Type": "Birthday & Event Planning",
+    "Primary (Hex)": "#FF6F61",
+    "Secondary (Hex)": "#6B5B95",
+    "CTA (Hex)": "#88D8B0",
+    "Background (Hex)": "#FFFFF0",
+    "Text (Hex)": "#2C3E50",
+    "Border (Hex)": "#FFE4E1",
+    "Notes": "Party Perfect: Coral celebration, regal purple, mint confetti for unforgettable events."
+  },
+  {
+    "No": 155,
+    "Product Type": "Playful Family Activities",
+    "Primary (Hex)": "#FF6B9D",
+    "Secondary (Hex)": "#FFA07A",
+    "CTA (Hex)": "#20B2AA",
+    "Background (Hex)": "#FFFAF0",
+    "Text (Hex)": "#2F4F4F",
+    "Border (Hex)": "#FFE4E1",
+    "Notes": "Family Fun: Bubblegum pink, peachy coral, aqua adventure for all ages."
+  },
+  {
+    "No": 156,
+    "Product Type": "Kids Party Entertainer / Clown",
+    "Primary (Hex)": "#FF4757",
+    "Secondary (Hex)": "#FFA502",
+    "CTA (Hex)": "#1E90FF",
+    "Background (Hex)": "#FFFEF7",
+    "Text (Hex)": "#2C3E50",
+    "Border (Hex)": "#FFD93D",
+    "Notes": "Circus Joy: Red nose, orange fun, dodger blue balloons for maximum entertainment."
+  },
+  {
+    "No": 157,
+    "Product Type": "Mom Lifestyle Blog (Peach/Coral)",
+    "Primary (Hex)": "#FF9F80",
+    "Secondary (Hex)": "#FFB6C1",
+    "CTA (Hex)": "#B8A588",
+    "Background (Hex)": "#FFFAF5",
+    "Text (Hex)": "#5D4E37",
+    "Border (Hex)": "#F5DEB3",
+    "Notes": "Soft Mom Aesthetic: Peach coral warmth, blush tenderness, warm taupe for approachable motherhood."
+  },
+  {
+    "No": 158,
+    "Product Type": "Mom Blog Pastels",
+    "Primary (Hex)": "#F8B4D1",
+    "Secondary (Hex)": "#B4A7D6",
+    "CTA (Hex)": "#93C9A5",
+    "Background (Hex)": "#FFFCF7",
+    "Text (Hex)": "#4A5568",
+    "Border (Hex)": "#E8D5E0",
+    "Notes": "Pastel Mom: Blush pink compassion, lavender calm, sage green growth for gentle parenting."
+  }
+];
+        
+        function createSwatch(color, label) {
+            return `
+                <div class="swatch-full" style="background-color: ${color}" 
+                     onclick="copyToClipboard('${color}')"
+                     title="Click to copy ${color}">
+                    <div class="swatch-label">${label}</div>
+                    <div class="swatch-hex">${color}</div>
+                </div>
+            `;
+        }
+        
+        function createPaletteCard(palette) {
+            const bgColor = palette['Background (Hex)'];
+            const textColor = palette['Text (Hex)'];
+            const borderColor = palette['Border (Hex)'];
+            
+            return `
+                <div class="palette-card">
+                    <div class="palette-header" style="background-color: ${bgColor}; color: ${textColor}; border-bottom-color: ${borderColor};">
+                        <div class="palette-number" style="color: ${textColor}; opacity: 0.6;">#${palette.No}</div>
+                        <div class="palette-title" style="color: ${textColor};">${palette['Product Type']}</div>
+                        <div class="palette-notes" style="color: ${textColor}; opacity: 0.75;">${palette.Notes}</div>
+                    </div>
+                    <div class="color-row">
+                        ${createSwatch(palette['Primary (Hex)'], 'Primary')}
+                        ${createSwatch(palette['Secondary (Hex)'], 'Secondary')}
+                        ${createSwatch(palette['CTA (Hex)'], 'CTA')}
+                    </div>
+                    <div class="color-row">
+                        ${createSwatch(palette['Background (Hex)'], 'Background')}
+                        ${createSwatch(palette['Text (Hex)'], 'Text')}
+                        ${createSwatch(palette['Border (Hex)'], 'Border')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        function renderPalettes(filteredPalettes = palettes) {
+            const grid = document.getElementById('paletteGrid');
+            grid.innerHTML = filteredPalettes.map(createPaletteCard).join('');
+        }
+        
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert(`Copied ${text} to clipboard!`);
+            });
+        }
+        
+        // Search functionality
+        document.getElementById('searchBox').addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const filtered = palettes.filter(p => 
+                p['Product Type'].toLowerCase().includes(searchTerm) ||
+                p.Notes.toLowerCase().includes(searchTerm) ||
+                Object.values(p).some(v => 
+                    typeof v === 'string' && v.toLowerCase().includes(searchTerm)
+                )
+            );
+            renderPalettes(filtered);
+        });
+        
+        // Initial render
+        renderPalettes();
+    </script>
+</body>
+</html>

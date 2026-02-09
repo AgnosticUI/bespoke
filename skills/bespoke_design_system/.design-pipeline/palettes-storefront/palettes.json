@@ -1,0 +1,197 @@
+[
+  {
+    "id": "palette-preview-01",
+    "paletteId": "palette-002",
+    "svgFile": "palette-preview-01.svg",
+    "palette": {
+      "id": "palette-002",
+      "product_type": "Streetwear Boutique",
+      "primary": "#000000",
+      "secondary": "#FACC15",
+      "cta": "#FF0000",
+      "background": "#FFFFFF",
+      "text": "#000000",
+      "border": "#000000",
+      "notes": "Hard Brutalism: Yellow highlights and red warnings."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "21.0:1",
+        "rawRatio": 21,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "21.0:1",
+        "rawRatio": 21,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "5.3:1",
+        "rawRatio": 5.252,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-02",
+    "paletteId": "palette-004",
+    "svgFile": "palette-preview-02.svg",
+    "palette": {
+      "id": "palette-004",
+      "product_type": "Vintage/Retro E-shop",
+      "primary": "#92400E",
+      "secondary": "#B45309",
+      "cta": "#065F46",
+      "background": "#FFFBEB",
+      "text": "#451A03",
+      "border": "#FEF3C7",
+      "notes": "Heritage brown + forest accent"
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "14.4:1",
+        "rawRatio": 14.44283222421363,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "7.1:1",
+        "rawRatio": 7.090048300172369,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "7.7:1",
+        "rawRatio": 7.683677009324036,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-03",
+    "paletteId": "palette-003",
+    "svgFile": "palette-preview-03.svg",
+    "palette": {
+      "id": "palette-003",
+      "product_type": "Sustainable Fashion Brand",
+      "primary": "#D97706",
+      "secondary": "#FDBA74",
+      "cta": "#065F46",
+      "background": "#FFFBEB",
+      "text": "#78350F",
+      "border": "#FDE68A",
+      "notes": "70s Retro: Earthy avocado green and harvest gold."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "8.7:1",
+        "rawRatio": 8.74845105788553,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "6.6:1",
+        "rawRatio": 6.5917028081333155,
+        "aa": true,
+        "aaa": false,
+        "autoColor": "#000000"
+      },
+      "autoOnCta": {
+        "ratio": "7.7:1",
+        "rawRatio": 7.683677009324036,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      }
+    },
+    "wcagLevel": "AA"
+  },
+  {
+    "id": "palette-preview-04",
+    "paletteId": "palette-014",
+    "svgFile": "palette-preview-04.svg",
+    "palette": {
+      "id": "palette-014",
+      "product_type": "Sustainable Fashion",
+      "primary": "#065F46",
+      "secondary": "#059669",
+      "cta": "#FBCFE8",
+      "background": "#F0FDFA",
+      "text": "#064E3B",
+      "border": "#CCFBF1",
+      "notes": "Deep forest green with soft petal-pink accents."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "9.3:1",
+        "rawRatio": 9.31921671799599,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "7.7:1",
+        "rawRatio": 7.683677009324036,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "15.2:1",
+        "rawRatio": 15.192214428641952,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-05",
+    "paletteId": "palette-001",
+    "svgFile": "palette-preview-05.svg",
+    "palette": {
+      "id": "palette-001",
+      "product_type": "Retro Gaming Marketplace",
+      "primary": "#06B6D4",
+      "secondary": "#F43F5E",
+      "cta": "#FACC15",
+      "background": "#1F2937",
+      "text": "#F8FAFC",
+      "border": "#475569",
+      "notes": "80s Neon Aesthetic: Vibrant cyan and magenta on slate."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "14.0:1",
+        "rawRatio": 14.029874741046042,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "8.6:1",
+        "rawRatio": 8.649616236144142,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      },
+      "autoOnCta": {
+        "ratio": "13.7:1",
+        "rawRatio": 13.712773555273134,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  }
+]

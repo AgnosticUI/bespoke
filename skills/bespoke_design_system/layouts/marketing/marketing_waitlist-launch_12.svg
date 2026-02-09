@@ -1,0 +1,45 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="1020" y="14" width="140" height="32" rx="8" fill="#9CA3AF"/>
+
+  <!-- Hero Section -->
+  <rect x="250" y="120" width="700" height="40" rx="8" fill="#9CA3AF"/>
+  <rect x="300" y="180" width="600" height="16" rx="8" fill="#CCCCCC"/>
+  <rect x="350" y="210" width="500" height="16" rx="8" fill="#CCCCCC"/>
+
+  <!-- Email Input + Button -->
+  <rect x="300" y="270" width="400" height="50" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="320" y="286" width="200" height="18" rx="8" fill="#EEEEEE"/>
+  <rect x="720" y="270" width="180" height="50" rx="10" fill="#9CA3AF"/>
+
+  <!-- Social Proof -->
+  <circle cx="480" cy="360" r="16" fill="#9CA3AF"/>
+  <circle cx="510" cy="360" r="16" fill="#9CA3AF"/>
+  <circle cx="540" cy="360" r="16" fill="#9CA3AF"/>
+  <circle cx="570" cy="360" r="16" fill="#9CA3AF"/>
+  <rect x="600" y="352" width="200" height="16" rx="8" fill="#CCCCCC"/>
+
+  <!-- Feature Preview Cards -->
+  <rect x="100" y="430" width="320" height="280" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="430" width="320" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="130" y="590" width="200" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="130" y="624" width="260" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="130" y="650" width="240" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="130" y="676" width="260" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="440" y="430" width="320" height="280" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="440" y="430" width="320" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="470" y="590" width="200" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="470" y="624" width="260" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="470" y="650" width="240" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="470" y="676" width="260" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="780" y="430" width="320" height="280" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="780" y="430" width="320" height="140" rx="12" fill="#EEEEEE"/>
+  <rect x="810" y="590" width="200" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="810" y="624" width="260" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="650" width="240" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="676" width="260" height="14" rx="8" fill="#CCCCCC"/>
+</svg>

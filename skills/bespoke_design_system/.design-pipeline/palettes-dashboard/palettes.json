@@ -1,0 +1,197 @@
+[
+  {
+    "id": "palette-preview-01",
+    "paletteId": "palette-004",
+    "svgFile": "palette-preview-01.svg",
+    "palette": {
+      "id": "palette-004",
+      "product_type": "Infrastructure Monitoring",
+      "primary": "#F97316",
+      "secondary": "#FB923C",
+      "cta": "#DC2626",
+      "background": "#0F172A",
+      "text": "#F9FAFB",
+      "border": "#374151",
+      "notes": "High-Vis Dark Mode: Orange caution and red alerts."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "17.1:1",
+        "rawRatio": 17.08334334583694,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "7.5:1",
+        "rawRatio": 7.491826389742756,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      },
+      "autoOnCta": {
+        "ratio": "4.8:1",
+        "rawRatio": 4.829404522659002,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-02",
+    "paletteId": "palette-001",
+    "svgFile": "palette-preview-02.svg",
+    "palette": {
+      "id": "palette-001",
+      "product_type": "SaaS Security Dashboard",
+      "primary": "#1E293B",
+      "secondary": "#334155",
+      "cta": "#818CF8",
+      "background": "#0F172A",
+      "text": "#F1F5F9",
+      "border": "#FFFFFF",
+      "notes": "Glassmorphism (Dark): Translucent security panels."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "16.3:1",
+        "rawRatio": 16.295987899750777,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "14.6:1",
+        "rawRatio": 14.628718079350337,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "7.0:1",
+        "rawRatio": 7.040120998446818,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-03",
+    "paletteId": "palette-003",
+    "svgFile": "palette-preview-03.svg",
+    "palette": {
+      "id": "palette-003",
+      "product_type": "Fintech Dashboard",
+      "primary": "#0F172A",
+      "secondary": "#1E293B",
+      "cta": "#22C55E",
+      "background": "#020617",
+      "text": "#F8FAFC",
+      "border": "#334155",
+      "notes": "High-end dark mode with liquidity-green indicators."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "19.3:1",
+        "rawRatio": 19.280617407842026,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "17.9:1",
+        "rawRatio": 17.85253496299567,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "9.2:1",
+        "rawRatio": 9.216147598515207,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-04",
+    "paletteId": "palette-002",
+    "svgFile": "palette-preview-04.svg",
+    "palette": {
+      "id": "palette-002",
+      "product_type": "Data Analytics Dashboard",
+      "primary": "#312E81",
+      "secondary": "#4338CA",
+      "cta": "#14B8A6",
+      "background": "#0F172A",
+      "text": "#94A3B8",
+      "border": "#1E293B",
+      "notes": "Professional Dark Mode: Tech indigo with data-teal."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "7.0:1",
+        "rawRatio": 6.9626547485416275,
+        "aa": true,
+        "aaa": false
+      },
+      "autoOnPrimary": {
+        "ratio": "11.4:1",
+        "rawRatio": 11.423054611243986,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "8.4:1",
+        "rawRatio": 8.43657514369905,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AA"
+  },
+  {
+    "id": "palette-preview-05",
+    "paletteId": "palette-005",
+    "svgFile": "palette-preview-05.svg",
+    "palette": {
+      "id": "palette-005",
+      "product_type": "Analytics Platform",
+      "primary": "#1E40AF",
+      "secondary": "#3B82F6",
+      "cta": "#F59E0B",
+      "background": "#F8FAFC",
+      "text": "#1E3A8A",
+      "border": "#DBEAFE",
+      "notes": "Data-centric blue with amber focus points."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "9.9:1",
+        "rawRatio": 9.899858341578378,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "8.7:1",
+        "rawRatio": 8.722410784954462,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "9.8:1",
+        "rawRatio": 9.778071798962173,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  }
+]

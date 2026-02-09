@@ -1,0 +1,189 @@
+No,niche_id,application_types,Product Type,Primary (Hex),Secondary (Hex),CTA (Hex),Background (Hex),Text (Hex),Border (Hex),Notes
+1,portfolio,design-portfolio;photography;creative-studio;gallery,Photography Portfolio,#FFFFFF,#FAFAFA,#000000,#FFFFFF,#000000,#000000,Extreme Minimalism: High-contrast white and black.
+2,portfolio,design-portfolio;photography;creative-studio;gallery,Minimalist Portfolio,#000000,#262626,#2563EB,#FFFFFF,#000000,#F5F5F5,Swiss Style: Heavy black type + Blue link.
+3,portfolio,design-portfolio;photography;creative-studio;gallery,Architectural Firm,#64748B,#94A3B8,#EA580C,#FFFFFF,#334155,#E2E8E0,Industrial Minimalism: Slate grays with safety orange.
+4,marketing,landing-page,Digital Book Reader,#18181B,#52525B,#9D174D,#FAFAFA,#0A0A0A,#E4E4E7,Minimalism: E-reader focus with subtle burgundy link.
+5,fintech,financial-dashboard;trading-platform;crypto-wallet,Financial Services App,#BFDBFE,#93C5FD,#1D4ED8,#F8FAFC,#0F172A,#FFFFFF,Glassmorphism (Frosted): Translucent blue layers.
+6,industrial,iot-control-panel;monitoring-system;factory-dashboard,Hardware Interface (IoT),#1F2937,#374151,#3B82F6,#1F2937,#F3F4F6,#1F2937,Neumorphism (Dark): Embossed UI for industrial control.
+7,marketing,landing-page,High-Performance Sportswear,#000000,#171717,#BE123C,#F5F5F5,#0A0A0A,#D4D4D8,Modern Brutalism: Piano black and high-speed red.
+8,saas,web-app;productivity-tool;project-management,Personal Productivity Tool,#E0E5EC,#CBD0D6,#007AFF,#E0E5EC,#333333,#FFFFFF,Neumorphism (Soft UI): Monochrome with soft depth.
+9,ecommerce,storefront;product-grid;marketplace,Retro Gaming Marketplace,#06B6D4,#F43F5E,#FACC15,#1F2937,#F8FAFC,#475569,80s Neon Aesthetic: Vibrant cyan and magenta on slate.
+10,dashboard;saas;fintech,analytics;admin-panel;data-visualization;monitoring;web-app;productivity-tool;project-management;financial-dashboard;trading-platform;crypto-wallet,SaaS Security Dashboard,#1E293B,#334155,#818CF8,#0F172A,#F1F5F9,#FFFFFF,Glassmorphism (Dark): Translucent security panels.
+11,blog;medical,blog;editorial;article;magazine;patient-portal;wellness-app;health-dashboard,Space Exploration News,#0C4A6E,#075985,#FACC15,#0F172A,#E0F2FE,#0C4A6E,Glassmorphism (Space): Dark deep-blue frosted panels.
+12,ecommerce,storefront;product-grid;marketplace,Streetwear Boutique,#000000,#FACC15,#FF0000,#FFFFFF,#000000,#000000,Hard Brutalism: Yellow highlights and red warnings.
+13,fintech,financial-dashboard;trading-platform;crypto-wallet,Web3 / Crypto Exchange,#000000,#FFFFFF,#FF0000,#FFFF00,#000000,#000000,Brutalist UI: Stark contrast with heavy black outlines.
+14,saas,web-app,Coding / IDE Extension,#4F46E5,#6366F1,#14B8A6,#0F172A,#E0E7FF,#1E1B4B,Developer Dark Mode: Indigo with code-friendly teal.
+15,portfolio;fintech,design-portfolio;photography;creative-studio;gallery;financial-dashboard;trading-platform;crypto-wallet,Crypto Portfolio (Pro),#F59E0B,#D97706,#10B981,#020617,#F8FAFC,#1E293B,Amber Value + Trading Success Green.
+16,fintech;industrial,financial-dashboard;trading-platform;crypto-wallet;iot-control-panel;monitoring-system;factory-dashboard,Cryptographic Hardware,#0F172A,#1E293B,#818CF8,#020617,#F8FAFC,#334155,Silicon dark + ledger indigo
+17,fintech,financial-dashboard;trading-platform;crypto-wallet,Cyber-Physical Security,#022C22,#065F46,#10B981,#020617,#ECFDF5,#064E3B,Emerald secure-tech dark mode
+18,saas;fintech,web-app;productivity-tool;project-management;financial-dashboard;trading-platform;crypto-wallet,Cybersecurity Platform,#0F172A,#334155,#22D3EE,#020617,#F1F5F9,#1E293B,Tech-dark mode with scanning cyan.
+19,dashboard,analytics;admin-panel;data-visualization;monitoring,Data Analytics Dashboard,#312E81,#4338CA,#14B8A6,#0F172A,#94A3B8,#1E293B,Professional Dark Mode: Tech indigo with data-teal.
+20,fintech,financial-dashboard;trading-platform;crypto-wallet,Fintech Asset Manager,#2563EB,#3B82F6,#FACC15,#FFFFFF,#1E293B,#DBEAFE,Bento Grid Styling: Clean trust-blue with gold alerts.
+21,dashboard;fintech,analytics;admin-panel;data-visualization;monitoring;financial-dashboard;trading-platform;crypto-wallet,Fintech Dashboard,#0F172A,#1E293B,#22C55E,#020617,#F8FAFC,#334155,High-end dark mode with liquidity-green indicators.
+22,portfolio,design-portfolio;photography;creative-studio;gallery,Indie Game Studio,#4338CA,#5850EC,#FACC15,#EEF2FF,#312E81,#C7D2FE,Retro 16-bit indigo + coin yellow
+23,dashboard;industrial,analytics;admin-panel;data-visualization;monitoring;iot-control-panel;monitoring-system;factory-dashboard,Infrastructure Monitoring,#F97316,#FB923C,#DC2626,#0F172A,#F9FAFB,#374151,High-Vis Dark Mode: Orange caution and red alerts.
+24,medical,patient-portal;wellness-app;health-dashboard,Personal Trainer App,#DC2626,#F87171,#06B6D4,#FFF1F2,#450A0A,#FECACA,80s Sport Aesthetic: Vibrant red and electric blue.
+25,saas;blog,web-app;productivity-tool;project-management;blog;editorial;article;magazine,Podcast Platform,#1E1B4B,#312E81,#F97316,#0F0F23,#F8FAFC,#4338CA,Studio dark mode with warm vocal-orange.
+26,saas,web-app;productivity-tool;project-management,Project Management SaaS,#F97316,#FB923C,#10B981,#FFFFFF,#1E293B,#E2E8F0,Bento Grid: Clean modular grid with high-contrast accents.
+27,ecommerce,storefront;product-grid;marketplace,Sustainable Fashion Brand,#D97706,#FDBA74,#065F46,#FFFBEB,#78350F,#FDE68A,70s Retro: Earthy avocado green and harvest gold.
+28,saas,web-app,Sustainable Tech,#064E3B,#065F46,#34D399,#F0FDF4,#064E3B,#DCFCE7,British Racing Green + Mint Eco CTA.
+29,saas,web-app;productivity-tool;project-management,Talent Acquisition SaaS,#4F46E5,#6366F1,#10B981,#EEF2FF,#312E81,#C7D2FE,AI-Native UI: Soft indigo with success-green highlights.
+30,ecommerce,storefront;product-grid;marketplace,Vintage/Retro E-shop,#92400E,#B45309,#065F46,#FFFBEB,#451A03,#FEF3C7,Heritage brown + forest accent
+31,saas,web-app;productivity-tool;project-management,AI Productivity Tool,#0F172A,#334155,#818CF8,#F8FAFC,#0F172A,#E2E8F0,Clean OpenAI Style Slate + Periwinkle.
+32,industrial,iot-control-panel;monitoring-system;factory-dashboard,AgriTech / Farm,#15803D,#22C55E,#CA8A04,#F0FDF4,#14532D,#BBF7D0,Earth-tone green with harvest gold CTA.
+33,industrial,iot-control-panel;monitoring-system;factory-dashboard,Alternative Energy (Wind),#0369A1,#0EA5E9,#34D399,#F0F9FF,#082F49,#BAE6FD,Breeze blue + turbine green
+34,dashboard;saas,analytics;admin-panel;data-visualization;monitoring;web-app;productivity-tool;project-management,Analytics Platform,#1E40AF,#3B82F6,#F59E0B,#F8FAFC,#1E3A8A,#DBEAFE,Data-centric blue with amber focus points.
+35,ecommerce,storefront;product-grid;marketplace,Apparel / Streetwear,#000000,#404040,#EF4444,#FAFAFA,#171717,#E5E5E5,Hype-beast Black/White + Drop Red.
+36,portfolio,design-portfolio;photography;creative-studio;gallery,Architecture / Design,#27272A,#52525B,#059669,#FAFAFA,#09090B,#D4D4D8,Drafting pencil grey + Blueprint Green.
+37,portfolio,design-portfolio;photography;creative-studio;gallery,Art Gallery/Museum,#171717,#404040,#D4D4D8,#FFFFFF,#171717,#E5E5E5,Minimalist canvas + shadow grey
+38,portfolio,design-portfolio;photography;creative-studio;gallery,Arthouse Cinema,#450A0A,#7F1D1D,#FDE047,#FFF7ED,#450A0A,#F97316,Velvet red + projector yellow
+39,portfolio,design-portfolio;photography;creative-studio;gallery,Artisan Pottery,#78350F,#92400E,#0D9488,#FFFBEB,#451A03,#FDE68A,Terracotta earth tones + glazed teal
+40,ecommerce;industrial,storefront;product-grid;marketplace;iot-control-panel;monitoring-system;factory-dashboard,Automotive Dealer,#1E293B,#334155,#DC2626,#F8FAFC,#0F172A,#E2E8F0,Sophisticated slate with Brake Light red.
+41,industrial,iot-control-panel;monitoring-system;factory-dashboard,Aviation / Airline,#1E3A8A,#3B82F6,#F97316,#EFF6FF,#1E40AF,#BFDBFE,Skyline blue with high-visibility boarding orange.
+42,industrial,iot-control-panel;monitoring-system;factory-dashboard,Aviation/Private Jet,#1E1B4B,#312E81,#D4AF37,#F8FAFC,#1E1B4B,#E2E8F0,Midnight blue + champagne gold
+43,ecommerce;food,storefront;product-grid;marketplace;restaurant-site;menu-display,Bakery / Cafe,#92400E,#B45309,#F8FAFC,#FEF3C7,#78350F,#FDE68A,Warm crust brown with a clean cream base.
+44,medical;industrial,patient-portal;wellness-app;health-dashboard;iot-control-panel;monitoring-system;factory-dashboard,BioTech Research,#0D9488,#5EEAD4,#F43F5E,#F0FDFA,#134E4A,#CCFBF1,DNA teal + active research rose
+45,ecommerce;food,storefront;product-grid;marketplace;restaurant-site;menu-display,Brewery / Winery,#7C2D12,#B91C1C,#CA8A04,#FEF2F2,#450A0A,#FECACA,Bordeaux red with craft-gold CTA.
+46,ecommerce;food,storefront;product-grid;marketplace;restaurant-site;food-blog,Coffee Roaster,#78350F,#92400E,#FBBF24,#FEF3C7,#451A03,#FDE68A,Rich espresso brown with golden-roast accents.
+47,marketing,landing-page,Comic Book Reader,#E11D48,#BE123C,#FACC15,#FFFFFF,#000000,#000000,Pop-art red + yellow + heavy black ink
+48,industrial,iot-control-panel;monitoring-system;factory-dashboard,Construction Tech,#64748B,#94A3B8,#F97316,#F8FAFC,#334155,#E2E8F0,Steel grey with Safety Vest orange.
+49,medical,patient-portal;wellness-app;health-dashboard,Coworking Space,#F59E0B,#FBBF24,#2563EB,#FFFBEB,#78350F,#FDE68A,Creative amber with professional blue.
+50,marketing,landing-page,Deep Sea Exploration,#0C4A6E,#075985,#38BDF8,#082F49,#E0F2FE,#0C4A6E,Monochromatic oceanic blues + bioluminescent cyan
+51,marketing,landing-page,Dental Practice,#0EA5E9,#38BDF8,#FBBF24,#F0F9FF,#0C4A6E,#BAE6FD,Bright sterile blue with high-trust yellow.
+52,marketing;social,landing-page;social-network;event-community,E-Sports Coaching,#6366F1,#4F46E5,#F87171,#0F172A,#F8FAFC,#312E81,Indigo base with aggressive coral CTA
+53,ecommerce,storefront;product-grid;marketplace,E-commerce Luxury,#1C1917,#44403C,#CA8A04,#FAFAF9,#0C0A09,#D6D3D1,Deep onyx with refined metallic gold accents.
+54,industrial,iot-control-panel;monitoring-system;factory-dashboard,EV / Clean Energy,#0891B2,#22D3EE,#22C55E,#ECFEFF,#164E63,#A5F3FC,Electric cyan with Go green.
+55,marketing;education,landing-page;lms;online-course;student-portal,Educational App,#4F46E5,#818CF8,#F97316,#EEF2FF,#1E1B4B,#C7D2FE,Playful but structured indigo/orange pairing.
+56,ecommerce,storefront;product-grid;marketplace,Fine Jewelry Store,#171717,#262626,#BE123C,#FAFAFA,#171717,#E5E5E5,Obsidian black + ruby CTA
+57,medical,patient-portal;wellness-app;health-dashboard,Fitness / Gym App,#F97316,#FB923C,#22C55E,#1F2937,#F8FAFC,#374151,High-energy orange on charcoal dark-mode.
+58,marketing,landing-page,Freelancer Hub,#6366F1,#818CF8,#22C55E,#EEF2FF,#312E81,#C7D2FE,Creative indigo with a Hire green.
+59,industrial,iot-control-panel;monitoring-system;factory-dashboard,Geothermal Energy,#991B1B,#B91C1C,#F59E0B,#FEF2F2,#450A0A,#FEE2E2,Magma red + heat amber
+60,marketing,landing-page,Gourmet Meal Kit,#431407,#78350F,#EA580C,#FFF7ED,#431407,#FFEDD5,Umami brown + zest orange
+61,medical,patient-portal;wellness-app;health-dashboard,Healthcare App,#0891B2,#22D3EE,#059669,#ECFEFF,#164E63,#A5F3FC,Sanitary cyan with a calming health-green CTA.
+62,marketing,landing-page,High-End Law / Legal,#171717,#262626,#CA8A04,#FFFFFF,#171717,#E5E5E5,Classic Marble + Gilded Gold Authority.
+63,fintech,financial-dashboard;trading-platform;crypto-wallet,High-Frequency Trading,#1F2937,#374151,#22C55E,#030712,#F9FAFB,#1F2937,Terminal black + rapid-action green
+64,marketing,landing-page,Hotel / Hospitality,#1E3A8A,#3B82F6,#CA8A04,#F8FAFC,#1E40AF,#BFDBFE,Royal blue with a Concierge Gold accent.
+65,ecommerce,storefront;product-grid;marketplace,Indie Coffee Roaster,#451A03,#78350F,#F97316,#FCF9F7,#271308,#E6E0D9,Deep Espresso + Steam Orange accent.
+66,industrial,iot-control-panel;monitoring-system;factory-dashboard,Industrial IoT,#334155,#475569,#F97316,#0F172A,#F1F5F9,#1E293B,Steel Slate + Safety Vest Orange.
+67,industrial,iot-control-panel;monitoring-system;factory-dashboard,Industrial Robotics,#374151,#4B5563,#EF4444,#F3F4F6,#111827,#D1D5DB,Iron grey + emergency alert red
+68,portfolio;industrial,design-portfolio;photography;creative-studio;gallery;iot-control-panel;monitoring-system;factory-dashboard,IoT / Smart Home,#1E293B,#334155,#22C55E,#0F172A,#F8FAFC,#475569,Technical slate with status-aware green.
+69,marketing,landing-page,Job Recruitment,#0369A1,#0EA5E9,#22C55E,#F0F9FF,#0C4A6E,#BAE6FD,Professional trust blue with Hired green.
+70,marketing,landing-page,Language Learning,#2563EB,#60A5FA,#FACC15,#EFF6FF,#1E3A8A,#DBEAFE,Bright academic blue + star yellow
+71,marketing,landing-page,Legal Services,#1E3A8A,#1E40AF,#B45309,#F8FAFC,#0F172A,#CBD5E1,Authority-based navy with conservative tan/gold.
+72,saas,web-app,Legal Tech / AI,#312E81,#4338CA,#6366F1,#F8FAFC,#1E1B4B,#E0E7FF,Modern indigo logic-based palette.
+73,marketing,landing-page,Logistics / Tracking,#2563EB,#3B82F6,#F97316,#EFF6FF,#1E40AF,#BFDBFE,Fleet blue with shipment-alert orange.
+74,ecommerce,storefront;product-grid;marketplace,Luxury Bedding Store,#FECACA,#FCA5A5,#7C2D12,#FFF7F7,#450A0A,#FBCFE8,Minimalist Warmth: Blush tones with deep earth accents.
+75,marketing,landing-page,Luxury Hotel / Resort,#3F3F46,#52525B,#B45309,#FDFCFB,#18181B,#E7E5E4,Champagne Background + Bronze/Gold CTA.
+76,marketing;realestate,landing-page;property-listing;agent-portfolio,Luxury Real Estate,#0C0A09,#292524,#A8A29E,#FAFAF9,#1C1917,#E7E5E4,Stone monochrome + taupe accent
+77,marketing,landing-page,Luxury Watchmaker,#1C1917,#292524,#94A3B8,#FFFFFF,#1C1917,#E7E5E4,Brushed steel + obsidian contrast
+78,marketing,landing-page,Luxury Yachting,#0F172A,#1E293B,#94A3B8,#F8FAFC,#0F172A,#CBD5E1,Deep navy + polished silver
+79,marketing,landing-page,Maritime/Shipping,#1E3A8A,#1D4ED8,#F87171,#F0F9FF,#1E3A8A,#B9E6FE,Oceanic blue + beacon red
+80,medical,patient-portal;wellness-app;health-dashboard,Meditation / Mindfulness,#5B6156,#83897C,#D97706,#F7F7F5,#2D312C,#E2E2DE,Organic Sage + Muted Amber for Zen UX.
+81,marketing,landing-page,Micro-Credentials,#0369A1,#0EA5E9,#CA8A04,#F0F9FF,#0C4A6E,#BAE6FD,Professional blue with Achievement Gold.
+82,marketing,landing-page,Music Production/DAW,#18181B,#27272A,#F97316,#09090B,#FAFAFA,#3F3F46,Studio dark + signal orange
+83,marketing,landing-page,Music Streaming,#1E1B4B,#4338CA,#22C55E,#0F0F23,#F8FAFC,#312E81,Modern audio dark-mode with Play green.
+84,fintech,financial-dashboard;trading-platform;crypto-wallet,Neobank / Gen-Z Finance,#000000,#171717,#CCFF00,#FFFFFF,#000000,#E5E5E5,High-fashion Chartreuse on stark mono.
+85,blog,blog;editorial;article;magazine,Newsletter Tool,#0369A1,#0EA5E9,#F97316,#F0F9FF,#0C4A6E,#BAE6FD,Trust blue with subscription-focused orange.
+86,marketing,landing-page,Non-profit / Charity,#0891B2,#22D3EE,#F97316,#ECFEFF,#164E63,#A5F3FC,Compassionate cyan with urgent action orange.
+87,medical,patient-portal;wellness-app;health-dashboard,Nutrition & Wellness App,#34D399,#6EE7B7,#F97316,#ECFDF5,#064E3B,#A7F3D0,High-Contrast Health: Vibrant green and urgency orange.
+88,marketing,landing-page,Online E-learning,#0D9488,#2DD4BF,#F97316,#F0FDFA,#134E4A,#5EEAD4,Progress-based teal with achievement orange.
+89,marketing,landing-page,Organic Cosmetic Line,#A7F3D0,#ECFDF5,#D97706,#FFFFFF,#064E3B,#D1FAE5,Soft Pastel: Mint and sage palette with bronze action.
+90,marketing,landing-page,Organic Grocery,#166534,#15803D,#F97316,#F7FEE7,#064E3B,#D9F99D,Kale green + fresh carrot orange
+91,marketing,landing-page,Organic Tea House,#166534,#3F6212,#A3E635,#F7FEE7,#064E3B,#D9F99D,Matcha green + sprout lime
+92,marketing,landing-page,Organic Wine / Vineyard,#4C0519,#701A75,#84CC16,#FDF2F8,#450A0A,#FBCFE8,Bordeaux Red + Vineyard Green sprout.
+93,marketing,landing-page,Outdoor Adventure Gear,#9A3412,#C2410C,#0891B2,#FFF7ED,#431407,#FFEDD5,Canyon rust + river blue
+94,marketing,landing-page,Pediatric Care Portal,#FBCFE8,#FCE7F3,#0EA5E9,#FFF7F7,#9D174D,#FFE4E6,Soft Pastel: Gentle pinks with high-trust sky blue.
+95,marketing,landing-page,Pet Rehabilitation,#0891B2,#06B6D4,#F97316,#ECFEFF,#164E63,#CFFAFE,Clinical cyan + energetic orange
+96,saas,web-app,Pet Tech App,#F97316,#FB923C,#2563EB,#FFF7ED,#9A3412,#FED7AA,Playful friendly orange with reliable blue.
+97,marketing,landing-page,Pharmacy / Meds,#15803D,#22C55E,#0369A1,#F0FDF4,#14532D,#BBF7D0,Traditional apothecary green with trust blue.
+98,marketing,landing-page,Premium Candle Brand,#44403C,#57534E,#D4AF37,#FAFAF9,#1C1917,#E7E5E4,Waxy taupe + flame gold
+99,marketing,landing-page;hero-section;campaign-site,Premium Travel Agency,#1E3A8A,#1E40AF,#F43F5E,#F8FAFC,#0F172A,#E2E8F0,Royal Navy + Passport Rose urgency.
+100,marketing,landing-page,Private Investigator,#27272A,#3F3F46,#DC2626,#18181B,#F4F4F5,#27272A,Noir charcoal + Red Herring accent
+101,saas,web-app;productivity-tool;project-management,Productivity Tool,#0D9488,#14B8A6,#F97316,#F0FDFA,#134E4A,#99F6E4,Focus-oriented teal with high-visibility action.
+102,marketing,landing-page,Public Service / Gov,#0F172A,#334155,#0369A1,#F8FAFC,#020617,#E2E8F0,High-contrast authoritative navy.
+103,marketing,landing-page,Quantum Computing,#1E1B4B,#3730A3,#A5B4FC,#020617,#F8FAFC,#312E81,Subatomic indigo + electron blue
+104,marketing;realestate,landing-page;property-listing;property-search;rental-platform,Real Estate Portal,#0F766E,#14B8A6,#0369A1,#F0FDFA,#134E4A,#99F6E4,Stability-focused teal and professional blue.
+105,marketing;food,landing-page;restaurant-site;food-ordering;reservation-system,Restaurant / Food,#DC2626,#F87171,#CA8A04,#FEF2F2,#450A0A,#FECACA,Appetizing red with a warm Service Gold CTA.
+106,marketing,landing-page,Social Impact / NGO,#0369A1,#0284C7,#F97316,#F0F9FF,#0C4A6E,#BAE6FD,Compassion Blue + Humanist Orange.
+107,industrial,iot-control-panel;monitoring-system;factory-dashboard,Solar Energy,#15803D,#22C55E,#EAB308,#F0FDF4,#14532D,#DCFCE7,Growth green with solar yellow energy.
+108,medical,patient-portal;wellness-app;health-dashboard,Space Logistics,#312E81,#3730A3,#F43F5E,#020617,#F1F5F9,#1E1B4B,Star-chart navy + thruster rose
+109,medical,patient-portal;wellness-app;health-dashboard,Space Tech / Aerospace,#1E1B4B,#312E81,#06B6D4,#020617,#F8FAFC,#1E293B,Cosmic Dark + Ion Engine Cyan.
+110,marketing,landing-page,Sustainability / ESG,#059669,#10B981,#0891B2,#ECFDF5,#064E3B,#A7F3D0,Ecological green with aquatic blue contrast.
+111,ecommerce,storefront;product-grid;marketplace,Sustainable Fashion,#065F46,#059669,#FBCFE8,#F0FDFA,#064E3B,#CCFBF1,Deep forest green with soft petal-pink accents.
+112,marketing,landing-page,Travel / Tourism,#0EA5E9,#38BDF8,#F97316,#F0F9FF,#0C4A6E,#BAE6FD,Clear sky blue with adventurous orange.
+113,marketing,landing-page,Urban Mobility / Scooters,#000000,#262626,#ADFF2F,#FFFFFF,#000000,#E5E5E5,High-vis electric lime on stark black.
+114,marketing,landing-page,Urban Rooftop Farming,#15803D,#16A34A,#FB923C,#F0FDF4,#14532D,#BBF7D0,Concrete city green + sunset orange
+115,marketing,landing-page,Venture Capital,#1E293B,#475569,#F59E0B,#FFFFFF,#0F172A,#E2E8F0,Stately slate with Opportunity amber.
+116,marketing,landing-page,Vertical Farming,#065F46,#059669,#84CC16,#F7FEE7,#064E3B,#BEF264,Hydroponic green + lime growth
+117,saas,web-app,Video / OTT Service,#0F0F23,#1E1B4B,#E11D48,#000000,#F8FAFC,#312E81,Cinematic pure black background with vibrant red.
+118,ecommerce,storefront;product-grid;marketplace,Vintage Vinyl Shop,#171717,#262626,#EA580C,#F5F5F4,#171717,#D4D4D8,Sleeve black + record-label orange
+119,saas,web-app;productivity-tool;project-management,Webinar Platform,#1E40AF,#3B82F6,#22C55E,#EFF6FF,#1E3A8A,#BFDBFE,Professional blue with Join green button.
+120,medical,patient-portal;wellness-app;health-dashboard,Wellness / Yoga App,#134E4A,#115E59,#FDE047,#F0FDFA,#134E4A,#CCFBF1,Teal Forest + Sunlight Yellow CTA.
+121,marketing,landing-page,AI Agent Orchestration,#0F172A,#1E293B,#06B6D4,#FFFFFF,#0F172A,#E2E8F0,Modern AI: Deep slate with agent-cyan for autonomous systems.
+122,marketing,landing-page,Apple Vision Pro App,#000000,#1C1C1E,#0A84FF,#FFFFFF,#000000,#F2F2F7,Spatial Computing: Pure black depth with Apple system blue.
+123,ecommerce,storefront;product-grid;marketplace,Carbon Credit Marketplace,#065F46,#047857,#059669,#F0FDF4,#064E3B,#D1FAE5,Climate Tech 2026: Forest green ecosystem with verified credits.
+124,marketing,landing-page,Decentralized Social (Farcaster/Lens),#7C3AED,#5B21B6,#10B981,#FAFAFA,#1F2937,#E5E7EB,Web3 Social: Protocol purple with on-chain green verification.
+125,marketing,landing-page,Longevity / Biohacking App,#0EA5E9,#06B6D4,#14B8A6,#F0FDFA,#134E4A,#CCFBF1,Quantified Health: Clinical cyan with cellular teal metrics.
+126,marketing,landing-page,Local-First Software,#18181B,#3F3F46,#F59E0B,#FAFAFA,#09090B,#E4E4E7,Offline-First: Zinc monochrome with sync-amber for peer collaboration.
+127,marketing,landing-page,Open Source AI Model Hub,#1E3A8A,#1E40AF,#22C55E,#F8FAFC,#1E3A8A,#DBEAFE,Community ML: Academic blue with open-access green.
+128,marketing,landing-page,Personalized Medicine Portal,#BE123C,#E11D48,#0891B2,#FFF1F2,#4C0519,#FECDD3,Genomic Health: DNA rose with precision-cyan diagnostics.
+129,saas,web-app;productivity-tool;project-management,Agentic RAG Platform,#4338CA,#4F46E5,#14B8A6,#EEF2FF,#312E81,#C7D2FE,Retrieval AI: Deep indigo reasoning with teal retrieval actions.
+130,saas,web-app;productivity-tool;project-management,Climate Adaptation SaaS,#B45309,#D97706,#0891B2,#FFFBEB,#78350F,#FDE68A,Resilience Tech: Earth amber with water-cyan adaptation signals.
+131,saas,web-app,Neurotech / BCI Interface,#DB2777,#EC4899,#8B5CF6,#FDF2F8,#831843,#FBCFE8,Brain-Computer: Neural pink with cognitive violet signals.
+132,marketing,landing-page,Edge AI / On-Device ML,#374151,#4B5563,#F59E0B,#F9FAFB,#1F2937,#E5E7EB,Device Intelligence: Hardware gray with local-compute amber.
+133,saas,web-app,Regenerative Agriculture Tech,#365314,#4D7C0F,#CA8A04,#F7FEE7,#1A2E05,#D9F99D,Soil Carbon: Deep earth-green with harvest-gold incentives.
+134,saas,web-app,Small Language Model (SLM) IDE,#0F766E,#14B8A6,#FB923C,#F0FDFA,#134E4A,#99F6E4,Efficient AI: Teal for small models with optimize-orange.
+135,marketing,landing-page,Zero-Knowledge Proof App,#4C1D95,#5B21B6,#22C55E,#FAF5FF,#2E1065,#E9D5FF,Privacy Tech: ZK-purple with verified-green proofs.
+136,portfolio,design-portfolio;photography;creative-studio;gallery,Multimodal AI Studio,#BE185D,#DB2777,#06B6D4,#FFF1F2,#500724,#FECDD3,Vision+Audio+Text: Fuchsia fusion with cyan cross-modal.
+137,saas,web-app;productivity-tool;project-management,Rust/Systems Programming Platform,#B91C1C,#DC2626,#171717,#FEF2F2,#450A0A,#FECACA,Memory-Safe: Rust oxide-red with zero-cost black abstractions.
+138,marketing,landing-page,Autonomous Vehicle Interface,#1E40AF,#2563EB,#EF4444,#EFF6FF,#1E3A8A,#BFDBFE,Self-Driving: Navigation blue with emergency-red override.
+139,saas,web-app;productivity-tool;project-management,Digital Twin Platform,#0C4A6E,#0369A1,#F97316,#F0F9FF,#082F49,#BAE6FD,Industrial Metaverse: Sky blue twins with sync-orange updates.
+140,dashboard,analytics;admin-panel;data-visualization;monitoring,Ambient Computing Dashboard,#64748B,#94A3B8,#10B981,#F8FAFC,#334155,#E2E8F0,Invisible UX: Calm slate receding with context-green triggers.
+141,marketing,landing-page,Modern Life Insurance (PolicyMe-style),#1E3A5F,#2C5282,#F59E0B,#FFFFFF,#1F2937,#E5E7EB,Trust-Driven Insurance: Deep navy for stability with warm amber CTAs for accessibility.
+142,saas,web-app;productivity-tool;project-management,Estate Planning Platform (Trust & Will-style),#4C1D95,#5B21B6,#0EA5E9,#FAFAFA,#1F2937,#E5E7EB,Legacy & Trust: Royal purple for wisdom and legacy with sky-blue for clarity and hope.
+143,saas;blog,web-app;productivity-tool;project-management;blog;editorial;article;magazine,SEO Content Platform (Frase-style),#5B21B6,#7C3AED,#10B981,#FFFFFF,#1F2937,#E5E7EB,SEO Intelligence: Deep purple for strategic depth with success-green for ranking wins.
+144,marketing;medical,landing-page;hero-section;campaign-site;patient-portal;wellness-app;health-dashboard,AI Marketing Workspace (Jasper-style),#7C3AED,#A78BFA,#F59E0B,#FAFAFA,#111827,#E5E7EB,Creative AI: Vibrant purple for innovation with warm amber for creative activation.
+145,marketing,landing-page,Bauhaus Design System,#E31E24,#FDD000,#005EB8,#FFFFFF,#000000,#000000,Bauhaus (1919-1933): Primary colors (red, yellow, blue) with black/white for form follows function.
+146,marketing,landing-page,Fauvism Color Palette,#D32F2F,#7B1FA2,#FF6F00,#FFFDE7,#1B5E20,#FBC02D,Fauvism (1905-1910): Wild beasts with intense, non-naturalistic saturated colors for pure emotion.
+147,marketing,landing-page,Impressionist Palette,#9FA8DA,#B39DDB,#FFE082,#FFFEF7,#4A5568,#E8EAF6,Impressionism (1860s-1880s): Soft pastels, pale blues, lavenders, light yellows capturing changing light.
+148,portfolio,design-portfolio;photography;creative-studio;gallery,Art Deco Luxury,#000000,#1B5E20,#D4AF37,#FAFAFA,#000000,#424242,Art Deco (1920s-1930s): Black and gold, deep greens, rich jewel tones for glamour and luxury.
+149,marketing,landing-page,Neo-Grotesque Typography,#18181B,#27272A,#DC2626,#FFFFFF,#09090B,#E4E4E7,Neo-Grotesque (Helvetica era): Neutral grays, high contrast black/white, minimal accent colors.
+150,marketing,landing-page,British Racing Green Heritage,#004225,#1A472A,#D4AF37,#FFFFFF,#0F1419,#E5E7EB,British Racing Green: Deep forest green with gold accents, heritage automotive palette.
+151,marketing;education,landing-page;quiz-platform;classroom-tool,Children's Learning App,#FF6B6B,#4ECDC4,#FFE66D,#FFF9F0,#2C3E50,#FFE0B2,Playful Kids: Friendly coral, turquoise, and sunshine yellow for joyful learning.
+152,ecommerce;education,storefront;product-grid;marketplace;student-portal;classroom-tool,Kids Toy Store / Educational,#9B59B6,#3498DB,#F39C12,#FFFEF7,#2C3E50,#E8DAEF,Primary Playground: Purple creativity, sky blue wonder, orange excitement for ages 3-10.
+153,ecommerce;portfolio,storefront;product-grid;marketplace;design-portfolio;photography;creative-studio;gallery,Party Supply & Balloon Shop,#FF1493,#00CED1,#FFD700,#FFFAFF,#2C2C54,#FFB6C1,Celebration Central: Hot pink, turquoise, and gold for festive party excitement.
+154,marketing,landing-page;hero-section;campaign-site,Birthday & Event Planning,#FF6F61,#6B5B95,#88D8B0,#FFFFF0,#2C3E50,#FFE4E1,Party Perfect: Coral celebration, regal purple, mint confetti for unforgettable events.
+155,marketing,landing-page,Playful Family Activities,#FF6B9D,#FFA07A,#20B2AA,#FFFAF0,#2F4F4F,#FFE4E1,Family Fun: Bubblegum pink, peachy coral, aqua adventure for all ages.
+156,portfolio,design-portfolio;photography;creative-studio;gallery,Kids Party Entertainer / Clown,#FF4757,#FFA502,#1E90FF,#FFFEF7,#2C3E50,#FFD93D,Circus Joy: Red nose, orange fun, dodger blue balloons for maximum entertainment.
+157,blog,blog;editorial;article;magazine,Mom Lifestyle Blog (Peach/Coral),#FF9F80,#FFB6C1,#B8A588,#FFFAF5,#5D4E37,#F5DEB3,Soft Mom Aesthetic: Peach coral warmth, blush tenderness, warm taupe for approachable motherhood.
+158,blog,blog;editorial;article;magazine,Mom Blog Pastels,#F8B4D1,#B4A7D6,#93C9A5,#FFFCF7,#4A5568,#E8D5E0,Pastel Mom: Blush pink compassion, lavender calm, sage green growth for gentle parenting.
+159,education,lms;online-course;training-platform,LMS Platform,#1E40AF,#3B82F6,#F59E0B,#F8FAFC,#1E293B,#DBEAFE,Knowledge Blue: Trustworthy blue with progress-amber CTA for course completion.
+160,education,student-portal;certification-site;lms,University Portal,#1E3A5F,#2C5282,#10B981,#FFFFFF,#1F2937,#E5E7EB,Academic Trust: Deep navy institutional blue with success-green for achievements.
+161,education,classroom-tool;quiz-platform;tutoring-app,K-12 Classroom,#7C3AED,#A78BFA,#F97316,#FEFCE8,#1F2937,#E9D5FF,Playful Learning: Purple creativity with energetic orange for engagement.
+162,education,online-course;training-platform;certification-site,Online Course Platform,#0F766E,#14B8A6,#6366F1,#F0FDFA,#134E4A,#99F6E4,Growth Teal: Fresh teal progress with indigo accent for milestones.
+163,education,training-platform;lms;certification-site,Corporate Training,#334155,#64748B,#2563EB,#F8FAFC,#0F172A,#E2E8F0,Professional Slate: Neutral corporate with trustworthy blue CTA.
+164,realestate,property-listing;agent-portfolio;virtual-tour,Luxury Property,#1C1917,#292524,#D4AF37,#FAFAF9,#0C0A09,#E7E5E4,Estate Gold: Premium dark stone with aspirational gold accents.
+165,realestate,property-search;rental-platform;property-listing,Modern Realty,#0F766E,#14B8A6,#1D4ED8,#F0FDFA,#134E4A,#99F6E4,Trust Teal: Fresh modern teal with reliable blue for search CTAs.
+166,realestate,real-estate-crm;property-management;home-valuation,Property Management,#1E293B,#475569,#10B981,#F8FAFC,#0F172A,#E2E8F0,Management Slate: Professional dark with positive-green status indicators.
+167,realestate,property-listing;agent-portfolio;property-search,Residential Realty,#1E40AF,#3B82F6,#F59E0B,#FFFFFF,#1E293B,#DBEAFE,Classic Blue Trust: Established real estate blue with warm amber highlights.
+168,realestate,rental-platform;property-management;property-listing,Rental Platform,#4F46E5,#818CF8,#F97316,#EEF2FF,#1E1B4B,#C7D2FE,Indigo Rental: Modern indigo with availability-orange CTA.
+169,social,social-network;social-feed;member-directory,Social Network,#4F46E5,#818CF8,#F43F5E,#EEF2FF,#1E1B4B,#C7D2FE,Social Indigo: Engaging indigo with notification-rose for interactions.
+170,social,community-forum;discussion-board;group-platform,Community Forum,#0F766E,#14B8A6,#F59E0B,#F0FDFA,#134E4A,#99F6E4,Forum Teal: Approachable teal with contribution-amber highlights.
+171,social,messaging-app;social-feed;social-network,Messaging App,#2563EB,#60A5FA,#10B981,#F8FAFC,#1E293B,#DBEAFE,Message Blue: Clean communication blue with online-green status.
+172,social,group-platform;event-community;member-directory,Professional Network,#1E293B,#475569,#2563EB,#F8FAFC,#0F172A,#E2E8F0,Network Slate: Serious professional slate with connect-blue CTA.
+173,social,event-community;social-feed;group-platform,Event Community,#7C3AED,#A78BFA,#F97316,#FAFAFA,#1E1B4B,#E9D5FF,Event Purple: Vibrant purple energy with attention-orange for upcoming events.
+174,food,restaurant-site;reservation-system;menu-display,Fine Dining,#1C1917,#292524,#D4AF37,#FAFAF9,#0C0A09,#44403C,Culinary Gold: Elegant black with luxurious gold for upscale dining.
+175,food,food-ordering;food-delivery;restaurant-site,Food Delivery,#DC2626,#F87171,#FFFFFF,#FEF2F2,#450A0A,#FECACA,Delivery Red: Urgent appetite-red with clean white CTA for fast ordering.
+176,food,recipe-platform;food-blog;restaurant-site,Recipe Platform,#92400E,#D97706,#065F46,#FFFBEB,#78350F,#FDE68A,Harvest Warm: Rich amber warmth with herb-green accent for fresh ingredients.
+177,food,food-ordering;food-delivery;catering-service,Fast Casual,#F97316,#FB923C,#1D4ED8,#FFF7ED,#7C2D12,#FFEDD5,Casual Orange: Energetic orange with trustworthy blue order button.
+178,food,restaurant-site;reservation-system;catering-service,Farm to Table,#15803D,#22C55E,#78350F,#F0FDF4,#14532D,#BBF7D0,Organic Green: Natural green with earthy brown for rustic authenticity.
+179,travel,booking-platform;hotel-booking;vacation-rental,Luxury Resort,#0C4A6E,#0369A1,#D4AF37,#F0F9FF,#082F49,#BAE6FD,Resort Azure: Deep ocean blue with champagne-gold for premium bookings.
+180,travel,flight-search;booking-platform;hotel-booking,Booking Platform,#1E40AF,#3B82F6,#F59E0B,#F8FAFC,#1E293B,#DBEAFE,Trust Blue Booking: Reliable blue with deal-amber for price highlights.
+181,travel,tour-operator;travel-blog;vacation-rental,Adventure Travel,#065F46,#059669,#F97316,#F0FDF4,#064E3B,#D1FAE5,Jungle Green: Lush adventure green with explorer-orange CTA.
+182,travel,travel-planner;itinerary-builder;booking-platform,Travel Planner,#4F46E5,#818CF8,#10B981,#EEF2FF,#1E1B4B,#C7D2FE,Planner Indigo: Organized indigo with confirmation-green for itineraries.
+183,travel,hotel-booking;vacation-rental;tour-operator,Budget Travel,#0891B2,#22D3EE,#F43F5E,#ECFEFF,#155E75,#CFFAFE,Backpacker Cyan: Fresh budget-friendly cyan with deal-rose highlights.
+184,nonprofit,charity-site;donation-platform;ngo-site,Charity Organization,#0F766E,#14B8A6,#F59E0B,#F0FDFA,#134E4A,#99F6E4,Compassion Teal: Warm approachable teal with donate-amber CTA.
+185,nonprofit,government-portal;public-service;grant-management,Government Portal,#1E293B,#475569,#2563EB,#F8FAFC,#0F172A,#E2E8F0,Civic Slate: Authoritative slate with accessible action-blue.
+186,nonprofit,volunteer-platform;charity-site;ngo-site,Volunteer Platform,#15803D,#22C55E,#7C3AED,#F0FDF4,#14532D,#BBF7D0,Growth Green: Hopeful green with impact-purple volunteer CTA.
+187,nonprofit,advocacy-site;donation-platform;ngo-site,Environmental NGO,#064E3B,#065F46,#0EA5E9,#F0FDF4,#022C22,#DCFCE7,Earth Green: Deep environmental green with awareness sky-blue accent.
+188,nonprofit,charity-site;public-service;grant-management,Community Foundation,#1E40AF,#3B82F6,#10B981,#FFFFFF,#1E293B,#DBEAFE,Foundation Blue: Trustworthy institutional blue with impact-green indicators.

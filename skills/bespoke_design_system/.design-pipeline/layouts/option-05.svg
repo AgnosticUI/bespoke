@@ -1,0 +1,54 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="500" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="600" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="700" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="1020" y="12" width="140" height="36" rx="10" fill="#9CA3AF"/>
+
+  <!-- Title -->
+  <rect x="300" y="90" width="600" height="36" rx="10" fill="#9CA3AF"/>
+  <rect x="350" y="140" width="500" height="16" rx="8" fill="#CCCCCC"/>
+
+  <!-- Search -->
+  <rect x="300" y="180" width="600" height="44" rx="12" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Insurance Accepted -->
+  <rect x="60" y="250" width="1080" height="140" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="90" y="274" width="240" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="90" y="314" width="140" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="250" y="314" width="140" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="410" y="314" width="140" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="570" y="314" width="140" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="730" y="314" width="140" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="890" y="314" width="140" height="50" rx="10" fill="#EEEEEE"/>
+
+  <!-- FAQ Accordion -->
+  <rect x="160" y="420" width="880" height="56" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="190" y="436" width="400" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="990" y="440" width="20" height="12" rx="4" fill="#CCCCCC"/>
+
+  <rect x="160" y="486" width="880" height="110" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="190" y="502" width="380" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="990" y="506" width="20" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="190" y="534" width="820" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="190" y="556" width="780" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="190" y="578" width="800" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="160" y="606" width="880" height="56" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="190" y="622" width="420" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="990" y="626" width="20" height="12" rx="4" fill="#CCCCCC"/>
+
+  <rect x="160" y="672" width="880" height="56" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="190" y="688" width="360" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="990" y="692" width="20" height="12" rx="4" fill="#CCCCCC"/>
+
+  <!-- Footer -->
+  <rect x="0" y="750" width="1200" height="50" fill="#DDDDDD"/>
+
+  <g class="preview-label">
+    <rect x="10" y="7" width="30" height="24" rx="4" fill="#0369A1"/>
+    <text x="25" y="25" text-anchor="middle" fill="white" font-size="14" font-weight="600" font-family="system-ui">5</text>
+  </g>
+</svg>

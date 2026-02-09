@@ -1,0 +1,30 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="500" y="18" width="80" height="24" rx="8" fill="#CCCCCC"/>
+  <rect x="600" y="18" width="80" height="24" rx="8" fill="#CCCCCC"/>
+  <rect x="1020" y="14" width="140" height="32" rx="8" fill="#9CA3AF"/>
+
+  <!-- Heading -->
+  <rect x="100" y="90" width="300" height="28" rx="8" fill="#9CA3AF"/>
+
+  <!-- Photo Grid - Masonry style -->
+  <!-- Row 1 -->
+  <rect x="100" y="140" width="380" height="280" rx="10" fill="#EEEEEE"/>
+  <rect x="500" y="140" width="280" height="130" rx="10" fill="#EEEEEE"/>
+  <rect x="800" y="140" width="300" height="280" rx="10" fill="#EEEEEE"/>
+
+  <!-- Row 1 continued -->
+  <rect x="500" y="290" width="280" height="130" rx="10" fill="#EEEEEE"/>
+
+  <!-- Row 2 -->
+  <rect x="100" y="440" width="280" height="160" rx="10" fill="#EEEEEE"/>
+  <rect x="400" y="440" width="300" height="320" rx="10" fill="#EEEEEE"/>
+  <rect x="720" y="440" width="380" height="160" rx="10" fill="#EEEEEE"/>
+
+  <!-- Row 3 -->
+  <rect x="100" y="620" width="280" height="140" rx="10" fill="#EEEEEE"/>
+  <rect x="720" y="620" width="180" height="140" rx="10" fill="#EEEEEE"/>
+  <rect x="920" y="620" width="180" height="140" rx="10" fill="#EEEEEE"/>
+</svg>

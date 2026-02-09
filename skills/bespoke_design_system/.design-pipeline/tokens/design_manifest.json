@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "layout_id": "option-04",
+    "typography_id": "typo-006",
+    "palette_id": "palette-preview-02",
+    "niche": "medical",
+    "app_type": "telemedicine",
+    "timestamp": "2026-02-07T12:45:00.386Z",
+    "version": "1.0"
+  },
+  "fonts": {
+    "heading": "Figtree",
+    "body": "Noto Sans",
+    "mono": "JetBrains Mono",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Figtree:wght@300;400;500;600;700&display=swap",
+    "cssImport": "@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Figtree:wght@300;400;500;600;700&display=swap');"
+  },
+  "colors": {
+    "base": {
+      "primary": "#F59E0B",
+      "secondary": "#FBBF24",
+      "cta": "#2563EB",
+      "background": "#FFFBEB",
+      "text": "#78350F",
+      "border": "#FDE68A"
+    },
+    "derived": {
+      "primary": "#F59E0B",
+      "secondary": "#FBBF24",
+      "accent": "#2563EB",
+      "background": "#FFFBEB",
+      "foreground": "#78350F",
+      "border": "#FDE68A",
+      "muted": "#FFF6D1",
+      "mutedForeground": "#EC9665",
+      "card": "#FFFBEB",
+      "cardForeground": "#78350F",
+      "input": "#FDE68A",
+      "ring": "#F59E0B",
+      "destructive": "#DC2626",
+      "destructiveForeground": "#FFFFFF",
+      "success": "#16A34A",
+      "warning": "#F59E0B"
+    },
+    "dark": {
+      "background": "#5F2A0C",
+      "foreground": "#FFFFFF",
+      "card": "#682E0D",
+      "cardForeground": "#FFFFFF",
+      "popover": "#682E0D",
+      "popoverForeground": "#FFFFFF",
+      "primary": "#F7B23B",
+      "primaryForeground": "#000000",
+      "secondary": "#825E03",
+      "secondaryForeground": "#FFFFFF",
+      "muted": "#6D300D",
+      "mutedForeground": "#F7D4BF",
+      "accent": "#134CC9",
+      "accentForeground": "#FFFFFF",
+      "destructive": "#E35454",
+      "destructiveForeground": "#000000",
+      "border": "#FEF1BE",
+      "input": "#FEF1BE",
+      "ring": "#F7B23B",
+      "success": "#1CCE5E",
+      "successForeground": "#000000",
+      "warning": "#F7B23B",
+      "warningForeground": "#000000"
+    }
+  },
+  "contrast": {
+    "textOnBackground": {
+      "ratio": "8.7:1",
+      "aa": true,
+      "aaa": true
+    },
+    "primaryOnBackground": {
+      "ratio": "2.1:1",
+      "aa": false,
+      "aaa": false
+    },
+    "ctaOnBackground": {
+      "ratio": "5.0:1",
+      "aa": true,
+      "aaa": false
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "2xl": 48,
+    "3xl": 64,
+    "section": 80
+  },
+  "radius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 16,
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)"
+  },
+  "outputFiles": {
+    "shadcn": ".design-pipeline/tokens/shadcn-globals.css",
+    "generic": ".design-pipeline/tokens/design-tokens.css",
+    "daisyui": ".design-pipeline/tokens/daisyui-theme.css",
+    "agnosticui": ".design-pipeline/tokens/agnosticui-tokens.css"
+  }
+}

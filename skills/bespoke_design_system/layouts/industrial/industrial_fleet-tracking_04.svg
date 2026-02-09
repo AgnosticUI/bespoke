@@ -1,0 +1,84 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="50" fill="#DDDDDD"/>
+  <rect x="20" y="14" width="140" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="600" y="14" width="80" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="700" y="14" width="80" height="22" rx="0" fill="#9CA3AF"/>
+  <rect x="1060" y="12" width="120" height="26" rx="0" fill="#9CA3AF"/>
+
+  <!-- Map Area -->
+  <rect x="0" y="50" width="820" height="500" fill="#EEEEEE"/>
+  <!-- Vehicle markers -->
+  <rect x="150" y="200" width="20" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="350" y="300" width="20" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="500" y="150" width="20" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="650" y="350" width="20" height="20" rx="0" fill="#9CA3AF"/>
+  <rect x="300" y="400" width="20" height="20" rx="0" fill="#CCCCCC"/>
+
+  <!-- Map Controls -->
+  <rect x="760" y="70" width="40" height="80" rx="0" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Vehicle List Panel -->
+  <rect x="820" y="50" width="380" height="500" fill="white" stroke="#CCCCCC"/>
+  <rect x="836" y="66" width="140" height="18" rx="0" fill="#9CA3AF"/>
+  <rect x="1060" y="64" width="120" height="22" rx="0" fill="white" stroke="#CCCCCC"/>
+
+  <rect x="836" y="100" width="348" height="56" rx="0" fill="#EEEEEE"/>
+  <rect x="852" y="110" width="140" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="852" y="132" width="200" height="12" rx="0" fill="#CCCCCC"/>
+  <rect x="1120" y="114" width="48" height="18" rx="0" fill="#9CA3AF"/>
+
+  <rect x="836" y="164" width="348" height="56" rx="0" fill="white"/>
+  <rect x="852" y="174" width="120" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="852" y="196" width="180" height="12" rx="0" fill="#CCCCCC"/>
+  <rect x="1120" y="178" width="48" height="18" rx="0" fill="#9CA3AF"/>
+
+  <rect x="836" y="228" width="348" height="56" rx="0" fill="#EEEEEE"/>
+  <rect x="852" y="238" width="160" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="852" y="260" width="220" height="12" rx="0" fill="#CCCCCC"/>
+  <rect x="1120" y="242" width="48" height="18" rx="0" fill="#9CA3AF"/>
+
+  <rect x="836" y="292" width="348" height="56" rx="0" fill="white"/>
+  <rect x="852" y="302" width="140" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="852" y="324" width="200" height="12" rx="0" fill="#CCCCCC"/>
+  <rect x="1120" y="306" width="48" height="18" rx="0" fill="#CCCCCC"/>
+
+  <rect x="836" y="356" width="348" height="56" rx="0" fill="#EEEEEE"/>
+  <rect x="852" y="366" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="852" y="388" width="160" height="12" rx="0" fill="#CCCCCC"/>
+  <rect x="1120" y="370" width="48" height="18" rx="0" fill="#CCCCCC"/>
+
+  <rect x="836" y="420" width="348" height="56" rx="0" fill="white"/>
+  <rect x="852" y="430" width="130" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="852" y="452" width="180" height="12" rx="0" fill="#CCCCCC"/>
+  <rect x="1120" y="434" width="48" height="18" rx="0" fill="#CCCCCC"/>
+
+  <rect x="836" y="484" width="348" height="56" rx="0" fill="#EEEEEE"/>
+  <rect x="852" y="494" width="150" height="14" rx="0" fill="#9CA3AF"/>
+  <rect x="852" y="516" width="200" height="12" rx="0" fill="#CCCCCC"/>
+  <rect x="1120" y="498" width="48" height="18" rx="0" fill="#9CA3AF"/>
+
+  <!-- Bottom Stats Panel -->
+  <rect x="0" y="550" width="1200" height="250" fill="white" stroke="#CCCCCC"/>
+  <rect x="20" y="566" width="200" height="18" rx="0" fill="#9CA3AF"/>
+
+  <!-- Stats Grid -->
+  <rect x="20" y="598" width="280" height="80" rx="0" fill="#EEEEEE"/>
+  <rect x="36" y="612" width="120" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="36" y="636" width="80" height="24" rx="0" fill="#9CA3AF"/>
+
+  <rect x="316" y="598" width="280" height="80" rx="0" fill="#EEEEEE"/>
+  <rect x="332" y="612" width="140" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="332" y="636" width="80" height="24" rx="0" fill="#9CA3AF"/>
+
+  <rect x="612" y="598" width="280" height="80" rx="0" fill="#EEEEEE"/>
+  <rect x="628" y="612" width="100" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="628" y="636" width="80" height="24" rx="0" fill="#9CA3AF"/>
+
+  <rect x="908" y="598" width="272" height="80" rx="0" fill="#EEEEEE"/>
+  <rect x="924" y="612" width="120" height="14" rx="0" fill="#CCCCCC"/>
+  <rect x="924" y="636" width="80" height="24" rx="0" fill="#9CA3AF"/>
+
+  <!-- Mini Chart -->
+  <rect x="20" y="694" width="1160" height="90" rx="0" fill="#EEEEEE"/>
+</svg>

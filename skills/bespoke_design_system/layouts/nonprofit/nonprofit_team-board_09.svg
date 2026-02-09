@@ -1,0 +1,71 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="500" y="18" width="80" height="24" rx="8" fill="#CCCCCC"/>
+  <rect x="600" y="18" width="80" height="24" rx="8" fill="#CCCCCC"/>
+  <rect x="1020" y="14" width="140" height="32" rx="8" fill="#9CA3AF"/>
+
+  <!-- Heading: Our Team -->
+  <rect x="420" y="90" width="360" height="32" rx="8" fill="#9CA3AF"/>
+  <rect x="350" y="136" width="500" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Team Member Cards Row 1 -->
+  <rect x="80" y="180" width="240" height="220" rx="12" fill="white" stroke="#CCCCCC"/>
+  <circle cx="200" cy="236" r="36" fill="#9CA3AF"/>
+  <rect x="140" y="288" width="120" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="132" y="316" width="136" height="14" rx="8" fill="#CCCCCC"/>
+  <circle cx="172" cy="358" r="10" fill="#CCCCCC"/>
+  <circle cx="200" cy="358" r="10" fill="#CCCCCC"/>
+  <circle cx="228" cy="358" r="10" fill="#CCCCCC"/>
+
+  <rect x="340" y="180" width="240" height="220" rx="12" fill="white" stroke="#CCCCCC"/>
+  <circle cx="460" cy="236" r="36" fill="#CCCCCC"/>
+  <rect x="400" y="288" width="120" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="392" y="316" width="136" height="14" rx="8" fill="#CCCCCC"/>
+  <circle cx="432" cy="358" r="10" fill="#CCCCCC"/>
+  <circle cx="460" cy="358" r="10" fill="#CCCCCC"/>
+  <circle cx="488" cy="358" r="10" fill="#CCCCCC"/>
+
+  <rect x="600" y="180" width="240" height="220" rx="12" fill="white" stroke="#CCCCCC"/>
+  <circle cx="720" cy="236" r="36" fill="#9CA3AF"/>
+  <rect x="660" y="288" width="120" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="652" y="316" width="136" height="14" rx="8" fill="#CCCCCC"/>
+  <circle cx="692" cy="358" r="10" fill="#CCCCCC"/>
+  <circle cx="720" cy="358" r="10" fill="#CCCCCC"/>
+  <circle cx="748" cy="358" r="10" fill="#CCCCCC"/>
+
+  <rect x="860" y="180" width="240" height="220" rx="12" fill="white" stroke="#CCCCCC"/>
+  <circle cx="980" cy="236" r="36" fill="#CCCCCC"/>
+  <rect x="920" y="288" width="120" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="912" y="316" width="136" height="14" rx="8" fill="#CCCCCC"/>
+  <circle cx="952" cy="358" r="10" fill="#CCCCCC"/>
+  <circle cx="980" cy="358" r="10" fill="#CCCCCC"/>
+  <circle cx="1008" cy="358" r="10" fill="#CCCCCC"/>
+
+  <!-- Section Divider -->
+  <rect x="100" y="440" width="1000" height="1" fill="#CCCCCC"/>
+  <rect x="400" y="468" width="400" height="28" rx="8" fill="#9CA3AF"/>
+
+  <!-- Board of Directors - Larger Cards -->
+  <rect x="140" y="520" width="280" height="240" rx="12" fill="white" stroke="#CCCCCC"/>
+  <circle cx="280" cy="580" r="40" fill="#9CA3AF"/>
+  <rect x="212" y="636" width="136" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="196" y="668" width="168" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="196" y="694" width="168" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="196" y="720" width="168" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="460" y="520" width="280" height="240" rx="12" fill="white" stroke="#CCCCCC"/>
+  <circle cx="600" cy="580" r="40" fill="#CCCCCC"/>
+  <rect x="532" y="636" width="136" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="516" y="668" width="168" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="516" y="694" width="168" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="516" y="720" width="168" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="780" y="520" width="280" height="240" rx="12" fill="white" stroke="#CCCCCC"/>
+  <circle cx="920" cy="580" r="40" fill="#9CA3AF"/>
+  <rect x="852" y="636" width="136" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="836" y="668" width="168" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="836" y="694" width="168" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="836" y="720" width="168" height="14" rx="8" fill="#CCCCCC"/>
+</svg>
