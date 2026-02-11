@@ -116,7 +116,7 @@ function generatePreviewHTML(
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
     h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
-    .subtitle { color: #64748b; margin-bottom: 1.5rem; }
+    .subtitle { color: #475569; margin-bottom: 1.5rem; }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
     .card {
       background: white; border: 2px solid #e2e8f0; border-radius: 12px; overflow: hidden;
@@ -133,7 +133,7 @@ function generatePreviewHTML(
     .specimen-body { font-size: 0.95rem; line-height: 1.6; color: #475569; }
     .card-info { padding: 12px 16px; border-bottom: 1px solid #f1f5f9; }
     .card-title { font-weight: 600; margin-bottom: 2px; }
-    .card-meta { font-size: 0.75rem; color: #94a3b8; }
+    .card-meta { font-size: 0.75rem; color: #64748b; }
     .thumbs { display: flex; gap: 6px; padding: 10px 16px; overflow-x: auto; }
     .thumb { height: 60px; width: auto; border-radius: 4px; border: 1px solid #e2e8f0; }
     .check-mark {
@@ -152,7 +152,7 @@ function generatePreviewHTML(
     }
     .toolbar button:disabled { background: #94a3b8; cursor: not-allowed; }
     .toolbar button:not(:disabled):hover { background: #1d4ed8; }
-    .selection-info { color: #64748b; font-size: 0.875rem; }
+    .selection-info { color: #475569; font-size: 0.875rem; }
     .copied { color: #16a34a; font-weight: 600; display: none; }
   </style>
 </head>

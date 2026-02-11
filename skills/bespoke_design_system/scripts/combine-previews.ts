@@ -102,7 +102,7 @@ function generatePreviewHTML(
       return `
             <td class="cell" data-id="${combo.id}" onclick="selectCombo(this)">
               <div class="cell-inner">
-                <img src="${combo.svgFile}" alt="${combo.id}" class="combo-svg" />
+                <object data="${combo.svgFile}" type="image/svg+xml" class="combo-svg">${combo.id}</object>
                 <div class="specimen" style="font-family: '${typo.heading_font}', sans-serif;">
                   <span class="spec-heading">${typo.heading_font}</span>
                   <span class="spec-body" style="font-family: '${typo.body_font}', sans-serif;">${typo.body_font}</span>
@@ -133,10 +133,10 @@ function generatePreviewHTML(
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
     h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
-    .subtitle { color: #64748b; margin-bottom: 1.5rem; }
+    .subtitle { color: #475569; margin-bottom: 1.5rem; }
     table { border-collapse: collapse; width: 100%; margin-bottom: 2rem; }
     .col-label { padding: 10px 8px; font-size: 0.8rem; text-align: center; background: #f1f5f9; border: 1px solid #e2e8f0; }
-    .col-label small { color: #94a3b8; font-weight: 400; }
+    .col-label small { color: #64748b; font-weight: 400; }
     .row-label {
       padding: 10px 12px; font-size: 0.8rem; text-align: right; text-transform: capitalize;
       background: #f1f5f9; border: 1px solid #e2e8f0; white-space: nowrap; font-weight: 600;
@@ -148,10 +148,10 @@ function generatePreviewHTML(
     .cell:hover { border-color: #94a3b8; }
     .cell.selected { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
     .cell-inner { display: flex; flex-direction: column; gap: 6px; }
-    .combo-svg { width: 100%; height: auto; border-radius: 4px; border: 1px solid #f1f5f9; }
+    .combo-svg { width: 100%; height: auto; border-radius: 4px; border: 1px solid #f1f5f9; display: block; }
     .specimen { font-size: 0.75rem; padding: 4px 0; }
     .spec-heading { display: block; font-weight: 700; font-size: 0.85rem; }
-    .spec-body { display: block; color: #64748b; font-size: 0.75rem; }
+    .spec-body { display: block; color: #475569; font-size: 0.75rem; }
     .check-mark {
       display: none; position: absolute; top: 6px; right: 6px; background: #2563eb;
       color: white; width: 22px; height: 22px; border-radius: 50%; font-size: 12px;
@@ -169,7 +169,7 @@ function generatePreviewHTML(
     }
     .toolbar button:disabled { background: #94a3b8; cursor: not-allowed; }
     .toolbar button:not(:disabled):hover { background: #1d4ed8; }
-    .selection-info { color: #64748b; font-size: 0.875rem; }
+    .selection-info { color: #475569; font-size: 0.875rem; }
     .copied { color: #16a34a; font-weight: 600; display: none; }
   </style>
 </head>

@@ -50,7 +50,7 @@ export function getSVGMetadata(svg: string): SVGMetadata {
  * Adds it as the first child of the SVG element
  */
 export function injectStyle(svg: string, css: string): string {
-  const styleBlock = `<style>\n${css}\n</style>`;
+  const styleBlock = `<style><![CDATA[\n${css}\n]]></style>`;
 
   // Find the end of the opening <svg> tag
   const svgOpenMatch = svg.match(/<svg[^>]*>/);

@@ -187,7 +187,7 @@ function generatePreviewHTML(
       padding: 0.35rem 0.75rem; font-size: 0.8rem; color: #1e40af; margin-bottom: 0.5rem;
     }
     .niche-context strong { font-weight: 700; }
-    .subtitle { color: #64748b; font-size: 0.875rem; }
+    .subtitle { color: #475569; font-size: 0.875rem; }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
     .card {
       background: white; border: 2px solid #e2e8f0; border-radius: 12px; overflow: hidden;
@@ -218,7 +218,7 @@ function generatePreviewHTML(
       display: flex; align-items: center; justify-content: center;
       font-size: 0.65rem; font-weight: 700;
     }
-    .swatch-hex { font-size: 0.6rem; color: #94a3b8; font-family: monospace; }
+    .swatch-hex { font-size: 0.6rem; color: #64748b; font-family: monospace; }
     .contrast-info { padding: 10px 16px; border-top: 1px solid #f1f5f9; }
     .wcag-badge {
       display: inline-block; font-size: 0.7rem; font-weight: 700; padding: 2px 8px;
@@ -229,7 +229,7 @@ function generatePreviewHTML(
     .badge-a { background: #fed7aa; color: #9a3412; }
     .badge-fail { background: #fecaca; color: #991b1b; }
     .contrast-row { display: flex; align-items: center; gap: 6px; font-size: 0.75rem; margin-bottom: 4px; }
-    .contrast-label { flex: 1; color: #64748b; }
+    .contrast-label { flex: 1; color: #475569; }
     .contrast-specimen {
       display: inline-flex; align-items: center; justify-content: center;
       width: 32px; height: 20px; border-radius: 3px; border: 1px solid #d1d5db;
@@ -240,7 +240,7 @@ function generatePreviewHTML(
     .contrast-badge.pass { background: #dcfce7; color: #166534; }
     .contrast-badge.fail { background: #fecaca; color: #991b1b; }
     .card-footer { padding: 8px 16px; border-top: 1px solid #f1f5f9; }
-    .palette-notes { font-size: 0.75rem; color: #64748b; }
+    .palette-notes { font-size: 0.75rem; color: #475569; }
     .toolbar {
       position: sticky; bottom: 0; background: white; border-top: 1px solid #e2e8f0;
       padding: 1rem 0; display: flex; align-items: center; gap: 1rem;
@@ -251,7 +251,7 @@ function generatePreviewHTML(
     }
     .toolbar button:disabled { background: #94a3b8; cursor: not-allowed; }
     .toolbar button:not(:disabled):hover { background: #1d4ed8; }
-    .selection-info { color: #64748b; font-size: 0.875rem; }
+    .selection-info { color: #475569; font-size: 0.875rem; }
     .copied { color: #16a34a; font-weight: 600; display: none; }
   </style>
 </head>

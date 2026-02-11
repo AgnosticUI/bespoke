@@ -90,6 +90,15 @@ function csvRowToTypography(row: ReturnType<typeof loadCSV>['rows'][0], index: n
   };
 }
 
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 function selectDiverse(entries: TypographyEntry[], count: number): TypographyEntry[] {
   if (entries.length <= count) return entries;
 
@@ -100,14 +109,14 @@ function selectDiverse(entries: TypographyEntry[], count: number): TypographyEnt
 
   for (const cat of categories) {
     const catEntries = entries.filter(e => e.category === cat);
-    selected.push(...catEntries.slice(0, perCategory));
+    selected.push(...shuffle(catEntries).slice(0, perCategory));
     if (selected.length >= count) break;
   }
 
   // Fill remaining
   if (selected.length < count) {
     const remaining = entries.filter(e => !selected.includes(e));
-    selected.push(...remaining.slice(0, count - selected.length));
+    selected.push(...shuffle(remaining).slice(0, count - selected.length));
   }
 
   return selected.slice(0, count);

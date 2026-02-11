@@ -73,7 +73,7 @@ function generatePreviewHTML(layouts: LayoutEntry[], niche: string): string {
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
     h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
-    .subtitle { color: #64748b; margin-bottom: 1.5rem; }
+    .subtitle { color: #475569; margin-bottom: 1.5rem; }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
     .card {
       background: white; border: 2px solid #e2e8f0; border-radius: 12px; overflow: hidden;
@@ -89,7 +89,7 @@ function generatePreviewHTML(layouts: LayoutEntry[], niche: string): string {
     .svg-container img { width: 100%; height: auto; display: block; border-radius: 4px; }
     .card-info { padding: 12px 16px; }
     .card-title { font-weight: 600; text-transform: capitalize; margin-bottom: 2px; }
-    .card-meta { font-size: 0.75rem; color: #94a3b8; }
+    .card-meta { font-size: 0.75rem; color: #64748b; }
     .check-mark {
       display: none; position: absolute; top: 8px; right: 8px; background: #2563eb;
       color: white; width: 24px; height: 24px; border-radius: 50%; font-size: 14px;
@@ -106,7 +106,7 @@ function generatePreviewHTML(layouts: LayoutEntry[], niche: string): string {
     }
     .toolbar button:disabled { background: #94a3b8; cursor: not-allowed; }
     .toolbar button:not(:disabled):hover { background: #1d4ed8; }
-    .selection-info { color: #64748b; font-size: 0.875rem; }
+    .selection-info { color: #475569; font-size: 0.875rem; }
     .copied { color: #16a34a; font-weight: 600; display: none; }
   </style>
 </head>
@@ -151,6 +151,15 @@ ${cards}
 </html>`;
 }
 
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 // Main
 const { niche, count } = parseArgs();
 const layoutsDir = resolve(`layouts/${niche}`);
@@ -168,7 +177,7 @@ if (svgFiles.length === 0) {
 }
 
 // Limit to count
-const selected = svgFiles.slice(0, count);
+const selected = shuffle(svgFiles).slice(0, count);
 
 // Prepare output directory
 const outputDir = resolve('.design-pipeline/layouts');
