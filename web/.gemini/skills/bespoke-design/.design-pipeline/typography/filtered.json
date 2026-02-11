@@ -1,0 +1,47 @@
+[
+  {
+    "id": "typo-007",
+    "pairing_name": "Pixel Retro",
+    "heading_font": "Press Start 2P",
+    "body_font": "VT323",
+    "category": "Display + Sans",
+    "mood": [
+      "pixel"
+    ],
+    "best_for": "retro",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=VT323:wght@300;400;500;600;700&family=Press+Start+2P:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-022",
+    "pairing_name": "Ultra Bold",
+    "heading_font": "Ultra",
+    "body_font": "Slabo 27px",
+    "category": "Display + Serif",
+    "mood": [
+      "creative"
+    ],
+    "best_for": "bold",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Slabo+27px:wght@300;400;500;600;700&family=Ultra:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  },
+  {
+    "id": "typo-010",
+    "pairing_name": "Bold Condensed",
+    "heading_font": "Roboto Condensed",
+    "body_font": "Cabin",
+    "category": "Sans + Sans",
+    "mood": [
+      "bold"
+    ],
+    "best_for": "compact",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cabin:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap",
+    "css_import": "",
+    "tailwind_config": "",
+    "notes": ""
+  }
+]

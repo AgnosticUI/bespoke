@@ -1,0 +1,118 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="15" width="120" height="30" rx="4" fill="#9CA3AF"/>
+  
+  <!-- Hamburger menu -->
+  <line x1="1130" y1="22" x2="1160" y2="22" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="1130" y1="30" x2="1160" y2="30" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="1130" y1="38" x2="1160" y2="38" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Quick Stats Row -->
+  <rect x="40" y="90" width="180" height="100" fill="white" stroke="#CCCCCC"/>
+  <rect x="60" y="110" width="80" height="16" rx="4" fill="#CCCCCC"/>
+  <rect x="60" y="140" width="120" height="28" rx="4" fill="#9CA3AF"/>
+  
+  <rect x="260" y="90" width="180" height="100" fill="white" stroke="#CCCCCC"/>
+  <rect x="280" y="110" width="80" height="16" rx="4" fill="#CCCCCC"/>
+  <rect x="280" y="140" width="120" height="28" rx="4" fill="#9CA3AF"/>
+  
+  <rect x="480" y="90" width="180" height="100" fill="white" stroke="#CCCCCC"/>
+  <rect x="500" y="110" width="80" height="16" rx="4" fill="#CCCCCC"/>
+  <rect x="500" y="140" width="120" height="28" rx="4" fill="#9CA3AF"/>
+  
+  <rect x="700" y="90" width="180" height="100" fill="white" stroke="#CCCCCC"/>
+  <rect x="720" y="110" width="80" height="16" rx="4" fill="#CCCCCC"/>
+  <rect x="720" y="140" width="120" height="28" rx="4" fill="#9CA3AF"/>
+  
+  <rect x="920" y="90" width="240" height="100" fill="white" stroke="#CCCCCC"/>
+  <rect x="940" y="110" width="100" height="16" rx="4" fill="#CCCCCC"/>
+  <rect x="940" y="140" width="140" height="28" rx="4" fill="#9CA3AF"/>
+  
+  <!-- Main Analytics Chart -->
+  <rect x="40" y="220" width="840" height="340" fill="white" stroke="#CCCCCC"/>
+  <rect x="60" y="240" width="200" height="24" rx="4" fill="#9CA3AF"/>
+  
+  <!-- Timeline tabs -->
+  <rect x="660" y="245" width="60" height="16" rx="4" fill="#CCCCCC"/>
+  <rect x="730" y="245" width="60" height="16" rx="4" fill="#EEEEEE"/>
+  <rect x="800" y="245" width="60" height="16" rx="4" fill="#EEEEEE"/>
+  
+  <!-- Chart area with area graph -->
+  <rect x="60" y="280" width="800" height="260" fill="#EEEEEE"/>
+  
+  <!-- Area graph path -->
+  <path d="M 80 480 L 120 460 L 160 440 L 200 470 L 240 420 L 280 450 L 320 410 L 360 430 L 400 390 L 440 420 L 480 380 L 520 400 L 560 360 L 600 390 L 640 350 L 680 370 L 720 330 L 760 360 L 800 320 L 840 340 L 840 520 L 80 520 Z" fill="#9CA3AF" opacity="0.3"/>
+  <path d="M 80 480 L 120 460 L 160 440 L 200 470 L 240 420 L 280 450 L 320 410 L 360 430 L 400 390 L 440 420 L 480 380 L 520 400 L 560 360 L 600 390 L 640 350 L 680 370 L 720 330 L 760 360 L 800 320 L 840 340" stroke="#9CA3AF" stroke-width="3" fill="none"/>
+  
+  <!-- Activity Feed -->
+  <rect x="920" y="220" width="240" height="540" fill="white" stroke="#CCCCCC"/>
+  <rect x="940" y="240" width="140" height="20" rx="4" fill="#9CA3AF"/>
+  
+  <!-- Activity items -->
+  <circle cx="955" cy="290" r="8" fill="#9CA3AF"/>
+  <rect x="975" y="283" width="160" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="975" y="298" width="120" height="8" rx="4" fill="#EEEEEE"/>
+  <line x1="940" y1="320" x2="1140" y2="320" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <circle cx="955" cy="345" r="8" fill="#9CA3AF"/>
+  <rect x="975" y="338" width="140" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="975" y="353" width="100" height="8" rx="4" fill="#EEEEEE"/>
+  <line x1="940" y1="375" x2="1140" y2="375" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <circle cx="955" cy="400" r="8" fill="#9CA3AF"/>
+  <rect x="975" y="393" width="160" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="975" y="408" width="130" height="8" rx="4" fill="#EEEEEE"/>
+  <line x1="940" y1="430" x2="1140" y2="430" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <circle cx="955" cy="455" r="8" fill="#9CA3AF"/>
+  <rect x="975" y="448" width="150" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="975" y="463" width="110" height="8" rx="4" fill="#EEEEEE"/>
+  <line x1="940" y1="485" x2="1140" y2="485" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <circle cx="955" cy="510" r="8" fill="#9CA3AF"/>
+  <rect x="975" y="503" width="140" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="975" y="518" width="120" height="8" rx="4" fill="#EEEEEE"/>
+  <line x1="940" y1="540" x2="1140" y2="540" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <circle cx="955" cy="565" r="8" fill="#9CA3AF"/>
+  <rect x="975" y="558" width="160" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="975" y="573" width="100" height="8" rx="4" fill="#EEEEEE"/>
+  <line x1="940" y1="595" x2="1140" y2="595" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <circle cx="955" cy="620" r="8" fill="#9CA3AF"/>
+  <rect x="975" y="613" width="150" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="975" y="628" width="130" height="8" rx="4" fill="#EEEEEE"/>
+  <line x1="940" y1="650" x2="1140" y2="650" stroke="#EEEEEE" stroke-width="1"/>
+  
+  <circle cx="955" cy="675" r="8" fill="#9CA3AF"/>
+  <rect x="975" y="668" width="140" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="975" y="683" width="110" height="8" rx="4" fill="#EEEEEE"/>
+  
+  <!-- Bottom Summary Cards -->
+  <rect x="40" y="590" width="270" height="170" fill="white" stroke="#CCCCCC"/>
+  <rect x="60" y="610" width="140" height="20" rx="4" fill="#9CA3AF"/>
+  
+  <!-- Mini bar chart -->
+  <rect x="70" y="680" width="20" height="50" fill="#9CA3AF"/>
+  <rect x="100" y="660" width="20" height="70" fill="#9CA3AF"/>
+  <rect x="130" y="690" width="20" height="40" fill="#9CA3AF"/>
+  <rect x="160" y="670" width="20" height="60" fill="#9CA3AF"/>
+  <rect x="190" y="650" width="20" height="80" fill="#9CA3AF"/>
+  <rect x="220" y="680" width="20" height="50" fill="#9CA3AF"/>
+  <rect x="250" y="690" width="20" height="40" fill="#9CA3AF"/>
+  
+  <rect x="350" y="590" width="270" height="170" fill="white" stroke="#CCCCCC"/>
+  <rect x="370" y="610" width="160" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="370" y="650" width="200" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="370" y="675" width="180" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="370" y="700" width="190" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="370" y="725" width="170" height="12" rx="4" fill="#CCCCCC"/>
+  
+  <rect x="660" y="590" width="220" height="170" fill="white" stroke="#CCCCCC"/>
+  <rect x="680" y="610" width="120" height="20" rx="4" fill="#9CA3AF"/>
+  <!-- Donut chart -->
+  <circle cx="770" cy="685" r="50" stroke="#9CA3AF" stroke-width="18" fill="none" stroke-dasharray="100 214"/>
+  <circle cx="770" cy="685" r="50" stroke="#CCCCCC" stroke-width="18" fill="none" stroke-dasharray="120 194" stroke-dashoffset="-100"/>
+  <circle cx="770" cy="685" r="50" stroke="#EEEEEE" stroke-width="18" fill="none" stroke-dasharray="94 220" stroke-dashoffset="-220"/>
+</svg>

@@ -1,0 +1,64 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="40" y="16" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="300" y="12" width="340" height="32" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="1020" y="14" width="140" height="28" rx="10" fill="#9CA3AF"/>
+
+  <!-- Filter Bar -->
+  <rect x="0" y="56" width="1200" height="50" fill="#EEEEEE"/>
+  <rect x="40" y="66" width="120" height="30" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="176" y="66" width="120" height="30" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="312" y="66" width="120" height="30" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="448" y="66" width="120" height="30" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="584" y="66" width="80" height="30" rx="8" fill="#9CA3AF"/>
+
+  <!-- Map Area (right half) -->
+  <rect x="500" y="106" width="700" height="694" fill="#EEEEEE"/>
+  <!-- Map Pins -->
+  <circle cx="650" cy="300" r="12" fill="#9CA3AF"/>
+  <circle cx="800" cy="400" r="12" fill="#9CA3AF"/>
+  <circle cx="750" cy="250" r="12" fill="#DDDDDD"/>
+  <circle cx="900" cy="350" r="12" fill="#9CA3AF"/>
+  <circle cx="1000" cy="500" r="12" fill="#9CA3AF"/>
+  <circle cx="850" cy="600" r="12" fill="#DDDDDD"/>
+  <circle cx="700" cy="550" r="12" fill="#9CA3AF"/>
+
+  <!-- Left Panel - Property List -->
+  <rect x="0" y="106" width="500" height="694" fill="white"/>
+
+  <rect x="16" y="120" width="468" height="130" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="16" y="120" width="160" height="130" rx="10" fill="#EEEEEE"/>
+  <rect x="192" y="132" width="200" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="156" width="160" height="12" rx="6" fill="#CCCCCC"/>
+  <rect x="192" y="178" width="100" height="20" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="210" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="264" y="210" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="336" y="210" width="60" height="12" rx="4" fill="#CCCCCC"/>
+
+  <rect x="16" y="264" width="468" height="130" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="16" y="264" width="160" height="130" rx="10" fill="#EEEEEE"/>
+  <rect x="192" y="276" width="220" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="300" width="180" height="12" rx="6" fill="#CCCCCC"/>
+  <rect x="192" y="322" width="100" height="20" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="354" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="264" y="354" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="336" y="354" width="60" height="12" rx="4" fill="#CCCCCC"/>
+
+  <rect x="16" y="408" width="468" height="130" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="16" y="408" width="160" height="130" rx="10" fill="#EEEEEE"/>
+  <rect x="192" y="420" width="180" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="444" width="200" height="12" rx="6" fill="#CCCCCC"/>
+  <rect x="192" y="466" width="100" height="20" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="498" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="264" y="498" width="60" height="12" rx="4" fill="#CCCCCC"/>
+
+  <rect x="16" y="552" width="468" height="130" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="16" y="552" width="160" height="130" rx="10" fill="#EEEEEE"/>
+  <rect x="192" y="564" width="240" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="588" width="170" height="12" rx="6" fill="#CCCCCC"/>
+  <rect x="192" y="610" width="100" height="20" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="642" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="264" y="642" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="336" y="642" width="60" height="12" rx="4" fill="#CCCCCC"/>
+</svg>

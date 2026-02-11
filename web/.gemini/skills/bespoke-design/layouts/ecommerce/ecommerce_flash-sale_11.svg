@@ -1,0 +1,65 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="1020" y="15" width="140" height="30" rx="10" fill="#9CA3AF"/>
+
+  <!-- Countdown Timer Bar -->
+  <rect x="0" y="60" width="1200" height="48" fill="#9CA3AF"/>
+  <rect x="440" y="72" width="80" height="24" rx="4" fill="#DDDDDD"/>
+  <rect x="540" y="72" width="80" height="24" rx="4" fill="#DDDDDD"/>
+  <rect x="640" y="72" width="80" height="24" rx="4" fill="#DDDDDD"/>
+
+  <!-- Hero Banner -->
+  <rect x="40" y="128" width="1120" height="120" rx="8" fill="#EEEEEE"/>
+  <rect x="80" y="160" width="300" height="24" rx="4" fill="#9CA3AF"/>
+  <rect x="80" y="196" width="200" height="14" rx="3" fill="#CCCCCC"/>
+
+  <!-- Deal Cards Row 1 -->
+  <rect x="40" y="268" width="350" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="40" y="268" width="350" height="120" rx="8" fill="#EEEEEE"/>
+  <rect x="56" y="402" width="200" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="56" y="424" width="60" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="126" y="424" width="60" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="280" y="418" width="96" height="32" rx="6" fill="#9CA3AF"/>
+
+  <rect x="420" y="268" width="350" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="420" y="268" width="350" height="120" rx="8" fill="#EEEEEE"/>
+  <rect x="436" y="402" width="180" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="436" y="424" width="60" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="506" y="424" width="60" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="660" y="418" width="96" height="32" rx="6" fill="#9CA3AF"/>
+
+  <rect x="800" y="268" width="350" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="800" y="268" width="350" height="120" rx="8" fill="#EEEEEE"/>
+  <rect x="816" y="402" width="220" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="816" y="424" width="60" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="886" y="424" width="60" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="1040" y="418" width="96" height="32" rx="6" fill="#9CA3AF"/>
+
+  <!-- Deal Cards Row 2 -->
+  <rect x="40" y="488" width="350" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="40" y="488" width="350" height="120" rx="8" fill="#EEEEEE"/>
+  <rect x="56" y="622" width="180" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="56" y="644" width="60" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="126" y="644" width="60" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="280" y="638" width="96" height="32" rx="6" fill="#9CA3AF"/>
+
+  <rect x="420" y="488" width="350" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="420" y="488" width="350" height="120" rx="8" fill="#EEEEEE"/>
+  <rect x="436" y="622" width="200" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="436" y="644" width="60" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="506" y="644" width="60" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="660" y="638" width="96" height="32" rx="6" fill="#9CA3AF"/>
+
+  <rect x="800" y="488" width="350" height="200" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="800" y="488" width="350" height="120" rx="8" fill="#EEEEEE"/>
+  <rect x="816" y="622" width="160" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="816" y="644" width="60" height="12" rx="3" fill="#CCCCCC"/>
+  <rect x="886" y="644" width="60" height="14" rx="3" fill="#9CA3AF"/>
+  <rect x="1040" y="638" width="96" height="32" rx="6" fill="#9CA3AF"/>
+
+  <!-- Footer -->
+  <rect x="0" y="740" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="480" y="752" width="240" height="36" rx="6" fill="white" stroke="#CCCCCC"/>
+</svg>

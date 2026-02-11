@@ -1,0 +1,60 @@
+{
+  "pipeline_version": "1.0",
+  "timestamp": "2026-02-10T01:17:53.136Z",
+  "current_stage": "complete",
+  "completed_stages": [
+    "understand_problem",
+    "typography_selection",
+    "combination_preview",
+    "palette_application",
+    "token_generation"
+  ],
+  "inferred_niche": "marketing",
+  "application_type": "landing-page",
+  "niche_confidence": 1,
+  "available_layouts": [
+    "option-01",
+    "option-02",
+    "option-03"
+  ],
+  "selected_layouts": null,
+  "available_typography": null,
+  "selected_typography": [
+    "typo-007",
+    "typo-022",
+    "typo-010"
+  ],
+  "combinations": [
+    "combo-01",
+    "combo-02",
+    "combo-03",
+    "combo-04",
+    "combo-05",
+    "combo-06",
+    "combo-07",
+    "combo-08",
+    "combo-09"
+  ],
+  "selected_combination": "combo-09",
+  "available_palettes": [
+    "palette-preview-01",
+    "palette-preview-02",
+    "palette-preview-03"
+  ],
+  "selected_palette": "palette-preview-01",
+  "final_combination": {
+    "layout": "option-03",
+    "typography": "typo-010",
+    "palette": "palette-preview-01"
+  },
+  "generated_tokens": {
+    "shadcn": ".design-pipeline/tokens/shadcn-globals.css",
+    "generic": ".design-pipeline/tokens/design-tokens.css",
+    "daisyui": ".design-pipeline/tokens/daisyui-theme.css",
+    "agnosticui": ".design-pipeline/tokens/agnosticui-tokens.css",
+    "layout": ".design-pipeline/tokens/layout-blueprint.svg",
+    "manifest": ".design-pipeline/tokens/design_manifest.json",
+    "guide": ".design-pipeline/tokens/IMPLEMENTATION.md"
+  },
+  "pipeline_complete": true
+}

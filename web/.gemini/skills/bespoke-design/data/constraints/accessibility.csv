@@ -1,0 +1,17 @@
+constraint,standard,success_criteria,applies_to,violation,impact_level,affected_users,remediation,rationale
+Prefers Reduced Motion,WCAG 2.2,2.3.1,Animations or transitions,"Motion or animations are not reduced for users with the 'prefers-reduced-motion' setting enabled",Medium,Users with motion sensitivity,"Detect prefers-reduced-motion using CSS media query and reduce or disable animations accordingly","Animations can cause discomfort for users with motion sensitivity; provide a smoother, less distracting experience."
+"Icon Button Labels",WCAG 2.2,1.1.1,Web,"Icon-only buttons must have accessible names",blocker,screen reader users,"Add aria-label to icon buttons","Icon-only buttons are not discoverable by screen readers"
+"Form Control Labels",WCAG 2.2,1.1.1,Web,"All form controls need labels or aria-label",blocker,screen reader users,"Use label element or aria-label","Users cannot interact with forms without accessible names"
+"Keyboard Handlers",WCAG 2.2,2.1.1,Web,"Interactive elements must support keyboard interaction",high,keyboard-only users,"Add onKeyDown alongside onClick","Elements that are mouse-only cannot be navigated with a keyboard"
+"Semantic HTML",WCAG 2.2,1.3.1,Web,"Use semantic HTML before ARIA attributes",high,all users,"Use button/a/label elements","Non-semantic HTML can confuse screen readers"
+"Aria Live",WCAG 2.2,4.1.3,Web,"Async updates need aria-live for screen readers",medium,screen reader users,"Add aria-live='polite' for dynamic content","Dynamic content will not be announced by screen readers"
+"Decorative Icons",WCAG 2.2,1.1.1,Web,"Decorative icons should be hidden from screen readers",medium,screen reader users,"Add aria-hidden='true' to decorative icons","Decorative icons clutter screen reader output"
+"Visible Focus States",WCAG 2.2,2.4.7,Web,"All interactive elements need visible focus states",blocker,keyboard-only users,"Use :focus-visible with ring/outline","Keyboard users cannot see where they are on the page"
+"Never Remove Outline",WCAG 2.2,2.4.7,Web,"Never remove outline without providing replacement",blocker,keyboard-only users,"Replace outline with visible alternative","Removing outline makes it impossible to track focus"
+"Checkbox Radio Hit Target",WCAG 2.2,1.3.1,Web,"Checkbox/radio must share hit target with label",medium,all users,"Wrap input and label together","Users may miss the checkbox/radio when they click next to it"
+"Autocomplete Attribute",WCAG 2.2,1.3.5,Web,"Inputs need autocomplete attribute for autofill",high,all users,"Add appropriate autocomplete value","Users cannot easily fill out forms with no autocomplete"
+"Semantic Input Types",WCAG 2.2,1.3.5,Web,"Use semantic input type attributes",medium,all users,"Use email/tel/url/number types","Incorrect input types cause confusion for users and browser validation"
+"Never Block Paste",WCAG 2.2,1.3.5,Web,"Never prevent paste functionality",high,all users,"Allow paste on all inputs","Blocking paste prevents users from using clipboard for common tasks"
+"Spellcheck Disable",WCAG 2.2,3.3.2,Web,"Disable spellcheck on emails and codes",low,users with cognitive disabilities,"Set spellcheck='false' on codes","Users may be confused by incorrect spellcheck suggestions"
+"Submit Button Enabled",WCAG 2.2,3.3.2,Web,"Keep submit enabled and show spinner during requests",medium,all users,"Show loading spinner, keep button enabled","Disabling the submit button during loading confuses users"
+"Inline Errors",WCAG 2.2,3.3

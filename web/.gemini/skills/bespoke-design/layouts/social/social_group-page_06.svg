@@ -1,0 +1,67 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="40" y="16" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="400" y="14" width="300" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="1060" y="12" width="100" height="32" rx="16" fill="#9CA3AF"/>
+
+  <!-- Group Cover -->
+  <rect x="0" y="56" width="1200" height="160" fill="#EEEEEE"/>
+
+  <!-- Group Info -->
+  <rect x="80" y="176" width="1040" height="80" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="190" width="240" height="22" rx="8" fill="#9CA3AF"/>
+  <rect x="100" y="220" width="300" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="860" y="192" width="120" height="36" rx="10" fill="#9CA3AF"/>
+  <rect x="996" y="192" width="100" height="36" rx="10" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Tab Bar -->
+  <rect x="80" y="256" width="1040" height="40" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="264" width="80" height="24" rx="8" fill="#DDDDDD"/>
+  <rect x="196" y="264" width="80" height="24" rx="8" fill="#EEEEEE"/>
+  <rect x="292" y="264" width="80" height="24" rx="8" fill="#EEEEEE"/>
+  <rect x="388" y="264" width="80" height="24" rx="8" fill="#EEEEEE"/>
+
+  <!-- Main Content -->
+  <!-- Post Composer -->
+  <rect x="80" y="312" width="680" height="70" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="332" width="36" height="36" rx="18" fill="#EEEEEE"/>
+  <rect x="148" y="332" width="480" height="36" rx="18" fill="#EEEEEE"/>
+  <rect x="644" y="338" width="80" height="24" rx="8" fill="#9CA3AF"/>
+
+  <!-- Post 1 -->
+  <rect x="80" y="398" width="680" height="180" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="414" width="36" height="36" rx="18" fill="#EEEEEE"/>
+  <rect x="148" y="418" width="120" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="148" y="438" width="80" height="12" rx="6" fill="#CCCCCC"/>
+  <rect x="100" y="466" width="640" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="100" y="488" width="600" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="100" y="520" width="640" height="40" rx="8" fill="#EEEEEE"/>
+
+  <!-- Post 2 -->
+  <rect x="80" y="594" width="680" height="160" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="610" width="36" height="36" rx="18" fill="#EEEEEE"/>
+  <rect x="148" y="614" width="100" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="148" y="634" width="60" height="12" rx="6" fill="#CCCCCC"/>
+  <rect x="100" y="660" width="640" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="100" y="682" width="580" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="100" y="714" width="80" height="20" rx="6" fill="#EEEEEE"/>
+  <rect x="200" y="714" width="80" height="20" rx="6" fill="#EEEEEE"/>
+
+  <!-- Right Sidebar - Members -->
+  <rect x="780" y="312" width="340" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="804" y="332" width="100" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="804" y="364" width="292" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="804" y="410" width="292" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="804" y="456" width="292" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="804" y="502" width="292" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="804" y="548" width="80" height="14" rx="6" fill="#9CA3AF"/>
+
+  <!-- Sidebar - Rules -->
+  <rect x="780" y="592" width="340" height="160" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="804" y="612" width="120" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="804" y="644" width="292" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="804" y="668" width="280" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="804" y="692" width="260" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="804" y="716" width="292" height="14" rx="8" fill="#CCCCCC"/>
+</svg>

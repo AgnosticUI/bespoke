@@ -1,0 +1,57 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimal Top Bar -->
+  <rect x="0" y="0" width="1200" height="50" fill="#DDDDDD"/>
+  <rect x="20" y="13" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="400" y="15" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="500" y="15" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="1040" y="10" width="120" height="30" rx="10" fill="#9CA3AF"/>
+
+  <!-- Main Tour Viewport -->
+  <rect x="0" y="50" width="1200" height="540" fill="#EEEEEE"/>
+
+  <!-- Navigation Hotspots -->
+  <circle cx="400" cy="350" r="24" fill="#9CA3AF" opacity="0.8"/>
+  <circle cx="700" cy="280" r="24" fill="#9CA3AF" opacity="0.8"/>
+  <circle cx="900" cy="400" r="24" fill="#9CA3AF" opacity="0.8"/>
+
+  <!-- Room Info Overlay (top-left) -->
+  <rect x="30" y="70" width="260" height="80" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="50" y="86" width="160" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="50" y="114" width="200" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Floor Plan Mini-Map (bottom-left) -->
+  <rect x="30" y="450" width="200" height="120" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="46" y="466" width="168" height="88" fill="#EEEEEE"/>
+  <rect x="80" y="480" width="40" height="50" fill="white" stroke="#CCCCCC"/>
+  <rect x="130" y="480" width="60" height="50" fill="white" stroke="#CCCCCC"/>
+  <rect x="80" y="480" width="40" height="50" fill="#DDDDDD" opacity="0.5"/>
+
+  <!-- Room Selector Strip -->
+  <rect x="0" y="590" width="1200" height="100" fill="white" stroke="#CCCCCC"/>
+  <rect x="20" y="604" width="120" height="72" rx="8" fill="#DDDDDD"/>
+  <rect x="152" y="604" width="120" height="72" rx="8" fill="#EEEEEE"/>
+  <rect x="284" y="604" width="120" height="72" rx="8" fill="#EEEEEE"/>
+  <rect x="416" y="604" width="120" height="72" rx="8" fill="#EEEEEE"/>
+  <rect x="548" y="604" width="120" height="72" rx="8" fill="#EEEEEE"/>
+  <rect x="680" y="604" width="120" height="72" rx="8" fill="#EEEEEE"/>
+  <rect x="812" y="604" width="120" height="72" rx="8" fill="#EEEEEE"/>
+  <rect x="944" y="604" width="120" height="72" rx="8" fill="#EEEEEE"/>
+
+  <!-- Property Info Bar -->
+  <rect x="0" y="690" width="1200" height="110" fill="#EEEEEE"/>
+  <rect x="40" y="706" width="300" height="22" rx="8" fill="#9CA3AF"/>
+  <rect x="40" y="738" width="240" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="40" y="762" width="120" height="24" rx="8" fill="#9CA3AF"/>
+
+  <!-- Property Stats -->
+  <rect x="500" y="710" width="80" height="16" rx="6" fill="#CCCCCC"/>
+  <rect x="500" y="734" width="60" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="620" y="710" width="80" height="16" rx="6" fill="#CCCCCC"/>
+  <rect x="620" y="734" width="60" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="740" y="710" width="80" height="16" rx="6" fill="#CCCCCC"/>
+  <rect x="740" y="734" width="60" height="20" rx="8" fill="#9CA3AF"/>
+
+  <!-- Contact CTA -->
+  <rect x="960" y="714" width="200" height="44" rx="12" fill="#9CA3AF"/>
+  <rect x="960" y="766" width="200" height="20" rx="8" fill="#CCCCCC"/>
+</svg>

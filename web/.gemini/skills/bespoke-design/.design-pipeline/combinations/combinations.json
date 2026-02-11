@@ -1,0 +1,86 @@
+{
+  "combos": [
+    {
+      "id": "combo-01",
+      "layoutId": "option-01",
+      "typoId": "typo-007",
+      "layoutVariant": "timeline-milestones",
+      "typoPairing": "Pixel Retro",
+      "svgFile": "combo-01.svg"
+    },
+    {
+      "id": "combo-02",
+      "layoutId": "option-01",
+      "typoId": "typo-022",
+      "layoutVariant": "timeline-milestones",
+      "typoPairing": "Ultra Bold",
+      "svgFile": "combo-02.svg"
+    },
+    {
+      "id": "combo-03",
+      "layoutId": "option-01",
+      "typoId": "typo-010",
+      "layoutVariant": "timeline-milestones",
+      "typoPairing": "Bold Condensed",
+      "svgFile": "combo-03.svg"
+    },
+    {
+      "id": "combo-04",
+      "layoutId": "option-02",
+      "typoId": "typo-007",
+      "layoutVariant": "video-hero-stats",
+      "typoPairing": "Pixel Retro",
+      "svgFile": "combo-04.svg"
+    },
+    {
+      "id": "combo-05",
+      "layoutId": "option-02",
+      "typoId": "typo-022",
+      "layoutVariant": "video-hero-stats",
+      "typoPairing": "Ultra Bold",
+      "svgFile": "combo-05.svg"
+    },
+    {
+      "id": "combo-06",
+      "layoutId": "option-02",
+      "typoId": "typo-010",
+      "layoutVariant": "video-hero-stats",
+      "typoPairing": "Bold Condensed",
+      "svgFile": "combo-06.svg"
+    },
+    {
+      "id": "combo-07",
+      "layoutId": "option-03",
+      "typoId": "typo-007",
+      "layoutVariant": "fullwidth-hero-alternating",
+      "typoPairing": "Pixel Retro",
+      "svgFile": "combo-07.svg"
+    },
+    {
+      "id": "combo-08",
+      "layoutId": "option-03",
+      "typoId": "typo-022",
+      "layoutVariant": "fullwidth-hero-alternating",
+      "typoPairing": "Ultra Bold",
+      "svgFile": "combo-08.svg"
+    },
+    {
+      "id": "combo-09",
+      "layoutId": "option-03",
+      "typoId": "typo-010",
+      "layoutVariant": "fullwidth-hero-alternating",
+      "typoPairing": "Bold Condensed",
+      "svgFile": "combo-09.svg"
+    }
+  ],
+  "row_labels": [
+    "timeline milestones",
+    "video hero stats",
+    "fullwidth hero alternating"
+  ],
+  "col_labels": [
+    "Pixel Retro (Press Start 2P + VT323)",
+    "Ultra Bold (Ultra + Slabo 27px)",
+    "Bold Condensed (Roboto Condensed + Cabin)"
+  ]
+}

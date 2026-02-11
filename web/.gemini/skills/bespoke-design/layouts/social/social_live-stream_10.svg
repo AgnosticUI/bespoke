@@ -1,0 +1,70 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <circle cx="1150" cy="30" r="18" fill="#9CA3AF"/>
+
+  <!-- Video Area (Left 70%) -->
+  <rect x="0" y="60" width="840" height="520" fill="#EEEEEE"/>
+  <circle cx="420" cy="320" r="40" fill="#9CA3AF"/>
+
+  <!-- LIVE badge -->
+  <rect x="20" y="80" width="60" height="24" rx="4" fill="#9CA3AF"/>
+
+  <!-- Viewer count -->
+  <rect x="760" y="80" width="60" height="24" rx="12" fill="#9CA3AF"/>
+
+  <!-- Streamer Info -->
+  <rect x="20" y="600" width="800" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
+  <circle cx="68" cy="640" r="24" fill="#9CA3AF"/>
+  <rect x="104" y="622" width="200" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="104" y="648" width="300" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="680" y="624" width="120" height="36" rx="8" fill="#9CA3AF"/>
+
+  <!-- Right: Live Chat -->
+  <rect x="840" y="60" width="360" height="640" fill="white" stroke="#CCCCCC"/>
+  <rect x="860" y="80" width="120" height="20" rx="8" fill="#9CA3AF"/>
+
+  <!-- Chat Messages -->
+  <circle cx="870" cy="130" r="12" fill="#CCCCCC"/>
+  <rect x="892" y="120" width="160" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="892" y="138" width="260" height="12" rx="8" fill="#CCCCCC"/>
+
+  <circle cx="870" cy="180" r="12" fill="#9CA3AF"/>
+  <rect x="892" y="170" width="120" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="892" y="188" width="240" height="12" rx="8" fill="#CCCCCC"/>
+
+  <circle cx="870" cy="230" r="12" fill="#CCCCCC"/>
+  <rect x="892" y="220" width="180" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="892" y="238" width="200" height="12" rx="8" fill="#CCCCCC"/>
+
+  <circle cx="870" cy="280" r="12" fill="#9CA3AF"/>
+  <rect x="892" y="270" width="140" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="892" y="288" width="280" height="12" rx="8" fill="#CCCCCC"/>
+
+  <circle cx="870" cy="330" r="12" fill="#CCCCCC"/>
+  <rect x="892" y="320" width="200" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="892" y="338" width="220" height="12" rx="8" fill="#CCCCCC"/>
+
+  <circle cx="870" cy="380" r="12" fill="#9CA3AF"/>
+  <rect x="892" y="370" width="160" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="892" y="388" width="260" height="12" rx="8" fill="#CCCCCC"/>
+
+  <circle cx="870" cy="430" r="12" fill="#CCCCCC"/>
+  <rect x="892" y="420" width="180" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="892" y="438" width="240" height="12" rx="8" fill="#CCCCCC"/>
+
+  <circle cx="870" cy="480" r="12" fill="#9CA3AF"/>
+  <rect x="892" y="470" width="140" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="892" y="488" width="200" height="12" rx="8" fill="#CCCCCC"/>
+
+  <!-- Chat Input -->
+  <rect x="856" y="650" width="280" height="36" rx="18" fill="#EEEEEE"/>
+  <rect x="1148" y="650" width="36" height="36" rx="18" fill="#9CA3AF"/>
+
+  <!-- Related Streams Row -->
+  <rect x="20" y="700" width="200" height="80" rx="8" fill="#EEEEEE"/>
+  <rect x="240" y="700" width="200" height="80" rx="8" fill="#EEEEEE"/>
+  <rect x="460" y="700" width="200" height="80" rx="8" fill="#EEEEEE"/>
+  <rect x="680" y="700" width="200" height="80" rx="8" fill="#EEEEEE"/>
+</svg>

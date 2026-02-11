@@ -1,0 +1,49 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="700" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="800" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="900" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+
+  <!-- About Section -->
+  <rect x="80" y="100" width="500" height="340" fill="white"/>
+  <rect x="80" y="100" width="200" height="28" rx="8" fill="#9CA3AF"/>
+  <rect x="80" y="148" width="480" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="80" y="174" width="460" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="80" y="200" width="500" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="80" y="226" width="440" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="80" y="252" width="480" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Photo -->
+  <rect x="700" y="100" width="400" height="340" rx="12" fill="#EEEEEE"/>
+
+  <!-- Skills Section -->
+  <rect x="80" y="480" width="160" height="28" rx="8" fill="#9CA3AF"/>
+
+  <!-- Skill Bars -->
+  <rect x="80" y="530" width="140" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="80" y="554" width="500" height="20" rx="10" fill="#EEEEEE"/>
+  <rect x="80" y="554" width="400" height="20" rx="10" fill="#9CA3AF"/>
+
+  <rect x="80" y="594" width="120" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="80" y="618" width="500" height="20" rx="10" fill="#EEEEEE"/>
+  <rect x="80" y="618" width="450" height="20" rx="10" fill="#9CA3AF"/>
+
+  <rect x="80" y="658" width="160" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="80" y="682" width="500" height="20" rx="10" fill="#EEEEEE"/>
+  <rect x="80" y="682" width="350" height="20" rx="10" fill="#9CA3AF"/>
+
+  <!-- Experience Timeline -->
+  <rect x="700" y="480" width="160" height="28" rx="8" fill="#9CA3AF"/>
+  <rect x="700" y="530" width="400" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="720" y="546" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="720" y="572" width="360" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="700" y="624" width="400" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="720" y="640" width="180" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="720" y="666" width="340" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Footer -->
+  <rect x="0" y="750" width="1200" height="50" fill="#DDDDDD"/>
+</svg>

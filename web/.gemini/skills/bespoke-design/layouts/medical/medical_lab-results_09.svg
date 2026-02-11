@@ -1,0 +1,79 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="1020" y="15" width="140" height="30" rx="8" fill="#9CA3AF"/>
+
+  <!-- Left Sidebar: Patient Info -->
+  <rect x="0" y="60" width="260" height="740" fill="#EEEEEE"/>
+  <circle cx="130" cy="140" r="40" fill="#9CA3AF"/>
+  <rect x="60" y="196" width="140" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="40" y="228" width="180" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="40" y="254" width="180" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="40" y="280" width="180" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="40" y="320" width="180" height="1" fill="#CCCCCC"/>
+  <rect x="40" y="340" width="120" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="40" y="370" width="180" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="40" y="396" width="180" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Main: Results Table -->
+  <rect x="290" y="80" width="300" height="28" rx="8" fill="#9CA3AF"/>
+  <rect x="290" y="126" width="880" height="40" rx="8" fill="#DDDDDD"/>
+  <rect x="310" y="138" width="120" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="520" y="138" width="100" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="720" y="138" width="100" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="920" y="138" width="100" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="1080" y="138" width="60" height="14" rx="4" fill="#9CA3AF"/>
+
+  <!-- Row 1 -->
+  <rect x="290" y="166" width="880" height="50" rx="0" fill="white" stroke="#EEEEEE"/>
+  <rect x="310" y="182" width="160" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="520" y="182" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="720" y="182" width="100" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="920" y="182" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <circle cx="1110" cy="191" r="8" fill="#9CA3AF"/>
+
+  <!-- Row 2 -->
+  <rect x="290" y="216" width="880" height="50" rx="0" fill="#EEEEEE"/>
+  <rect x="310" y="232" width="140" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="520" y="232" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="720" y="232" width="100" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="920" y="232" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <circle cx="1110" cy="241" r="8" fill="#CCCCCC"/>
+
+  <!-- Row 3 -->
+  <rect x="290" y="266" width="880" height="50" rx="0" fill="white" stroke="#EEEEEE"/>
+  <rect x="310" y="282" width="180" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="520" y="282" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="720" y="282" width="100" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="920" y="282" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <circle cx="1110" cy="291" r="8" fill="#9CA3AF"/>
+
+  <!-- Row 4 -->
+  <rect x="290" y="316" width="880" height="50" rx="0" fill="#EEEEEE"/>
+  <rect x="310" y="332" width="150" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="520" y="332" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="720" y="332" width="100" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="920" y="332" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <circle cx="1110" cy="341" r="8" fill="#CCCCCC"/>
+
+  <!-- Row 5 -->
+  <rect x="290" y="366" width="880" height="50" rx="0" fill="white" stroke="#EEEEEE"/>
+  <rect x="310" y="382" width="170" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="520" y="382" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="720" y="382" width="100" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="920" y="382" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <circle cx="1110" cy="391" r="8" fill="#9CA3AF"/>
+
+  <!-- Row 6 -->
+  <rect x="290" y="416" width="880" height="50" rx="0" fill="#EEEEEE"/>
+  <rect x="310" y="432" width="160" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="520" y="432" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="720" y="432" width="100" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="920" y="432" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <circle cx="1110" cy="441" r="8" fill="#CCCCCC"/>
+
+  <!-- Download/Print Actions -->
+  <rect x="290" y="500" width="140" height="40" rx="8" fill="#9CA3AF"/>
+  <rect x="450" y="500" width="140" height="40" rx="8" fill="white" stroke="#CCCCCC"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="700" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="800" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="900" y="20" width="80" height="20" rx="8" fill="#9CA3AF"/>
+
+  <!-- Filter Tabs -->
+  <rect x="350" y="80" width="80" height="30" rx="10" fill="#9CA3AF"/>
+  <rect x="445" y="80" width="100" height="30" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="560" y="80" width="100" height="30" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="675" y="80" width="100" height="30" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="790" y="80" width="80" height="30" rx="10" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Masonry Column 1 -->
+  <rect x="40" y="130" width="370" height="260" rx="12" fill="#EEEEEE"/>
+  <rect x="40" y="406" width="370" height="180" rx="12" fill="#EEEEEE"/>
+  <rect x="40" y="602" width="370" height="180" rx="12" fill="#EEEEEE"/>
+
+  <!-- Masonry Column 2 -->
+  <rect x="426" y="130" width="348" height="180" rx="12" fill="#EEEEEE"/>
+  <rect x="426" y="326" width="348" height="260" rx="12" fill="#EEEEEE"/>
+  <rect x="426" y="602" width="348" height="180" rx="12" fill="#EEEEEE"/>
+
+  <!-- Masonry Column 3 -->
+  <rect x="790" y="130" width="370" height="200" rx="12" fill="#EEEEEE"/>
+  <rect x="790" y="346" width="370" height="220" rx="12" fill="#EEEEEE"/>
+  <rect x="790" y="582" width="370" height="200" rx="12" fill="#EEEEEE"/>
+</svg>

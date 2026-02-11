@@ -1,0 +1,61 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="40" y="16" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="400" y="14" width="260" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="1020" y="14" width="140" height="28" rx="10" fill="#9CA3AF"/>
+
+  <!-- Recipe Hero Image -->
+  <rect x="80" y="72" width="680" height="320" rx="16" fill="#EEEEEE"/>
+
+  <!-- Recipe Title & Meta -->
+  <rect x="80" y="410" width="400" height="30" rx="8" fill="#9CA3AF"/>
+  <rect x="80" y="452" width="300" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="80" y="480" width="60" height="24" rx="12" fill="#EEEEEE"/>
+  <rect x="154" y="480" width="60" height="24" rx="12" fill="#EEEEEE"/>
+  <rect x="228" y="480" width="80" height="24" rx="12" fill="#EEEEEE"/>
+
+  <!-- Recipe Info Card (right) -->
+  <rect x="780" y="72" width="380" height="200" rx="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="810" y="96" width="80" height="40" rx="8" fill="#EEEEEE"/>
+  <rect x="810" y="144" width="60" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="910" y="96" width="80" height="40" rx="8" fill="#EEEEEE"/>
+  <rect x="910" y="144" width="60" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="1010" y="96" width="80" height="40" rx="8" fill="#EEEEEE"/>
+  <rect x="1010" y="144" width="60" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="810" y="180" width="320" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="204" width="280" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="236" width="140" height="24" rx="8" fill="#9CA3AF"/>
+
+  <!-- Ingredients Sidebar -->
+  <rect x="780" y="292" width="380" height="340" rx="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="810" y="316" width="120" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="810" y="352" width="320" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="378" width="300" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="404" width="280" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="430" width="320" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="456" width="260" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="482" width="300" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="508" width="280" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="534" width="320" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="560" width="240" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="810" y="594" width="200" height="14" rx="8" fill="#9CA3AF"/>
+
+  <!-- Instructions -->
+  <rect x="80" y="524" width="140" height="22" rx="8" fill="#9CA3AF"/>
+
+  <rect x="80" y="562" width="660" height="60" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="574" width="30" height="30" rx="15" fill="#DDDDDD"/>
+  <rect x="146" y="576" width="560" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="146" y="598" width="500" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="80" y="632" width="660" height="60" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="644" width="30" height="30" rx="15" fill="#DDDDDD"/>
+  <rect x="146" y="646" width="540" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="146" y="668" width="480" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="80" y="702" width="660" height="60" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="714" width="30" height="30" rx="15" fill="#DDDDDD"/>
+  <rect x="146" y="716" width="580" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="146" y="738" width="520" height="14" rx="8" fill="#CCCCCC"/>
+</svg>

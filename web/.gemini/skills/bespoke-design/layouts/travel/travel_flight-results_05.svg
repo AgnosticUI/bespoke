@@ -1,0 +1,151 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="24" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+  <rect x="1060" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+
+  <!-- Search Summary Bar -->
+  <rect x="0" y="56" width="1200" height="64" fill="#EEEEEE"/>
+  <rect x="40" y="72" width="120" height="16" rx="4" fill="#9CA3AF"/>
+  <rect x="180" y="76" width="40" height="8" rx="4" fill="#CCCCCC"/>
+  <rect x="240" y="72" width="120" height="16" rx="4" fill="#9CA3AF"/>
+  <rect x="400" y="74" width="100" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="540" y="74" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1040" y="70" width="120" height="24" rx="6" fill="#9CA3AF"/>
+
+  <!-- Filter Bar -->
+  <rect x="40" y="136" width="1120" height="52" rx="8" fill="white" stroke="#CCCCCC"/>
+  <!-- Stops Filter -->
+  <rect x="60" y="148" width="40" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="60" y="162" width="120" height="20" rx="4" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <!-- Airlines Filter -->
+  <rect x="208" y="148" width="50" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="208" y="162" width="140" height="20" rx="4" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <!-- Price Range -->
+  <rect x="376" y="148" width="60" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="376" y="162" width="160" height="20" rx="4" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <!-- Duration -->
+  <rect x="564" y="148" width="50" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="564" y="162" width="120" height="20" rx="4" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <!-- Sort -->
+  <rect x="960" y="152" width="40" height="10" rx="2" fill="#CCCCCC"/>
+  <rect x="1008" y="150" width="120" height="20" rx="4" fill="#EEEEEE" stroke="#CCCCCC"/>
+
+  <!-- Column Headers -->
+  <rect x="40" y="204" width="80" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="400" y="204" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="600" y="204" width="60" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="800" y="204" width="50" height="12" rx="4" fill="#CCCCCC"/>
+  <rect x="1060" y="204" width="40" height="12" rx="4" fill="#CCCCCC"/>
+
+  <!-- Flight Result Row 1 -->
+  <rect x="40" y="228" width="1120" height="88" rx="8" fill="white" stroke="#CCCCCC"/>
+  <!-- Airline Logo -->
+  <rect x="60" y="248" width="48" height="48" rx="8" fill="#EEEEEE"/>
+  <rect x="120" y="252" width="80" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="120" y="274" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Departure -->
+  <rect x="300" y="252" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="300" y="278" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Flight Line -->
+  <rect x="420" y="262" width="140" height="2" fill="#CCCCCC"/>
+  <circle cx="420" cy="263" r="4" fill="#9CA3AF"/>
+  <circle cx="560" cy="263" r="4" fill="#9CA3AF"/>
+  <rect x="460" y="246" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="460" y="272" width="40" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Arrival -->
+  <rect x="590" y="252" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="590" y="278" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Duration -->
+  <rect x="760" y="256" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="276" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <!-- Price + Select -->
+  <rect x="960" y="248" width="100" height="22" rx="4" fill="#9CA3AF"/>
+  <rect x="980" y="282" width="140" height="28" rx="6" fill="#9CA3AF"/>
+
+  <!-- Flight Result Row 2 -->
+  <rect x="40" y="328" width="1120" height="88" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="60" y="348" width="48" height="48" rx="8" fill="#EEEEEE"/>
+  <rect x="120" y="352" width="90" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="120" y="374" width="70" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="300" y="352" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="300" y="378" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="420" y="362" width="140" height="2" fill="#CCCCCC"/>
+  <circle cx="420" cy="363" r="4" fill="#9CA3AF"/>
+  <circle cx="490" cy="363" r="4" fill="#CCCCCC"/>
+  <circle cx="560" cy="363" r="4" fill="#9CA3AF"/>
+  <rect x="460" y="346" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="455" y="372" width="50" height="10" rx="4" fill="#9CA3AF"/>
+  <rect x="590" y="352" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="590" y="378" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="356" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="376" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="348" width="100" height="22" rx="4" fill="#9CA3AF"/>
+  <rect x="980" y="382" width="140" height="28" rx="6" fill="#9CA3AF"/>
+
+  <!-- Flight Result Row 3 -->
+  <rect x="40" y="428" width="1120" height="88" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="60" y="448" width="48" height="48" rx="8" fill="#EEEEEE"/>
+  <rect x="120" y="452" width="70" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="120" y="474" width="80" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="300" y="452" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="300" y="478" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="420" y="462" width="140" height="2" fill="#CCCCCC"/>
+  <circle cx="420" cy="463" r="4" fill="#9CA3AF"/>
+  <circle cx="560" cy="463" r="4" fill="#9CA3AF"/>
+  <rect x="460" y="446" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="460" y="472" width="40" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="590" y="452" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="590" y="478" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="456" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="476" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="448" width="100" height="22" rx="4" fill="#9CA3AF"/>
+  <rect x="980" y="482" width="140" height="28" rx="6" fill="#9CA3AF"/>
+
+  <!-- Flight Result Row 4 -->
+  <rect x="40" y="528" width="1120" height="88" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="60" y="548" width="48" height="48" rx="8" fill="#EEEEEE"/>
+  <rect x="120" y="552" width="100" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="120" y="574" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="300" y="552" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="300" y="578" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="420" y="562" width="140" height="2" fill="#CCCCCC"/>
+  <circle cx="420" cy="563" r="4" fill="#9CA3AF"/>
+  <circle cx="560" cy="563" r="4" fill="#9CA3AF"/>
+  <rect x="460" y="546" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="460" y="572" width="40" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="590" y="552" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="590" y="578" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="556" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="576" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="548" width="100" height="22" rx="4" fill="#9CA3AF"/>
+  <rect x="980" y="582" width="140" height="28" rx="6" fill="#9CA3AF"/>
+
+  <!-- Flight Result Row 5 -->
+  <rect x="40" y="628" width="1120" height="88" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="60" y="648" width="48" height="48" rx="8" fill="#EEEEEE"/>
+  <rect x="120" y="652" width="80" height="14" rx="4" fill="#9CA3AF"/>
+  <rect x="120" y="674" width="70" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="300" y="652" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="300" y="678" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="420" y="662" width="140" height="2" fill="#CCCCCC"/>
+  <circle cx="420" cy="663" r="4" fill="#9CA3AF"/>
+  <circle cx="490" cy="663" r="4" fill="#CCCCCC"/>
+  <circle cx="560" cy="663" r="4" fill="#9CA3AF"/>
+  <rect x="460" y="646" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="455" y="672" width="50" height="10" rx="4" fill="#9CA3AF"/>
+  <rect x="590" y="652" width="80" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="590" y="678" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="656" width="80" height="14" rx="4" fill="#CCCCCC"/>
+  <rect x="760" y="676" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="960" y="648" width="100" height="22" rx="4" fill="#9CA3AF"/>
+  <rect x="980" y="682" width="140" height="28" rx="6" fill="#9CA3AF"/>
+
+  <!-- Pagination -->
+  <rect x="460" y="740" width="280" height="36" rx="6" fill="#EEEEEE"/>
+  <rect x="480" y="748" width="60" height="20" rx="4" fill="white" stroke="#CCCCCC"/>
+  <rect x="550" y="748" width="40" height="20" rx="4" fill="#9CA3AF"/>
+  <rect x="600" y="748" width="40" height="20" rx="4" fill="white" stroke="#CCCCCC"/>
+  <rect x="650" y="748" width="40" height="20" rx="4" fill="white" stroke="#CCCCCC"/>
+  <rect x="700" y="748" width="20" height="20" rx="4" fill="white" stroke="#CCCCCC"/>
+</svg>

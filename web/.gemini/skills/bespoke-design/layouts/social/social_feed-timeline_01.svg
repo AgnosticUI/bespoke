@@ -1,0 +1,69 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="40" y="16" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="400" y="14" width="300" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="900" y="16" width="28" height="24" rx="12" fill="#9CA3AF"/>
+  <rect x="940" y="16" width="28" height="24" rx="12" fill="#9CA3AF"/>
+  <rect x="980" y="16" width="28" height="24" rx="12" fill="#9CA3AF"/>
+  <rect x="1060" y="12" width="100" height="32" rx="16" fill="#9CA3AF"/>
+
+  <!-- Left Sidebar - Navigation -->
+  <rect x="0" y="56" width="240" height="744" fill="white" stroke="#CCCCCC"/>
+  <rect x="20" y="76" width="200" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="20" y="122" width="200" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="20" y="168" width="200" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="20" y="214" width="200" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="20" y="260" width="200" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="20" y="320" width="140" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="20" y="350" width="200" height="30" rx="8" fill="#EEEEEE"/>
+  <rect x="20" y="390" width="200" height="30" rx="8" fill="#EEEEEE"/>
+  <rect x="20" y="430" width="200" height="30" rx="8" fill="#EEEEEE"/>
+
+  <!-- Main Feed -->
+  <!-- Create Post Box -->
+  <rect x="260" y="72" width="600" height="80" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="280" y="92" width="40" height="40" rx="20" fill="#EEEEEE"/>
+  <rect x="332" y="92" width="400" height="40" rx="20" fill="#EEEEEE"/>
+  <rect x="748" y="98" width="80" height="28" rx="8" fill="#9CA3AF"/>
+
+  <!-- Post 1 -->
+  <rect x="260" y="168" width="600" height="260" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="280" y="188" width="40" height="40" rx="20" fill="#EEEEEE"/>
+  <rect x="332" y="192" width="140" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="332" y="214" width="80" height="12" rx="6" fill="#CCCCCC"/>
+  <rect x="280" y="248" width="560" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="280" y="270" width="500" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="280" y="296" width="560" height="90" rx="8" fill="#EEEEEE"/>
+  <rect x="280" y="398" width="80" height="20" rx="6" fill="#EEEEEE"/>
+  <rect x="380" y="398" width="80" height="20" rx="6" fill="#EEEEEE"/>
+  <rect x="480" y="398" width="80" height="20" rx="6" fill="#EEEEEE"/>
+
+  <!-- Post 2 -->
+  <rect x="260" y="444" width="600" height="200" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="280" y="464" width="40" height="40" rx="20" fill="#EEEEEE"/>
+  <rect x="332" y="468" width="120" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="332" y="490" width="60" height="12" rx="6" fill="#CCCCCC"/>
+  <rect x="280" y="520" width="560" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="280" y="542" width="480" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="280" y="564" width="520" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="280" y="600" width="80" height="20" rx="6" fill="#EEEEEE"/>
+  <rect x="380" y="600" width="80" height="20" rx="6" fill="#EEEEEE"/>
+  <rect x="480" y="600" width="80" height="20" rx="6" fill="#EEEEEE"/>
+
+  <!-- Right Sidebar - Suggestions -->
+  <rect x="880" y="72" width="300" height="300" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="904" y="92" width="160" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="904" y="126" width="252" height="44" rx="8" fill="#EEEEEE"/>
+  <rect x="904" y="182" width="252" height="44" rx="8" fill="#EEEEEE"/>
+  <rect x="904" y="238" width="252" height="44" rx="8" fill="#EEEEEE"/>
+  <rect x="904" y="294" width="252" height="44" rx="8" fill="#EEEEEE"/>
+
+  <!-- Trending Topics -->
+  <rect x="880" y="392" width="300" height="240" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="904" y="412" width="120" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="904" y="446" width="252" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="904" y="494" width="252" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="904" y="542" width="252" height="36" rx="8" fill="#EEEEEE"/>
+  <rect x="904" y="590" width="252" height="36" rx="8" fill="#EEEEEE"/>
+</svg>

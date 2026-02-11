@@ -1,0 +1,119 @@
+[
+  {
+    "id": "palette-preview-01",
+    "paletteId": "palette-002",
+    "svgFile": "palette-preview-01.svg",
+    "palette": {
+      "id": "palette-002",
+      "product_type": "High-Performance Sportswear",
+      "primary": "#000000",
+      "secondary": "#171717",
+      "cta": "#BE123C",
+      "background": "#F5F5F5",
+      "text": "#0A0A0A",
+      "border": "#D4D4D8",
+      "notes": "Modern Brutalism: Piano black and high-speed red."
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "18.2:1",
+        "rawRatio": 18.159588039824865,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "21.0:1",
+        "rawRatio": 21,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "6.3:1",
+        "rawRatio": 6.285164560662439,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-02",
+    "paletteId": "palette-009",
+    "svgFile": "palette-preview-02.svg",
+    "palette": {
+      "id": "palette-009",
+      "product_type": "Gourmet Meal Kit",
+      "primary": "#431407",
+      "secondary": "#78350F",
+      "cta": "#EA580C",
+      "background": "#FFF7ED",
+      "text": "#431407",
+      "border": "#FFEDD5",
+      "notes": "Umami brown + zest orange"
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "14.7:1",
+        "rawRatio": 14.74091271442099,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "15.7:1",
+        "rawRatio": 15.650749934799228,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "5.9:1",
+        "rawRatio": 5.899683317786122,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-03",
+    "paletteId": "palette-034",
+    "svgFile": "palette-preview-03.svg",
+    "palette": {
+      "id": "palette-034",
+      "product_type": "Premium Candle Brand",
+      "primary": "#44403C",
+      "secondary": "#57534E",
+      "cta": "#D4AF37",
+      "background": "#FAFAF9",
+      "text": "#1C1917",
+      "border": "#E7E5E4",
+      "notes": "Waxy taupe + flame gold"
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "16.7:1",
+        "rawRatio": 16.744631340033816,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "10.3:1",
+        "rawRatio": 10.2719830297459,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "10.0:1",
+        "rawRatio": 9.986565699221215,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  }
+]

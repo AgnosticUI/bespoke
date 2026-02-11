@@ -1,0 +1,68 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="40" y="16" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="1020" y="14" width="140" height="28" rx="10" fill="#9CA3AF"/>
+
+  <!-- Map Area -->
+  <rect x="0" y="56" width="760" height="500" fill="#EEEEEE"/>
+  <circle cx="300" cy="300" r="16" fill="#9CA3AF"/>
+  <circle cx="500" cy="250" r="16" fill="#DDDDDD"/>
+
+  <!-- Order Status Panel -->
+  <rect x="780" y="56" width="420" height="500" fill="white" stroke="#CCCCCC"/>
+  <rect x="810" y="80" width="240" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="810" y="116" width="160" height="16" rx="8" fill="#CCCCCC"/>
+
+  <!-- Progress Steps -->
+  <rect x="810" y="158" width="360" height="50" rx="8" fill="#DDDDDD"/>
+  <rect x="830" y="170" width="24" height="24" rx="12" fill="#9CA3AF"/>
+  <rect x="866" y="174" width="160" height="14" rx="6" fill="#9CA3AF"/>
+
+  <rect x="810" y="218" width="360" height="50" rx="8" fill="#DDDDDD"/>
+  <rect x="830" y="230" width="24" height="24" rx="12" fill="#9CA3AF"/>
+  <rect x="866" y="234" width="140" height="14" rx="6" fill="#9CA3AF"/>
+
+  <rect x="810" y="278" width="360" height="50" rx="8" fill="#EEEEEE"/>
+  <rect x="830" y="290" width="24" height="24" rx="12" fill="#9CA3AF"/>
+  <rect x="866" y="294" width="180" height="14" rx="6" fill="#CCCCCC"/>
+
+  <rect x="810" y="338" width="360" height="50" rx="8" fill="#EEEEEE"/>
+  <rect x="830" y="350" width="24" height="24" rx="12" fill="#CCCCCC"/>
+  <rect x="866" y="354" width="120" height="14" rx="6" fill="#CCCCCC"/>
+
+  <!-- Driver Info -->
+  <rect x="810" y="410" width="360" height="80" rx="12" fill="#EEEEEE"/>
+  <rect x="830" y="426" width="48" height="48" rx="24" fill="#DDDDDD"/>
+  <rect x="890" y="430" width="140" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="890" y="454" width="100" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="1100" y="434" width="48" height="36" rx="8" fill="#9CA3AF"/>
+
+  <!-- ETA -->
+  <rect x="810" y="510" width="360" height="30" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="830" y="518" width="200" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="1090" y="516" width="60" height="18" rx="6" fill="#9CA3AF"/>
+
+  <!-- Order Details (Bottom) -->
+  <rect x="0" y="556" width="1200" height="244" fill="white" stroke="#CCCCCC"/>
+  <rect x="40" y="576" width="140" height="22" rx="8" fill="#9CA3AF"/>
+
+  <rect x="40" y="614" width="540" height="44" rx="8" fill="#EEEEEE"/>
+  <rect x="60" y="624" width="200" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="60" y="644" width="60" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="500" y="630" width="60" height="16" rx="6" fill="#CCCCCC"/>
+
+  <rect x="40" y="668" width="540" height="44" rx="8" fill="#EEEEEE"/>
+  <rect x="60" y="678" width="180" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="60" y="698" width="60" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="500" y="684" width="60" height="16" rx="6" fill="#CCCCCC"/>
+
+  <!-- Order Total -->
+  <rect x="640" y="614" width="520" height="100" rx="12" fill="#EEEEEE"/>
+  <rect x="670" y="634" width="100" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="1060" y="634" width="80" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="670" y="660" width="80" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="1060" y="660" width="60" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="670" y="690" width="120" height="18" rx="6" fill="#9CA3AF"/>
+  <rect x="1040" y="690" width="100" height="18" rx="6" fill="#9CA3AF"/>
+</svg>

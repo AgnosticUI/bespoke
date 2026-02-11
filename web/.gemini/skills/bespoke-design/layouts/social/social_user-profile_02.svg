@@ -1,0 +1,75 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="40" y="16" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="400" y="14" width="300" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="1060" y="12" width="100" height="32" rx="16" fill="#9CA3AF"/>
+
+  <!-- Cover Photo -->
+  <rect x="0" y="56" width="1200" height="200" fill="#EEEEEE"/>
+
+  <!-- Profile Info Card -->
+  <rect x="80" y="196" width="1040" height="120" rx="0" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="176" width="100" height="100" rx="50" fill="#DDDDDD" stroke="white" stroke-width="4"/>
+  <rect x="220" y="216" width="200" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="220" y="248" width="300" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="220" y="272" width="200" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="900" y="226" width="100" height="36" rx="10" fill="#9CA3AF"/>
+  <rect x="1016" y="226" width="80" height="36" rx="10" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Stats -->
+  <rect x="600" y="216" width="80" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="600" y="248" width="60" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="700" y="216" width="80" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="700" y="248" width="60" height="14" rx="6" fill="#CCCCCC"/>
+  <rect x="800" y="216" width="60" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="800" y="248" width="60" height="14" rx="6" fill="#CCCCCC"/>
+
+  <!-- Tab Bar -->
+  <rect x="80" y="316" width="1040" height="44" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="326" width="80" height="24" rx="8" fill="#DDDDDD"/>
+  <rect x="200" y="326" width="80" height="24" rx="8" fill="#EEEEEE"/>
+  <rect x="300" y="326" width="80" height="24" rx="8" fill="#EEEEEE"/>
+  <rect x="400" y="326" width="80" height="24" rx="8" fill="#EEEEEE"/>
+
+  <!-- Post Grid -->
+  <rect x="80" y="376" width="330" height="180" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="390" width="28" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="138" y="394" width="100" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="138" y="414" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="100" y="436" width="290" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="100" y="458" width="260" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="100" y="490" width="290" height="50" rx="8" fill="#EEEEEE"/>
+
+  <rect x="430" y="376" width="330" height="180" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="450" y="390" width="28" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="488" y="394" width="100" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="488" y="414" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="450" y="436" width="290" height="100" rx="8" fill="#EEEEEE"/>
+
+  <rect x="780" y="376" width="340" height="180" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="800" y="390" width="28" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="838" y="394" width="100" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="838" y="414" width="60" height="10" rx="4" fill="#CCCCCC"/>
+  <rect x="800" y="436" width="300" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="800" y="458" width="280" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="800" y="480" width="260" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- More Posts Row 2 -->
+  <rect x="80" y="576" width="330" height="180" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="590" width="28" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="138" y="594" width="100" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="100" y="630" width="290" height="110" rx="8" fill="#EEEEEE"/>
+
+  <rect x="430" y="576" width="330" height="180" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="450" y="590" width="28" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="488" y="594" width="100" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="450" y="630" width="290" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="450" y="652" width="260" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="450" y="674" width="280" height="14" rx="8" fill="#CCCCCC"/>
+
+  <rect x="780" y="576" width="340" height="180" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="800" y="590" width="28" height="28" rx="14" fill="#EEEEEE"/>
+  <rect x="838" y="594" width="100" height="14" rx="6" fill="#9CA3AF"/>
+  <rect x="800" y="630" width="300" height="110" rx="8" fill="#EEEEEE"/>
+</svg>

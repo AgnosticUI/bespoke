@@ -1,0 +1,30 @@
+generic_token,framework_token,category,transform,notes
+colors.primary.hex,--color-primary,color,none,Primary brand color (hex)
+colors.primary.rgbString,--color-primary-rgb,color,none,Primary brand color (RGB)
+colors.primary.hslCss,--color-primary-hsl,color,none,Primary brand color (HSL)
+colors.secondary.hex,--color-secondary,color,none,Secondary brand color
+colors.secondary.rgbString,--color-secondary-rgb,color,none,Secondary (RGB)
+colors.accent.hex,--color-accent,color,none,Accent/CTA color
+colors.cta.hex,--color-cta,color,none,Call-to-action color
+colors.background.hex,--color-background,color,none,Page background
+colors.foreground.hex,--color-foreground,color,none,Default text
+colors.muted.hex,--color-muted,color,none,Muted background
+colors.mutedForeground.hex,--color-muted-foreground,color,none,Muted text
+colors.border.hex,--color-border,color,none,Border color
+colors.input.hex,--color-input,color,none,Input border
+colors.destructive.hex,--color-destructive,color,none,Error/danger
+colors.success.hex,--color-success,color,none,Success state
+colors.warning.hex,--color-warning,color,none,Warning state
+fonts.heading,--font-family-heading,typography,none,Heading font
+fonts.body,--font-family-body,typography,none,Body font
+fonts.mono,--font-family-mono,typography,none,Monospace font
+spacing.xs,--spacing-xs,spacing,px,Extra small (4px)
+spacing.sm,--spacing-sm,spacing,px,Small (8px)
+spacing.md,--spacing-md,spacing,px,Medium (16px)
+spacing.lg,--spacing-lg,spacing,px,Large (24px)
+spacing.xl,--spacing-xl,spacing,px,Extra large (32px)
+spacing.section,--spacing-section,spacing,px,Section gap
+radius.sm,--radius-sm,spacing,px,Small radius
+radius.md,--radius-md,spacing,px,Medium radius
+radius.lg,--radius-lg,spacing,px,Large radius
+radius.full,--radius-full,spacing,none,Full/pill radius

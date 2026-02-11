@@ -1,0 +1,48 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="1020" y="14" width="140" height="32" rx="8" fill="#9CA3AF"/>
+
+  <!-- Heading -->
+  <rect x="400" y="90" width="400" height="32" rx="8" fill="#9CA3AF"/>
+  <rect x="350" y="136" width="500" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Vertical Timeline Line -->
+  <line x1="600" y1="180" x2="600" y2="780" stroke="#CCCCCC" stroke-width="2"/>
+
+  <!-- Milestone 1 - Left -->
+  <circle cx="600" cy="220" r="12" fill="#9CA3AF"/>
+  <rect x="240" y="190" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="264" y="208" width="160" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="264" y="234" width="260" height="12" rx="8" fill="#CCCCCC"/>
+
+  <!-- Milestone 2 - Right -->
+  <circle cx="600" cy="340" r="12" fill="#9CA3AF"/>
+  <rect x="640" y="310" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="664" y="328" width="180" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="664" y="354" width="260" height="12" rx="8" fill="#CCCCCC"/>
+
+  <!-- Milestone 3 - Left -->
+  <circle cx="600" cy="460" r="12" fill="#9CA3AF"/>
+  <rect x="240" y="430" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="264" y="448" width="200" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="264" y="474" width="260" height="12" rx="8" fill="#CCCCCC"/>
+
+  <!-- Milestone 4 - Right -->
+  <circle cx="600" cy="580" r="12" fill="#9CA3AF"/>
+  <rect x="640" y="550" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="664" y="568" width="140" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="664" y="594" width="260" height="12" rx="8" fill="#CCCCCC"/>
+
+  <!-- Milestone 5 - Left -->
+  <circle cx="600" cy="700" r="12" fill="#9CA3AF"/>
+  <rect x="240" y="670" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
+  <rect x="264" y="688" width="180" height="16" rx="8" fill="#9CA3AF"/>
+  <rect x="264" y="714" width="260" height="12" rx="8" fill="#CCCCCC"/>
+
+  <g class="preview-label">
+    <rect x="10" y="7" width="30" height="24" rx="4" fill="#0369A1"/>
+    <text x="25" y="25" text-anchor="middle" fill="white" font-size="14" font-weight="600" font-family="system-ui">1</text>
+  </g>
+</svg>

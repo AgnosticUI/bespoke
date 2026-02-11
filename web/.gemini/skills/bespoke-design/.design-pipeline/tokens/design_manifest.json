@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "layout_id": "option-03",
+    "typography_id": "typo-010",
+    "palette_id": "palette-preview-01",
+    "niche": "marketing",
+    "app_type": "landing-page",
+    "timestamp": "2026-02-10T01:17:53.063Z",
+    "version": "1.0"
+  },
+  "fonts": {
+    "heading": "Roboto Condensed",
+    "body": "Cabin",
+    "mono": "JetBrains Mono",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Cabin:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap",
+    "cssImport": "@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap');"
+  },
+  "layoutBlueprint": {
+    "id": "option-03",
+    "variant": "fullwidth-hero-alternating",
+    "svgPath": ".design-pipeline/tokens/layout-blueprint.svg",
+    "purpose": "Spatial reference for LLM-driven UI generation. Encodes component placement, hierarchy, and density."
+  },
+  "colors": {
+    "base": {
+      "primary": "#000000",
+      "secondary": "#171717",
+      "cta": "#BE123C",
+      "background": "#F5F5F5",
+      "text": "#0A0A0A",
+      "border": "#D4D4D8"
+    },
+    "derived": {
+      "primary": "#000000",
+      "secondary": "#171717",
+      "accent": "#BE123C",
+      "background": "#F5F5F5",
+      "foreground": "#0A0A0A",
+      "border": "#D4D4D8",
+      "muted": "#E8E8E8",
+      "mutedForeground": "#707070",
+      "card": "#F5F5F5",
+      "cardForeground": "#0A0A0A",
+      "input": "#D4D4D8",
+      "ring": "#000000",
+      "destructive": "#DC2626",
+      "destructiveForeground": "#FFFFFF",
+      "success": "#16A34A",
+      "warning": "#F59E0B"
+    },
+    "dark": {
+      "background": "#000000",
+      "foreground": "#FFFFFF",
+      "card": "#030303",
+      "cardForeground": "#FFFFFF",
+      "popover": "#030303",
+      "popoverForeground": "#FFFFFF",
+      "primary": "#1A1A1A",
+      "primaryForeground": "#FFFFFF",
+      "secondary": "#000000",
+      "secondaryForeground": "#FFFFFF",
+      "muted": "#050505",
+      "mutedForeground": "#A3A3A3",
+      "accent": "#910D2E",
+      "accentForeground": "#FFFFFF",
+      "destructive": "#E35454",
+      "destructiveForeground": "#000000",
+      "border": "#EFEFF0",
+      "input": "#EFEFF0",
+      "ring": "#1A1A1A",
+      "success": "#1CCE5E",
+      "successForeground": "#000000",
+      "warning": "#F7B23B",
+      "warningForeground": "#000000"
+    }
+  },
+  "contrast": {
+    "textOnBackground": {
+      "ratio": "18.2:1",
+      "aa": true,
+      "aaa": true
+    },
+    "primaryOnBackground": {
+      "ratio": "19.3:1",
+      "aa": true,
+      "aaa": true
+    },
+    "ctaOnBackground": {
+      "ratio": "5.8:1",
+      "aa": true,
+      "aaa": false
+    }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "2xl": 48,
+    "3xl": 64,
+    "section": 80
+  },
+  "radius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 16,
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)"
+  },
+  "outputFiles": {
+    "shadcn": ".design-pipeline/tokens/shadcn-globals.css",
+    "generic": ".design-pipeline/tokens/design-tokens.css",
+    "daisyui": ".design-pipeline/tokens/daisyui-theme.css",
+    "agnosticui": ".design-pipeline/tokens/agnosticui-tokens.css",
+    "layout": ".design-pipeline/tokens/layout-blueprint.svg"
+  }
+}

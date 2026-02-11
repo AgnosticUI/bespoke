@@ -1,0 +1,26 @@
+[
+  {
+    "id": "option-01",
+    "filename": "marketing_timeline-milestones_11.svg",
+    "niche": "marketing",
+    "variant": "timeline-milestones",
+    "number": "11",
+    "svgFile": "option-01.svg"
+  },
+  {
+    "id": "option-02",
+    "filename": "marketing_video-hero-stats_09.svg",
+    "niche": "marketing",
+    "variant": "video-hero-stats",
+    "number": "09",
+    "svgFile": "option-02.svg"
+  },
+  {
+    "id": "option-03",
+    "filename": "marketing_fullwidth-hero-alternating_03.svg",
+    "niche": "marketing",
+    "variant": "fullwidth-hero-alternating",
+    "number": "03",
+    "svgFile": "option-03.svg"
+  }
+]

@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "bespokeui": "file:../cli/bespokeui-1.0.0.tgz",
+    "bespokeui-cli": "file:../cli/bespokeui-cli-1.0.0.tgz",
     "daisyui": "^5.5.18",
     "tailwindcss": "^4.1.18"
   }

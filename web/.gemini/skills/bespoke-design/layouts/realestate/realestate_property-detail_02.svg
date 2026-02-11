@@ -1,0 +1,58 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="40" y="16" width="120" height="24" rx="10" fill="#9CA3AF"/>
+  <rect x="1020" y="14" width="140" height="28" rx="10" fill="#9CA3AF"/>
+
+  <!-- Photo Gallery -->
+  <rect x="40" y="72" width="700" height="340" rx="12" fill="#EEEEEE"/>
+  <rect x="760" y="72" width="200" height="166" rx="12" fill="#EEEEEE"/>
+  <rect x="760" y="246" width="200" height="166" rx="12" fill="#EEEEEE"/>
+  <rect x="980" y="72" width="180" height="166" rx="12" fill="#EEEEEE"/>
+  <rect x="980" y="246" width="180" height="166" rx="12" fill="#EEEEEE"/>
+
+  <!-- Property Title and Price -->
+  <rect x="40" y="430" width="500" height="28" rx="8" fill="#9CA3AF"/>
+  <rect x="40" y="468" width="350" height="16" rx="8" fill="#CCCCCC"/>
+  <rect x="40" y="498" width="160" height="32" rx="8" fill="#9CA3AF"/>
+
+  <!-- Quick Stats -->
+  <rect x="40" y="548" width="120" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="56" y="558" width="40" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="56" y="580" width="80" height="12" rx="6" fill="#CCCCCC"/>
+
+  <rect x="176" y="548" width="120" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="192" y="558" width="40" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="192" y="580" width="80" height="12" rx="6" fill="#CCCCCC"/>
+
+  <rect x="312" y="548" width="120" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="328" y="558" width="40" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="328" y="580" width="80" height="12" rx="6" fill="#CCCCCC"/>
+
+  <rect x="448" y="548" width="120" height="50" rx="10" fill="#EEEEEE"/>
+  <rect x="464" y="558" width="40" height="16" rx="6" fill="#9CA3AF"/>
+  <rect x="464" y="580" width="80" height="12" rx="6" fill="#CCCCCC"/>
+
+  <!-- Description -->
+  <rect x="40" y="618" width="120" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="40" y="650" width="620" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="40" y="674" width="600" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="40" y="698" width="580" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Right Sidebar - Contact Agent -->
+  <rect x="740" y="430" width="420" height="280" rx="16" fill="white" stroke="#CCCCCC"/>
+  <rect x="770" y="454" width="160" height="20" rx="8" fill="#9CA3AF"/>
+
+  <!-- Agent Info -->
+  <rect x="770" y="490" width="60" height="60" rx="30" fill="#EEEEEE"/>
+  <rect x="844" y="498" width="160" height="18" rx="8" fill="#9CA3AF"/>
+  <rect x="844" y="524" width="120" height="14" rx="8" fill="#CCCCCC"/>
+
+  <!-- Contact Form -->
+  <rect x="770" y="572" width="360" height="36" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="770" y="618" width="360" height="36" rx="8" fill="white" stroke="#CCCCCC"/>
+  <rect x="770" y="664" width="360" height="30" rx="10" fill="#9CA3AF"/>
+
+  <!-- Footer -->
+  <rect x="0" y="740" width="1200" height="60" fill="#DDDDDD"/>
+</svg>

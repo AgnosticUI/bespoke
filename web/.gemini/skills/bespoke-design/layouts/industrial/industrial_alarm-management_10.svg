@@ -1,0 +1,96 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="56" fill="#DDDDDD"/>
+  <rect x="24" y="16" width="100" height="24" rx="4" fill="#9CA3AF"/>
+  <circle cx="1150" cy="28" r="16" fill="#9CA3AF"/>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="56" width="220" height="744" fill="#EEEEEE"/>
+  <rect x="16" y="76" width="140" height="16" fill="#9CA3AF"/>
+  <rect x="16" y="108" width="188" height="14" fill="#CCCCCC"/>
+  <rect x="16" y="132" width="188" height="14" fill="#CCCCCC"/>
+  <rect x="16" y="156" width="188" height="14" fill="#9CA3AF"/>
+  <rect x="16" y="180" width="188" height="14" fill="#CCCCCC"/>
+
+  <!-- Filter Bar -->
+  <rect x="240" y="68" width="700" height="40" fill="white" stroke="#CCCCCC"/>
+  <rect x="260" y="78" width="120" height="22" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="396" y="78" width="120" height="22" fill="#EEEEEE" stroke="#CCCCCC"/>
+  <rect x="532" y="78" width="160" height="22" fill="#EEEEEE"/>
+  <rect x="780" y="78" width="80" height="22" fill="#9CA3AF"/>
+
+  <!-- Alarm Table -->
+  <rect x="240" y="120" width="700" height="36" fill="#DDDDDD"/>
+  <rect x="260" y="130" width="40" height="14" fill="#9CA3AF"/>
+  <rect x="320" y="130" width="100" height="14" fill="#9CA3AF"/>
+  <rect x="480" y="130" width="120" height="14" fill="#9CA3AF"/>
+  <rect x="660" y="130" width="80" height="14" fill="#9CA3AF"/>
+  <rect x="800" y="130" width="80" height="14" fill="#9CA3AF"/>
+
+  <rect x="240" y="156" width="700" height="44" fill="white" stroke="#EEEEEE"/>
+  <circle cx="272" cy="178" r="8" fill="#9CA3AF"/>
+  <rect x="320" y="172" width="120" height="12" fill="#CCCCCC"/>
+  <rect x="480" y="172" width="140" height="12" fill="#CCCCCC"/>
+  <rect x="660" y="172" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="800" y="168" width="80" height="20" fill="#9CA3AF"/>
+
+  <rect x="240" y="200" width="700" height="44" fill="#EEEEEE"/>
+  <circle cx="272" cy="222" r="8" fill="#9CA3AF"/>
+  <rect x="320" y="216" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="480" y="216" width="160" height="12" fill="#CCCCCC"/>
+  <rect x="660" y="216" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="800" y="212" width="80" height="20" fill="#CCCCCC"/>
+
+  <rect x="240" y="244" width="700" height="44" fill="white" stroke="#EEEEEE"/>
+  <circle cx="272" cy="266" r="8" fill="#CCCCCC"/>
+  <rect x="320" y="260" width="140" height="12" fill="#CCCCCC"/>
+  <rect x="480" y="260" width="120" height="12" fill="#CCCCCC"/>
+  <rect x="660" y="260" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="800" y="256" width="80" height="20" fill="#CCCCCC"/>
+
+  <rect x="240" y="288" width="700" height="44" fill="#EEEEEE"/>
+  <circle cx="272" cy="310" r="8" fill="#9CA3AF"/>
+  <rect x="320" y="304" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="480" y="304" width="140" height="12" fill="#CCCCCC"/>
+  <rect x="660" y="304" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="800" y="300" width="80" height="20" fill="#9CA3AF"/>
+
+  <rect x="240" y="332" width="700" height="44" fill="white" stroke="#EEEEEE"/>
+  <circle cx="272" cy="354" r="8" fill="#CCCCCC"/>
+  <rect x="320" y="348" width="120" height="12" fill="#CCCCCC"/>
+  <rect x="480" y="348" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="660" y="348" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="800" y="344" width="80" height="20" fill="#CCCCCC"/>
+
+  <rect x="240" y="376" width="700" height="44" fill="#EEEEEE"/>
+  <circle cx="272" cy="398" r="8" fill="#9CA3AF"/>
+  <rect x="320" y="392" width="140" height="12" fill="#CCCCCC"/>
+  <rect x="480" y="392" width="120" height="12" fill="#CCCCCC"/>
+  <rect x="660" y="392" width="100" height="12" fill="#CCCCCC"/>
+  <rect x="800" y="388" width="80" height="20" fill="#9CA3AF"/>
+
+  <!-- Pagination -->
+  <rect x="440" y="440" width="280" height="32" fill="white" stroke="#CCCCCC"/>
+  <rect x="460" y="448" width="40" height="16" fill="#9CA3AF"/>
+  <rect x="510" y="448" width="40" height="16" fill="#CCCCCC"/>
+  <rect x="560" y="448" width="40" height="16" fill="#CCCCCC"/>
+
+  <!-- Right Panel: Alarm Summary -->
+  <rect x="960" y="68" width="200" height="400" fill="white" stroke="#CCCCCC"/>
+  <rect x="980" y="92" width="140" height="16" fill="#9CA3AF"/>
+  <rect x="980" y="128" width="160" height="60" fill="#EEEEEE"/>
+  <rect x="996" y="140" width="40" height="24" fill="#9CA3AF"/>
+  <rect x="1046" y="148" width="80" height="14" fill="#CCCCCC"/>
+
+  <rect x="980" y="204" width="160" height="60" fill="#EEEEEE"/>
+  <rect x="996" y="216" width="40" height="24" fill="#CCCCCC"/>
+  <rect x="1046" y="224" width="80" height="14" fill="#CCCCCC"/>
+
+  <rect x="980" y="280" width="160" height="60" fill="#EEEEEE"/>
+  <rect x="996" y="292" width="40" height="24" fill="#CCCCCC"/>
+  <rect x="1046" y="300" width="80" height="14" fill="#CCCCCC"/>
+
+  <rect x="980" y="356" width="160" height="60" fill="#EEEEEE"/>
+  <rect x="996" y="368" width="40" height="24" fill="#CCCCCC"/>
+  <rect x="1046" y="376" width="80" height="14" fill="#CCCCCC"/>
+</svg>

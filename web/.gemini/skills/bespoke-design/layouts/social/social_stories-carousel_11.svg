@@ -1,0 +1,64 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top Navigation -->
+  <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
+  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
+  <circle cx="1150" cy="30" r="18" fill="#9CA3AF"/>
+
+  <!-- Story Circles Row -->
+  <circle cx="120" cy="110" r="32" fill="none" stroke="#9CA3AF" stroke-width="3"/>
+  <circle cx="120" cy="110" r="26" fill="#EEEEEE"/>
+  <rect x="92" y="150" width="56" height="10" rx="4" fill="#CCCCCC"/>
+
+  <circle cx="210" cy="110" r="32" fill="none" stroke="#9CA3AF" stroke-width="3"/>
+  <circle cx="210" cy="110" r="26" fill="#EEEEEE"/>
+  <rect x="182" y="150" width="56" height="10" rx="4" fill="#CCCCCC"/>
+
+  <circle cx="300" cy="110" r="32" fill="none" stroke="#9CA3AF" stroke-width="3"/>
+  <circle cx="300" cy="110" r="26" fill="#EEEEEE"/>
+  <rect x="272" y="150" width="56" height="10" rx="4" fill="#CCCCCC"/>
+
+  <circle cx="390" cy="110" r="32" fill="none" stroke="#CCCCCC" stroke-width="3"/>
+  <circle cx="390" cy="110" r="26" fill="#EEEEEE"/>
+  <rect x="362" y="150" width="56" height="10" rx="4" fill="#CCCCCC"/>
+
+  <circle cx="480" cy="110" r="32" fill="none" stroke="#CCCCCC" stroke-width="3"/>
+  <circle cx="480" cy="110" r="26" fill="#EEEEEE"/>
+  <rect x="452" y="150" width="56" height="10" rx="4" fill="#CCCCCC"/>
+
+  <circle cx="570" cy="110" r="32" fill="none" stroke="#CCCCCC" stroke-width="3"/>
+  <circle cx="570" cy="110" r="26" fill="#EEEEEE"/>
+  <rect x="542" y="150" width="56" height="10" rx="4" fill="#CCCCCC"/>
+
+  <circle cx="660" cy="110" r="32" fill="none" stroke="#CCCCCC" stroke-width="3"/>
+  <circle cx="660" cy="110" r="26" fill="#EEEEEE"/>
+  <rect x="632" y="150" width="56" height="10" rx="4" fill="#CCCCCC"/>
+
+  <circle cx="750" cy="110" r="32" fill="none" stroke="#CCCCCC" stroke-width="3"/>
+  <circle cx="750" cy="110" r="26" fill="#EEEEEE"/>
+  <rect x="722" y="150" width="56" height="10" rx="4" fill="#CCCCCC"/>
+
+  <!-- Main Story Viewer -->
+  <rect x="300" y="190" width="600" height="520" rx="16" fill="#EEEEEE" stroke="#CCCCCC"/>
+
+  <!-- Progress bars at top of story -->
+  <rect x="320" y="210" width="80" height="4" rx="2" fill="#9CA3AF"/>
+  <rect x="410" y="210" width="80" height="4" rx="2" fill="#9CA3AF"/>
+  <rect x="500" y="210" width="80" height="4" rx="2" fill="#CCCCCC"/>
+  <rect x="590" y="210" width="80" height="4" rx="2" fill="#CCCCCC"/>
+  <rect x="680" y="210" width="80" height="4" rx="2" fill="#CCCCCC"/>
+
+  <!-- User info -->
+  <circle cx="344" cy="244" r="16" fill="#9CA3AF"/>
+  <rect x="370" y="236" width="120" height="14" rx="8" fill="white"/>
+
+  <!-- Nav Arrows -->
+  <circle cx="260" cy="450" r="20" fill="white" stroke="#CCCCCC"/>
+  <circle cx="940" cy="450" r="20" fill="white" stroke="#CCCCCC"/>
+
+  <!-- Bottom Overlay: Reactions -->
+  <rect x="340" y="660" width="520" height="40" rx="20" fill="white" stroke="#CCCCCC"/>
+  <rect x="370" y="670" width="300" height="20" rx="10" fill="#EEEEEE"/>
+  <circle cx="720" cy="680" r="14" fill="#9CA3AF"/>
+  <circle cx="760" cy="680" r="14" fill="#9CA3AF"/>
+  <circle cx="800" cy="680" r="14" fill="#9CA3AF"/>
+</svg>
