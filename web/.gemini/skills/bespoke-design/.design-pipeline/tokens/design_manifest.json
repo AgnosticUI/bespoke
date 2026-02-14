@@ -1,23 +1,23 @@
 {
   "meta": {
-    "layout_id": "option-03",
-    "typography_id": "typo-010",
+    "layout_id": "option-01",
+    "typography_id": "typo-025",
     "palette_id": "palette-preview-01",
     "niche": "marketing",
     "app_type": "landing-page",
-    "timestamp": "2026-02-10T01:17:53.063Z",
+    "timestamp": "2026-02-14T00:58:37.094Z",
     "version": "1.0"
   },
   "fonts": {
-    "heading": "Roboto Condensed",
-    "body": "Cabin",
+    "heading": "Oswald",
+    "body": "Quicksand",
     "mono": "JetBrains Mono",
-    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Cabin:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap",
-    "cssImport": "@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap');"
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap",
+    "cssImport": "@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap');"
   },
   "layoutBlueprint": {
-    "id": "option-03",
-    "variant": "fullwidth-hero-alternating",
+    "id": "option-01",
+    "variant": "hero-logos-features",
     "svgPath": ".design-pipeline/tokens/layout-blueprint.svg",
     "purpose": "Spatial reference for LLM-driven UI generation. Encodes component placement, hierarchy, and density."
   },

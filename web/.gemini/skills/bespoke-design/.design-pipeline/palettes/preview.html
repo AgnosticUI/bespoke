@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Palette Selection — combo-09</title>
+  <title>Palette Selection — combo-03</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
@@ -86,8 +86,8 @@
 <body>
   <div class="page-header">
     <h1>Palette Selection</h1>
-    <div class="niche-context">Niche identified: <strong>Marketing / Landing page (100% confidence)</strong></div>
-    <p class="subtitle">Combination: <strong>combo-09</strong> — Select exactly <strong>1</strong> palette. Colored SVGs show real palette application.</p>
+    <div class="niche-context">Niche identified: <strong>Marketing / Landing page (50% confidence)</strong></div>
+    <p class="subtitle">Combination: <strong>combo-03</strong> — Select a palette to copy its file path. Colored SVGs show real palette application.</p>
   </div>
   <div class="grid">
 
@@ -269,7 +269,7 @@
         </div>
   </div>
   <div class="toolbar">
-    <button id="copyBtn" disabled onclick="copySelection()">Copy selected palette ID</button>
+    <button id="copyBtn" disabled onclick="copySelection()">Copy file path to clipboard</button>
     <span class="selection-info" id="selInfo">No selection</span>
     <span class="copied" id="copiedMsg">Copied!</span>
   </div>
@@ -289,7 +289,8 @@
       document.getElementById('selInfo').textContent = selectedId ? 'Selected: ' + selectedId : 'No selection';
     }
     function copySelection() {
-      navigator.clipboard.writeText(selectedId).then(() => {
+      const filePath = window.location.href.replace(/preview\.html.*$/, '') + selectedId + '.svg';
+      navigator.clipboard.writeText(filePath).then(() => {
         const msg = document.getElementById('copiedMsg');
         msg.style.display = 'inline';
         setTimeout(() => msg.style.display = 'none', 2000);

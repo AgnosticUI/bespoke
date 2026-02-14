@@ -191,7 +191,7 @@ console.log(JSON.stringify({
   success: true,
   niche,
   layouts_found: layouts.length,
-  output_dir: '.design-pipeline/layouts/',
-  preview: '.design-pipeline/layouts/preview.html',
+  output_dir: resolve('.design-pipeline/layouts/'),
+  preview: resolve('.design-pipeline/layouts/preview.html'),
   available_layouts: layouts.map(l => l.id)
 }, null, 2));

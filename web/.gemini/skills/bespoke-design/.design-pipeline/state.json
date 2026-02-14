@@ -1,6 +1,6 @@
 {
   "pipeline_version": "1.0",
-  "timestamp": "2026-02-10T01:17:53.136Z",
+  "timestamp": "2026-02-14T00:58:37.170Z",
   "current_stage": "complete",
   "completed_stages": [
     "understand_problem",
@@ -11,7 +11,7 @@
   ],
   "inferred_niche": "marketing",
   "application_type": "landing-page",
-  "niche_confidence": 1,
+  "niche_confidence": 0.5,
   "available_layouts": [
     "option-01",
     "option-02",
@@ -20,9 +20,9 @@
   "selected_layouts": null,
   "available_typography": null,
   "selected_typography": [
-    "typo-007",
-    "typo-022",
-    "typo-010"
+    "typo-006",
+    "typo-017",
+    "typo-025"
   ],
   "combinations": [
     "combo-01",
@@ -35,7 +35,7 @@
     "combo-08",
     "combo-09"
   ],
-  "selected_combination": "combo-09",
+  "selected_combination": "combo-03",
   "available_palettes": [
     "palette-preview-01",
     "palette-preview-02",
@@ -43,8 +43,8 @@
   ],
   "selected_palette": "palette-preview-01",
   "final_combination": {
-    "layout": "option-03",
-    "typography": "typo-010",
+    "layout": "option-01",
+    "typography": "typo-025",
     "palette": "palette-preview-01"
   },
   "generated_tokens": {

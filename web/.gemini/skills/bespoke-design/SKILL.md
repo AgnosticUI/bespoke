@@ -152,12 +152,13 @@ ls .design-pipeline/layouts/preview.html .design-pipeline/combinations/preview.h
 
 If any token files are missing, do not present results — report which step failed and offer to re-run it. If preview files are missing, note which previews are unavailable but still present the token results.
 
-**Preview access:** After validation, provide the user with `open` commands for each preview HTML using the full path from the skill directory. Example:
+**Preview access:** After validation, provide the user with `open` commands for each preview HTML using the **absolute paths** from the script JSON output (the `preview` field). Example:
 ```bash
-open .design-pipeline/layouts/preview.html
-open .design-pipeline/combinations/preview.html
-open .design-pipeline/palettes/preview.html
+open /absolute/path/to/.design-pipeline/layouts/preview.html
+open /absolute/path/to/.design-pipeline/combinations/preview.html
+open /absolute/path/to/.design-pipeline/palettes/preview.html
 ```
+Always use the exact `preview` path from the script output — never hardcode a relative path.
 
 ---
 
@@ -175,8 +176,9 @@ After completing all 7 steps, present the generated design system to the user. T
 
 **3 Layouts** — preview in browser:
 ```
-open .design-pipeline/layouts/preview.html
+open {layouts_preview_path}
 ```
+(Use the absolute `preview` path from Step 2 output)
 - For each: layout number, variant name, why it fits (or doesn't) the niche
 - Mark your recommended pick
 
@@ -186,8 +188,9 @@ open .design-pipeline/layouts/preview.html
 
 **3x3 Combination Grid** — preview in browser:
 ```
-open .design-pipeline/combinations/preview.html
+open {combinations_preview_path}
 ```
+(Use the absolute `preview` path from Step 4 output)
 
 |              | {font_1} | {font_2} | {font_3} |
 |--------------|----------|----------|----------|
@@ -199,8 +202,9 @@ Best combo marked with a star.
 
 **3 Color Palettes** — preview in browser:
 ```
-open .design-pipeline/palettes/preview.html
+open {palettes_preview_path}
 ```
+(Use the absolute `preview` path from Step 5 output)
 - For each: WCAG level, key colors (primary/CTA/background), palette notes
 - Mark your selected palette and why
 

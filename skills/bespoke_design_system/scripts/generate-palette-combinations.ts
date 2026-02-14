@@ -383,7 +383,7 @@ console.log(JSON.stringify({
   combination,
   palettes_found: previews.length,
   filter_strategy: colorResult.filter_strategy,
-  output_dir: '.design-pipeline/palettes/',
-  preview: '.design-pipeline/palettes/preview.html',
+  output_dir: resolve('.design-pipeline/palettes/'),
+  preview: resolve('.design-pipeline/palettes/preview.html'),
   wcag_summary: previews.map(p => ({ id: p.id, level: p.wcagLevel }))
 }, null, 2));

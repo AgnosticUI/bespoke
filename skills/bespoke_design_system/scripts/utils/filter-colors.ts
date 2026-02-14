@@ -77,6 +77,33 @@ function getPrimaryHue(hex: string): number {
 }
 
 /**
+ * Score palette harmony: penalizes palettes where primary and CTA are
+ * both highly saturated with similar lightness (visually competing).
+ * Returns 50-100 (higher = better harmony).
+ */
+function scorePaletteHarmony(palette: ColorPalette): number {
+  try {
+    const [, sP, lP] = hexToHsl(palette.primary);
+    const [, sC, lC] = hexToHsl(palette.cta);
+
+    let score = 100;
+
+    // Penalize when both primary and CTA are highly saturated
+    if (sP > 70 && sC > 70) {
+      score -= 30;
+      // Extra penalty if lightness is also similar (both "loud")
+      if (Math.abs(lP - lC) < 20) {
+        score -= 20;
+      }
+    }
+
+    return score;
+  } catch {
+    return 100; // If color parsing fails, don't penalize
+  }
+}
+
+/**
  * Select palettes with hue diversity to avoid too-similar color schemes.
  * Groups by primary color hue bucket (30° increments = 12 buckets),
  * then picks evenly across buckets.
@@ -111,7 +138,8 @@ function selectDiverse(palettes: ColorPalette[], count: number): ColorPalette[] 
     selected.push(...remaining.slice(0, count - selected.length));
   }
 
-  return selected.slice(0, count);
+  // Sort by harmony score so better-harmonized palettes are preferred
+  return selected.slice(0, count).sort((a, b) => scorePaletteHarmony(b) - scorePaletteHarmony(a));
 }
 
 /**
