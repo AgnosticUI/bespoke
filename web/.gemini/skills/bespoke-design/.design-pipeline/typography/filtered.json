@@ -1,45 +1,45 @@
 [
   {
-    "id": "typo-007",
-    "pairing_name": "Pixel Retro",
-    "heading_font": "Press Start 2P",
-    "body_font": "VT323",
+    "id": "typo-006",
+    "pairing_name": "Music/Entertainment",
+    "heading_font": "Righteous",
+    "body_font": "Poppins",
     "category": "Display + Sans",
     "mood": [
-      "pixel"
+      "music"
     ],
-    "best_for": "retro",
-    "google_fonts_url": "https://fonts.googleapis.com/css2?family=VT323:wght@300;400;500;600;700&family=Press+Start+2P:wght@300;400;500;600;700&display=swap",
+    "best_for": "entertainment",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous:wght@300;400;500;600;700&display=swap",
     "css_import": "",
     "tailwind_config": "",
     "notes": ""
   },
   {
-    "id": "typo-022",
-    "pairing_name": "Ultra Bold",
-    "heading_font": "Ultra",
-    "body_font": "Slabo 27px",
+    "id": "typo-017",
+    "pairing_name": "Bold Decorative",
+    "heading_font": "Shrikhand",
+    "body_font": "Fanwood Text",
     "category": "Display + Serif",
     "mood": [
-      "creative"
+      "bold"
     ],
-    "best_for": "bold",
-    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Slabo+27px:wght@300;400;500;600;700&family=Ultra:wght@300;400;500;600;700&display=swap",
+    "best_for": "decorative",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Fanwood+Text:wght@300;400;500;600;700&family=Shrikhand:wght@300;400;500;600;700&display=swap",
     "css_import": "",
     "tailwind_config": "",
     "notes": ""
   },
   {
-    "id": "typo-010",
-    "pairing_name": "Bold Condensed",
-    "heading_font": "Roboto Condensed",
-    "body_font": "Cabin",
+    "id": "typo-025",
+    "pairing_name": "Soft Bold Contrast",
+    "heading_font": "Oswald",
+    "body_font": "Quicksand",
     "category": "Sans + Sans",
     "mood": [
       "bold"
     ],
-    "best_for": "compact",
-    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cabin:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;600;700&display=swap",
+    "best_for": "soft",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap",
     "css_import": "",
     "tailwind_config": "",
     "notes": ""

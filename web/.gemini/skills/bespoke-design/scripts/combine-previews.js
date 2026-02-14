@@ -163,8 +163,9 @@ function generatePreviewHTML(layouts, typos, combos2) {
               <div class="cell-inner">
                 <object data="${combo.svgFile}" type="image/svg+xml" class="combo-svg">${combo.id}</object>
                 <div class="specimen" style="font-family: '${typo.heading_font}', sans-serif;">
-                  <span class="spec-heading">${typo.heading_font}</span>
-                  <span class="spec-body" style="font-family: '${typo.body_font}', sans-serif;">${typo.body_font}</span>
+                  <span class="spec-heading">The Quick Brown Fox</span>
+                  <span class="spec-body" style="font-family: '${typo.body_font}', sans-serif;">Pack my box with five dozen liquor jugs. Every great design starts with an even better story.</span>
+                  <span class="spec-meta">${typo.heading_font} + ${typo.body_font}</span>
                 </div>
               </div>
               <div class="check-mark">&#10003;</div>
@@ -206,9 +207,10 @@ function generatePreviewHTML(layouts, typos, combos2) {
     .cell.selected { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
     .cell-inner { display: flex; flex-direction: column; gap: 6px; }
     .combo-svg { width: 100%; height: auto; border-radius: 4px; border: 1px solid #f1f5f9; display: block; }
-    .specimen { font-size: 0.75rem; padding: 4px 0; }
-    .spec-heading { display: block; font-weight: 700; font-size: 0.85rem; }
-    .spec-body { display: block; color: #475569; font-size: 0.75rem; }
+    .specimen { font-size: 0.75rem; padding: 6px 0; }
+    .spec-heading { display: block; font-weight: 700; font-size: 1.05rem; line-height: 1.3; margin-bottom: 2px; }
+    .spec-body { display: block; color: #475569; font-size: 0.8rem; line-height: 1.4; }
+    .spec-meta { display: block; color: #94a3b8; font-size: 0.65rem; margin-top: 4px; font-family: system-ui, sans-serif; }
     .check-mark {
       display: none; position: absolute; top: 6px; right: 6px; background: #2563eb;
       color: white; width: 22px; height: 22px; border-radius: 50%; font-size: 12px;
@@ -336,6 +338,6 @@ console.log(JSON.stringify({
   selected_layouts: selectedLayouts.map((l) => l.id),
   selected_typography: selectedTypography.map((t) => t.id),
   combinations_generated: combos.length,
-  output_dir: ".design-pipeline/combinations/",
-  preview: ".design-pipeline/combinations/preview.html"
+  output_dir: resolve3(".design-pipeline/combinations/"),
+  preview: resolve3(".design-pipeline/combinations/preview.html")
 }, null, 2));

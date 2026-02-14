@@ -1,48 +1,52 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px:wght@300;400;500;600;700&family=Ultra:wght@300;400;500;600;700&display=swap');
-</style>
+<style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:wght@300;400;500;600;700&family=Shrikhand:wght@300;400;500;600;700&display=swap');
+]]></style>
   <!-- Top Navigation -->
   <rect x="0" y="0" width="1200" height="60" fill="#DDDDDD"/>
-  <rect x="40" y="18" width="140" height="24" rx="8" fill="#9CA3AF"/>
-  <rect x="1020" y="14" width="140" height="32" rx="8" fill="#9CA3AF"/>
+  <rect x="40" y="18" width="120" height="24" rx="8" fill="#9CA3AF"/>
+  <rect x="1020" y="15" width="140" height="30" rx="8" fill="#9CA3AF"/>
 
-  <!-- Heading -->
-  <rect x="400" y="90" width="400" height="32" rx="8" fill="#9CA3AF"/>
-  <rect x="350" y="136" width="500" height="14" rx="8" fill="#CCCCCC"/>
+  <!-- Hero Section -->
+  <rect x="0" y="60" width="1200" height="240" fill="#EEEEEE"/>
+  <rect x="300" y="100" width="600" height="36" rx="8" fill="#9CA3AF"/>
+  <rect x="320" y="156" width="560" height="14" rx="8" fill="#CCCCCC"/>
+  <rect x="460" y="200" width="280" height="50" rx="12" fill="#9CA3AF"/>
 
-  <!-- Vertical Timeline Line -->
-  <line x1="600" y1="180" x2="600" y2="780" stroke="#CCCCCC" stroke-width="2"/>
+  <!-- Logo Carousel -->
+  <rect x="0" y="300" width="1200" height="80" fill="white"/>
+  <line x1="0" y1="300" x2="1200" y2="300" stroke="#CCCCCC" stroke-width="1"/>
+  <line x1="0" y1="380" x2="1200" y2="380" stroke="#CCCCCC" stroke-width="1"/>
+  <rect x="100" y="320" width="120" height="40" rx="8" fill="#EEEEEE"/>
+  <rect x="280" y="320" width="120" height="40" rx="8" fill="#EEEEEE"/>
+  <rect x="460" y="320" width="120" height="40" rx="8" fill="#EEEEEE"/>
+  <rect x="640" y="320" width="120" height="40" rx="8" fill="#EEEEEE"/>
+  <rect x="820" y="320" width="120" height="40" rx="8" fill="#EEEEEE"/>
+  <rect x="1000" y="320" width="120" height="40" rx="8" fill="#EEEEEE"/>
 
-  <!-- Milestone 1 - Left -->
-  <circle cx="600" cy="220" r="12" fill="#9CA3AF"/>
-  <rect x="240" y="190" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
-  <rect x="264" y="208" width="160" height="16" rx="8" fill="#9CA3AF"/>
-  <rect x="264" y="234" width="260" height="12" rx="8" fill="#CCCCCC"/>
+  <!-- 3-Column Features -->
+  <rect x="400" y="420" width="400" height="28" rx="8" fill="#9CA3AF"/>
 
-  <!-- Milestone 2 - Right -->
-  <circle cx="600" cy="340" r="12" fill="#9CA3AF"/>
-  <rect x="640" y="310" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
-  <rect x="664" y="328" width="180" height="16" rx="8" fill="#9CA3AF"/>
-  <rect x="664" y="354" width="260" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="60" y="480" width="340" height="280" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="100" y="510" width="60" height="60" rx="8" fill="#EEEEEE"/>
+  <rect x="100" y="590" width="200" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="100" y="620" width="260" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="100" y="644" width="240" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="100" y="668" width="220" height="12" rx="8" fill="#CCCCCC"/>
 
-  <!-- Milestone 3 - Left -->
-  <circle cx="600" cy="460" r="12" fill="#9CA3AF"/>
-  <rect x="240" y="430" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
-  <rect x="264" y="448" width="200" height="16" rx="8" fill="#9CA3AF"/>
-  <rect x="264" y="474" width="260" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="430" y="480" width="340" height="280" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="470" y="510" width="60" height="60" rx="8" fill="#EEEEEE"/>
+  <rect x="470" y="590" width="180" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="470" y="620" width="260" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="470" y="644" width="240" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="470" y="668" width="220" height="12" rx="8" fill="#CCCCCC"/>
 
-  <!-- Milestone 4 - Right -->
-  <circle cx="600" cy="580" r="12" fill="#9CA3AF"/>
-  <rect x="640" y="550" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
-  <rect x="664" y="568" width="140" height="16" rx="8" fill="#9CA3AF"/>
-  <rect x="664" y="594" width="260" height="12" rx="8" fill="#CCCCCC"/>
-
-  <!-- Milestone 5 - Left -->
-  <circle cx="600" cy="700" r="12" fill="#9CA3AF"/>
-  <rect x="240" y="670" width="320" height="80" rx="10" fill="white" stroke="#CCCCCC"/>
-  <rect x="264" y="688" width="180" height="16" rx="8" fill="#9CA3AF"/>
-  <rect x="264" y="714" width="260" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="800" y="480" width="340" height="280" rx="12" fill="white" stroke="#CCCCCC"/>
+  <rect x="840" y="510" width="60" height="60" rx="8" fill="#EEEEEE"/>
+  <rect x="840" y="590" width="220" height="20" rx="8" fill="#9CA3AF"/>
+  <rect x="840" y="620" width="260" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="840" y="644" width="240" height="12" rx="8" fill="#CCCCCC"/>
+  <rect x="840" y="668" width="220" height="12" rx="8" fill="#CCCCCC"/>
 
   <g class="preview-label">
     <rect x="10" y="7" width="30" height="24" rx="4" fill="#0369A1"/>

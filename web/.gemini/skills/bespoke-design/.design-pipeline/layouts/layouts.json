@@ -1,26 +1,26 @@
 [
   {
     "id": "option-01",
-    "filename": "marketing_timeline-milestones_11.svg",
+    "filename": "marketing_hero-logos-features_05.svg",
     "niche": "marketing",
-    "variant": "timeline-milestones",
-    "number": "11",
+    "variant": "hero-logos-features",
+    "number": "05",
     "svgFile": "option-01.svg"
   },
   {
     "id": "option-02",
-    "filename": "marketing_video-hero-stats_09.svg",
+    "filename": "marketing_comparison-table_08.svg",
     "niche": "marketing",
-    "variant": "video-hero-stats",
-    "number": "09",
+    "variant": "comparison-table",
+    "number": "08",
     "svgFile": "option-02.svg"
   },
   {
     "id": "option-03",
-    "filename": "marketing_fullwidth-hero-alternating_03.svg",
+    "filename": "marketing_nav-hero-pricing_04.svg",
     "niche": "marketing",
-    "variant": "fullwidth-hero-alternating",
-    "number": "03",
+    "variant": "nav-hero-pricing",
+    "number": "04",
     "svgFile": "option-03.svg"
   }
 ]

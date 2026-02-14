@@ -1956,6 +1956,22 @@ function getPrimaryHue(hex) {
     return -1;
   }
 }
+function scorePaletteHarmony(palette) {
+  try {
+    const [, sP, lP] = hexToHsl(palette.primary);
+    const [, sC, lC] = hexToHsl(palette.cta);
+    let score = 100;
+    if (sP > 70 && sC > 70) {
+      score -= 30;
+      if (Math.abs(lP - lC) < 20) {
+        score -= 20;
+      }
+    }
+    return score;
+  } catch {
+    return 100;
+  }
+}
 function selectDiverse(palettes, count2) {
   if (palettes.length <= count2) return palettes;
   const HUE_BUCKET_SIZE = 30;
@@ -1978,7 +1994,7 @@ function selectDiverse(palettes, count2) {
     const remaining = palettes.filter((p) => !selected.includes(p));
     selected.push(...remaining.slice(0, count2 - selected.length));
   }
-  return selected.slice(0, count2);
+  return selected.slice(0, count2).sort((a, b) => scorePaletteHarmony(b) - scorePaletteHarmony(a));
 }
 function filterColors(niche2, applicationType2, count2) {
   const csv = loadCSV("data/colors.csv");
@@ -2294,13 +2310,13 @@ function generatePreviewHTML(previews2, comboId, context) {
   <div class="page-header">
     <h1>Palette Selection</h1>
     <div class="niche-context">Niche identified: <strong>${contextLine}</strong></div>
-    <p class="subtitle">Combination: <strong>${comboId}</strong> \u2014 Select exactly <strong>1</strong> palette. Colored SVGs show real palette application.</p>
+    <p class="subtitle">Combination: <strong>${comboId}</strong> \u2014 Select a palette to copy its file path. Colored SVGs show real palette application.</p>
   </div>
   <div class="grid">
 ${cards}
   </div>
   <div class="toolbar">
-    <button id="copyBtn" disabled onclick="copySelection()">Copy selected palette ID</button>
+    <button id="copyBtn" disabled onclick="copySelection()">Copy file path to clipboard</button>
     <span class="selection-info" id="selInfo">No selection</span>
     <span class="copied" id="copiedMsg">Copied!</span>
   </div>
@@ -2320,7 +2336,8 @@ ${cards}
       document.getElementById('selInfo').textContent = selectedId ? 'Selected: ' + selectedId : 'No selection';
     }
     function copySelection() {
-      navigator.clipboard.writeText(selectedId).then(() => {
+      const filePath = window.location.href.replace(/preview\\.html.*$/, '') + selectedId + '.svg';
+      navigator.clipboard.writeText(filePath).then(() => {
         const msg = document.getElementById('copiedMsg');
         msg.style.display = 'inline';
         setTimeout(() => msg.style.display = 'none', 2000);
@@ -2392,7 +2409,7 @@ console.log(JSON.stringify({
   combination,
   palettes_found: previews.length,
   filter_strategy: colorResult.filter_strategy,
-  output_dir: ".design-pipeline/palettes/",
-  preview: ".design-pipeline/palettes/preview.html",
+  output_dir: resolve4(".design-pipeline/palettes/"),
+  preview: resolve4(".design-pipeline/palettes/preview.html"),
   wcag_summary: previews.map((p) => ({ id: p.id, level: p.wcagLevel }))
 }, null, 2));
