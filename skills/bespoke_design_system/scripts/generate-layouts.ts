@@ -51,16 +51,19 @@ function parseFilename(filename: string): { niche: string; variant: string; numb
 
 function generatePreviewHTML(layouts: LayoutEntry[], niche: string): string {
   const cards = layouts.map(layout => `
-        <div class="card" data-id="${layout.id}" onclick="toggleSelect(this)">
+        <div class="card">
           <div class="badge">${layout.id.replace('option-', '')}</div>
           <div class="svg-container">
-            <img src="${layout.svgFile}" alt="${layout.variant}" />
+            <object data="${layout.svgFile}" type="image/svg+xml" class="layout-svg">${layout.variant}</object>
           </div>
           <div class="card-info">
             <div class="card-title">${layout.variant.replace(/-/g, ' ')}</div>
             <div class="card-meta">${layout.filename}</div>
           </div>
-          <div class="check-mark">&#10003;</div>
+          <div class="card-actions">
+            <button class="copy-path-btn" onclick="copyFilePath(this, '${layout.svgFile}')">Copy file path</button>
+            <span class="copied-msg">Copied!</span>
+          </div>
         </div>`).join('\n');
 
   return `<!DOCTYPE html>
@@ -68,7 +71,7 @@ function generatePreviewHTML(layouts: LayoutEntry[], niche: string): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Layout Selection — ${niche}</title>
+  <title>Pre-selected Layouts — ${niche}</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; padding: 2rem; }
@@ -77,71 +80,37 @@ function generatePreviewHTML(layouts: LayoutEntry[], niche: string): string {
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
     .card {
       background: white; border: 2px solid #e2e8f0; border-radius: 12px; overflow: hidden;
-      cursor: pointer; position: relative; transition: border-color 0.15s, box-shadow 0.15s;
+      position: relative;
     }
-    .card:hover { border-color: #94a3b8; }
-    .card.selected { border-color: #2563eb; box-shadow: 0 0 0 3px rgba(37,99,235,0.15); }
     .badge {
       position: absolute; top: 8px; left: 8px; background: #0369a1; color: white;
       font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; z-index: 1;
     }
     .svg-container { padding: 12px; background: #f1f5f9; }
-    .svg-container img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .layout-svg { width: 100%; height: auto; display: block; border-radius: 4px; }
     .card-info { padding: 12px 16px; }
     .card-title { font-weight: 600; text-transform: capitalize; margin-bottom: 2px; }
     .card-meta { font-size: 0.75rem; color: #64748b; }
-    .check-mark {
-      display: none; position: absolute; top: 8px; right: 8px; background: #2563eb;
-      color: white; width: 24px; height: 24px; border-radius: 50%; font-size: 14px;
-      line-height: 24px; text-align: center;
+    .card-actions { padding: 8px 16px 12px; display: flex; align-items: center; gap: 0.5rem; }
+    .copy-path-btn {
+      background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; padding: 0.35rem 0.75rem;
+      border-radius: 6px; font-size: 0.8rem; font-weight: 500; cursor: pointer;
     }
-    .card.selected .check-mark { display: block; }
-    .toolbar {
-      position: sticky; bottom: 0; background: white; border-top: 1px solid #e2e8f0;
-      padding: 1rem 0; display: flex; align-items: center; gap: 1rem; margin-top: 1rem;
-    }
-    .toolbar button {
-      background: #2563eb; color: white; border: none; padding: 0.6rem 1.5rem;
-      border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer;
-    }
-    .toolbar button:disabled { background: #94a3b8; cursor: not-allowed; }
-    .toolbar button:not(:disabled):hover { background: #1d4ed8; }
-    .selection-info { color: #475569; font-size: 0.875rem; }
-    .copied { color: #16a34a; font-weight: 600; display: none; }
+    .copy-path-btn:hover { background: #e2e8f0; }
+    .copied-msg { color: #16a34a; font-weight: 600; font-size: 0.8rem; display: none; }
   </style>
 </head>
 <body>
-  <h1>Layout Selection</h1>
-  <p class="subtitle">Niche: <strong>${niche}</strong> — Select exactly <strong>3</strong> layouts, then copy the CLI argument.</p>
+  <h1>Pre-selected Layouts</h1>
+  <p class="subtitle">Niche: <strong>${niche}</strong> — LLM pre-selected layout options.</p>
   <div class="grid">
 ${cards}
   </div>
-  <div class="toolbar">
-    <button id="copyBtn" disabled onclick="copySelection()">Copy --layouts argument</button>
-    <span class="selection-info"><span id="count">0</span>/3 selected</span>
-    <span class="copied" id="copiedMsg">Copied!</span>
-  </div>
   <script>
-    const selected = new Set();
-    function toggleSelect(card) {
-      const id = card.dataset.id;
-      const num = parseInt(id.replace('option-', ''));
-      if (selected.has(num)) {
-        selected.delete(num);
-        card.classList.remove('selected');
-      } else {
-        if (selected.size >= 3) return;
-        selected.add(num);
-        card.classList.add('selected');
-      }
-      document.getElementById('count').textContent = selected.size;
-      document.getElementById('copyBtn').disabled = selected.size !== 3;
-    }
-    function copySelection() {
-      const sorted = [...selected].sort((a, b) => a - b);
-      const text = '--layouts ' + sorted.join(',');
-      navigator.clipboard.writeText(text).then(() => {
-        const msg = document.getElementById('copiedMsg');
+    function copyFilePath(btn, filename) {
+      const path = window.location.href.replace(/preview\\.html.*$/, '') + filename;
+      navigator.clipboard.writeText(path).then(() => {
+        const msg = btn.nextElementSibling;
         msg.style.display = 'inline';
         setTimeout(() => msg.style.display = 'none', 2000);
       });

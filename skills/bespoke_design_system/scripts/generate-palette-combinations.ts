@@ -259,13 +259,13 @@ function generatePreviewHTML(
   <div class="page-header">
     <h1>Palette Selection</h1>
     <div class="niche-context">Niche identified: <strong>${contextLine}</strong></div>
-    <p class="subtitle">Combination: <strong>${comboId}</strong> — Select exactly <strong>1</strong> palette. Colored SVGs show real palette application.</p>
+    <p class="subtitle">Combination: <strong>${comboId}</strong> — Select a palette to copy its file path. Colored SVGs show real palette application.</p>
   </div>
   <div class="grid">
 ${cards}
   </div>
   <div class="toolbar">
-    <button id="copyBtn" disabled onclick="copySelection()">Copy selected palette ID</button>
+    <button id="copyBtn" disabled onclick="copySelection()">Copy file path to clipboard</button>
     <span class="selection-info" id="selInfo">No selection</span>
     <span class="copied" id="copiedMsg">Copied!</span>
   </div>
@@ -285,7 +285,8 @@ ${cards}
       document.getElementById('selInfo').textContent = selectedId ? 'Selected: ' + selectedId : 'No selection';
     }
     function copySelection() {
-      navigator.clipboard.writeText(selectedId).then(() => {
+      const filePath = window.location.href.replace(/preview\\.html.*$/, '') + selectedId + '.svg';
+      navigator.clipboard.writeText(filePath).then(() => {
         const msg = document.getElementById('copiedMsg');
         msg.style.display = 'inline';
         setTimeout(() => msg.style.display = 'none', 2000);
