@@ -40,47 +40,8 @@
   },
   {
     "id": "palette-preview-02",
-    "paletteId": "palette-009",
-    "svgFile": "palette-preview-02.svg",
-    "palette": {
-      "id": "palette-009",
-      "product_type": "Gourmet Meal Kit",
-      "primary": "#431407",
-      "secondary": "#78350F",
-      "cta": "#EA580C",
-      "background": "#FFF7ED",
-      "text": "#431407",
-      "border": "#FFEDD5",
-      "notes": "Umami brown + zest orange"
-    },
-    "contrast": {
-      "textOnBg": {
-        "ratio": "14.7:1",
-        "rawRatio": 14.74091271442099,
-        "aa": true,
-        "aaa": true
-      },
-      "autoOnPrimary": {
-        "ratio": "15.7:1",
-        "rawRatio": 15.650749934799228,
-        "aa": true,
-        "aaa": true,
-        "autoColor": "#FFFFFF"
-      },
-      "autoOnCta": {
-        "ratio": "5.9:1",
-        "rawRatio": 5.899683317786122,
-        "aa": true,
-        "aaa": true,
-        "autoColor": "#000000"
-      }
-    },
-    "wcagLevel": "AAA"
-  },
-  {
-    "id": "palette-preview-03",
     "paletteId": "palette-034",
-    "svgFile": "palette-preview-03.svg",
+    "svgFile": "palette-preview-02.svg",
     "palette": {
       "id": "palette-034",
       "product_type": "Premium Candle Brand",
@@ -109,6 +70,45 @@
       "autoOnCta": {
         "ratio": "10.0:1",
         "rawRatio": 9.986565699221215,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#000000"
+      }
+    },
+    "wcagLevel": "AAA"
+  },
+  {
+    "id": "palette-preview-03",
+    "paletteId": "palette-009",
+    "svgFile": "palette-preview-03.svg",
+    "palette": {
+      "id": "palette-009",
+      "product_type": "Gourmet Meal Kit",
+      "primary": "#431407",
+      "secondary": "#78350F",
+      "cta": "#EA580C",
+      "background": "#FFF7ED",
+      "text": "#431407",
+      "border": "#FFEDD5",
+      "notes": "Umami brown + zest orange"
+    },
+    "contrast": {
+      "textOnBg": {
+        "ratio": "14.7:1",
+        "rawRatio": 14.74091271442099,
+        "aa": true,
+        "aaa": true
+      },
+      "autoOnPrimary": {
+        "ratio": "15.7:1",
+        "rawRatio": 15.650749934799228,
+        "aa": true,
+        "aaa": true,
+        "autoColor": "#FFFFFF"
+      },
+      "autoOnCta": {
+        "ratio": "5.9:1",
+        "rawRatio": 5.899683317786122,
         "aa": true,
         "aaa": true,
         "autoColor": "#000000"

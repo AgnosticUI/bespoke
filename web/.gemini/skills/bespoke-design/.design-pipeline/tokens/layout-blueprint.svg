@@ -47,6 +47,14 @@
 
   <g class="preview-label">
     <rect x="10" y="7" width="30" height="24" rx="4" fill="#0369A1"/>
-    <text x="25" y="25" text-anchor="middle" fill="white" font-size="14" font-weight="600" font-family="system-ui">1</text>
+    <text x="60" y="130" font-family="Poppins" font-size="18" fill="#78350F">Declarative Selection > Generative Hallucination. Expert-curated design foundations for AI-driven development.</text>
   </g>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#EA580C" />
+    </marker>
+  </defs>
+  <line x1="380" y1="550" x2="420" y2="550" stroke="#EA580C" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="780" y1="550" x2="820" y2="550" stroke="#EA580C" stroke-width="4" marker-end="url(#arrowhead)" />
 </svg>

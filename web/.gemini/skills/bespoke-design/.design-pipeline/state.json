@@ -1,6 +1,6 @@
 {
   "pipeline_version": "1.0",
-  "timestamp": "2026-02-14T00:58:37.170Z",
+  "timestamp": "2026-02-14T13:22:53.878Z",
   "current_stage": "complete",
   "completed_stages": [
     "understand_problem",
@@ -35,17 +35,17 @@
     "combo-08",
     "combo-09"
   ],
-  "selected_combination": "combo-03",
+  "selected_combination": "combo-01",
   "available_palettes": [
     "palette-preview-01",
     "palette-preview-02",
     "palette-preview-03"
   ],
-  "selected_palette": "palette-preview-01",
+  "selected_palette": "palette-preview-03",
   "final_combination": {
     "layout": "option-01",
-    "typography": "typo-025",
-    "palette": "palette-preview-01"
+    "typography": "typo-006",
+    "palette": "palette-preview-03"
   },
   "generated_tokens": {
     "shadcn": ".design-pipeline/tokens/shadcn-globals.css",

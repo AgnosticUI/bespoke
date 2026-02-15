@@ -1,30 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="bespoke">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bespoke Design | AI-Powered Design Systems</title>
-    <!-- Google Fonts: Outfit (Heading) and Work Sans (Body) -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" />
+    <title>Bespoke Design Pipeline | AI-Powered Design Systems</title>
   </head>
-  <body class="bg-background text-foreground font-body antialiased min-h-screen flex flex-col">
+  <body class="bg-base-100 text-base-content font-body antialiased min-h-screen flex flex-col">
     
     <!-- Header -->
-    <header class="border-b border-border sticky top-0 bg-background/95 backdrop-blur z-50">
+    <header class="border-b border-base-300 sticky top-0 bg-base-100/95 backdrop-blur z-50">
       <div class="container mx-auto px-4 h-16 flex items-center justify-between">
         <div class="flex items-center gap-2">
-          <div class="w-8 h-8 bg-primary rounded-md flex items-center justify-center text-primary-foreground font-bold">BD</div>
-          <span class="font-heading font-bold text-xl">Bespoke Design</span>
+          <div class="w-8 h-8 bg-primary rounded-md flex items-center justify-center text-primary-content font-bold text-lg">BD</div>
+          <span class="font-heading font-bold text-xl text-primary">Bespoke Design</span>
         </div>
-        <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
-          <a href="#pipeline" class="hover:text-foreground transition-colors">Pipeline</a>
-          <a href="#artifacts" class="hover:text-foreground transition-colors">Artifacts</a>
-          <a href="#integration" class="hover:text-foreground transition-colors">Integration</a>
+        <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-primary/80">
+          <a href="#pipeline" class="hover:text-primary transition-colors">Pipeline</a>
+          <a href="#artifacts" class="hover:text-primary transition-colors">Artifacts</a>
+          <a href="#integration" class="hover:text-primary transition-colors">Integration</a>
         </nav>
         <div class="flex items-center gap-4">
-          <a href="/public/grid-preview.html" class="text-sm font-medium hover:text-accent transition-colors">View 3x3 Grid</a>
-          <button class="bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-md text-sm font-medium transition-colors">
+          <button class="btn btn-accent btn-sm">
             Launch Skill
           </button>
         </div>
@@ -33,314 +30,217 @@
 
     <main class="flex-1">
       <!-- Hero Section -->
-      <section class="py-20 lg:py-32 bg-secondary/30 relative overflow-hidden">
-        <!-- Abstract Background Element -->
-        <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-[500px] h-[500px] bg-accent/10 blur-[100px] rounded-full -z-10"></div>
-        <div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-primary/10 blur-[80px] rounded-full -z-10"></div>
-
+      <section class="py-20 lg:py-32 bg-base-200 relative overflow-hidden">
         <div class="container mx-auto px-4 text-center max-w-5xl">
-          <div class="inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-sm font-medium text-muted-foreground mb-6">
+          <div class="inline-flex items-center rounded-full border border-accent/20 bg-base-100 px-3 py-1 text-sm font-bold text-accent mb-6">
             <span class="flex h-2 w-2 rounded-full bg-accent mr-2"></span>
-            AI-Driven Design Token Generation
+            Curated AI Design
           </div>
-          <h1 class="font-heading text-5xl md:text-7xl font-bold tracking-tight mb-6">
-            From Prompt to <span class="text-accent">Production-Ready</span> Design Systems
+          <h1 class="font-heading text-5xl md:text-7xl font-bold tracking-tight mb-6 text-primary">
+            Bespoke Design Pipeline
           </h1>
-          <p class="text-xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
-            Bespoke Design is an intelligent orchestration pipeline that generates curated design tokens, 
-            accessible color palettes, and spatial blueprints for your next project.
-          </p>
+          <div class="text-xl font-medium mb-10 leading-relaxed max-w-4xl mx-auto text-base-content">
+            <p class="mb-4">Declarative Selection > Generative Hallucination. Expert-curated design foundations for AI-driven development.</p>
+            <p class="text-lg opacity-90">The Bespoke Design Pipeline is a curated, Unix-philosophy-inspired design system that eliminates generic "AI slop" by forcing LLMs to work through discrete, expert-curated decision points.</p>
+          </div>
           <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-            <button class="bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-10 rounded-full font-medium transition-colors shadow-lg">
+            <button class="btn btn-primary active:btn-accent btn-lg rounded-full px-10">
               Get Started
             </button>
-            <a href="/public/palette-preview.html" class="border border-input bg-background hover:bg-accent/5 h-12 px-10 rounded-full font-medium transition-colors flex items-center justify-center">
-              View Color Palettes
-            </a>
+            <button class="btn btn-outline btn-primary active:btn-accent active:text-accent-content btn-lg rounded-full px-10">
+              Read Documentation
+            </button>
           </div>
 
-          <!-- Hero Image/Blueprint -->
-          <div class="relative max-w-4xl mx-auto">
-            <div class="bg-card border border-border rounded-2xl shadow-2xl overflow-hidden p-4">
-              <img src="/public/layout-blueprint.svg" alt="Layout Blueprint" class="w-full h-auto rounded-lg border border-border bg-white" />
+          <!-- PRD Messaging Section (Replaces SVG) -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mt-12">
+            <div class="p-6 bg-base-100 rounded-2xl border border-base-300 shadow-sm">
+              <h3 class="font-heading font-bold text-xl mb-3 text-primary border-b border-accent/30 pb-2">Design Tokens</h3>
+              <p class="text-sm leading-relaxed text-base-content">Framework-ready color, typography, and spacing variables that your build system consumes directly. Available in shadcn/ui, DaisyUI, and AgnosticUI.</p>
             </div>
-            <div class="absolute -top-4 -right-4 bg-accent text-white px-4 py-2 rounded-lg font-bold shadow-lg">
-              Active Blueprint: Decision Funnel
+            <div class="p-6 bg-base-100 rounded-2xl border border-base-300 shadow-sm">
+              <h3 class="font-heading font-bold text-xl mb-3 text-primary border-b border-accent/30 pb-2">Layout Blueprint</h3>
+              <p class="text-sm leading-relaxed text-base-content">Spatial wireframes encoding component placement and hierarchy. Include it in your prompt so the LLM follows your bespoke spatial logic.</p>
+            </div>
+            <div class="p-6 bg-base-100 rounded-2xl border border-base-300 shadow-sm">
+              <h3 class="font-heading font-bold text-xl mb-3 text-primary border-b border-accent/30 pb-2">Design Brief</h3>
+              <p class="text-sm leading-relaxed text-base-content">The manifest ties tokens and layout together with contrast data, font URLs, and metadata. Includes framework-specific setup instructions.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Niches Section -->
-      <section class="py-24 bg-background">
+      <!-- LLM Support Strip -->
+      <section class="bg-primary py-12 border-y border-accent">
         <div class="container mx-auto px-4">
-          <div class="text-center mb-16">
-            <h2 class="font-heading text-3xl font-bold mb-4">15+ Industry-Specific Blueprints</h2>
-            <p class="text-muted-foreground">Tailored layouts and tokens for every niche.</p>
-          </div>
-          <div class="flex flex-wrap justify-center gap-3">
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Fintech</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">SaaS</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">E-commerce</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Medical</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Education</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Real Estate</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Portfolio</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Non-profit</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Travel</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Food & Beverage</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Industrial</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Blog</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Dashboard</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Social</span>
-            <span class="bg-secondary/50 px-4 py-2 rounded-full text-sm font-medium">Marketing</span>
+          <p class="text-center text-sm font-bold text-primary-content opacity-60 mb-8 uppercase tracking-widest">Supported AI Environments</p>
+          <div class="flex flex-wrap justify-center gap-8 md:gap-16 items-center text-primary-content">
+            <span class="font-heading text-2xl font-bold">Claude Code</span>
+            <span class="font-heading text-2xl font-bold">Cursor</span>
+            <span class="font-heading text-2xl font-bold">Antigravity</span>
+            <span class="font-heading text-2xl font-bold">Copilot</span>
+            <span class="font-heading text-2xl font-bold">Codex</span>
+            <span class="font-heading text-2xl font-bold">Gemini</span>
           </div>
         </div>
       </section>
 
-      <!-- Pipeline Overview Section -->
-      <section id="pipeline" class="py-24 border-b border-border">
-        <div class="container mx-auto px-4">
-          <div class="text-center mb-20">
-            <h2 class="font-heading text-4xl font-bold mb-4">The Orchestration Pipeline</h2>
-            <p class="text-muted-foreground max-w-2xl mx-auto text-lg">
-              We don't just "generate" designs. We orchestrate them through a rigorous 6-step pipeline 
-              powered by curated data and smart heuristics.
-            </p>
-          </div>
+      <!-- Pipeline Visualization -->
+      <section id="pipeline" class="py-24 bg-base-100">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="font-heading text-4xl font-bold mb-16 text-primary">The Curated Pipeline</h2>
+          
+          <div class="flex flex-col lg:flex-row items-center justify-between gap-4 max-w-6xl mx-auto">
+            <!-- Step 1 -->
+            <div class="card bg-base-200 border border-base-300 shadow-sm w-full lg:w-48 p-6 flex flex-col items-center">
+              <div class="text-accent font-mono text-xs font-bold mb-2">01</div>
+              <h3 class="font-bold text-sm text-primary">Detect Niche</h3>
+            </div>
+            
+            <div class="hidden lg:block text-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
 
-          <!-- Pipeline Visual -->
-          <div class="max-w-6xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
-              <!-- Step 1 -->
-              <div class="bg-card border border-border rounded-2xl p-6 relative group hover:border-accent/50 transition-all hover:shadow-md">
-                <div class="text-accent font-mono text-xs font-bold mb-4 opacity-50">STEP 01</div>
-                <div class="h-10 w-10 bg-accent/10 text-accent rounded-lg flex items-center justify-center mb-4 group-hover:bg-accent group-hover:text-white transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-                </div>
-                <h3 class="font-bold text-sm mb-2">Niche Detection</h3>
-                <p class="text-xs text-muted-foreground">Detected: marketing (landing-page)</p>
-              </div>
+            <!-- Step 2 -->
+            <div class="card bg-base-200 border border-base-300 shadow-sm w-full lg:w-48 p-6 flex flex-col items-center">
+              <div class="text-accent font-mono text-xs font-bold mb-2">02</div>
+              <h3 class="font-bold text-sm text-primary">Filter Layouts</h3>
+            </div>
 
-              <!-- Step 2 -->
-              <a href="/public/layout-preview.html" class="bg-card border border-border rounded-2xl p-6 relative group hover:border-accent/50 transition-all hover:shadow-md block">
-                <div class="text-accent font-mono text-xs font-bold mb-4 opacity-50">STEP 02</div>
-                <div class="h-10 w-10 bg-accent/10 text-accent rounded-lg flex items-center justify-center mb-4 group-hover:bg-accent group-hover:text-white transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg>
-                </div>
-                <h3 class="font-bold text-sm mb-2">Layout Blueprints</h3>
-                <p class="text-xs text-muted-foreground">Generated 3 variants. View Previews &rarr;</p>
-              </a>
+            <div class="hidden lg:block text-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
 
-              <!-- Step 3 -->
-              <div class="bg-card border border-border rounded-2xl p-6 relative group hover:border-accent/50 transition-all hover:shadow-md">
-                <div class="text-accent font-mono text-xs font-bold mb-4 opacity-50">STEP 03</div>
-                <div class="h-10 w-10 bg-accent/10 text-accent rounded-lg flex items-center justify-center mb-4 group-hover:bg-accent group-hover:text-white transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
-                </div>
-                <h3 class="font-bold text-sm mb-2">Typography</h3>
-                <p class="text-xs text-muted-foreground">Selected: Outfit / Work Sans</p>
-              </div>
+            <!-- Step 3 -->
+            <div class="card bg-base-200 border border-base-300 shadow-sm w-full lg:w-48 p-6 flex flex-col items-center">
+              <div class="text-accent font-mono text-xs font-bold mb-2">03</div>
+              <h3 class="font-bold text-sm text-primary">Select Fonts</h3>
+            </div>
 
-              <!-- Step 4 -->
-              <a href="/public/grid-preview.html" class="bg-card border border-border rounded-2xl p-6 relative group hover:border-accent/50 transition-all hover:shadow-md block">
-                <div class="text-accent font-mono text-xs font-bold mb-4 opacity-50">STEP 04</div>
-                <div class="h-10 w-10 bg-accent/10 text-accent rounded-lg flex items-center justify-center mb-4 group-hover:bg-accent group-hover:text-white transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
-                </div>
-                <h3 class="font-bold text-sm mb-2">3x3 Grid</h3>
-                <p class="text-xs text-muted-foreground">9 combinations evaluated. View Grid &rarr;</p>
-              </a>
+            <div class="hidden lg:block text-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
 
-              <!-- Step 5 -->
-              <a href="/public/palette-preview.html" class="bg-card border border-border rounded-2xl p-6 relative group hover:border-accent/50 transition-all hover:shadow-md block">
-                <div class="text-accent font-mono text-xs font-bold mb-4 opacity-50">STEP 05</div>
-                <div class="h-10 w-10 bg-accent/10 text-accent rounded-lg flex items-center justify-center mb-4 group-hover:bg-accent group-hover:text-white transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                </div>
-                <h3 class="font-bold text-sm mb-2">Color Palettes</h3>
-                <p class="text-xs text-muted-foreground">Selected: Modern Brutalism (AAA)</p>
-              </a>
+            <!-- Step 4 -->
+            <div class="card bg-base-200 border border-base-300 shadow-sm w-full lg:w-48 p-6 flex flex-col items-center">
+              <div class="text-accent font-mono text-xs font-bold mb-2">04</div>
+              <h3 class="font-bold text-sm text-primary">Combine Grid</h3>
+            </div>
 
-              <!-- Step 6 -->
-              <div class="bg-card border-2 border-accent rounded-2xl p-6 relative bg-accent/5 shadow-lg">
-                <div class="text-accent font-mono text-xs font-bold mb-4">STEP 06</div>
-                <div class="h-10 w-10 bg-accent text-white rounded-lg flex items-center justify-center mb-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                </div>
-                <h3 class="font-bold text-sm mb-2">Token Export</h3>
-                <p class="text-xs text-muted-foreground">Production CSS ready for export.</p>
-              </div>
+            <div class="hidden lg:block text-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="card bg-base-200 border border-base-300 shadow-sm w-full lg:w-48 p-6 flex flex-col items-center">
+              <div class="text-accent font-mono text-xs font-bold mb-2">05</div>
+              <h3 class="font-bold text-sm text-primary">Apply Palette</h3>
+            </div>
+
+            <div class="hidden lg:block text-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="card bg-accent text-accent-content shadow-lg w-full lg:w-48 p-6 flex flex-col items-center border-accent">
+              <div class="text-accent-content font-mono text-xs font-bold mb-2 opacity-80">06</div>
+              <h3 class="font-bold text-sm text-white">Generate Tokens</h3>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Artifacts Section -->
-      <section id="artifacts" class="py-24 bg-secondary/10">
+      <section id="artifacts" class="py-24 bg-base-200">
         <div class="container mx-auto px-4">
-          <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-4">
+          <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-4 text-left">
             <div class="max-w-2xl">
-              <h2 class="font-heading text-4xl font-bold mb-4">Universal Design Artifacts</h2>
-              <p class="text-muted-foreground text-lg">
+              <h2 class="font-heading text-4xl font-bold mb-4 text-primary">Universal Design Artifacts</h2>
+              <p class="text-base-content text-lg font-medium">
                 Every run generates a complete suite of design assets compatible with modern development workflows.
               </p>
             </div>
-            <a href="#" class="text-accent font-bold hover:underline flex items-center gap-2">
-              Explore the Specs <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </a>
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- Artifact 1 -->
-            <div class="group bg-card border border-border rounded-xl p-8 hover:shadow-xl transition-all">
-              <div class="text-3xl mb-6">🎨</div>
-              <h3 class="font-bold text-xl mb-3 group-hover:text-accent transition-colors">shadcn-globals.css</h3>
-              <p class="text-muted-foreground text-sm leading-relaxed">
-                Full theme implementation with HSL variables, optimized for shadcn/ui and Radix.
-              </p>
-            </div>
-
-            <!-- Artifact 2 -->
-            <div class="group bg-card border border-border rounded-xl p-8 hover:shadow-xl transition-all">
-              <div class="text-3xl mb-6">📐</div>
-              <h3 class="font-bold text-xl mb-3 group-hover:text-accent transition-colors">layout-blueprint.svg</h3>
-              <p class="text-muted-foreground text-sm leading-relaxed">
-                Spatial wireframes that provide structural guidance to LLMs during code generation.
-              </p>
-            </div>
-
-            <!-- Artifact 3 -->
-            <div class="group bg-card border border-border rounded-xl p-8 hover:shadow-xl transition-all">
-              <div class="text-3xl mb-6">📝</div>
-              <h3 class="font-bold text-xl mb-3 group-hover:text-accent transition-colors">design_manifest.json</h3>
-              <p class="text-muted-foreground text-sm leading-relaxed">
-                A complete machine-readable specification of your entire design system.
-              </p>
-            </div>
-
-            <!-- Artifact 4 -->
-            <div class="group bg-card border border-border rounded-xl p-8 hover:shadow-xl transition-all">
-              <div class="text-3xl mb-6">🚀</div>
-              <h3 class="font-bold text-xl mb-3 group-hover:text-accent transition-colors">daisyui-theme.css</h3>
-              <p class="text-muted-foreground text-sm leading-relaxed">
-                Pre-configured variables for DaisyUI, enabling instant component styling.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Integration Section -->
-      <section id="integration" class="py-24 overflow-hidden">
-        <div class="container mx-auto px-4">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 class="font-heading text-4xl md:text-5xl font-bold mb-8">Built for the <span class="text-accent">AI-First</span> Workflow</h2>
-              <p class="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Bespoke Design doesn't just give you files; it gives you the context needed to build with AI. 
-                Feed the generated artifacts into any LLM to generate pixel-perfect components that follow your 
-                precise design tokens.
-              </p>
-              
-              <ul class="space-y-6">
-                <li class="flex gap-4">
-                  <div class="h-6 w-6 rounded-full bg-accent/10 text-accent flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                  </div>
-                  <div>
-                    <h4 class="font-bold">Spatial Intelligence</h4>
-                    <p class="text-muted-foreground text-sm">LLMs understand the SVG blueprints for accurate component placement.</p>
-                  </div>
-                </li>
-                <li class="flex gap-4">
-                  <div class="h-6 w-6 rounded-full bg-accent/10 text-accent flex items-center justify-center flex-shrink-0 mt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-                  </div>
-                  <div>
-                    <h4 class="font-bold">Variable Precision</h4>
-                    <p class="text-muted-foreground text-sm">Zero "hallucination" of colors or spacing; the AI uses your exact CSS variables.</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div class="relative">
-              <div class="bg-[#1e1e1e] rounded-2xl p-6 shadow-2xl border border-white/10 font-mono text-sm text-gray-300">
-                <div class="flex gap-1.5 mb-4">
-                  <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
-                  <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
-                  <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
-                </div>
-                <div class="space-y-2">
-                  <p class="text-accent"># Prompt Example</p>
-                  <p>Build a <span class="text-yellow-400">HeroSection</span> using the system.</p>
-                  <p class="text-gray-500">// Context attached:</p>
-                  <p>- layout-blueprint.svg</p>
-                  <p>- shadcn-globals.css</p>
-                  <p>- design_manifest.json</p>
-                  <br />
-                  <p class="text-gray-400">"Follow the spatial hierarchy in the SVG and</p>
-                  <p class="text-gray-400">strictly use HSL variables for all colors..."</p>
-                </div>
+            <!-- shadcn -->
+            <div class="card bg-base-100 border border-base-300 p-8 hover:shadow-xl transition-all text-left">
+              <div class="text-accent mb-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 11-8-8-8 8"/><path d="m19 19-8-8-8 8"/></svg>
               </div>
-              
-              <!-- Decorative element -->
-              <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-2xl -z-10"></div>
+              <h3 class="font-bold text-xl mb-3 text-primary">shadcn-globals.css</h3>
+              <p class="text-base-content text-sm leading-relaxed">HSL theme implementation for shadcn/ui and Radix.</p>
+            </div>
+            <!-- layout -->
+            <div class="card bg-base-100 border border-base-300 p-8 hover:shadow-xl transition-all text-left">
+              <div class="text-accent mb-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+              </div>
+              <h3 class="font-bold text-xl mb-3 text-primary">layout-blueprint.svg</h3>
+              <p class="text-base-content text-sm leading-relaxed">Spatial wireframes for structural guidance to LLMs.</p>
+            </div>
+            <!-- manifest -->
+            <div class="card bg-base-100 border border-base-300 p-8 hover:shadow-xl transition-all text-left">
+              <div class="text-accent mb-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+              </div>
+              <h3 class="font-bold text-xl mb-3 text-primary">design_manifest.json</h3>
+              <p class="text-base-content text-sm leading-relaxed">Machine-readable specification of the entire system.</p>
+            </div>
+            <!-- daisyui -->
+            <div class="card bg-base-100 border border-base-300 p-8 hover:shadow-xl transition-all text-left">
+              <div class="text-accent mb-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 22 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22 0 0 1-4 2z"/><path d="M9 12H4s.5-1 2.85-2c2.31-.98 3.15-1 3.15-1"/><path d="M12 15v5s1-.5 2-2.85c.98-2.31 1-3.15 1-3.15"/></svg>
+              </div>
+              <h3 class="font-bold text-xl mb-3 text-primary">daisyui-theme.css</h3>
+              <p class="text-base-content text-sm leading-relaxed">Pre-configured variables for instant component styling.</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- CTA Section -->
-      <section class="py-24 bg-accent text-accent-foreground">
-        <div class="container mx-auto px-4 text-center">
-          <h2 class="font-heading text-4xl font-bold mb-6 text-white">Ready to automate your design system?</h2>
-          <p class="text-xl mb-10 opacity-90 max-w-2xl mx-auto">
-            Experience the precision of orchestrated design. Generate your first system in seconds.
-          </p>
-          <button class="bg-white text-accent hover:bg-white/90 h-14 px-12 rounded-full font-bold text-lg transition-all shadow-xl hover:scale-105">
-            Launch Gemini Skill Now
-          </button>
         </div>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-secondary/50 border-t border-border mt-auto">
+    <footer class="bg-primary text-primary-content mt-auto">
       <div class="container mx-auto px-4 py-16">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          <div class="col-span-1 md:col-span-2">
+        <div class="flex flex-col md:flex-row justify-between items-start gap-12 mb-12">
+          <div class="max-w-md">
             <div class="flex items-center gap-2 mb-6">
-              <div class="w-8 h-8 bg-primary rounded flex items-center justify-center text-primary-foreground font-bold text-sm">BD</div>
+              <div class="w-8 h-8 bg-base-100 rounded flex items-center justify-center text-primary font-bold text-sm">BD</div>
               <span class="font-heading font-bold text-2xl">Bespoke Design</span>
             </div>
-            <p class="text-muted-foreground max-w-sm text-lg">
+            <p class="opacity-80 text-lg">
               Empowering developers and LLMs to build beautiful, accessible, and consistent interfaces with curated design intelligence.
             </p>
           </div>
-          <div>
-            <h4 class="font-bold mb-6 text-lg">Resources</h4>
-            <ul class="space-y-4 text-muted-foreground">
-              <li><a href="#" class="hover:text-accent transition-colors">Documentation</a></li>
-              <li><a href="#" class="hover:text-accent transition-colors">Niche Taxonomy</a></li>
-              <li><a href="#" class="hover:text-accent transition-colors">Palette Heuristics</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="font-bold mb-6 text-lg">Skill Meta</h4>
-            <ul class="space-y-4 text-muted-foreground">
-              <li><a href="#" class="hover:text-accent transition-colors">GitHub</a></li>
-              <li><a href="#" class="hover:text-accent transition-colors">Skill Registry</a></li>
-              <li><a href="#" class="hover:text-accent transition-colors">v2.0.0 Stable</a></li>
-            </ul>
+          <div class="flex flex-wrap gap-12 md:gap-24">
+            <div>
+              <h4 class="font-bold mb-6 text-lg border-b border-primary-content/20 pb-2">Resources</h4>
+              <ul class="space-y-4 text-primary-content/80">
+                <li><a href="#" class="hover:text-accent transition-colors">Documentation</a></li>
+                <li><a href="#" class="hover:text-accent transition-colors">Niche Taxonomy</a></li>
+                <li><a href="#" class="hover:text-accent transition-colors">Palette Heuristics</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-bold mb-6 text-lg border-b border-primary-content/20 pb-2">Connect</h4>
+              <ul class="space-y-4 text-primary-content/80">
+                <li>
+                  <a href="https://github.com/AgnosticUI/bespoke" target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                    GitHub
+                  </a>
+                </li>
+                <li><span class="opacity-60 text-sm">v2.0.0 Stable</span></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-muted-foreground">
+        <div class="border-t border-primary-content/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 opacity-70">
           <p>&copy; 2026 Bespoke Design Pipeline. All rights reserved.</p>
           <div class="flex gap-8">
-            <a href="#" class="hover:text-accent transition-colors text-sm">Privacy Policy</a>
-            <a href="#" class="hover:text-accent transition-colors text-sm">Terms of Service</a>
+            <a href="#" class="hover:text-accent transition-colors">Privacy Policy</a>
+            <a href="#" class="hover:text-accent transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

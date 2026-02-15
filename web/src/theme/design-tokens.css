@@ -11,7 +11,7 @@
   /* ── Colors: Hex ── */
   --color-primary: #431407;
   --color-secondary: #78350F;
-  --color-accent: #EA580C;
+  --color-accent: #00695C;
   --color-background: #FFF7ED;
   --color-foreground: #431407;
   --color-border: #FFEDD5;
@@ -24,7 +24,7 @@
   /* ── Colors: RGB (space-separated for alpha compositing) ── */
   --color-primary-rgb: 67 20 7;
   --color-secondary-rgb: 120 53 15;
-  --color-accent-rgb: 234 88 12;
+  --color-accent-rgb: 0 105 92;
   --color-background-rgb: 255 247 237;
   --color-foreground-rgb: 67 20 7;
   --color-border-rgb: 255 237 213;
@@ -32,7 +32,7 @@
   /* ── Colors: HSL ── */
   --color-primary-hsl: hsl(13, 81%, 15%);
   --color-secondary-hsl: hsl(22, 78%, 26%);
-  --color-accent-hsl: hsl(21, 90%, 48%);
+  --color-accent-hsl: hsl(172, 100%, 21%);
   --color-background-hsl: hsl(33, 100%, 96%);
   --color-foreground-hsl: hsl(13, 81%, 15%);
   --color-border-hsl: hsl(34, 100%, 92%);
@@ -73,7 +73,7 @@
   :root {
     --color-primary: #73220C;
     --color-secondary: #000000;
-    --color-accent: #B8470A;
+    --color-accent: #004D40;
     --color-background: #2E0E05;
     --color-foreground: #FFFFFF;
     --color-border: #FFFFFF;
@@ -85,14 +85,14 @@
 
     --color-primary-rgb: 115 34 12;
     --color-secondary-rgb: 0 0 0;
-    --color-accent-rgb: 184 71 10;
+    --color-accent-rgb: 0 77 64;
     --color-background-rgb: 46 14 5;
     --color-foreground-rgb: 255 255 255;
     --color-border-rgb: 255 255 255;
 
     --color-primary-hsl: hsl(13, 81%, 25%);
     --color-secondary-hsl: hsl(0, 0%, 0%);
-    --color-accent-hsl: hsl(21, 90%, 38%);
+    --color-accent-hsl: hsl(172, 100%, 15%);
     --color-background-hsl: hsl(13, 80%, 10%);
     --color-foreground-hsl: hsl(0, 0%, 100%);
     --color-border-hsl: hsl(0, 0%, 100%);
@@ -105,7 +105,7 @@
 [data-theme="dark"] {
   --color-primary: #73220C;
   --color-secondary: #000000;
-  --color-accent: #B8470A;
+  --color-accent: #004D40;
   --color-background: #2E0E05;
   --color-foreground: #FFFFFF;
   --color-border: #FFFFFF;
@@ -117,14 +117,14 @@
 
   --color-primary-rgb: 115 34 12;
   --color-secondary-rgb: 0 0 0;
-  --color-accent-rgb: 184 71 10;
+  --color-accent-rgb: 0 77 64;
   --color-background-rgb: 46 14 5;
   --color-foreground-rgb: 255 255 255;
   --color-border-rgb: 255 255 255;
 
   --color-primary-hsl: hsl(13, 81%, 25%);
   --color-secondary-hsl: hsl(0, 0%, 0%);
-  --color-accent-hsl: hsl(21, 90%, 38%);
+  --color-accent-hsl: hsl(172, 100%, 15%);
   --color-background-hsl: hsl(13, 80%, 10%);
   --color-foreground-hsl: hsl(0, 0%, 100%);
   --color-border-hsl: hsl(0, 0%, 100%);

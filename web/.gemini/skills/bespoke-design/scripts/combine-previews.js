@@ -162,6 +162,12 @@ function generatePreviewHTML(layouts, typos, combos2) {
             <td class="cell" data-id="${combo.id}" onclick="selectCombo(this)">
               <div class="cell-inner">
                 <object data="${combo.svgFile}" type="image/svg+xml" class="combo-svg">${combo.id}</object>
+                <div class="specimens">
+                  <h3 class="specimen-heading" style="font-family: '${typo.heading_font}', sans-serif;">${typo.heading_font}</h3>
+                  <p class="specimen-body" style="font-family: '${typo.body_font}', sans-serif;">
+                    The quick brown fox jumps over the lazy dog. 0123456789
+                  </p>
+                </div>
                 <div class="specimen" style="font-family: '${typo.heading_font}', sans-serif;">
                   <span class="spec-heading">The Quick Brown Fox</span>
                   <span class="spec-body" style="font-family: '${typo.body_font}', sans-serif;">Pack my box with five dozen liquor jugs. Every great design starts with an even better story.</span>
